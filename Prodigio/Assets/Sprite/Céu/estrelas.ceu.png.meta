@@ -1,0 +1,4217 @@
+fileFormatVersion: 2
+guid: ff58a6bc4085cb44a976e1dff61d6bb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8905490151351906852
+    second: estrelas.ceu_0
+  - first:
+      213: 8336731129880924686
+    second: estrelas.ceu_1
+  - first:
+      213: 649466483831798674
+    second: estrelas.ceu_2
+  - first:
+      213: -6631068479737837323
+    second: estrelas.ceu_3
+  - first:
+      213: 1324829698296479884
+    second: estrelas.ceu_4
+  - first:
+      213: -5715953470537527667
+    second: estrelas.ceu_5
+  - first:
+      213: -5395352689087496771
+    second: estrelas.ceu_6
+  - first:
+      213: -2253029740094077754
+    second: estrelas.ceu_7
+  - first:
+      213: 81697540072128120
+    second: estrelas.ceu_8
+  - first:
+      213: 7640434538090269371
+    second: estrelas.ceu_9
+  - first:
+      213: 1615953026999705651
+    second: estrelas.ceu_10
+  - first:
+      213: -1636880898593735664
+    second: estrelas.ceu_11
+  - first:
+      213: -4070127314898497448
+    second: estrelas.ceu_12
+  - first:
+      213: -3353330522914542038
+    second: estrelas.ceu_13
+  - first:
+      213: 5753142758831694493
+    second: estrelas.ceu_14
+  - first:
+      213: -8945089118507765831
+    second: estrelas.ceu_15
+  - first:
+      213: 806401832005325716
+    second: estrelas.ceu_16
+  - first:
+      213: -4285491047689251164
+    second: estrelas.ceu_17
+  - first:
+      213: 7562523511429371346
+    second: estrelas.ceu_18
+  - first:
+      213: -2817342584782131208
+    second: estrelas.ceu_19
+  - first:
+      213: -7272293934387889074
+    second: estrelas.ceu_20
+  - first:
+      213: -6496227883228659613
+    second: estrelas.ceu_21
+  - first:
+      213: -3898453400119676169
+    second: estrelas.ceu_22
+  - first:
+      213: -7322983329287448733
+    second: estrelas.ceu_23
+  - first:
+      213: 3285447934288320732
+    second: estrelas.ceu_24
+  - first:
+      213: 5197674728817889846
+    second: estrelas.ceu_25
+  - first:
+      213: -794874153406095811
+    second: estrelas.ceu_26
+  - first:
+      213: -7129317127995380503
+    second: estrelas.ceu_27
+  - first:
+      213: 1599414939007419344
+    second: estrelas.ceu_28
+  - first:
+      213: -8889458842634977572
+    second: estrelas.ceu_29
+  - first:
+      213: -8021788272000882832
+    second: estrelas.ceu_30
+  - first:
+      213: -8212758916284050777
+    second: estrelas.ceu_31
+  - first:
+      213: -5980098658907514588
+    second: estrelas.ceu_32
+  - first:
+      213: 1981743241124342781
+    second: estrelas.ceu_33
+  - first:
+      213: 5326441927165375359
+    second: estrelas.ceu_34
+  - first:
+      213: -7619613826573285475
+    second: estrelas.ceu_35
+  - first:
+      213: -6773184303612706792
+    second: estrelas.ceu_36
+  - first:
+      213: 7133924203777968336
+    second: estrelas.ceu_37
+  - first:
+      213: -8560575500975715959
+    second: estrelas.ceu_38
+  - first:
+      213: 765562006937970949
+    second: estrelas.ceu_39
+  - first:
+      213: 4366210166473637675
+    second: estrelas.ceu_40
+  - first:
+      213: 478081986226423874
+    second: estrelas.ceu_41
+  - first:
+      213: -1528381480814176542
+    second: estrelas.ceu_42
+  - first:
+      213: -639525238935434410
+    second: estrelas.ceu_43
+  - first:
+      213: -7648448592486854147
+    second: estrelas.ceu_44
+  - first:
+      213: 1354221358961021997
+    second: estrelas.ceu_45
+  - first:
+      213: -3632408432670377529
+    second: estrelas.ceu_46
+  - first:
+      213: 4332697089705108441
+    second: estrelas.ceu_47
+  - first:
+      213: -2858124444350155444
+    second: estrelas.ceu_48
+  - first:
+      213: 5597945185104074438
+    second: estrelas.ceu_49
+  - first:
+      213: 5565165410940268593
+    second: estrelas.ceu_50
+  - first:
+      213: -3850049301138744888
+    second: estrelas.ceu_51
+  - first:
+      213: -9039728862393934518
+    second: estrelas.ceu_52
+  - first:
+      213: 8574620713986287361
+    second: estrelas.ceu_53
+  - first:
+      213: -3403355983929083848
+    second: estrelas.ceu_54
+  - first:
+      213: -2336691326342005001
+    second: estrelas.ceu_55
+  - first:
+      213: 4666975863816001119
+    second: estrelas.ceu_56
+  - first:
+      213: -5979469541314945789
+    second: estrelas.ceu_57
+  - first:
+      213: 532808818659714682
+    second: estrelas.ceu_58
+  - first:
+      213: -7701061737081451339
+    second: estrelas.ceu_59
+  - first:
+      213: -3861734631299668270
+    second: estrelas.ceu_60
+  - first:
+      213: -6773726257582492803
+    second: estrelas.ceu_61
+  - first:
+      213: 298833294179295112
+    second: estrelas.ceu_62
+  - first:
+      213: -5430912141361912361
+    second: estrelas.ceu_63
+  - first:
+      213: 1912062467893247053
+    second: estrelas.ceu_64
+  - first:
+      213: 4728608401714592115
+    second: estrelas.ceu_65
+  - first:
+      213: -7394632776152103311
+    second: estrelas.ceu_66
+  - first:
+      213: -6557439532985630265
+    second: estrelas.ceu_67
+  - first:
+      213: 3747088927964603447
+    second: estrelas.ceu_68
+  - first:
+      213: -7709177702314981078
+    second: estrelas.ceu_69
+  - first:
+      213: -2780364816443652169
+    second: estrelas.ceu_70
+  - first:
+      213: 1474267839355968367
+    second: estrelas.ceu_71
+  - first:
+      213: -7377692477946527693
+    second: estrelas.ceu_72
+  - first:
+      213: -153496087259382301
+    second: estrelas.ceu_73
+  - first:
+      213: 9143408972528968814
+    second: estrelas.ceu_74
+  - first:
+      213: 3006997484619971847
+    second: estrelas.ceu_75
+  - first:
+      213: 5673073521301211163
+    second: estrelas.ceu_76
+  - first:
+      213: -4912799455530219914
+    second: estrelas.ceu_77
+  - first:
+      213: -8541952395644331585
+    second: estrelas.ceu_78
+  - first:
+      213: -8258718645703914938
+    second: estrelas.ceu_79
+  - first:
+      213: 4907844105297687558
+    second: estrelas.ceu_80
+  - first:
+      213: -8761659124379236750
+    second: estrelas.ceu_81
+  - first:
+      213: -7186184770872734805
+    second: estrelas.ceu_82
+  - first:
+      213: 3934106447539522377
+    second: estrelas.ceu_83
+  - first:
+      213: 525623067733485013
+    second: estrelas.ceu_84
+  - first:
+      213: 8933068768334545162
+    second: estrelas.ceu_85
+  - first:
+      213: 1966706613584999362
+    second: estrelas.ceu_86
+  - first:
+      213: 4575505750954104219
+    second: estrelas.ceu_87
+  - first:
+      213: -4818681862539155078
+    second: estrelas.ceu_88
+  - first:
+      213: 227131856333994941
+    second: estrelas.ceu_89
+  - first:
+      213: -1062914951266355255
+    second: estrelas.ceu_90
+  - first:
+      213: -3346488733930394505
+    second: estrelas.ceu_91
+  - first:
+      213: -2924419670749877937
+    second: estrelas.ceu_92
+  - first:
+      213: -982373517575360384
+    second: estrelas.ceu_93
+  - first:
+      213: -6968606157244602870
+    second: estrelas.ceu_94
+  - first:
+      213: 3130745779627588692
+    second: estrelas.ceu_95
+  - first:
+      213: -123192877571305866
+    second: estrelas.ceu_96
+  - first:
+      213: 2716457162016398097
+    second: estrelas.ceu_97
+  - first:
+      213: 3735910197871203757
+    second: estrelas.ceu_98
+  - first:
+      213: 3196753782868843430
+    second: estrelas.ceu_99
+  - first:
+      213: 6539585411090585483
+    second: estrelas.ceu_100
+  - first:
+      213: -7550098138081573937
+    second: estrelas.ceu_101
+  - first:
+      213: -3908659559737240716
+    second: estrelas.ceu_102
+  - first:
+      213: 1304116731118897138
+    second: estrelas.ceu_103
+  - first:
+      213: 8422316148116402615
+    second: estrelas.ceu_104
+  - first:
+      213: 8530406714968331460
+    second: estrelas.ceu_105
+  - first:
+      213: 4964661705769096832
+    second: estrelas.ceu_106
+  - first:
+      213: -4676008634495285611
+    second: estrelas.ceu_107
+  - first:
+      213: 6922804458245155633
+    second: estrelas.ceu_108
+  - first:
+      213: 7913217137195997593
+    second: estrelas.ceu_109
+  - first:
+      213: -4012784386492405125
+    second: estrelas.ceu_110
+  - first:
+      213: 2403945041847834284
+    second: estrelas.ceu_111
+  - first:
+      213: 3940877631546054244
+    second: estrelas.ceu_112
+  - first:
+      213: 1900122811530819510
+    second: estrelas.ceu_113
+  - first:
+      213: 6693151030404907167
+    second: estrelas.ceu_114
+  - first:
+      213: -7932250668050178061
+    second: estrelas.ceu_115
+  - first:
+      213: 6670846289872413865
+    second: estrelas.ceu_116
+  - first:
+      213: 7515879837588462991
+    second: estrelas.ceu_117
+  - first:
+      213: -6978200127591313869
+    second: estrelas.ceu_118
+  - first:
+      213: -8409470406676966773
+    second: estrelas.ceu_119
+  - first:
+      213: 7687502855229702416
+    second: estrelas.ceu_120
+  - first:
+      213: 1839919246970429783
+    second: estrelas.ceu_121
+  - first:
+      213: -9029416711477444117
+    second: estrelas.ceu_122
+  - first:
+      213: -1519600220850900052
+    second: estrelas.ceu_123
+  - first:
+      213: -8932098030792601473
+    second: estrelas.ceu_124
+  - first:
+      213: 4884287684513910280
+    second: estrelas.ceu_125
+  - first:
+      213: -4957104707348514187
+    second: estrelas.ceu_126
+  - first:
+      213: -3308423790084647647
+    second: estrelas.ceu_127
+  - first:
+      213: -5427072477112471596
+    second: estrelas.ceu_128
+  - first:
+      213: 2483162313528176191
+    second: estrelas.ceu_129
+  - first:
+      213: -1228340348928200116
+    second: estrelas.ceu_130
+  - first:
+      213: -8627002211354725640
+    second: estrelas.ceu_131
+  - first:
+      213: -5612176095243173042
+    second: estrelas.ceu_132
+  - first:
+      213: -8018231292038260327
+    second: estrelas.ceu_133
+  - first:
+      213: -4315176828602282578
+    second: estrelas.ceu_134
+  - first:
+      213: -92742954563029634
+    second: estrelas.ceu_135
+  - first:
+      213: 1360162092159764183
+    second: estrelas.ceu_136
+  - first:
+      213: -7260199871740021559
+    second: estrelas.ceu_137
+  - first:
+      213: -8931290214925213033
+    second: estrelas.ceu_138
+  - first:
+      213: -8528343778446813189
+    second: estrelas.ceu_139
+  - first:
+      213: 5851470875964722725
+    second: estrelas.ceu_140
+  - first:
+      213: -2115645718596358180
+    second: estrelas.ceu_141
+  - first:
+      213: -3938527732745619187
+    second: estrelas.ceu_142
+  - first:
+      213: 2620430031065059311
+    second: estrelas.ceu_143
+  - first:
+      213: 2569643330237033896
+    second: estrelas.ceu_144
+  - first:
+      213: 9031742247319293065
+    second: estrelas.ceu_145
+  - first:
+      213: 4556249294486054993
+    second: estrelas.ceu_146
+  - first:
+      213: -1944246417916941999
+    second: estrelas.ceu_147
+  - first:
+      213: 7307190909398402077
+    second: estrelas.ceu_148
+  - first:
+      213: -8054068730873137537
+    second: estrelas.ceu_149
+  - first:
+      213: 8614396188674099546
+    second: estrelas.ceu_150
+  - first:
+      213: -7293614275593433179
+    second: estrelas.ceu_151
+  - first:
+      213: 2640289965382275098
+    second: estrelas.ceu_152
+  - first:
+      213: 8106252793716448548
+    second: estrelas.ceu_153
+  - first:
+      213: -8146076455915833607
+    second: estrelas.ceu_154
+  - first:
+      213: 8349112662251191678
+    second: estrelas.ceu_155
+  - first:
+      213: 4648016895600825077
+    second: estrelas.ceu_156
+  - first:
+      213: 3622541224337288453
+    second: estrelas.ceu_157
+  - first:
+      213: -5493240082852725887
+    second: estrelas.ceu_158
+  - first:
+      213: 7644719585598568887
+    second: estrelas.ceu_159
+  - first:
+      213: 8056815407112748582
+    second: estrelas.ceu_160
+  - first:
+      213: 1327332551754759530
+    second: estrelas.ceu_161
+  - first:
+      213: -8324078290756093977
+    second: estrelas.ceu_162
+  - first:
+      213: 1553455651840732590
+    second: estrelas.ceu_163
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estrelas.ceu_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1390
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd0ee104e7596480800000000000000
+      internalID: -8905490151351906852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_1
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1383
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e025e70fac402b370800000000000000
+      internalID: 8336731129880924686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_2
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1379
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bf056735e530900800000000000000
+      internalID: 649466483831798674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1365
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8cfefb956b9f3a0800000000000000
+      internalID: -6631068479737837323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1343
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8089d2679db26210800000000000000
+      internalID: 1324829698296479884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1354
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e03fb5a9adca0b0800000000000000
+      internalID: -5715953470537527667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_6
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1354
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdbdf8a05bdf15b0800000000000000
+      internalID: -5395352689087496771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_7
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1371
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c44d417361abb0e0800000000000000
+      internalID: -2253029740094077754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1324
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87eb507da7f322100800000000000000
+      internalID: 81697540072128120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1348
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba0f7c4bb6480a60800000000000000
+      internalID: 7640434538090269371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_10
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 1337
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330e80467b40d6610800000000000000
+      internalID: 1615953026999705651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_11
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1334
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cb2bbce71a849e0800000000000000
+      internalID: -1636880898593735664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_12
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 1343
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8505cd485c00487c0800000000000000
+      internalID: -4070127314898497448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_13
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1333
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e2437f7a39671d0800000000000000
+      internalID: -3353330522914542038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_14
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1312
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9226429bd447df40800000000000000
+      internalID: 5753142758831694493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_15
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1333
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfe12ff6d8acd380800000000000000
+      internalID: -8945089118507765831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_16
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1310
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493d6e6913ae03b00800000000000000
+      internalID: 806401832005325716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_17
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1290
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a69d5ef890e684c0800000000000000
+      internalID: -4285491047689251164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_18
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 1293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d59940d01b73f860800000000000000
+      internalID: 7562523511429371346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_19
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1241
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffea7798d9c6e8d0800000000000000
+      internalID: -2817342584782131208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_20
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1249
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cf49a623f931b90800000000000000
+      internalID: -7272293934387889074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1220
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3600b20a823c8d5a0800000000000000
+      internalID: -6496227883228659613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_22
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1224
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2f3789949e5e9c0800000000000000
+      internalID: -3898453400119676169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_23
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1213
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367d6b9f5798f5a90800000000000000
+      internalID: -7322983329287448733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_24
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1230
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8db4b3d71489d20800000000000000
+      internalID: 3285447934288320732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1218
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632173d90a9d12840800000000000000
+      internalID: 5197674728817889846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_26
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e171d3b2a08f4f0800000000000000
+      internalID: -794874153406095811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_27
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1218
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec2ab648d39f0d90800000000000000
+      internalID: -7129317127995380503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_28
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1211
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d38df7b963423610800000000000000
+      internalID: 1599414939007419344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_29
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1193
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde794fe74c42a480800000000000000
+      internalID: -8889458842634977572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1178
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0772eff5112eca090800000000000000
+      internalID: -8021788272000882832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_31
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1193
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a297f8574b660e80800000000000000
+      internalID: -8212758916284050777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_32
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1186
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429170224fb620da0800000000000000
+      internalID: -5980098658907514588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_33
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1195
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb6f336af0908b10800000000000000
+      internalID: 1981743241124342781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_34
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1164
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73707946b25be940800000000000000
+      internalID: 5326441927165375359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_35
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1180
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97c17d5891b14690800000000000000
+      internalID: -7619613826573285475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_36
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1149
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810c9e003c0d002a0800000000000000
+      internalID: -6773184303612706792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_37
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1114
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d84fb4244ac00360800000000000000
+      internalID: 7133924203777968336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_38
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1110
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9894e6f00f9b23980800000000000000
+      internalID: -8560575500975715959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_39
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 1118
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509a215d692df9a00800000000000000
+      internalID: 765562006937970949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1099
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f3c536305e79c30800000000000000
+      internalID: 4366210166473637675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1102
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2480a82980d72a600800000000000000
+      internalID: 478081986226423874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_42
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1096
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e619c214291acae0800000000000000
+      internalID: -1528381480814176542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_43
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 1105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b4b5cfe23ff17f0800000000000000
+      internalID: -639525238935434410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_44
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1077
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df11cf147804bd590800000000000000
+      internalID: -7648448592486854147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_45
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1060
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d245e18a6292bc210800000000000000
+      internalID: 1354221358961021997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_46
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1064
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c97c8b96c7179dc0800000000000000
+      internalID: -3632408432670377529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_47
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1046
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3ed372c05d02c30800000000000000
+      internalID: 4332697089705108441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_48
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1035
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45f5aaf5f6e558d0800000000000000
+      internalID: -2858124444350155444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_49
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1052
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c69c369c75efad40800000000000000
+      internalID: 5597945185104074438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1015
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130b26ba4707b3d40800000000000000
+      internalID: 5565165410940268593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_51
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1021
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c952ed1f80e19ac0800000000000000
+      internalID: -3850049301138744888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_52
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1004
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dd9238e7e6c8280800000000000000
+      internalID: -9039728862393934518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_53
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1017
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107ebdceb1c2ff670800000000000000
+      internalID: 8574620713986287361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_54
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 999
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838f4bda3c9d4c0d0800000000000000
+      internalID: -3403355983929083848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_55
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1015
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fef5a77e97629fd0800000000000000
+      internalID: -2336691326342005001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_56
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 990
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56131a42dd64c040800000000000000
+      internalID: 4666975863816001119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_57
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 979
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d97acf128a40da0800000000000000
+      internalID: -5979469541314945789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_58
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 954
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7668613ccae46700800000000000000
+      internalID: 532808818659714682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_59
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 971
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc48efe625502590800000000000000
+      internalID: -7701061737081451339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_60
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 937
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d62f8c20dc586ac0800000000000000
+      internalID: -3861734631299668270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_61
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 911
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d733f038bd3eef1a0800000000000000
+      internalID: -6773726257582492803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_62
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 870
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fdd9a3c4ba52400800000000000000
+      internalID: 298833294179295112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_63
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 886
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d564cf7e2681a4b0800000000000000
+      internalID: -5430912141361912361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_64
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 886
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c322b1fa2098a10800000000000000
+      internalID: 1912062467893247053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_65
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 862
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3793022c9446f9140800000000000000
+      internalID: 4728608401714592115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_66
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 845
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1764ef42bacf06990800000000000000
+      internalID: -7394632776152103311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_67
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 849
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1c940dc7b4ff4a0800000000000000
+      internalID: -6557439532985630265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_68
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 858
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734212de685500430800000000000000
+      internalID: 3747088927964603447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_69
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 855
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29472789bf730590800000000000000
+      internalID: -7709177702314981078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_70
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 845
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7c1e13ee82a69d0800000000000000
+      internalID: -2780364816443652169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_71
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 838
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b5894f9c6a57410800000000000000
+      internalID: 1474267839355968367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_72
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 829
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3300deda7cb2d9990800000000000000
+      internalID: -7377692477946527693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_73
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 826
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edfd743f1caeddf0800000000000000
+      internalID: -153496087259382301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_74
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 809
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6465b3440ae3ee70800000000000000
+      internalID: 9143408972528968814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_75
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 824
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d344fc7400bb920800000000000000
+      internalID: 3006997484619971847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_76
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 770
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1845d57f4ecabe40800000000000000
+      internalID: 5673073521301211163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_77
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 783
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6768360acea32dbb0800000000000000
+      internalID: -4912799455530219914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_78
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 784
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb99259ad83e47980800000000000000
+      internalID: -8541952395644331585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_79
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 739
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a4ce6f523236d80800000000000000
+      internalID: -8258718645703914938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_80
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 741
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604734df53a2c1440800000000000000
+      internalID: 4907844105297687558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_81
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 730
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276c0589275586680800000000000000
+      internalID: -8761659124379236750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_82
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 709
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab0fc1660b854c90800000000000000
+      internalID: -7186184770872734805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_83
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 714
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bca2268f0c89630800000000000000
+      internalID: 3934106447539522377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_84
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 699
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5610e25636b4700800000000000000
+      internalID: 525623067733485013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_85
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 696
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0187b227b2a8fb70800000000000000
+      internalID: 8933068768334545162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_86
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 710
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c33528be352b4b10800000000000000
+      internalID: 1966706613584999362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_87
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 702
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9550690d367f7f30800000000000000
+      internalID: 4575505750954104219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_88
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 696
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a796cb1606a902db0800000000000000
+      internalID: -4818681862539155078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_89
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 677
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb76fd483fe62300800000000000000
+      internalID: 227131856333994941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_90
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 660
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7315fbb74cf31f0800000000000000
+      internalID: -1062914951266355255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_91
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 669
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c6b391a32ee81d0800000000000000
+      internalID: -3346488733930394505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_92
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 666
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49e9cebdcf5a67d0800000000000000
+      internalID: -2924419670749877937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 652
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0807b289d78ed52f0800000000000000
+      internalID: -982373517575360384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_94
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 652
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06e5d90f998a4f90800000000000000
+      internalID: -6968606157244602870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_95
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 619
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c71ccf2b4a27b20800000000000000
+      internalID: 3130745779627588692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_96
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 598
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e01850bb45a4ef0800000000000000
+      internalID: -123192877571305866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_97
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 592
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b9d8d756bc2b520800000000000000
+      internalID: 2716457162016398097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_98
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 568
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da55fd0088e98d330800000000000000
+      internalID: 3735910197871203757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_99
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 586
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab984ed0a62d5c20800000000000000
+      internalID: 3196753782868843430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_100
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 574
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87916e784641ca50800000000000000
+      internalID: 6539585411090585483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_101
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 557
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc34f4cdeb9a83790800000000000000
+      internalID: -7550098138081573937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_102
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 532
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4735de1e6d6a1c9c0800000000000000
+      internalID: -3908659559737240716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_103
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 542
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f74cf7e147291210800000000000000
+      internalID: 1304116731118897138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_104
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 532
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1b382d9e312e470800000000000000
+      internalID: 8422316148116402615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_105
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 530
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c45b4316b7126670800000000000000
+      internalID: 8530406714968331460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_106
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 517
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0861a5a748506e440800000000000000
+      internalID: 4964661705769096832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_107
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 496
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596cf36ebea7b1fb0800000000000000
+      internalID: -4676008634495285611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_108
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 502
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b6137e9fdb21060800000000000000
+      internalID: 6922804458245155633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_109
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 505
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999d91d6f0561dd60800000000000000
+      internalID: 7913217137195997593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_110
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 461
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ae2e27cd9bf48c0800000000000000
+      internalID: -4012784386492405125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_111
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 464
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6d6e667478c5120800000000000000
+      internalID: 2403945041847834284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_112
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 490
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466d593835fc0b630800000000000000
+      internalID: 3940877631546054244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_113
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 477
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b739ea31a79e5a10800000000000000
+      internalID: 1900122811530819510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_114
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 462
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90035b7669d2ec50800000000000000
+      internalID: 6693151030404907167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_115
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 464
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff93855b0cfae190800000000000000
+      internalID: -7932250668050178061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_116
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 464
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4e3136b5b939c50800000000000000
+      internalID: 6670846289872413865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_117
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 415
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d1bf534e4cd4860800000000000000
+      internalID: 7515879837588462991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_118
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 433
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e855fb4f3782f90800000000000000
+      internalID: -6978200127591313869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_119
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 423
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b821cdc683f8b4b80800000000000000
+      internalID: -8409470406676966773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_120
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 399
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01184cfdd1f7faa60800000000000000
+      internalID: 7687502855229702416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_121
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 398
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751a31b8ec4b88910800000000000000
+      internalID: 1839919246970429783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_122
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 380
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1496f375111b280800000000000000
+      internalID: -9029416711477444117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_123
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 377
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3b39b76ab49eae0800000000000000
+      internalID: -1519600220850900052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_124
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 355
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7014af4a20da0480800000000000000
+      internalID: -8932098030792601473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_125
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 379
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e444065c978c340800000000000000
+      internalID: 4884287684513910280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_126
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 367
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a33145883d43bb0800000000000000
+      internalID: -4957104707348514187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_127
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 375
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1259d89771e1612d0800000000000000
+      internalID: -3308423790084647647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_128
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 354
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df696ff55a2fa4b0800000000000000
+      internalID: -5427072477112471596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_129
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 360
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3eeb71c7f6f57220800000000000000
+      internalID: 2483162313528176191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_130
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 335
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42fadee5fe04fee0800000000000000
+      internalID: -1228340348928200116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_131
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 339
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f231b3523bb64880800000000000000
+      internalID: -8627002211354725640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_132
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 333
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e438712739b8d12b0800000000000000
+      internalID: -5612176095243173042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_133
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 321
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999532f4f1589b090800000000000000
+      internalID: -8018231292038260327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_134
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 280
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0a2489896d14c0800000000000000
+      internalID: -4315176828602282578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_135
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 263
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75b9d136c286bef0800000000000000
+      internalID: -92742954563029634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_136
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 274
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d68224673440e210800000000000000
+      internalID: 1360162092159764183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_137
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 238
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4799ecea69e3b90800000000000000
+      internalID: -7260199871740021559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_138
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 249
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792e5799edead0480800000000000000
+      internalID: -8931290214925213033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_139
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 251
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7d343c48c35a980800000000000000
+      internalID: -8528343778446813189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_140
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ecb6f52c9943150800000000000000
+      internalID: 5851470875964722725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_141
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 213
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfec789d67b3a2e0800000000000000
+      internalID: -2115645718596358180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_142
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 208
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d093cafe4e98759c0800000000000000
+      internalID: -3938527732745619187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_143
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 208
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef0668ca33ad5420800000000000000
+      internalID: 2620430031065059311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_144
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 222
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adea3a8ef439a320800000000000000
+      internalID: 2569643330237033896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_145
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 205
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cca52c8b1375d70800000000000000
+      internalID: 9031742247319293065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15827f1e79c0b3f30800000000000000
+      internalID: 4556249294486054993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_147
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 165
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1592c381f26a405e0800000000000000
+      internalID: -1944246417916941999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_148
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 133
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14c7acba6b586560800000000000000
+      internalID: 7307190909398402077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_149
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 116
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76b9bb59233a3090800000000000000
+      internalID: -8054068730873137537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_150
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59066c41bb7c8770800000000000000
+      internalID: 8614396188674099546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_151
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 118
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af0986a570e7ca90800000000000000
+      internalID: -7293614275593433179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_152
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 108
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1093a21cb134a420800000000000000
+      internalID: 2640289965382275098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_153
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 114
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d9cf497f13f7070800000000000000
+      internalID: 8106252793716448548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_154
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 45
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6b6f38f9253fe80800000000000000
+      internalID: -8146076455915833607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_155
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 79
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7db2371bb10ed370800000000000000
+      internalID: 8349112662251191678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_156
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 77
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f21d448db2118040800000000000000
+      internalID: 4648016895600825077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_157
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 41
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d25dcec0ad54230800000000000000
+      internalID: 3622541224337288453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_158
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 58
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b30a3cf3714c3b0800000000000000
+      internalID: -5493240082852725887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_159
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9f21ba5ff771a60800000000000000
+      internalID: 7644719585598568887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_160
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 47
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e79d90dee8fcf60800000000000000
+      internalID: 8056815407112748582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_161
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 52
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6db72e5ce1ab6210800000000000000
+      internalID: 1327332551754759530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_162
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e731fcb5eeea7c80800000000000000
+      internalID: -8324078290756093977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas.ceu_163
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 23
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead2a4e4fabfe8510800000000000000
+      internalID: 1553455651840732590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
