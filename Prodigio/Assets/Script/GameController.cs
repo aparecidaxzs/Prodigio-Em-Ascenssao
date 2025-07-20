@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
 
@@ -20,6 +20,11 @@ public class GameController : MonoBehaviour
     public void ShowGameOver()
     {
         gameOver.SetActive(true);
+    }
+
+    public void RestartGame(string lvlName)
+    {
+        SceneManager.LoadScene(lvlName);
     }
 
 }
