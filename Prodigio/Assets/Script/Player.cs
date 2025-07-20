@@ -92,6 +92,12 @@ public class Player : MonoBehaviour
             Destroy(gameObject);
         }
 
+        if (collision.gameObject.tag == "Vitoria")
+        {
+            GameController.instance.ShowVitoria();
+            Destroy(gameObject);
+        }
+
     }
 
     void OnCollisionExit2D(Collision2D collision)

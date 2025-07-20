@@ -4,6 +4,7 @@ public class GameController : MonoBehaviour
 {
 
     public GameObject gameOver;
+    public GameObject vitoria;
     public static GameController instance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +21,11 @@ public class GameController : MonoBehaviour
     public void ShowGameOver()
     {
         gameOver.SetActive(true);
+    }
+
+    public void ShowVitoria()
+    {
+        vitoria.SetActive(true);
     }
 
     public void RestartGame(string lvlName)
