@@ -526,7 +526,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -535,7 +535,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -4200,7 +4200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -4209,7 +4209,171 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      estrelas.ceu_0: -8905490151351906852
+      estrelas.ceu_1: 8336731129880924686
+      estrelas.ceu_10: 1615953026999705651
+      estrelas.ceu_100: 6539585411090585483
+      estrelas.ceu_101: -7550098138081573937
+      estrelas.ceu_102: -3908659559737240716
+      estrelas.ceu_103: 1304116731118897138
+      estrelas.ceu_104: 8422316148116402615
+      estrelas.ceu_105: 8530406714968331460
+      estrelas.ceu_106: 4964661705769096832
+      estrelas.ceu_107: -4676008634495285611
+      estrelas.ceu_108: 6922804458245155633
+      estrelas.ceu_109: 7913217137195997593
+      estrelas.ceu_11: -1636880898593735664
+      estrelas.ceu_110: -4012784386492405125
+      estrelas.ceu_111: 2403945041847834284
+      estrelas.ceu_112: 3940877631546054244
+      estrelas.ceu_113: 1900122811530819510
+      estrelas.ceu_114: 6693151030404907167
+      estrelas.ceu_115: -7932250668050178061
+      estrelas.ceu_116: 6670846289872413865
+      estrelas.ceu_117: 7515879837588462991
+      estrelas.ceu_118: -6978200127591313869
+      estrelas.ceu_119: -8409470406676966773
+      estrelas.ceu_12: -4070127314898497448
+      estrelas.ceu_120: 7687502855229702416
+      estrelas.ceu_121: 1839919246970429783
+      estrelas.ceu_122: -9029416711477444117
+      estrelas.ceu_123: -1519600220850900052
+      estrelas.ceu_124: -8932098030792601473
+      estrelas.ceu_125: 4884287684513910280
+      estrelas.ceu_126: -4957104707348514187
+      estrelas.ceu_127: -3308423790084647647
+      estrelas.ceu_128: -5427072477112471596
+      estrelas.ceu_129: 2483162313528176191
+      estrelas.ceu_13: -3353330522914542038
+      estrelas.ceu_130: -1228340348928200116
+      estrelas.ceu_131: -8627002211354725640
+      estrelas.ceu_132: -5612176095243173042
+      estrelas.ceu_133: -8018231292038260327
+      estrelas.ceu_134: -4315176828602282578
+      estrelas.ceu_135: -92742954563029634
+      estrelas.ceu_136: 1360162092159764183
+      estrelas.ceu_137: -7260199871740021559
+      estrelas.ceu_138: -8931290214925213033
+      estrelas.ceu_139: -8528343778446813189
+      estrelas.ceu_14: 5753142758831694493
+      estrelas.ceu_140: 5851470875964722725
+      estrelas.ceu_141: -2115645718596358180
+      estrelas.ceu_142: -3938527732745619187
+      estrelas.ceu_143: 2620430031065059311
+      estrelas.ceu_144: 2569643330237033896
+      estrelas.ceu_145: 9031742247319293065
+      estrelas.ceu_146: 4556249294486054993
+      estrelas.ceu_147: -1944246417916941999
+      estrelas.ceu_148: 7307190909398402077
+      estrelas.ceu_149: -8054068730873137537
+      estrelas.ceu_15: -8945089118507765831
+      estrelas.ceu_150: 8614396188674099546
+      estrelas.ceu_151: -7293614275593433179
+      estrelas.ceu_152: 2640289965382275098
+      estrelas.ceu_153: 8106252793716448548
+      estrelas.ceu_154: -8146076455915833607
+      estrelas.ceu_155: 8349112662251191678
+      estrelas.ceu_156: 4648016895600825077
+      estrelas.ceu_157: 3622541224337288453
+      estrelas.ceu_158: -5493240082852725887
+      estrelas.ceu_159: 7644719585598568887
+      estrelas.ceu_16: 806401832005325716
+      estrelas.ceu_160: 8056815407112748582
+      estrelas.ceu_161: 1327332551754759530
+      estrelas.ceu_162: -8324078290756093977
+      estrelas.ceu_163: 1553455651840732590
+      estrelas.ceu_17: -4285491047689251164
+      estrelas.ceu_18: 7562523511429371346
+      estrelas.ceu_19: -2817342584782131208
+      estrelas.ceu_2: 649466483831798674
+      estrelas.ceu_20: -7272293934387889074
+      estrelas.ceu_21: -6496227883228659613
+      estrelas.ceu_22: -3898453400119676169
+      estrelas.ceu_23: -7322983329287448733
+      estrelas.ceu_24: 3285447934288320732
+      estrelas.ceu_25: 5197674728817889846
+      estrelas.ceu_26: -794874153406095811
+      estrelas.ceu_27: -7129317127995380503
+      estrelas.ceu_28: 1599414939007419344
+      estrelas.ceu_29: -8889458842634977572
+      estrelas.ceu_3: -6631068479737837323
+      estrelas.ceu_30: -8021788272000882832
+      estrelas.ceu_31: -8212758916284050777
+      estrelas.ceu_32: -5980098658907514588
+      estrelas.ceu_33: 1981743241124342781
+      estrelas.ceu_34: 5326441927165375359
+      estrelas.ceu_35: -7619613826573285475
+      estrelas.ceu_36: -6773184303612706792
+      estrelas.ceu_37: 7133924203777968336
+      estrelas.ceu_38: -8560575500975715959
+      estrelas.ceu_39: 765562006937970949
+      estrelas.ceu_4: 1324829698296479884
+      estrelas.ceu_40: 4366210166473637675
+      estrelas.ceu_41: 478081986226423874
+      estrelas.ceu_42: -1528381480814176542
+      estrelas.ceu_43: -639525238935434410
+      estrelas.ceu_44: -7648448592486854147
+      estrelas.ceu_45: 1354221358961021997
+      estrelas.ceu_46: -3632408432670377529
+      estrelas.ceu_47: 4332697089705108441
+      estrelas.ceu_48: -2858124444350155444
+      estrelas.ceu_49: 5597945185104074438
+      estrelas.ceu_5: -5715953470537527667
+      estrelas.ceu_50: 5565165410940268593
+      estrelas.ceu_51: -3850049301138744888
+      estrelas.ceu_52: -9039728862393934518
+      estrelas.ceu_53: 8574620713986287361
+      estrelas.ceu_54: -3403355983929083848
+      estrelas.ceu_55: -2336691326342005001
+      estrelas.ceu_56: 4666975863816001119
+      estrelas.ceu_57: -5979469541314945789
+      estrelas.ceu_58: 532808818659714682
+      estrelas.ceu_59: -7701061737081451339
+      estrelas.ceu_6: -5395352689087496771
+      estrelas.ceu_60: -3861734631299668270
+      estrelas.ceu_61: -6773726257582492803
+      estrelas.ceu_62: 298833294179295112
+      estrelas.ceu_63: -5430912141361912361
+      estrelas.ceu_64: 1912062467893247053
+      estrelas.ceu_65: 4728608401714592115
+      estrelas.ceu_66: -7394632776152103311
+      estrelas.ceu_67: -6557439532985630265
+      estrelas.ceu_68: 3747088927964603447
+      estrelas.ceu_69: -7709177702314981078
+      estrelas.ceu_7: -2253029740094077754
+      estrelas.ceu_70: -2780364816443652169
+      estrelas.ceu_71: 1474267839355968367
+      estrelas.ceu_72: -7377692477946527693
+      estrelas.ceu_73: -153496087259382301
+      estrelas.ceu_74: 9143408972528968814
+      estrelas.ceu_75: 3006997484619971847
+      estrelas.ceu_76: 5673073521301211163
+      estrelas.ceu_77: -4912799455530219914
+      estrelas.ceu_78: -8541952395644331585
+      estrelas.ceu_79: -8258718645703914938
+      estrelas.ceu_8: 81697540072128120
+      estrelas.ceu_80: 4907844105297687558
+      estrelas.ceu_81: -8761659124379236750
+      estrelas.ceu_82: -7186184770872734805
+      estrelas.ceu_83: 3934106447539522377
+      estrelas.ceu_84: 525623067733485013
+      estrelas.ceu_85: 8933068768334545162
+      estrelas.ceu_86: 1966706613584999362
+      estrelas.ceu_87: 4575505750954104219
+      estrelas.ceu_88: -4818681862539155078
+      estrelas.ceu_89: 227131856333994941
+      estrelas.ceu_9: 7640434538090269371
+      estrelas.ceu_90: -1062914951266355255
+      estrelas.ceu_91: -3346488733930394505
+      estrelas.ceu_92: -2924419670749877937
+      estrelas.ceu_93: -982373517575360384
+      estrelas.ceu_94: -6968606157244602870
+      estrelas.ceu_95: 3130745779627588692
+      estrelas.ceu_96: -123192877571305866
+      estrelas.ceu_97: 2716457162016398097
+      estrelas.ceu_98: 3735910197871203757
+      estrelas.ceu_99: 3196753782868843430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

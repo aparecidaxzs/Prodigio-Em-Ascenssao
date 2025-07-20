@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8d9c2c500c8b8c64ba322550b70fdbe7
+guid: ea800f6a10e406f4581b5e5482d04f29
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7504283262554104392
-    second: ceu.ceu_0
+      213: 233054316356213362
+    second: plat.flut.Lua 1_0
+  - first:
+      213: 1778533490064764181
+    second: plat.flut.Lua 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ceu.ceu_0
+      name: plat.flut.Lua 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 2526
-        height: 1421
+        y: 6
+        width: 773
+        height: 341
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 842627e2ed1942860800000000000000
-      internalID: 7504283262554104392
+      spriteID: 27a98cb7aa9fb3300800000000000000
+      internalID: 233054316356213362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plat.flut.Lua 1_1
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 6
+        width: 773
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d227049ce9ea810800000000000000
+      internalID: 1778533490064764181
       vertices: []
       indices: 
       edges: []
@@ -134,8 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ceu.ceu_0: 7504283262554104392
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

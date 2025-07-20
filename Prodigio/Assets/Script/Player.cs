@@ -80,11 +80,28 @@ public class Player : MonoBehaviour
             doubleJump = false;
         }
 
+        else if (collision.gameObject.CompareTag("Flutuante"))
+        {
+            isJump = false;
+            doubleJump = false;
+        }
+
+        if (collision.gameObject.tag == "GameOver")
+        {
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }
+
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Chão"))
+        {
+            isJump = true;
+        }
+
+        else if (collision.gameObject.CompareTag("Flutuante"))
         {
             isJump = true;
         }
@@ -111,6 +128,7 @@ public class Player : MonoBehaviour
             coinColetar = null;
         }
     }
+
 
 
 
