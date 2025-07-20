@@ -27,10 +27,6 @@ public class Player : MonoBehaviour
     {
         Move();
         Jump();
-        if (Input.GetKeyDown(KeyCode.W) && coinColetar != null)
-        {
-            CollectCoin();
-        }
     }
 
     void Move()
@@ -74,13 +70,7 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Chão"))
-        {
-            isJump = false;
-            doubleJump = false;
-        }
-
-        else if (collision.gameObject.CompareTag("Flutuante"))
+        if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
         {
             isJump = false;
             doubleJump = false;
@@ -102,38 +92,27 @@ public class Player : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Chão"))
-        {
-            isJump = true;
-        }
-
-        else if (collision.gameObject.CompareTag("Flutuante"))
+        if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
         {
             isJump = true;
         }
     }
 
-    void CollectCoin()
-    {
-        Destroy(coinColetar);
-        coinColetar = null;
-    }
-
-    private void OTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Coin"))
         {
-            coinColetar = other.gameObject;
+            Destroy(other.gameObject);
         }
     }
 
-    private void OTriggerExit2D(Collider2D other)
+    /*private void OTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Coin") && other.gameObject == coinColetar)
         {
             coinColetar = null;
         }
-    }
+    }*/
 
 
 
