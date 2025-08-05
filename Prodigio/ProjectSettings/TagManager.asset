@@ -9,6 +9,7 @@ TagManager:
   - GameOver
   - Vitoria
   - Coin
+  - Inimigo
   layers:
   - Default
   - TransparentFX
