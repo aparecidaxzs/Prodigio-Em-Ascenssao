@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.Scripting.APIUpdating;
 using System.Collections.ObjectModel;
+using UnityEngine.UI;
+
 
 
 public class Player : MonoBehaviour
@@ -16,10 +18,19 @@ public class Player : MonoBehaviour
     private GameObject coinColetar;
 
 
+    public Image barrinhaFrente;
+    public Image barrinhaTras;
+
+
+    public int maxVida = 5;
+    public int vidaAtual;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        vidaAtual = maxVida;
     }
 
     // Update is called once per frame
@@ -113,6 +124,37 @@ public class Player : MonoBehaviour
             coinColetar = null;
         }
     }*/
+
+    public void SetVida(int amount)
+    {
+        if (amount < 0)
+        {
+            vidaAtual = Mathf.Clamp(vidaAtual + amount, 0, maxVida);
+
+            Vector3 frenteScale = barrinhaFrente.rectTransform.localScale;
+            frenteScale.x = (float)vidaAtual / maxVida;
+            barrinhaFrente.rectTransform.localScale = frenteScale;
+            StartCoroutine(DecreasingTras(frenteScale));
+        }
+
+
+    }
+
+    IEnumerator DecreasingTras(Vector3 newScale)
+    {
+        yield return new WaitForSeconds(0.5f);
+        Vector3 trasScale = barrinhaTras.transform.localScale;
+        
+        while (barrinhaTras.transform.localScale.x > newScale.x)
+        {
+            trasScale.x -= Time.deltaTime * 0.25f;
+            barrinhaTras.transform.localScale = trasScale;
+
+            yield return null;
+        }
+        barrinhaTras.transform.localScale = newScale;
+        Debug.Log(Time.time);
+    }
 
 
 
