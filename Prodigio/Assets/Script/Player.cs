@@ -17,20 +17,20 @@ public class Player : MonoBehaviour
 
     private GameObject coinColetar;
 
+    
+    public Image barrinhaFrente; //barra de vida que vai diminuir mais devagar 
+    public Image barrinhaTras; //barra de vida que diminui mais rapido
 
-    public Image barrinhaFrente;
-    public Image barrinhaTras;
 
-
-    public int maxVida = 5;
-    public int vidaAtual;
+    public int maxVida = 5; //maxima de vida do jogador 
+    public int vidaAtual; //vai atualizar a barra de vida 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        vidaAtual = maxVida;
+        vidaAtual = maxVida; //quando dá start, a vida atual é a quatidade do maximo de  vida que o jogador tem 
     }
 
     // Update is called once per frame
@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
     {
         Move();
         Jump();
+        GameOver();
     }
 
     void Move()
@@ -153,10 +154,23 @@ public class Player : MonoBehaviour
             yield return null;
         }
         barrinhaTras.transform.localScale = newScale;
-        Debug.Log(Time.time);
+        //Debug.Log(Time.time);
     }
 
-
+    void GameOver()
+    {
+        if (vidaAtual == 0)
+        {
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+            Destroy(barrinhaTras);
+        }
+        /*if (maxVida == 0)
+        {
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }*/
+    }
 
 
 }
