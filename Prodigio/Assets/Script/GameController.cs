@@ -1,15 +1,27 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
 
     public GameObject gameOver;
     public GameObject vitoria;
     public static GameController instance;
+
+    public GameObject menu;
+    /*
+    public GameObject reset;
+    public GameObject play;
+    public GameObject quit;*/
+    
+    //public GameObject config;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         instance = this;
+
+
     }
 
     // Update is called once per frame
@@ -33,4 +45,32 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene(lvlName);
     }
 
+    public void MenuPrincipal(string menuP)
+    {
+        SceneManager.LoadScene(menuP);
+    }
+
+    public void Config()
+    {
+        menu.SetActive(true);
+
+    }
+
+    public void Resetar(string resetar)
+    {
+        SceneManager.LoadScene(resetar);
+    }
+
+    public void Play()
+    {
+        menu.SetActive(false);
+    }
+
+    public void Quit()
+    {
+        //so funciona dentro da unity
+        UnityEditor.EditorApplication.ExitPlaymode();
+    }
+
+   
 }

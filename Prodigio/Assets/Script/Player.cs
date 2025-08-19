@@ -163,7 +163,7 @@ public class Player : MonoBehaviour
         {
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
-            Destroy(barrinhaTras);
+            //Destroy(barrinhaTras);
         }
         /*if (maxVida == 0)
         {
