@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour
     public void Config()
     {
         menu.SetActive(true);
-
+        Time.timeScale = 0f;
     }
 
     public void Resetar(string resetar)
@@ -64,6 +64,7 @@ public class GameController : MonoBehaviour
     public void Play()
     {
         menu.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     public void Quit()
