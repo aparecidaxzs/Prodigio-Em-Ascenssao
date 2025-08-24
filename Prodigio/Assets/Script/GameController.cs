@@ -1,77 +1,67 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 public class GameController : MonoBehaviour
 {
+    public GameObject gameOver; //painel de Game Over
+    public GameObject vitoria; //painel de Vitória
+    public static GameController instance; //instância estática para acessar de outros scripts
 
-    public GameObject gameOver;
-    public GameObject vitoria;
-    public static GameController instance;
-
-    public GameObject menu;
-    /*
-    public GameObject reset;
-    public GameObject play;
-    public GameObject quit;*/
+    public GameObject menu; //menu de pausa
     
-    //public GameObject config;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Start é chamado antes do primeiro frame
     void Start()
     {
-        instance = this;
-
-
+        instance = this; //define a instância do GameController
     }
 
-    // Update is called once per frame
+    // Update é chamado a cada frame
     void Update()
     {
-
+        //não está sendo usado (poderia ficar vazio mesmo)
     }
 
     public void ShowGameOver()
     {
-        gameOver.SetActive(true);
+        gameOver.SetActive(true); //ativa a tela de Game Over
     }
 
     public void ShowVitoria()
     {
-        vitoria.SetActive(true);
+        vitoria.SetActive(true); //ativa a tela de Vitória
     }
 
     public void RestartGame(string lvlName)
     {
-        SceneManager.LoadScene(lvlName);
+        SceneManager.LoadScene(lvlName); //reinicia a cena recebida pelo nome
     }
 
     public void MenuPrincipal(string menuP)
     {
-        SceneManager.LoadScene(menuP);
+        SceneManager.LoadScene(menuP); //carrega a cena do menu principal
     }
 
     public void Config()
     {
-        menu.SetActive(true);
-        Time.timeScale = 0f;
+        menu.SetActive(true); //ativa o menu de pausa
+        Time.timeScale = 0f; //pausa o tempo do jogo
     }
 
     public void Resetar(string resetar)
     {
-        SceneManager.LoadScene(resetar);
+        SceneManager.LoadScene(resetar); //carrega a cena recebida (resetar jogo)
     }
 
     public void Play()
     {
-        menu.SetActive(false);
-        Time.timeScale = 1f;
+        menu.SetActive(false); //fecha o menu de pausa
+        Time.timeScale = 1f; //retoma o tempo do jogo
     }
 
     public void Quit()
     {
-        //so funciona dentro da unity
+        //só funciona dentro da Unity (sai do modo play)
         UnityEditor.EditorApplication.ExitPlaymode();
     }
-
-   
 }

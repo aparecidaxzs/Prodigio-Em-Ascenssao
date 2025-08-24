@@ -8,16 +8,15 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public float velocidade;
-    public float jumpForce;
-    public bool isJump;
-    public bool doubleJump;
+    public float velocidade; //velocidade de movimento do jogador
+    public float jumpForce; //força do pulo
+    public bool isJump; //checa se o jogador está no ar
+    public bool doubleJump; //checa se o jogador pode usar o segundo pulo
 
-    private Rigidbody2D rig;
+    private Rigidbody2D rig; //referência ao rigidbody do jogador
 
-    private GameObject coinColetar;
+    private GameObject coinColetar; //referência para guardar a moeda coletada (ainda não está em uso)
 
-    
     public Image barrinhaFrente; //barra de vida que vai diminuir mais devagar 
     public Image barrinhaTras; //barra de vida que diminui mais rapido
 
@@ -36,16 +35,16 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
-        Jump();
-        GameOver();
+        Move(); //chamando a função de movimento
+        Jump(); //chamando a função de pulo
+        GameOver(); //checando se o jogador perdeu
     }
 
     void Move()
     {
-        float input = Input.GetAxisRaw("Horizontal");
+        float input = Input.GetAxisRaw("Horizontal"); //pegando input do jogador (esquerda/direita)
 
-        rig.linearVelocity = new Vector2(input * velocidade, rig.linearVelocity.y);
+        rig.linearVelocity = new Vector2(input * velocidade, rig.linearVelocity.y); //movimentando no eixo X, mantendo Y
 
         if (input > 0f)
         {
@@ -54,7 +53,7 @@ public class Player : MonoBehaviour
 
         else if (input < 0f)
         {
-            transform.eulerAngles = new Vector3(0f, 180f, 0f);
+            transform.eulerAngles = new Vector3(0f, 180f, 0f); //vira para a esquerda
         }
     }
 
@@ -62,19 +61,19 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (isJump == false)
+            if (isJump == false) //se não está no ar
             {
-                rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
-                doubleJump = true;
-                isJump = true;
+                rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //aplica força para pular
+                doubleJump = true; //habilita o segundo pulo
+                isJump = true; //marca que está no ar
             }
 
             else
             {
-                if (doubleJump)
+                if (doubleJump) //se o segundo pulo está disponível
                 {
-                    rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
-                    doubleJump = false;
+                    rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //pula de novo
+                    doubleJump = false; //consome o segundo pulo
                 }
             }
         }
@@ -84,20 +83,20 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
         {
-            isJump = false;
-            doubleJump = false;
+            isJump = false; //quando encosta no chão, pode pular de novo
+            doubleJump = false; //reseta o segundo pulo
         }
 
-        if (collision.gameObject.tag == "GameOver")
+        if (collision.gameObject.tag == "GameOver") //quando encosta no objeto de "GameOver"
         {
-            GameController.instance.ShowGameOver();
-            Destroy(gameObject);
+           GameController.instance.ShowGameOver(); //chama a tela de game over
+           Destroy(gameObject); //destroi o jogador
         }
 
-        if (collision.gameObject.tag == "Vitoria")
+        if (collision.gameObject.tag == "Vitoria") //quando encosta no objeto de "Vitória"
         {
-            GameController.instance.ShowVitoria();
-            Destroy(gameObject);
+            GameController.instance.ShowVitoria(); //chama a tela de vitória
+            Destroy(gameObject); //destroi o jogador
         }
 
     }
@@ -106,15 +105,15 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
         {
-            isJump = true;
+            isJump = true; //se saiu do chão, marca que está no ar
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Coin"))
+        if (other.CompareTag("Coin")) //quando encosta em uma moeda
         {
-            Destroy(other.gameObject);
+            Destroy(other.gameObject); //destroi a moeda (coletou)
         }
     }
 
@@ -128,14 +127,14 @@ public class Player : MonoBehaviour
 
     public void SetVida(int amount)
     {
-        if (amount < 0)
+        if (amount < 0) //se o valor recebido for negativo (dano)
         {
-            vidaAtual = Mathf.Clamp(vidaAtual + amount, 0, maxVida);
+            vidaAtual = Mathf.Clamp(vidaAtual + amount, 0, maxVida); //diminui a vida, sem passar de 0 ou do máximo
 
-            Vector3 frenteScale = barrinhaFrente.rectTransform.localScale;
-            frenteScale.x = (float)vidaAtual / maxVida;
-            barrinhaFrente.rectTransform.localScale = frenteScale;
-            StartCoroutine(DecreasingTras(frenteScale));
+            Vector3 frenteScale = barrinhaFrente.rectTransform.localScale; //pega o tamanho da barra da frente
+            frenteScale.x = (float)vidaAtual / maxVida; //ajusta o tamanho proporcional à vida
+            barrinhaFrente.rectTransform.localScale = frenteScale; //atualiza a escala
+            StartCoroutine(DecreasingTras(frenteScale)); //chama a função que diminui a barra de trás mais devagar
         }
 
 
@@ -143,29 +142,28 @@ public class Player : MonoBehaviour
 
     IEnumerator DecreasingTras(Vector3 newScale)
     {
-        yield return new WaitForSeconds(0.5f);
-        Vector3 trasScale = barrinhaTras.transform.localScale;
+        yield return new WaitForSeconds(0.5f); //espera meio segundo antes de começar a diminuir
+        Vector3 trasScale = barrinhaTras.transform.localScale; //pega o tamanho atual da barra de trás
         
-        while (barrinhaTras.transform.localScale.x > newScale.x)
+        while (barrinhaTras.transform.localScale.x > newScale.x) //enquanto a barra de trás for maior que a da frente
         {
-            trasScale.x -= Time.deltaTime * 0.25f;
-            barrinhaTras.transform.localScale = trasScale;
+            trasScale.x -= Time.deltaTime * 0.25f; //vai diminuindo suavemente
+            barrinhaTras.transform.localScale = trasScale; //aplica a nova escala
 
-            yield return null;
+            yield return null; //espera o próximo frame
         }
-        barrinhaTras.transform.localScale = newScale;
-        //Debug.Log(Time.time);
+        barrinhaTras.transform.localScale = newScale; //garante que fique igual no final
+        
     }
 
     void GameOver()
     {
-        if (vidaAtual == 0)
+        if (vidaAtual == 0) //se a vida chegar em zero
         {
-            GameController.instance.ShowGameOver();
-            Destroy(gameObject);
-            Destroy(barrinhaTras);
+            GameController.instance.ShowGameOver(); //mostra a tela de game over
+            Destroy(gameObject); //destroi o jogador
+            Destroy(barrinhaTras); //destroi a barra de vida
         }
     }
-
 
 }

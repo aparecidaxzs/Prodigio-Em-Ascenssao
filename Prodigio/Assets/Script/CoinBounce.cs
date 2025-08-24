@@ -2,22 +2,22 @@ using UnityEngine;
 
 public class CoinBounce : MonoBehaviour
 {
-    public float speedY = 0.25f;
+    public float speedY = 0.25f; //altura do movimento (quanto a moeda vai "subir e descer")
+    public float speed = 2f; //velocidade da animação de sobe e desce
 
-    public float speed = 2f;
+    public Vector3 startPos; //posição inicial da moeda
 
-    public Vector3 startPos;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Start é chamado uma vez antes do primeiro frame
     void Start()
     {
-        startPos = transform.position;
+        startPos = transform.position; //guarda a posição inicial da moeda
     }
 
-    // Update is called once per frame
+    // Update é chamado a cada frame
     void Update()
     {
-        float newY = startPos.y + Mathf.Sin(Time.time * speed) * speedY;
+        float newY = startPos.y + Mathf.Sin(Time.time * speed) * speedY; //calcula a nova posição no eixo Y usando seno (movimento suave)
 
-        transform.position = new Vector3(startPos.x, newY, startPos.z);
+        transform.position = new Vector3(startPos.x, newY, startPos.z); //atualiza a posição da moeda (só muda o Y)
     }
 }
