@@ -51,6 +51,7 @@ public class GameController : MonoBehaviour
     public void Resetar(string resetar)
     {
         SceneManager.LoadScene(resetar); //carrega a cena recebida (resetar jogo)
+        Time.timeScale = 1f;
     }
 
     public void Play()
