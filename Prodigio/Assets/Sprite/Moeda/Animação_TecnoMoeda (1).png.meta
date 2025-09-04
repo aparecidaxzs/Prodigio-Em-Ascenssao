@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 3afca0a320ce955479fc7f4c1db5278d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4171066443537224470
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_0"
+  - first:
+      213: -7243089794629951733
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_1"
+  - first:
+      213: -7035184344534293948
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_2"
+  - first:
+      213: -8422101009087578717
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_3"
+  - first:
+      213: 1386326133183492406
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_4"
+  - first:
+      213: -2568431820782405060
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_5"
+  - first:
+      213: 2793031761190514645
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_6"
+  - first:
+      213: -859084574913008582
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_7"
+  - first:
+      213: 1281790266242616351
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_8"
+  - first:
+      213: -1396001671312091564
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_9"
+  - first:
+      213: 4112520821080706669
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_10"
+  - first:
+      213: 7372531777555813991
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_11"
+  - first:
+      213: 7735420672770822565
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_12"
+  - first:
+      213: -8120552135182005858
+    second: "Anima\xE7\xE3o_TecnoMoeda (1)_13"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2292
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6139695c4da92e930800000000000000
+      internalID: 4171066443537224470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 0
+        width: 1963
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f13d215306b7b90800000000000000
+      internalID: -7243089794629951733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 5014
+        y: 0
+        width: 1642
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442e4a6dc110e5e90800000000000000
+      internalID: -7035184344534293948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_3"
+      rect:
+        serializedVersion: 2
+        x: 7501
+        y: 0
+        width: 1358
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad30e221cfae1b80800000000000000
+      internalID: -8422101009087578717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_4"
+      rect:
+        serializedVersion: 2
+        x: 9910
+        y: 0
+        width: 1230
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6313e37e5483d3310800000000000000
+      internalID: 1386326133183492406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_5"
+      rect:
+        serializedVersion: 2
+        x: 12369
+        y: 0
+        width: 1003
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a747cfdd81b5cd0800000000000000
+      internalID: -2568431820782405060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_6"
+      rect:
+        serializedVersion: 2
+        x: 14798
+        y: 0
+        width: 834
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfe424b697d2c620800000000000000
+      internalID: 2793031761190514645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_7"
+      rect:
+        serializedVersion: 2
+        x: 17433
+        y: 0
+        width: 255
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cea48712be314f0800000000000000
+      internalID: -859084574913008582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_8"
+      rect:
+        serializedVersion: 2
+        x: 19489
+        y: 0
+        width: 834
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cc1f7b475d9c110800000000000000
+      internalID: 1281790266242616351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_9"
+      rect:
+        serializedVersion: 2
+        x: 21749
+        y: 0
+        width: 1003
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456579350e760ace0800000000000000
+      internalID: -1396001671312091564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_10"
+      rect:
+        serializedVersion: 2
+        x: 23981
+        y: 0
+        width: 1230
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ec9efc5eb921930800000000000000
+      internalID: 4112520821080706669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_11"
+      rect:
+        serializedVersion: 2
+        x: 26262
+        y: 0
+        width: 1358
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7665e70279e705660800000000000000
+      internalID: 7372531777555813991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_12"
+      rect:
+        serializedVersion: 2
+        x: 28465
+        y: 0
+        width: 1642
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1d7bc2e1cb95b60800000000000000
+      internalID: 7735420672770822565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_TecnoMoeda (1)_13"
+      rect:
+        serializedVersion: 2
+        x: 30649
+        y: 0
+        width: 1962
+        height: 2290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99cf6a8bd00e4f80800000000000000
+      internalID: -8120552135182005858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o_TecnoMoeda (1)_0": 4171066443537224470
+      "Anima\xE7\xE3o_TecnoMoeda (1)_1": -7243089794629951733
+      "Anima\xE7\xE3o_TecnoMoeda (1)_10": 4112520821080706669
+      "Anima\xE7\xE3o_TecnoMoeda (1)_11": 7372531777555813991
+      "Anima\xE7\xE3o_TecnoMoeda (1)_12": 7735420672770822565
+      "Anima\xE7\xE3o_TecnoMoeda (1)_13": -8120552135182005858
+      "Anima\xE7\xE3o_TecnoMoeda (1)_2": -7035184344534293948
+      "Anima\xE7\xE3o_TecnoMoeda (1)_3": -8422101009087578717
+      "Anima\xE7\xE3o_TecnoMoeda (1)_4": 1386326133183492406
+      "Anima\xE7\xE3o_TecnoMoeda (1)_5": -2568431820782405060
+      "Anima\xE7\xE3o_TecnoMoeda (1)_6": 2793031761190514645
+      "Anima\xE7\xE3o_TecnoMoeda (1)_7": -859084574913008582
+      "Anima\xE7\xE3o_TecnoMoeda (1)_8": 1281790266242616351
+      "Anima\xE7\xE3o_TecnoMoeda (1)_9": -1396001671312091564
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
