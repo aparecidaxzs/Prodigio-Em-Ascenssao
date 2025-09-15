@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rig; //referência ao rigidbody do jogador
 
     private GameObject coinColetar; //referência para guardar a moeda coletada (ainda não está em uso)
+    public Animator anim;
 
     public Image barrinhaFrente; //barra de vida que vai diminuir mais devagar 
     public Image barrinhaTras; //barra de vida que diminui mais rapido
@@ -38,6 +39,7 @@ public class Player : MonoBehaviour
         Move(); //chamando a função de movimento
         Jump(); //chamando a função de pulo
         GameOver(); //checando se o jogador perdeu
+        //anim.SetBool("idle", true);
     }
 
     void Move()
@@ -49,11 +51,17 @@ public class Player : MonoBehaviour
         if (input > 0f)
         {
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
+            anim.SetBool("andando", true);
         }
 
         else if (input < 0f)
         {
             transform.eulerAngles = new Vector3(0f, 180f, 0f); //vira para a esquerda
+            anim.SetBool("andando", true);
+        }
+
+        if(Input.GetAxis("Horizontal") == 0f){
+            anim.SetBool("andando", false);
         }
     }
 
@@ -66,6 +74,7 @@ public class Player : MonoBehaviour
                 rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //aplica força para pular
                 doubleJump = true; //habilita o segundo pulo
                 isJump = true; //marca que está no ar
+                anim.SetBool("jump", true);
             }
 
             else
@@ -85,6 +94,7 @@ public class Player : MonoBehaviour
         {
             isJump = false; //quando encosta no chão, pode pular de novo
             doubleJump = false; //reseta o segundo pulo
+            anim.SetBool("jump", false);
         }
 
         if (collision.gameObject.tag == "GameOver") //quando encosta no objeto de "GameOver"
