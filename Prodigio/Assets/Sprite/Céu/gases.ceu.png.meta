@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gases.ceu_0: -8345587017191248888
+      gases.ceu_1: -993083994354059624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

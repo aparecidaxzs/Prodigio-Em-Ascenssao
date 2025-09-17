@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Golem_02_Attacking_002_0: -2074352024073066658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

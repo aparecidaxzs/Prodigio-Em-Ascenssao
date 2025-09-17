@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: e87545dd6fad9234683733e7caa40f1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3054998760072908804
+    second: "Anima\xE7\xE3oRaiothunder_0"
+  - first:
+      213: -7089899994675835599
+    second: "Anima\xE7\xE3oRaiothunder_1"
+  - first:
+      213: 5685830755227199046
+    second: "Anima\xE7\xE3oRaiothunder_2"
+  - first:
+      213: 8954009180940407045
+    second: "Anima\xE7\xE3oRaiothunder_3"
+  - first:
+      213: 7710758942268865302
+    second: "Anima\xE7\xE3oRaiothunder_4"
+  - first:
+      213: -2573897707111977590
+    second: "Anima\xE7\xE3oRaiothunder_5"
+  - first:
+      213: -7372314570929750811
+    second: "Anima\xE7\xE3oRaiothunder_6"
+  - first:
+      213: -6525079129084338936
+    second: "Anima\xE7\xE3oRaiothunder_7"
+  - first:
+      213: 6434936179597043000
+    second: "Anima\xE7\xE3oRaiothunder_8"
+  - first:
+      213: -517118730444227060
+    second: "Anima\xE7\xE3oRaiothunder_9"
+  - first:
+      213: 8764877733003233422
+    second: "Anima\xE7\xE3oRaiothunder_10"
+  - first:
+      213: -2050353789006891964
+    second: "Anima\xE7\xE3oRaiothunder_11"
+  - first:
+      213: 4301736827384958116
+    second: "Anima\xE7\xE3oRaiothunder_12"
+  - first:
+      213: 3547519061295981252
+    second: "Anima\xE7\xE3oRaiothunder_13"
+  - first:
+      213: 1076993038747229260
+    second: "Anima\xE7\xE3oRaiothunder_14"
+  - first:
+      213: 6610171551367132184
+    second: "Anima\xE7\xE3oRaiothunder_15"
+  - first:
+      213: -3085830327173999163
+    second: "Anima\xE7\xE3oRaiothunder_16"
+  - first:
+      213: 9138156244458511133
+    second: "Anima\xE7\xE3oRaiothunder_17"
+  - first:
+      213: 6176713274589189092
+    second: "Anima\xE7\xE3oRaiothunder_18"
+  - first:
+      213: 72355712297966287
+    second: "Anima\xE7\xE3oRaiothunder_19"
+  - first:
+      213: 7569548130954375646
+    second: "Anima\xE7\xE3oRaiothunder_20"
+  - first:
+      213: -5895813765915876696
+    second: "Anima\xE7\xE3oRaiothunder_21"
+  - first:
+      213: -7527834374910993818
+    second: "Anima\xE7\xE3oRaiothunder_22"
+  - first:
+      213: -2352408990598602107
+    second: "Anima\xE7\xE3oRaiothunder_23"
+  - first:
+      213: 6409726991920370664
+    second: "Anima\xE7\xE3oRaiothunder_24"
+  - first:
+      213: -5574806030539513249
+    second: "Anima\xE7\xE3oRaiothunder_25"
+  - first:
+      213: 5774073353995942815
+    second: "Anima\xE7\xE3oRaiothunder_26"
+  - first:
+      213: -8285289058692319254
+    second: "Anima\xE7\xE3oRaiothunder_27"
+  - first:
+      213: 5341597260136062592
+    second: "Anima\xE7\xE3oRaiothunder_28"
+  - first:
+      213: -596897269025759602
+    second: "Anima\xE7\xE3oRaiothunder_29"
+  - first:
+      213: -5541524511891068259
+    second: "Anima\xE7\xE3oRaiothunder_30"
+  - first:
+      213: -2764695253981893963
+    second: "Anima\xE7\xE3oRaiothunder_31"
+  - first:
+      213: -7979308533031421854
+    second: "Anima\xE7\xE3oRaiothunder_32"
+  - first:
+      213: -974433546031017439
+    second: "Anima\xE7\xE3oRaiothunder_33"
+  - first:
+      213: -6545202157423043604
+    second: "Anima\xE7\xE3oRaiothunder_34"
+  - first:
+      213: 7943881171308396097
+    second: "Anima\xE7\xE3oRaiothunder_35"
+  - first:
+      213: -7598623921913438918
+    second: "Anima\xE7\xE3oRaiothunder_36"
+  - first:
+      213: 8178702489403065844
+    second: "Anima\xE7\xE3oRaiothunder_37"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_0"
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff689450d67a95d0800000000000000
+      internalID: -3054998760072908804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_1"
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d8d4cc48d9b9d90800000000000000
+      internalID: -7089899994675835599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_2"
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 3307
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646ee4272f028ee40800000000000000
+      internalID: 5685830755227199046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_3"
+      rect:
+        serializedVersion: 2
+        x: 4882
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5011a81e8e7034c70800000000000000
+      internalID: 8954009180940407045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_4"
+      rect:
+        serializedVersion: 2
+        x: 6508
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b3a96976e120b60800000000000000
+      internalID: 7710758942268865302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_5"
+      rect:
+        serializedVersion: 2
+        x: 8133
+        y: 3307
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8de5672cada74cd0800000000000000
+      internalID: -2573897707111977590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_6"
+      rect:
+        serializedVersion: 2
+        x: 9759
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecbb4b35f640b990800000000000000
+      internalID: -7372314570929750811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_7"
+      rect:
+        serializedVersion: 2
+        x: 11385
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ddc9b7a134275a0800000000000000
+      internalID: -6525079129084338936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_8"
+      rect:
+        serializedVersion: 2
+        x: 13010
+        y: 3307
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835e0319c5c7d4950800000000000000
+      internalID: 6434936179597043000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_9"
+      rect:
+        serializedVersion: 2
+        x: 14636
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ebb252143d2d8f0800000000000000
+      internalID: -517118730444227060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_10"
+      rect:
+        serializedVersion: 2
+        x: 16262
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88836f1cd913a970800000000000000
+      internalID: 8764877733003233422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_11"
+      rect:
+        serializedVersion: 2
+        x: 17887
+        y: 3307
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4443e56971eab83e0800000000000000
+      internalID: -2050353789006891964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_12"
+      rect:
+        serializedVersion: 2
+        x: 19513
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac0f795ad6d2bb30800000000000000
+      internalID: 4301736827384958116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_13"
+      rect:
+        serializedVersion: 2
+        x: 21139
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2697a6ac15b3130800000000000000
+      internalID: 3547519061295981252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_14"
+      rect:
+        serializedVersion: 2
+        x: 22764
+        y: 3307
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cd81c667f32fe00800000000000000
+      internalID: 1076993038747229260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_15"
+      rect:
+        serializedVersion: 2
+        x: 24390
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81471a7f00c0cbb50800000000000000
+      internalID: 6610171551367132184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_16"
+      rect:
+        serializedVersion: 2
+        x: 26016
+        y: 3307
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c59aa7baadec25d0800000000000000
+      internalID: -3085830327173999163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_17"
+      rect:
+        serializedVersion: 2
+        x: 27641
+        y: 3307
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b97f430b041de70800000000000000
+      internalID: 9138156244458511133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_18"
+      rect:
+        serializedVersion: 2
+        x: 29267
+        y: 3307
+        width: 1527
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e314536ff718b550800000000000000
+      internalID: 6176713274589189092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_19"
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca9df0132f010100800000000000000
+      internalID: 72355712297966287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_20"
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1f1cf7bef6c0960800000000000000
+      internalID: 7569548130954375646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_21"
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 41
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2e9b40e9cdd2ea0800000000000000
+      internalID: -5895813765915876696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_22"
+      rect:
+        serializedVersion: 2
+        x: 4882
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a947b2582c78790800000000000000
+      internalID: -7527834374910993818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_23"
+      rect:
+        serializedVersion: 2
+        x: 6508
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5826fe49c709a5fd0800000000000000
+      internalID: -2352408990598602107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_24"
+      rect:
+        serializedVersion: 2
+        x: 8133
+        y: 41
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e395ac2dbce3f850800000000000000
+      internalID: 6409726991920370664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_25"
+      rect:
+        serializedVersion: 2
+        x: 9759
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52acf9a37f42a2b0800000000000000
+      internalID: -5574806030539513249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_26"
+      rect:
+        serializedVersion: 2
+        x: 11385
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bf9f38f11a12050800000000000000
+      internalID: 5774073353995942815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_27"
+      rect:
+        serializedVersion: 2
+        x: 13010
+        y: 41
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7b63b9f7db40d80800000000000000
+      internalID: -8285289058692319254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_28"
+      rect:
+        serializedVersion: 2
+        x: 14636
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e1c97386a212a40800000000000000
+      internalID: 5341597260136062592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_29"
+      rect:
+        serializedVersion: 2
+        x: 16262
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e9158a81567b7f0800000000000000
+      internalID: -596897269025759602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_30"
+      rect:
+        serializedVersion: 2
+        x: 17887
+        y: 41
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aec9211dc8813b0800000000000000
+      internalID: -5541524511891068259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_31"
+      rect:
+        serializedVersion: 2
+        x: 19513
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba63328054d1a9d0800000000000000
+      internalID: -2764695253981893963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_32"
+      rect:
+        serializedVersion: 2
+        x: 21139
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2683b675a2dc34190800000000000000
+      internalID: -7979308533031421854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_33"
+      rect:
+        serializedVersion: 2
+        x: 22764
+        y: 41
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122d8974add1a72f0800000000000000
+      internalID: -974433546031017439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_34"
+      rect:
+        serializedVersion: 2
+        x: 24390
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebdda7d055ca25a0800000000000000
+      internalID: -6545202157423043604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_35"
+      rect:
+        serializedVersion: 2
+        x: 26016
+        y: 41
+        width: 1528
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e30c936d55e3e60800000000000000
+      internalID: 7943881171308396097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_36"
+      rect:
+        serializedVersion: 2
+        x: 27641
+        y: 41
+        width: 1529
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d50906dc34c8690800000000000000
+      internalID: -7598623921913438918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_37"
+      rect:
+        serializedVersion: 2
+        x: 29267
+        y: 41
+        width: 1527
+        height: 3118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5097cd496908170800000000000000
+      internalID: 8178702489403065844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3oRaiothunder_0": -3054998760072908804
+      "Anima\xE7\xE3oRaiothunder_1": -7089899994675835599
+      "Anima\xE7\xE3oRaiothunder_10": 8764877733003233422
+      "Anima\xE7\xE3oRaiothunder_11": -2050353789006891964
+      "Anima\xE7\xE3oRaiothunder_12": 4301736827384958116
+      "Anima\xE7\xE3oRaiothunder_13": 3547519061295981252
+      "Anima\xE7\xE3oRaiothunder_14": 1076993038747229260
+      "Anima\xE7\xE3oRaiothunder_15": 6610171551367132184
+      "Anima\xE7\xE3oRaiothunder_16": -3085830327173999163
+      "Anima\xE7\xE3oRaiothunder_17": 9138156244458511133
+      "Anima\xE7\xE3oRaiothunder_18": 6176713274589189092
+      "Anima\xE7\xE3oRaiothunder_19": 72355712297966287
+      "Anima\xE7\xE3oRaiothunder_2": 5685830755227199046
+      "Anima\xE7\xE3oRaiothunder_20": 7569548130954375646
+      "Anima\xE7\xE3oRaiothunder_21": -5895813765915876696
+      "Anima\xE7\xE3oRaiothunder_22": -7527834374910993818
+      "Anima\xE7\xE3oRaiothunder_23": -2352408990598602107
+      "Anima\xE7\xE3oRaiothunder_24": 6409726991920370664
+      "Anima\xE7\xE3oRaiothunder_25": -5574806030539513249
+      "Anima\xE7\xE3oRaiothunder_26": 5774073353995942815
+      "Anima\xE7\xE3oRaiothunder_27": -8285289058692319254
+      "Anima\xE7\xE3oRaiothunder_28": 5341597260136062592
+      "Anima\xE7\xE3oRaiothunder_29": -596897269025759602
+      "Anima\xE7\xE3oRaiothunder_3": 8954009180940407045
+      "Anima\xE7\xE3oRaiothunder_30": -5541524511891068259
+      "Anima\xE7\xE3oRaiothunder_31": -2764695253981893963
+      "Anima\xE7\xE3oRaiothunder_32": -7979308533031421854
+      "Anima\xE7\xE3oRaiothunder_33": -974433546031017439
+      "Anima\xE7\xE3oRaiothunder_34": -6545202157423043604
+      "Anima\xE7\xE3oRaiothunder_35": 7943881171308396097
+      "Anima\xE7\xE3oRaiothunder_36": -7598623921913438918
+      "Anima\xE7\xE3oRaiothunder_37": 8178702489403065844
+      "Anima\xE7\xE3oRaiothunder_4": 7710758942268865302
+      "Anima\xE7\xE3oRaiothunder_5": -2573897707111977590
+      "Anima\xE7\xE3oRaiothunder_6": -7372314570929750811
+      "Anima\xE7\xE3oRaiothunder_7": -6525079129084338936
+      "Anima\xE7\xE3oRaiothunder_8": 6434936179597043000
+      "Anima\xE7\xE3oRaiothunder_9": -517118730444227060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
