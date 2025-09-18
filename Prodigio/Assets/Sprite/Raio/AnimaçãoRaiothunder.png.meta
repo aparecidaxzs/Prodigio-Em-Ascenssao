@@ -116,6 +116,42 @@ TextureImporter:
   - first:
       213: 8178702489403065844
     second: "Anima\xE7\xE3oRaiothunder_37"
+  - first:
+      213: -1378935515831692645
+    second: "Anima\xE7\xE3oRaiothunder_38"
+  - first:
+      213: 372367484900411340
+    second: "Anima\xE7\xE3oRaiothunder_39"
+  - first:
+      213: 3746923035199038149
+    second: "Anima\xE7\xE3oRaiothunder_40"
+  - first:
+      213: 6476848181691209364
+    second: "Anima\xE7\xE3oRaiothunder_41"
+  - first:
+      213: 1852648314582753803
+    second: "Anima\xE7\xE3oRaiothunder_42"
+  - first:
+      213: 3410730771745032699
+    second: "Anima\xE7\xE3oRaiothunder_43"
+  - first:
+      213: -5579902627729363652
+    second: "Anima\xE7\xE3oRaiothunder_44"
+  - first:
+      213: 2026297251485081349
+    second: "Anima\xE7\xE3oRaiothunder_45"
+  - first:
+      213: 418226251552951291
+    second: "Anima\xE7\xE3oRaiothunder_46"
+  - first:
+      213: -2168134520533305345
+    second: "Anima\xE7\xE3oRaiothunder_47"
+  - first:
+      213: 3487601877960104242
+    second: "Anima\xE7\xE3oRaiothunder_48"
+  - first:
+      213: -2708734162261428786
+    second: "Anima\xE7\xE3oRaiothunder_49"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -214,10 +250,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_0"
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 126
+        y: 3633
+        width: 1224
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +272,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_1"
       rect:
         serializedVersion: 2
-        x: 1631
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 1422
+        y: 3633
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +294,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_2"
       rect:
         serializedVersion: 2
-        x: 3256
-        y: 3307
-        width: 1529
-        height: 3118
+        x: 2717
+        y: 3633
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +316,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_3"
       rect:
         serializedVersion: 2
-        x: 4882
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 4012
+        y: 3633
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +338,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_4"
       rect:
         serializedVersion: 2
-        x: 6508
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 5308
+        y: 3633
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +360,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_5"
       rect:
         serializedVersion: 2
-        x: 8133
-        y: 3307
-        width: 1529
-        height: 3118
+        x: 6603
+        y: 3633
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +382,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_6"
       rect:
         serializedVersion: 2
-        x: 9759
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 7898
+        y: 3633
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +404,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_7"
       rect:
         serializedVersion: 2
-        x: 11385
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 8106
+        y: 6096
+        width: 66
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +426,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_8"
       rect:
         serializedVersion: 2
-        x: 13010
-        y: 3307
-        width: 1529
-        height: 3118
+        x: 9193
+        y: 3633
+        width: 1224
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +448,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_9"
       rect:
         serializedVersion: 2
-        x: 14636
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 9387
+        y: 6083
+        width: 81
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +470,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_10"
       rect:
         serializedVersion: 2
-        x: 16262
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 10489
+        y: 3633
+        width: 1223
+        height: 2536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +492,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_11"
       rect:
         serializedVersion: 2
-        x: 17887
-        y: 3307
-        width: 1529
-        height: 3118
+        x: 11784
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +514,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_12"
       rect:
         serializedVersion: 2
-        x: 19513
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 13079
+        y: 3633
+        width: 1224
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,10 +536,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_13"
       rect:
         serializedVersion: 2
-        x: 21139
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 14375
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -522,10 +558,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_14"
       rect:
         serializedVersion: 2
-        x: 22764
-        y: 3307
-        width: 1529
-        height: 3118
+        x: 15670
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,10 +580,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_15"
       rect:
         serializedVersion: 2
-        x: 24390
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 16965
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -566,10 +602,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_16"
       rect:
         serializedVersion: 2
-        x: 26016
-        y: 3307
-        width: 1528
-        height: 3118
+        x: 18261
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +624,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_17"
       rect:
         serializedVersion: 2
-        x: 27641
-        y: 3307
-        width: 1529
-        height: 3118
+        x: 19556
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,10 +646,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_18"
       rect:
         serializedVersion: 2
-        x: 29267
-        y: 3307
-        width: 1527
-        height: 3118
+        x: 20851
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +668,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_19"
       rect:
         serializedVersion: 2
-        x: 5
-        y: 41
-        width: 1528
-        height: 3118
+        x: 22146
+        y: 3633
+        width: 1224
+        height: 2536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,10 +690,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_20"
       rect:
         serializedVersion: 2
-        x: 1631
-        y: 41
-        width: 1528
-        height: 3118
+        x: 23442
+        y: 3633
+        width: 1223
+        height: 2536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +712,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_21"
       rect:
         serializedVersion: 2
-        x: 3256
-        y: 41
-        width: 1529
-        height: 3118
+        x: 24737
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,10 +734,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_22"
       rect:
         serializedVersion: 2
-        x: 4882
-        y: 41
-        width: 1528
-        height: 3118
+        x: 26032
+        y: 3633
+        width: 1224
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,10 +756,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_23"
       rect:
         serializedVersion: 2
-        x: 6508
-        y: 41
-        width: 1528
-        height: 3118
+        x: 27328
+        y: 3633
+        width: 1223
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -742,10 +778,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_24"
       rect:
         serializedVersion: 2
-        x: 8133
-        y: 41
-        width: 1529
-        height: 3118
+        x: 28623
+        y: 3633
+        width: 1223
+        height: 2536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,10 +800,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_25"
       rect:
         serializedVersion: 2
-        x: 9759
-        y: 41
-        width: 1528
-        height: 3118
+        x: 29918
+        y: 3633
+        width: 1222
+        height: 2537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -786,10 +822,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_26"
       rect:
         serializedVersion: 2
-        x: 11385
-        y: 41
-        width: 1528
-        height: 3118
+        x: 126
+        y: 750
+        width: 1224
+        height: 2498
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -808,10 +844,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_27"
       rect:
         serializedVersion: 2
-        x: 13010
-        y: 41
-        width: 1529
-        height: 3118
+        x: 1422
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,10 +866,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_28"
       rect:
         serializedVersion: 2
-        x: 14636
-        y: 41
-        width: 1528
-        height: 3118
+        x: 2717
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -852,10 +888,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_29"
       rect:
         serializedVersion: 2
-        x: 16262
-        y: 41
-        width: 1528
-        height: 3118
+        x: 4012
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,10 +910,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_30"
       rect:
         serializedVersion: 2
-        x: 17887
-        y: 41
-        width: 1529
-        height: 3118
+        x: 5308
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -896,10 +932,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_31"
       rect:
         serializedVersion: 2
-        x: 19513
-        y: 41
-        width: 1528
-        height: 3118
+        x: 6603
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -918,10 +954,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_32"
       rect:
         serializedVersion: 2
-        x: 21139
-        y: 41
-        width: 1528
-        height: 3118
+        x: 7898
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,10 +976,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_33"
       rect:
         serializedVersion: 2
-        x: 22764
-        y: 41
-        width: 1529
-        height: 3118
+        x: 9193
+        y: 750
+        width: 1224
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -962,10 +998,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_34"
       rect:
         serializedVersion: 2
-        x: 24390
-        y: 41
-        width: 1528
-        height: 3118
+        x: 10489
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -984,10 +1020,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_35"
       rect:
         serializedVersion: 2
-        x: 26016
-        y: 41
-        width: 1528
-        height: 3118
+        x: 11784
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1006,10 +1042,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_36"
       rect:
         serializedVersion: 2
-        x: 27641
-        y: 41
-        width: 1529
-        height: 3118
+        x: 13079
+        y: 750
+        width: 1224
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1028,10 +1064,10 @@ TextureImporter:
       name: "Anima\xE7\xE3oRaiothunder_37"
       rect:
         serializedVersion: 2
-        x: 29267
-        y: 41
-        width: 1527
-        height: 3118
+        x: 14375
+        y: 750
+        width: 1223
+        height: 2495
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1042,6 +1078,270 @@ TextureImporter:
       bones: []
       spriteID: 4f5097cd496908170800000000000000
       internalID: 8178702489403065844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_38"
+      rect:
+        serializedVersion: 2
+        x: 15670
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b929eaa44790ddce0800000000000000
+      internalID: -1378935515831692645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_39"
+      rect:
+        serializedVersion: 2
+        x: 16965
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7056f214aea2500800000000000000
+      internalID: 372367484900411340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_40"
+      rect:
+        serializedVersion: 2
+        x: 18261
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c264c106aebff330800000000000000
+      internalID: 3746923035199038149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_41"
+      rect:
+        serializedVersion: 2
+        x: 19556
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496d6ddfa1362e950800000000000000
+      internalID: 6476848181691209364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_42"
+      rect:
+        serializedVersion: 2
+        x: 20851
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b026e6c83dde5b910800000000000000
+      internalID: 1852648314582753803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_43"
+      rect:
+        serializedVersion: 2
+        x: 22146
+        y: 750
+        width: 1224
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf94b5ae099555f20800000000000000
+      internalID: 3410730771745032699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_44"
+      rect:
+        serializedVersion: 2
+        x: 23442
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d2ce8af143092b0800000000000000
+      internalID: -5579902627729363652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_45"
+      rect:
+        serializedVersion: 2
+        x: 24737
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f5e1c4d9ade1c10800000000000000
+      internalID: 2026297251485081349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_46"
+      rect:
+        serializedVersion: 2
+        x: 26032
+        y: 750
+        width: 1224
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb8e875f86ddc500800000000000000
+      internalID: 418226251552951291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_47"
+      rect:
+        serializedVersion: 2
+        x: 27328
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7b95e042d39e1e0800000000000000
+      internalID: -2168134520533305345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_48"
+      rect:
+        serializedVersion: 2
+        x: 28623
+        y: 750
+        width: 1223
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2391ccd0e63766030800000000000000
+      internalID: 3487601877960104242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oRaiothunder_49"
+      rect:
+        serializedVersion: 2
+        x: 29918
+        y: 750
+        width: 1222
+        height: 2495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5317381a4a86ad0800000000000000
+      internalID: -2708734162261428786
       vertices: []
       indices: 
       edges: []
@@ -1092,7 +1392,19 @@ TextureImporter:
       "Anima\xE7\xE3oRaiothunder_35": 7943881171308396097
       "Anima\xE7\xE3oRaiothunder_36": -7598623921913438918
       "Anima\xE7\xE3oRaiothunder_37": 8178702489403065844
+      "Anima\xE7\xE3oRaiothunder_38": -1378935515831692645
+      "Anima\xE7\xE3oRaiothunder_39": 372367484900411340
       "Anima\xE7\xE3oRaiothunder_4": 7710758942268865302
+      "Anima\xE7\xE3oRaiothunder_40": 3746923035199038149
+      "Anima\xE7\xE3oRaiothunder_41": 6476848181691209364
+      "Anima\xE7\xE3oRaiothunder_42": 1852648314582753803
+      "Anima\xE7\xE3oRaiothunder_43": 3410730771745032699
+      "Anima\xE7\xE3oRaiothunder_44": -5579902627729363652
+      "Anima\xE7\xE3oRaiothunder_45": 2026297251485081349
+      "Anima\xE7\xE3oRaiothunder_46": 418226251552951291
+      "Anima\xE7\xE3oRaiothunder_47": -2168134520533305345
+      "Anima\xE7\xE3oRaiothunder_48": 3487601877960104242
+      "Anima\xE7\xE3oRaiothunder_49": -2708734162261428786
       "Anima\xE7\xE3oRaiothunder_5": -2573897707111977590
       "Anima\xE7\xE3oRaiothunder_6": -7372314570929750811
       "Anima\xE7\xE3oRaiothunder_7": -6525079129084338936

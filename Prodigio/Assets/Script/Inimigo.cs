@@ -27,12 +27,12 @@ public class Inimigo : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+     private void OnCollisionEnter2D(Collision2D collision)
     {
         Player player = collision.gameObject.GetComponent<Player>(); //checa se colidiu com o Player
         if (player != null)
         {
-            player.SetVida(dano); //aplica dano no player
+            player.BarradeVida(dano); //aplica dano no player
         }
     }
 }

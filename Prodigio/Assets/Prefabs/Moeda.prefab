@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7725423911432247168}
   - component: {fileID: 6115600665031174760}
   - component: {fileID: -8165500008611011560}
+  - component: {fileID: 68066434818940997}
+  - component: {fileID: -7590683950237630927}
   m_Layer: 0
   m_Name: Moeda
   m_TagString: Coin
@@ -157,3 +159,32 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 22.919998, y: 22.92961}
   m_EdgeRadius: 0
+--- !u!114 &68066434818940997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212897456146766130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034e22a9595a3a84aac0fb212fd2cbe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 0.1
+  speed: 2
+  Score: 0
+  coletar: {fileID: 0}
+--- !u!114 &-7590683950237630927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212897456146766130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a232216a3d0d5384ea73f1832a82dd8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 1

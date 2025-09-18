@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     public static GameController instance; //instância estática para acessar de outros scripts
 
     public GameObject menu; //menu de pausa
+
     
     // Start é chamado antes do primeiro frame
     void Start()
@@ -25,6 +26,7 @@ public class GameController : MonoBehaviour
     public void ShowGameOver()
     {
         gameOver.SetActive(true); //ativa a tela de Game Over
+        
     }
 
     public void ShowVitoria()
