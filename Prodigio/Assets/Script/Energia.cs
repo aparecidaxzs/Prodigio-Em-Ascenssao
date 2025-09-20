@@ -25,7 +25,7 @@ public class Energia : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             Destroy(gameObject);
-            Player.instance.ResetVida();
+            //Player.instance.ResetVida();
         }
     }
 }

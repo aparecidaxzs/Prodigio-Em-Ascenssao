@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_Sprite: {fileID: -3452345776456736811, guid: 3e8ea86433a1b654e9c1855d488adacb, type: 3}
   m_Color: {r: 0, g: 1, b: 0.08237815, a: 1}
   m_FlipX: 0
@@ -179,7 +179,11 @@ MonoBehaviour:
   jumpForce: 10
   isJump: 0
   doubleJump: 0
-  barrinhaFrente: {fileID: 0}
-  barrinhaTras: {fileID: 0}
   maxVida: 5
   vidaAtual: 0
+  barra: {fileID: 0}
+  barra0: {fileID: 0}
+  barra1: {fileID: 0}
+  barra2: {fileID: 0}
+  barra3: {fileID: 0}
+  barra4: {fileID: 0}
