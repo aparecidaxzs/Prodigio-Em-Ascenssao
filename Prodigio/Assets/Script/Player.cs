@@ -32,12 +32,15 @@ public class Player : MonoBehaviour
     public GameObject barra3;
     public GameObject barra4;
 
+    public static Player instance;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         vidaAtual = maxVida; //quando dá start, a vida atual é a quatidade do maximo de  vida que o jogador tem 
+        instance = this;
     }
 
     // Update is called once per frame
@@ -113,6 +116,16 @@ public class Player : MonoBehaviour
             Destroy(gameObject); //destroi o jogador
         }
 
+        if (collision.gameObject.tag == "Energia")
+        {
+            vidaAtual = +1;
+        }
+
+        if (collision.gameObject.tag == "EnergiaRara")
+        {
+            maxVida++;
+        }
+
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -175,6 +188,35 @@ public class Player : MonoBehaviour
                 barra4.SetActive(true);
                 barra3.SetActive(false);
             }
+        }
+    }
+
+    public void ResetVida(int amor)
+    {
+        if (amor > 0)
+        {
+            vidaAtual = Mathf.Clamp(vidaAtual + amor, 0, maxVida);
+            if (vidaAtual == 1)
+            {
+                barra3.SetActive(true);
+            }
+            if (vidaAtual == 2)
+            {
+                barra2.SetActive(true);
+            }
+            if (vidaAtual == 3)
+            {
+                barra1.SetActive(true);
+            }
+            if (vidaAtual == 4)
+            {
+                barra0.SetActive(true);
+            }
+            if (vidaAtual == 5)
+            {
+                barra.SetActive(true);
+            }
+
         }
     }
 
