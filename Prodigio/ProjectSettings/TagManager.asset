@@ -12,6 +12,8 @@ TagManager:
   - Inimigo
   - Checkpoint
   - PatrolPoint
+  - Energia
+  - EnergiaRara
   layers:
   - Default
   - TransparentFX
