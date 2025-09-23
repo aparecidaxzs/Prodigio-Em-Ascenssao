@@ -4,6 +4,7 @@ using UnityEngine.Scripting.APIUpdating;
 using System.Collections.ObjectModel;
 using UnityEngine.UI;
 using System;
+using JetBrains.Annotations;
 
 
 
@@ -24,6 +25,10 @@ public class Player : MonoBehaviour
 
     public int maxVida = 5; //maxima de vida do jogador 
     public int vidaAtual; //vai atualizar a barra de vida 
+    public int amountt;
+
+
+
 
     public GameObject barra;
     public GameObject barra0;
@@ -41,6 +46,7 @@ public class Player : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
         vidaAtual = maxVida; //quando dá start, a vida atual é a quatidade do maximo de  vida que o jogador tem 
         instance = this;
+
     }
 
     // Update is called once per frame
@@ -116,16 +122,6 @@ public class Player : MonoBehaviour
             Destroy(gameObject); //destroi o jogador
         }
 
-        if (collision.gameObject.tag == "Energia")
-        {
-            vidaAtual = +1;
-        }
-
-        if (collision.gameObject.tag == "EnergiaRara")
-        {
-            maxVida++;
-        }
-
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -136,13 +132,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    /*private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Coin")) //quando encosta em uma moeda
-        {
-            Destroy(other.gameObject); //destroi a moeda (coletou)
-        }
-    }*/
 
     void GameOver()
     {
@@ -152,6 +141,21 @@ public class Player : MonoBehaviour
             Destroy(gameObject); //destroi o jogador
             //Destroy(barrinhaTras); //destroi a barra de vida
         }
+    }
+
+    public void AddVidaToda(int quantidade)
+    {
+        maxVida += quantidade;
+        // vidaAtual = vidaMaxima; // opcional: enche a vida ao ganhar
+        Atualizarbarra();
+
+    }
+
+    public void AddVida(int quantidade)
+    {
+        maxVida += quantidade;
+        vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida); // soma só 1
+        Atualizarbarra();
     }
 
     public void BarradeVida(int amount)
@@ -191,33 +195,37 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void ResetVida(int amor)
+    void Atualizarbarra()
     {
-        if (amor > 0)
-        {
-            vidaAtual = Mathf.Clamp(vidaAtual + amor, 0, maxVida);
-            if (vidaAtual == 1)
-            {
-                barra3.SetActive(true);
-            }
-            if (vidaAtual == 2)
-            {
-                barra2.SetActive(true);
-            }
-            if (vidaAtual == 3)
-            {
-                barra1.SetActive(true);
-            }
-            if (vidaAtual == 4)
-            {
-                barra0.SetActive(true);
-            }
-            if (vidaAtual == 5)
-            {
-                barra.SetActive(true);
-            }
+        // Aplica dano ou cura
+    vidaAtual = Mathf.Clamp(vidaAtual + amountt, 0, maxVida);
 
-        }
+    // Atualiza visual conforme o valor da vida
+    if (vidaAtual == 4)
+    {
+        barra0.SetActive(true);
+        barra.SetActive(false);
+    }
+    else if (vidaAtual == 3)
+    {
+        barra1.SetActive(true);
+        barra0.SetActive(false);
+    }
+    else if (vidaAtual == 2)
+    {
+        barra2.SetActive(true);
+        barra1.SetActive(false);
+    }
+    else if (vidaAtual == 1)
+    {
+        barra3.SetActive(true);
+        barra2.SetActive(false);
+    }
+    else if (vidaAtual == 0)
+    {
+        barra4.SetActive(true);
+        barra3.SetActive(false);
+    }
+}
     }
 
-}

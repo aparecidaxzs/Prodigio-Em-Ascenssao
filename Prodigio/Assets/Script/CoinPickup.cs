@@ -13,7 +13,7 @@ public class CoinPickup : MonoBehaviour
             else
                 Debug.LogWarning("CoinManager.instance é null — verifique se CoinManager está na cena.");
 
-            Destroy(gameObject); // remove a moeda
+            DontDestroyOnLoad(gameObject);
         }
     }
 }

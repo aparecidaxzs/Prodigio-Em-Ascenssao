@@ -22,10 +22,11 @@ public class Energia : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Player")
+         Player player = collider.GetComponent<Player>();
+        if (player != null)
         {
-            Destroy(gameObject);
-            //Player.instance.ResetVida();
+            player.AddVida(1); // Dá +1 de vida máxima
+            Destroy(gameObject); // Destroi o coração
         }
     }
 }
