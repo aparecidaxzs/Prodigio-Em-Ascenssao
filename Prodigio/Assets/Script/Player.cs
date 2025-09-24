@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using UnityEngine.UI;
 using System;
 using JetBrains.Annotations;
+using UnityEditor.Experimental.GraphView;
 
 
 
@@ -24,7 +25,7 @@ public class Player : MonoBehaviour
 
 
     public int maxVida = 5; //maxima de vida do jogador 
-    public int vidaAtual; //vai atualizar a barra de vida 
+    int vidaAtual; //vai atualizar a barra de vida 
     public int amountt;
 
 
@@ -46,7 +47,7 @@ public class Player : MonoBehaviour
         rig = GetComponent<Rigidbody2D>();
         vidaAtual = maxVida; //quando dá start, a vida atual é a quatidade do maximo de  vida que o jogador tem 
         instance = this;
-
+        BarradeVida(vidaAtual+1);
     }
 
     // Update is called once per frame
@@ -122,6 +123,8 @@ public class Player : MonoBehaviour
             Destroy(gameObject); //destroi o jogador
         }
 
+        
+
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -129,6 +132,15 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
         {
             isJump = true; //se saiu do chão, marca que está no ar
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "EnergiaRara")
+        {
+            vidaAtual = maxVida;
+            Atualizarbarra();
         }
     }
 
@@ -143,18 +155,17 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void AddVidaToda(int quantidade)
+    public void AddVidaToda()
     {
-        maxVida += quantidade;
-        // vidaAtual = vidaMaxima; // opcional: enche a vida ao ganhar
+        vidaAtual = 5;
         Atualizarbarra();
-
     }
 
     public void AddVida(int quantidade)
     {
         maxVida += quantidade;
         vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida); // soma só 1
+        Debug.Log(maxVida);
         Atualizarbarra();
     }
 
@@ -200,32 +211,62 @@ public class Player : MonoBehaviour
         // Aplica dano ou cura
     vidaAtual = Mathf.Clamp(vidaAtual + amountt, 0, maxVida);
 
-    // Atualiza visual conforme o valor da vida
-    if (vidaAtual == 4)
-    {
-        barra0.SetActive(true);
-        barra.SetActive(false);
-    }
-    else if (vidaAtual == 3)
-    {
-        barra1.SetActive(true);
-        barra0.SetActive(false);
-    }
-    else if (vidaAtual == 2)
-    {
-        barra2.SetActive(true);
-        barra1.SetActive(false);
-    }
-    else if (vidaAtual == 1)
-    {
-        barra3.SetActive(true);
-        barra2.SetActive(false);
-    }
-    else if (vidaAtual == 0)
-    {
-        barra4.SetActive(true);
-        barra3.SetActive(false);
-    }
+        // Atualiza visual conforme o valor da vida
+        if (vidaAtual == 5)
+        {
+            barra.SetActive(true);
+            barra0.SetActive(false);
+            barra1.SetActive(false);
+            barra2.SetActive(false);
+            barra3.SetActive(false);
+            barra4.SetActive(false);
+        }
+        else if (vidaAtual == 4)
+        {
+            barra0.SetActive(true);
+            barra.SetActive(false);
+            barra1.SetActive(false);
+            barra2.SetActive(false);
+            barra3.SetActive(false);
+            barra4.SetActive(false);
+        }
+        else if (vidaAtual == 3)
+        {
+            barra1.SetActive(true);
+            barra.SetActive(false);
+            barra0.SetActive(false);
+            barra2.SetActive(false);
+            barra3.SetActive(false);
+            barra4.SetActive(false);
+        }
+        else if (vidaAtual == 2)
+        {
+            barra2.SetActive(true);
+            barra.SetActive(false);
+            barra0.SetActive(false);
+            barra1.SetActive(false);
+            barra3.SetActive(false);
+            barra4.SetActive(false);
+
+        }
+        else if (vidaAtual == 1)
+        {
+            barra3.SetActive(true);
+            barra.SetActive(false);
+            barra0.SetActive(false);
+            barra1.SetActive(false);
+            barra2.SetActive(false);
+            barra4.SetActive(false);
+        }
+        else if (vidaAtual == 0)
+        {
+            barra4.SetActive(true);
+            barra.SetActive(false);
+            barra0.SetActive(false);
+            barra1.SetActive(false);
+            barra2.SetActive(false);
+            barra3.SetActive(false);
+        }
 }
     }
 

@@ -23,7 +23,7 @@ public class EnergiaRara : MonoBehaviour
          Player player = collider.GetComponent<Player>();
         if (player != null)
         {
-            player.AddVidaToda(1); // Dá +1 de vida máxima
+            player.AddVidaToda(); // Dá +1 de vida máxima
             Destroy(gameObject); // Destroi o coração
         }
     }
