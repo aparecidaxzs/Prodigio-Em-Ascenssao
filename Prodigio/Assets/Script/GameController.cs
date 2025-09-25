@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
 
     public GameObject menu; //menu de pausa
 
-    
+
     // Start é chamado antes do primeiro frame
     void Start()
     {
@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour
     public void ShowGameOver()
     {
         gameOver.SetActive(true); //ativa a tela de Game Over
-        
+
     }
 
     public void ShowVitoria()
@@ -68,5 +68,11 @@ public class GameController : MonoBehaviour
     {
         //só funciona dentro da Unity (sai do modo play)
         UnityEditor.EditorApplication.ExitPlaymode();
+    }
+    
+    public void Voltar()
+    {
+        menu.SetActive(false); //fecha o menu de pausa
+        //Time.timeScale = 1f; //retoma o tempo do jogo
     }
 }
