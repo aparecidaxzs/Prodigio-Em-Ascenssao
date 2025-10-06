@@ -9,6 +9,7 @@ using UnityEditor.Experimental.GraphView;
 
 
 
+
 public class Player : MonoBehaviour
 {
     public float velocidade; //velocidade de movimento do jogador
@@ -41,13 +42,16 @@ public class Player : MonoBehaviour
     public static Player instance;
 
 
+    public Animator anim;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         vidaAtual = maxVida; //quando dá start, a vida atual é a quatidade do maximo de  vida que o jogador tem 
         instance = this;
-        BarradeVida(vidaAtual+1);
+        BarradeVida(vidaAtual + 1);
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -76,6 +80,7 @@ public class Player : MonoBehaviour
             transform.eulerAngles = new Vector3(0f, 180f, 0f); //vira para a esquerda
 
         }
+        anim.SetBool("idle", false);
 
     }
 
@@ -99,6 +104,7 @@ public class Player : MonoBehaviour
                     doubleJump = false; //consome o segundo pulo
                 }
             }
+            anim.SetBool("idle", false);
         }
     }
 
