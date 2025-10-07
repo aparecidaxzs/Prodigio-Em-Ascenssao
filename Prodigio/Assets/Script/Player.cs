@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
     public static Player instance;
 
 
-    public Animator anim;
+    private Animator anim;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

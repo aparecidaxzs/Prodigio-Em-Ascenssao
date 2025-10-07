@@ -1,0 +1,3067 @@
+fileFormatVersion: 2
+guid: 5d48d1da924589f4b83b422cb8d68d79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4477378588062993782
+    second: Run_Caminhada_tex_0
+  - first:
+      213: 3448381621590230661
+    second: Run_Caminhada_tex_1
+  - first:
+      213: 484033947994842121
+    second: Run_Caminhada_tex_2
+  - first:
+      213: 7395592062937841410
+    second: Run_Caminhada_tex_3
+  - first:
+      213: -3805834104027182734
+    second: Run_Caminhada_tex_4
+  - first:
+      213: -4869278477820533430
+    second: Run_Caminhada_tex_5
+  - first:
+      213: 6640738749412126976
+    second: Run_Caminhada_tex_6
+  - first:
+      213: 4859063850607118482
+    second: Run_Caminhada_tex_7
+  - first:
+      213: 912065605761158747
+    second: Run_Caminhada_tex_8
+  - first:
+      213: 8208429581407134701
+    second: Run_Caminhada_tex_9
+  - first:
+      213: -6530046877587883471
+    second: Run_Caminhada_tex_10
+  - first:
+      213: -1946777626934406770
+    second: Run_Caminhada_tex_11
+  - first:
+      213: 6414723457631437057
+    second: Run_Caminhada_tex_12
+  - first:
+      213: 4036374012681840788
+    second: Run_Caminhada_tex_13
+  - first:
+      213: -3615517514536825701
+    second: Run_Caminhada_tex_14
+  - first:
+      213: -1810872000117825932
+    second: Run_Caminhada_tex_15
+  - first:
+      213: -6186010367821256040
+    second: Run_Caminhada_tex_16
+  - first:
+      213: -7003827841657909690
+    second: Run_Caminhada_tex_17
+  - first:
+      213: -3384201913489404588
+    second: Run_Caminhada_tex_18
+  - first:
+      213: -6159224230966001186
+    second: Run_Caminhada_tex_19
+  - first:
+      213: -5553983608163380676
+    second: Run_Caminhada_tex_20
+  - first:
+      213: -4029502565249273857
+    second: Run_Caminhada_tex_21
+  - first:
+      213: 4707450329877414733
+    second: Run_Caminhada_tex_22
+  - first:
+      213: -9034167933522849088
+    second: Run_Caminhada_tex_23
+  - first:
+      213: 8291627367673235515
+    second: Run_Caminhada_tex_24
+  - first:
+      213: 918723248986872022
+    second: Run_Caminhada_tex_25
+  - first:
+      213: 1639886374732418988
+    second: Run_Caminhada_tex_26
+  - first:
+      213: -5834137242582092003
+    second: Run_Caminhada_tex_27
+  - first:
+      213: -4086664504973103551
+    second: Run_Caminhada_tex_28
+  - first:
+      213: 3060864967124146406
+    second: Run_Caminhada_tex_29
+  - first:
+      213: -2748881034641437299
+    second: Run_Caminhada_tex_30
+  - first:
+      213: 9485085297962295
+    second: Run_Caminhada_tex_31
+  - first:
+      213: 7608968580808394293
+    second: Run_Caminhada_tex_32
+  - first:
+      213: -1985393206143797652
+    second: Run_Caminhada_tex_33
+  - first:
+      213: -4004927638103449984
+    second: Run_Caminhada_tex_34
+  - first:
+      213: 570270894700051231
+    second: Run_Caminhada_tex_35
+  - first:
+      213: 5289681987176644380
+    second: Run_Caminhada_tex_36
+  - first:
+      213: 4480054361869369716
+    second: Run_Caminhada_tex_37
+  - first:
+      213: 8099148508925633865
+    second: Run_Caminhada_tex_38
+  - first:
+      213: -4440169934652298390
+    second: Run_Caminhada_tex_39
+  - first:
+      213: 8964237693670998872
+    second: Run_Caminhada_tex_40
+  - first:
+      213: 8027537245536622015
+    second: Run_Caminhada_tex_41
+  - first:
+      213: 5608833229894852109
+    second: Run_Caminhada_tex_42
+  - first:
+      213: -2970899505270500499
+    second: Run_Caminhada_tex_43
+  - first:
+      213: -6283702409928696169
+    second: Run_Caminhada_tex_44
+  - first:
+      213: -161867606194610614
+    second: Run_Caminhada_tex_45
+  - first:
+      213: 2133476597363269028
+    second: Run_Caminhada_tex_46
+  - first:
+      213: -8424042273516990905
+    second: Run_Caminhada_tex_47
+  - first:
+      213: 2409822779969718918
+    second: Run_Caminhada_tex_48
+  - first:
+      213: -2997713075260104627
+    second: Run_Caminhada_tex_49
+  - first:
+      213: 7461357280886775141
+    second: Run_Caminhada_tex_50
+  - first:
+      213: -91322290565252103
+    second: Run_Caminhada_tex_51
+  - first:
+      213: -5413119518320149303
+    second: Run_Caminhada_tex_52
+  - first:
+      213: 4130334503957194393
+    second: Run_Caminhada_tex_53
+  - first:
+      213: -3409444890816625414
+    second: Run_Caminhada_tex_54
+  - first:
+      213: 6042933882953424612
+    second: Run_Caminhada_tex_55
+  - first:
+      213: -8808420460539843823
+    second: Run_Caminhada_tex_56
+  - first:
+      213: -6303581591199950025
+    second: Run_Caminhada_tex_57
+  - first:
+      213: -6519394628368965163
+    second: Run_Caminhada_tex_58
+  - first:
+      213: -6304059685189083676
+    second: Run_Caminhada_tex_59
+  - first:
+      213: -4643477881724288367
+    second: Run_Caminhada_tex_60
+  - first:
+      213: -550776729194460451
+    second: Run_Caminhada_tex_61
+  - first:
+      213: 2268177483788809131
+    second: Run_Caminhada_tex_62
+  - first:
+      213: 1753722855580629925
+    second: Run_Caminhada_tex_63
+  - first:
+      213: -6447867162053638784
+    second: Run_Caminhada_tex_64
+  - first:
+      213: 4048150692840470099
+    second: Run_Caminhada_tex_65
+  - first:
+      213: -6314682821181222893
+    second: Run_Caminhada_tex_66
+  - first:
+      213: -6137788516212924953
+    second: Run_Caminhada_tex_67
+  - first:
+      213: 735158568871610923
+    second: Run_Caminhada_tex_68
+  - first:
+      213: -6221888970434593211
+    second: Run_Caminhada_tex_69
+  - first:
+      213: 527746538097357183
+    second: Run_Caminhada_tex_70
+  - first:
+      213: 1243045683140280994
+    second: Run_Caminhada_tex_71
+  - first:
+      213: -1051095642983984850
+    second: Run_Caminhada_tex_72
+  - first:
+      213: 9131893191411138459
+    second: Run_Caminhada_tex_73
+  - first:
+      213: -4875733234633780429
+    second: Run_Caminhada_tex_74
+  - first:
+      213: -3386747301309973544
+    second: Run_Caminhada_tex_75
+  - first:
+      213: 7331677420272750926
+    second: Run_Caminhada_tex_76
+  - first:
+      213: 4948160258311649716
+    second: Run_Caminhada_tex_77
+  - first:
+      213: 626749133623197963
+    second: Run_Caminhada_tex_78
+  - first:
+      213: -2263417415177211112
+    second: Run_Caminhada_tex_79
+  - first:
+      213: -7216332089291636198
+    second: Run_Caminhada_tex_80
+  - first:
+      213: -804302698045157038
+    second: Run_Caminhada_tex_81
+  - first:
+      213: 1268336907244595532
+    second: Run_Caminhada_tex_82
+  - first:
+      213: 5841796559111699439
+    second: Run_Caminhada_tex_83
+  - first:
+      213: -1707411009770433196
+    second: Run_Caminhada_tex_84
+  - first:
+      213: -2811699090420956641
+    second: Run_Caminhada_tex_85
+  - first:
+      213: -7809344274426334902
+    second: Run_Caminhada_tex_86
+  - first:
+      213: -3744615088978228487
+    second: Run_Caminhada_tex_87
+  - first:
+      213: 933110011350635738
+    second: Run_Caminhada_tex_88
+  - first:
+      213: 6113866357812187836
+    second: Run_Caminhada_tex_89
+  - first:
+      213: -3474822547991930311
+    second: Run_Caminhada_tex_90
+  - first:
+      213: -6385233524462129139
+    second: Run_Caminhada_tex_91
+  - first:
+      213: 4553941959701112563
+    second: Run_Caminhada_tex_92
+  - first:
+      213: -1556796377495943203
+    second: Run_Caminhada_tex_93
+  - first:
+      213: 1247289227053586715
+    second: Run_Caminhada_tex_94
+  - first:
+      213: 971041512719212068
+    second: Run_Caminhada_tex_95
+  - first:
+      213: 8853633634908287382
+    second: Run_Caminhada_tex_96
+  - first:
+      213: 498788795895882824
+    second: Run_Caminhada_tex_97
+  - first:
+      213: -2251516815044333198
+    second: Run_Caminhada_tex_98
+  - first:
+      213: 5712782020349767563
+    second: Run_Caminhada_tex_99
+  - first:
+      213: -1286787857978388704
+    second: Run_Caminhada_tex_100
+  - first:
+      213: -3293652011666758630
+    second: Run_Caminhada_tex_101
+  - first:
+      213: 3930682607757490862
+    second: Run_Caminhada_tex_102
+  - first:
+      213: -5257768739059644109
+    second: Run_Caminhada_tex_103
+  - first:
+      213: 3391953732942206768
+    second: Run_Caminhada_tex_104
+  - first:
+      213: -4937230952259280458
+    second: Run_Caminhada_tex_105
+  - first:
+      213: -5896978713883823717
+    second: Run_Caminhada_tex_106
+  - first:
+      213: -8806209390625041574
+    second: Run_Caminhada_tex_107
+  - first:
+      213: -3505138853099919734
+    second: Run_Caminhada_tex_108
+  - first:
+      213: -4127054574210592900
+    second: Run_Caminhada_tex_109
+  - first:
+      213: -7352340299569835586
+    second: Run_Caminhada_tex_110
+  - first:
+      213: -806538490245468912
+    second: Run_Caminhada_tex_111
+  - first:
+      213: -8245860799030324627
+    second: Run_Caminhada_tex_112
+  - first:
+      213: 3385657930829818679
+    second: Run_Caminhada_tex_113
+  - first:
+      213: -7986447593831093662
+    second: Run_Caminhada_tex_114
+  - first:
+      213: -8297614913540537555
+    second: Run_Caminhada_tex_115
+  - first:
+      213: 3441804177048329494
+    second: Run_Caminhada_tex_116
+  - first:
+      213: -8837120643317787506
+    second: Run_Caminhada_tex_117
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1761
+        width: 179
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82b09575e72dd1c0800000000000000
+      internalID: -4477378588062993782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1759
+        width: 168
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5860fd480dc1bdf20800000000000000
+      internalID: 3448381621590230661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1764
+        width: 169
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9046679af42a7b600800000000000000
+      internalID: 484033947994842121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1765
+        width: 154
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fbb173ccb62a660800000000000000
+      internalID: 7395592062937841410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_4
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1760
+        width: 162
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279846beb06fe2bc0800000000000000
+      internalID: -3805834104027182734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_5
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1763
+        width: 141
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a456d01e509dc6cb0800000000000000
+      internalID: -4869278477820533430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_6
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1752
+        width: 133
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001b1ec55b4a82c50800000000000000
+      internalID: 6640738749412126976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_7
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1758
+        width: 141
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2980164e3dcde6340800000000000000
+      internalID: 4859063850607118482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_8
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1758
+        width: 138
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ece3b06de48ac00800000000000000
+      internalID: 912065605761158747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_9
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1753
+        width: 131
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3a493d6333ae170800000000000000
+      internalID: 8208429581407134701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_10
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1753
+        width: 131
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ab9b666fc9065a0800000000000000
+      internalID: -6530046877587883471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_11
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1756
+        width: 126
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8195e11018abf4e0800000000000000
+      internalID: -1946777626934406770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_12
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1756
+        width: 118
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101cc708ffca50950800000000000000
+      internalID: 6414723457631437057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_13
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1756
+        width: 118
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498e48667c4140830800000000000000
+      internalID: 4036374012681840788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_14
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1760
+        width: 112
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c44d2f9f913ddc0800000000000000
+      internalID: -3615517514536825701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_15
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 1761
+        width: 112
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e9643a28d7ed6e0800000000000000
+      internalID: -1810872000117825932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_16
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 1754
+        width: 100
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a61296850e62aa0800000000000000
+      internalID: -6186010367821256040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_17
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1752
+        width: 97
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e4df59fa76dce90800000000000000
+      internalID: -7003827841657909690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_18
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 1753
+        width: 96
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d444a3a46e801d0800000000000000
+      internalID: -3384201913489404588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1474
+        width: 179
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed10b45e13a068aa0800000000000000
+      internalID: -6159224230966001186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1474
+        width: 161
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32541ba5594ce2b0800000000000000
+      internalID: -5553983608163380676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_21
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1473
+        width: 168
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffaac024c45418c0800000000000000
+      internalID: -4029502565249273857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_22
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1475
+        width: 162
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4383264229345140800000000000000
+      internalID: 4707450329877414733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_23
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1186
+        width: 162
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c25529212030a280800000000000000
+      internalID: -9034167933522849088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_24
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1475
+        width: 161
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b380214f827c11370800000000000000
+      internalID: 8291627367673235515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_25
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1187
+        width: 154
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d851c66de5ffbc00800000000000000
+      internalID: 918723248986872022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_26
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1475
+        width: 154
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafcde528fb02c610800000000000000
+      internalID: 1639886374732418988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_27
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1185
+        width: 141
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d177405a61bf80fa0800000000000000
+      internalID: -5834137242582092003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_28
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1465
+        width: 139
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e61e8e8404947c0800000000000000
+      internalID: -4086664504973103551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_29
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1471
+        width: 136
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e85fde68706a7a20800000000000000
+      internalID: 3060864967124146406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_30
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1458
+        width: 131
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d836063430ad9d0800000000000000
+      internalID: -2748881034641437299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_31
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1459
+        width: 130
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d69d382a2b12000800000000000000
+      internalID: 9485085297962295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_32
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1461
+        width: 126
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53641363c9c789960800000000000000
+      internalID: 7608968580808394293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_33
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1463
+        width: 120
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c663358e5677274e0800000000000000
+      internalID: -1985393206143797652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_34
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1463
+        width: 120
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e13bb3883ab68c0800000000000000
+      internalID: -4004927638103449984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_35
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1463
+        width: 118
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b37587b520ae700800000000000000
+      internalID: 570270894700051231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_36
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1466
+        width: 101
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f327ccdb9b86940800000000000000
+      internalID: 5289681987176644380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_37
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 1467
+        width: 101
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c9ada4b95c2e30800000000000000
+      internalID: 4480054361869369716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_38
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 1460
+        width: 100
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945a5a168a4f56070800000000000000
+      internalID: 8099148508925633865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_39
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1460
+        width: 98
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b2eae28f85162c0800000000000000
+      internalID: -4440169934652298390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1186
+        width: 175
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8534d6510be576c70800000000000000
+      internalID: 8964237693670998872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 898
+        width: 175
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb59d65d79a876f60800000000000000
+      internalID: 8027537245536622015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_42
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1185
+        width: 168
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e1a401b1496dd40800000000000000
+      internalID: 5608833229894852109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_43
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1184
+        width: 166
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63d7f4f3ae35c6d0800000000000000
+      internalID: -2970899505270500499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_44
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1176
+        width: 160
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e1fed53fdcbc8a0800000000000000
+      internalID: -6283702409928696169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_45
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 895
+        width: 156
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e9020154ee0cdf0800000000000000
+      internalID: -161867606194610614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_46
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 898
+        width: 154
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad527269a1ab9d10800000000000000
+      internalID: 2133476597363269028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_47
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1171
+        width: 138
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e452a4f2ac71b80800000000000000
+      internalID: -8424042273516990905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_48
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1172
+        width: 125
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a4db3fc09617120800000000000000
+      internalID: 2409822779969718918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_49
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1168
+        width: 127
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40e39237dbf566d0800000000000000
+      internalID: -2997713075260104627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_50
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1167
+        width: 126
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dd78d3ae01c8760800000000000000
+      internalID: 7461357280886775141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_51
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1169
+        width: 124
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb78ce4cde8bbef0800000000000000
+      internalID: -91322290565252103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_52
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1169
+        width: 108
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc3bcf5a7cb0e4b0800000000000000
+      internalID: -5413119518320149303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_53
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1169
+        width: 108
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99668ef0955e15930800000000000000
+      internalID: 4130334503957194393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_54
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1169
+        width: 102
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4ca919fe73fa0d0800000000000000
+      internalID: -3409444890816625414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_55
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 1177
+        width: 103
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee5c968950dcd350800000000000000
+      internalID: 6042933882953424612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_56
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 1164
+        width: 97
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b6d39924432c580800000000000000
+      internalID: -8808420460539843823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_57
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 1165
+        width: 97
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bd5dbc0fd2588a0800000000000000
+      internalID: -6303581591199950025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_58
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 898
+        width: 168
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d16a7170257685a0800000000000000
+      internalID: -6519394628368965163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_59
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 890
+        width: 163
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed917ddd1b7388a0800000000000000
+      internalID: -6304059685189083676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_60
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 887
+        width: 162
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192c071087d0f8fb0800000000000000
+      internalID: -4643477881724288367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_61
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 901
+        width: 139
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda00d1ab7f3b58f0800000000000000
+      internalID: -550776729194460451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_62
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 895
+        width: 141
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba375c8776f2a7f10800000000000000
+      internalID: 2268177483788809131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_63
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 880
+        width: 134
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abfd5145a9765810800000000000000
+      internalID: 1753722855580629925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_64
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 880
+        width: 134
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08503e67af29486a0800000000000000
+      internalID: -6447867162053638784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_65
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 881
+        width: 127
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356f10c6b9bed2830800000000000000
+      internalID: 4048150692840470099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_66
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 870
+        width: 123
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3105b364e6dbd58a0800000000000000
+      internalID: -6314682821181222893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_67
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 870
+        width: 114
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed18a82dd132daa0800000000000000
+      internalID: -6137788516212924953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_68
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 880
+        width: 110
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4d27c2dec33a00800000000000000
+      internalID: 735158568871610923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_69
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 880
+        width: 105
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e335542f867a9a0800000000000000
+      internalID: -6221888970434593211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_70
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 874
+        width: 101
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f713cb62eaee25700800000000000000
+      internalID: 527746538097357183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_71
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 880
+        width: 97
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2c82f767f204110800000000000000
+      internalID: 1243045683140280994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_72
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 869
+        width: 97
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e219af6e412c961f0800000000000000
+      internalID: -1051095642983984850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 175
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f7ed889700bbe70800000000000000
+      internalID: 9131893191411138459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_74
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 612
+        width: 168
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3335612b47ae55cb0800000000000000
+      internalID: -4875733234633780429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_75
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 604
+        width: 167
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbf761f54bdff0d0800000000000000
+      internalID: -3386747301309973544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_76
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 593
+        width: 157
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e411c13d4c95fb560800000000000000
+      internalID: 7331677420272750926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_77
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 596
+        width: 156
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9fe58d9856ba440800000000000000
+      internalID: 4948160258311649716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_78
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 601
+        width: 151
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0105e03409a2b800800000000000000
+      internalID: 626749133623197963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_79
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 608
+        width: 148
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813fded5ad9b690e0800000000000000
+      internalID: -2263417415177211112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_80
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 602
+        width: 139
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a120584d2307adb90800000000000000
+      internalID: -7216332089291636198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_81
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 589
+        width: 134
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251512f15fa86d4f0800000000000000
+      internalID: -804302698045157038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_82
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 588
+        width: 133
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49e4db72b90a9110800000000000000
+      internalID: 1268336907244595532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_83
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 588
+        width: 133
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febb3f3f40b321150800000000000000
+      internalID: 5841796559111699439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_84
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 573
+        width: 123
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455da0d9bbe0e48e0800000000000000
+      internalID: -1707411009770433196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_85
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 571
+        width: 114
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f128b240396daf8d0800000000000000
+      internalID: -2811699090420956641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_86
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 582
+        width: 106
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41761212c2af9390800000000000000
+      internalID: -7809344274426334902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_87
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 582
+        width: 106
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa82e89a64780cc0800000000000000
+      internalID: -3744615088978228487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_88
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 590
+        width: 104
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad45aea8c9213fc00800000000000000
+      internalID: 933110011350635738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_89
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 582
+        width: 99
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb25b9d4f01d8d450800000000000000
+      internalID: 6113866357812187836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_90
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 583
+        width: 97
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a5c619d43f6cfc0800000000000000
+      internalID: -3474822547991930311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_91
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 574
+        width: 95
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00f48e90f71367a0800000000000000
+      internalID: -6385233524462129139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 174
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f62bb3a51ad23f30800000000000000
+      internalID: 4553941959701112563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 172
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd74db361f5256ae0800000000000000
+      internalID: -1556796377495943203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_94
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 34
+        width: 169
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1953be81f24f4110800000000000000
+      internalID: 1247289227053586715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_95
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 322
+        width: 169
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e59cb6c15d97d00800000000000000
+      internalID: 971041512719212068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_96
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 34
+        width: 169
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691b824e1ec6eda70800000000000000
+      internalID: 8853633634908287382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_97
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 307
+        width: 161
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844a15564cd0ce600800000000000000
+      internalID: 498788795895882824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_98
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 307
+        width: 155
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271b671c26101c0e0800000000000000
+      internalID: -2251516815044333198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_99
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 311
+        width: 148
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8faf2adaf0e74f40800000000000000
+      internalID: 5712782020349767563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_100
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 314
+        width: 145
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f89e7c249642ee0800000000000000
+      internalID: -1286787857978388704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_101
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 314
+        width: 122
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a142ad622f89a42d0800000000000000
+      internalID: -3293652011666758630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_102
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 277
+        width: 110
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaaf03091079c8630800000000000000
+      internalID: 3930682607757490862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_103
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 277
+        width: 110
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339423d4037a807b0800000000000000
+      internalID: -5257768739059644109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_104
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 277
+        width: 110
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0379492e2f3a21f20800000000000000
+      internalID: 3391953732942206768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_105
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 295
+        width: 102
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1a5848b9e6b7bb0800000000000000
+      internalID: -4937230952259280458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_106
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 291
+        width: 98
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b913aee6a19b92ea0800000000000000
+      internalID: -5896978713883823717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_107
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 18
+        width: 155
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53d51e673f0ac580800000000000000
+      internalID: -8806209390625041574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_108
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 18
+        width: 155
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a862f8cb8ce3b5fc0800000000000000
+      internalID: -3505138853099919734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_109
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 18
+        width: 150
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fc6871bb1c9b6c0800000000000000
+      internalID: -4127054574210592900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_110
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 21
+        width: 148
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1d950b37d37f990800000000000000
+      internalID: -7352340299569835586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_111
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 23
+        width: 146
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d2d3f24899ec4f0800000000000000
+      internalID: -806538490245468912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_112
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 23
+        width: 146
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d629a7eaa41d09d80800000000000000
+      internalID: -8245860799030324627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_113
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 29
+        width: 149
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b681a33f54cfe20800000000000000
+      internalID: 3385657930829818679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_114
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 23
+        width: 145
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aac683a307a2190800000000000000
+      internalID: -7986447593831093662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_115
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 23
+        width: 145
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23ce63e233f8dc80800000000000000
+      internalID: -8297614913540537555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_116
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 1
+        width: 102
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ddb6fd9aeb3cf20800000000000000
+      internalID: 3441804177048329494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Caminhada_tex_117
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 1
+        width: 102
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8495c1989d3c5580800000000000000
+      internalID: -8837120643317787506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
