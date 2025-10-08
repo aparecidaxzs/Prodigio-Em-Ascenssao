@@ -12,6 +12,7 @@ using UnityEditor.Experimental.GraphView;
 
 public class Player : MonoBehaviour
 {
+    [Header("Movimentação")]
     public float velocidade; //velocidade de movimento do jogador
     public float jumpForce; //força do pulo
     public bool isJump; //checa se o jogador está no ar
@@ -24,14 +25,12 @@ public class Player : MonoBehaviour
     //public Image barrinhaFrente; //barra de vida que vai diminuir mais devagar 
     //public Image barrinhaTras; //barra de vida que diminui mais rapido
 
-
+    [Header("Vida do Player")]
     public int maxVida = 5; //maxima de vida do jogador 
     int vidaAtual; //vai atualizar a barra de vida 
-    public int amountt;
+    private int amountt;
 
-
-
-
+    [Header("Barra de Vida")]
     public GameObject barra;
     public GameObject barra0;
     public GameObject barra1;
@@ -63,6 +62,7 @@ public class Player : MonoBehaviour
 
     }
 
+    
     void Move()
     {
         float input = Input.GetAxisRaw("Horizontal"); //pegando input do jogador (esquerda/direita)
