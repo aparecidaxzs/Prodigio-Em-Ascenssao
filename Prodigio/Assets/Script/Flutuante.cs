@@ -11,6 +11,7 @@ public class Flutuante : MonoBehaviour
     void Start()
     {
         target = GetComponent<TargetJoint2D>(); //pega o TargetJoint2D da plataforma
+        
         boxColl = GetComponent<BoxCollider2D>(); //pega o BoxCollider2D da plataforma
     }
 
