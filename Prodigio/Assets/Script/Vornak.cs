@@ -3,9 +3,9 @@ using System.Collections;
 using UnityEngine.Scripting.APIUpdating;
 using System.Collections.ObjectModel;
 using UnityEngine.UI;
-using System;
 using JetBrains.Annotations;
 using UnityEditor.Experimental.GraphView;
+
 
 public class Vornak : MonoBehaviour
 {
@@ -68,7 +68,7 @@ public class Vornak : MonoBehaviour
             Defender();
         }
     }
-    
+
     void Mover(float distancia)
     {
         if (player.position.x > transform.position.x)
@@ -90,23 +90,106 @@ public class Vornak : MonoBehaviour
         {
             //anim.SetBool("andando", false);
         }
+    }
 
-        void EscolherAtaque(float distancia)
+
+    void EscolherAtaque(float distancia)
+    {
+        if (defendendo) return;
+
+        proximoAtaque = Time.time + tempoAtaques;
+        int tipoAtaque = Random.Range(0, 3);
+
+        if (distancia < distanciaAtaque)
         {
-            if (defendendo) return;
-
-            proximoAtaque = Time.time + tempoAtaques;
-            int tipoAtaque = Random.Range(0, 3);
-
-            if(distancia < distanciaAtaque)
+            if (tipoAtaque == 0)
             {
-                if (tipoAtaque == 0)
-                {
-                    //anim.SetTrigger("soco");
-                }
-                
+                //anim.SetTrigger("soco");
+            }
+            else
+            {
+                //anim.SetTrigger("chute");
             }
         }
-        
+        else if (distancia <= distanciaPoder)
+        {
+            //anim.SetTrigger("ataqueProdigio");
+        }
     }
+
+    void Defender()
+    {
+        defendendo = true;
+        //anim.SetTrigger("defesa");
+        Debug.Log("boss se defendeu!");
+        Invoke(nameof(EncerrarDefesa), tempoDefesa);
+    }
+
+    void EncerrarDefesa()
+    {
+        defendendo = false;
+        Debug.Log("Boss parou de defender");
+    }
+
+    public void AtacarPeito()
+    {
+        GameObject poder = Instantiate(prefabPoderPeito, ataquePeito.position, ataquePeito.rotation);
+        BossProjectile proj = poder.GetComponent<BossProjectile>();
+        proj.DefinirDirecao(transform.eulerAngles.y == 0 ? Vector2.right : Vector2.left);
+    }
+
+    public void TomarDano(int dano)
+    {
+        if (morto) return;
+
+        if (defendendo)
+        {
+            Debug.Log("Dano bloqueado");
+            return;
+        }
+
+        if (modoRaiva)
+            dano = Mathf.RoundToInt(dano * danoRaiva);
+
+        vidaAtual -= dano;
+        //anim.SetTrigger("Hit");
+
+        if (vidaAtual <= vidaMax / 2 && !modoRaiva)
+        {
+            EntrarModoRaiva();
+        }
+
+        if (vidaAtual <= 0)
+        {
+            Morrer();
+        }
+    }
+
+    void EntrarModoRaiva()
+    {
+        modoRaiva = true;
+        Debug.Log("MODO RAIVA!");
+    }
+
+    void Morrer()
+    {
+        morto = true;
+        //anim.SetTrigger(morreu)
+        rb.linearVelocityY = Vector2.zero;
+        GetComponent<Collider2D>().enabled = false;
+        Destroy(gameObject, 3f);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Chão"))
+            noChao = true;
+    }
+
+    private void OCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Chão"))
+            noChao = false;
+    }
+
 }
