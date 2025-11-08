@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections; // Adicionado para usar Coroutine
 
 public class EnemyAI : MonoBehaviour
 {
@@ -14,13 +15,9 @@ public class EnemyAI : MonoBehaviour
     private Transform player;               // Referência ao Player
     private bool isChasing = false;         // Se está perseguindo
 
-    [Header("Ataque")]
-    public float attackRange = 0.5f;        // Raio da área de ataque
-    public int attackDamage = 1;            // Dano causado ao Player
-    public float attackRate = 1f;           // Ataques por segundo
-    public Transform attackPoint;           // Ponto de ataque (empty child)
-    public LayerMask playerLayer;           // Layer do Player
-    private float nextAttackTime = 0f;
+    [Header("Ataque e Dano")]
+    public int dano = -1;                   // Dano causado ao Player (valor negativo, como no seu script)
+    public float attackAnimationDuration = 0.5f; // Duração da animação de ataque (se usada)
 
     [Header("Vida do Inimigo")]
     public int maxHealth = 3;               // Vida máxima
@@ -50,12 +47,6 @@ public class EnemyAI : MonoBehaviour
         {
             // Persegue o Player
             ChasePlayer();
-            // Tenta atacar se estiver próximo
-            if (distanceToPlayer <= attackRange && Time.time >= nextAttackTime)
-            {
-                Attack();
-                nextAttackTime = Time.time + 1f / attackRate;
-            }
         }
         else
         {
@@ -63,11 +54,11 @@ public class EnemyAI : MonoBehaviour
             Patrol();
         }
 
-        // Animações (opcional)
+        // Animações
         if (anim != null)
         {
-            anim.SetBool("isWalking", rb.linearVelocity.magnitude > 0.1f);
-            anim.SetBool("isAttacking", isChasing && distanceToPlayer <= attackRange);
+            // "run": Ativado durante perseguição (corrida)
+            anim.SetBool("run", isChasing && rb.linearVelocity.magnitude > 0.1f);
         }
     }
 
@@ -107,19 +98,31 @@ public class EnemyAI : MonoBehaviour
             Flip();
     }
 
-    void Attack()
+    // Dano via colisão (baseado no seu script)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Detecta o Player na área de ataque
-        Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerLayer);
-
-        foreach (Collider2D playerHit in hitPlayers)
+        Player playerScript = collision.gameObject.GetComponent<Player>();
+        if (playerScript != null)
         {
-            if (playerHit.CompareTag("Player"))
+            playerScript.BarradeVida(dano); // Aplica dano no Player
+            Debug.Log("Inimigo deu dano ao Player!");
+
+            // Opcional: Ativa animação de ataque na colisão
+            if (anim != null)
             {
-                // Causa dano ao Player usando o método existente
-                Player.instance.BarradeVida(-attackDamage);
-                Debug.Log("Inimigo atacou o Player!");
+                anim.SetBool("ataque", true);
+                StartCoroutine(ResetAttackAnimation());
             }
+        }
+    }
+
+    // Coroutine para resetar a animação de ataque (se usada)
+    IEnumerator ResetAttackAnimation()
+    {
+        yield return new WaitForSeconds(attackAnimationDuration);
+        if (anim != null)
+        {
+            anim.SetBool("ataque", false);
         }
     }
 
@@ -153,11 +156,5 @@ public class EnemyAI : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange); // Área de detecção
-
-        if (attackPoint != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(attackPoint.position, attackRange); // Área de ataque
-        }
     }
 }

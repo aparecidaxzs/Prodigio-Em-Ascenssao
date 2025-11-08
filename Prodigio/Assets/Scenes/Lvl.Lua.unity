@@ -3095,7 +3095,7 @@ Transform:
   m_GameObject: {fileID: 436147437}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.62, y: 0.7, z: 0}
+  m_LocalPosition: {x: 11.62, y: 7.34, z: 0}
   m_LocalScale: {x: 0.2671878, y: 0.2671878, z: 0.2671878}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3162,7 +3162,7 @@ TargetJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_Anchor: {x: 11.982576, y: -2.1990488}
-  m_Target: {x: 11.62, y: 0.7}
+  m_Target: {x: 11.62, y: 7.34}
   m_AutoConfigureTarget: 1
   m_MaxForce: 10000
   m_DampingRatio: 1
@@ -11034,16 +11034,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolSpeed: 2
-  patrolDistance: 5
-  detectionRange: 3
+  patrolDistance: 2
+  detectionRange: 3.68
   chaseSpeed: 3
-  attackRange: 0.5
-  attackDamage: 1
-  attackRate: 1
-  attackPoint: {fileID: 20218498}
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 0
+  dano: -1
+  attackAnimationDuration: 0.5
   maxHealth: 3
 --- !u!95 &1750415135
 Animator:
@@ -11204,7 +11199,7 @@ Transform:
   m_GameObject: {fileID: 1750415133}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.6, y: -3.43, z: 0}
+  m_LocalPosition: {x: 11.5, y: -2.42, z: 0}
   m_LocalScale: {x: 0.17841983, y: 0.17841983, z: 0.17841983}
   m_ConstrainProportionsScale: 0
   m_Children:
