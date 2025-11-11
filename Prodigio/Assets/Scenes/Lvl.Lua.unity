@@ -1499,9 +1499,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2866378741415053479, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
+      propertyPath: m_Size.x
+      value: 5.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866378741415053479, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
+      propertyPath: m_Size.y
+      value: 11.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866378741415053479, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5147274338526168628, guid: 796595cf7595a344589a55204bb3492a, type: 3}
+      objectReference: {fileID: -4403650448663201948, guid: 54a467d4b3f68a5448d55f6405be0b66, type: 3}
     - target: {fileID: 2866378741415053479, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -1516,6 +1524,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2866378741415053479, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866378741415053479, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4556915027257366828, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
@@ -9311,7 +9323,7 @@ Animator:
   m_GameObject: {fileID: 1251222886}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 96a65867cdf85bf49b7e53471e174b67, type: 2}
+  m_Controller: {fileID: 9100000, guid: 326a9237a6b35dc4794d6b9cb6611d5e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11038,13 +11050,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolSpeed: 2
+  chaseSpeed: 3
   patrolDistance: 2
-  detectionRange: 2.9
-  yThreshold: 0.5
-  chaseSpeed: 2
-  dano: -1
-  attackAnimationDuration: 50
   maxHealth: 3
+  damageToPlayer: 1
+  detectionRange: 2.9
+  attackRange: 1.5
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  attackCooldown: 1.5
+  attackPoint: {fileID: 0}
+  attackRadius: 0.8
 --- !u!95 &1750415135
 Animator:
   serializedVersion: 7

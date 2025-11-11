@@ -1,191 +1,216 @@
 using UnityEngine;
-using System.Collections; // Adicionado para usar Coroutine
+using System.Collections;
 
 public class EnemyAI : MonoBehaviour
 {
-    [Header("Movimentação e Patrulha")]
-    public float patrolSpeed = 2f;          // Velocidade de patrulha
-    public float patrolDistance = 5f;       // Distância máxima de patrulha (ida e volta)
-    private Vector3 startPosition;           // Posição inicial
-    private bool movingRight = true;        // Direção inicial
+    [Header("Configurações Gerais")]
+    public float patrolSpeed = 2f;
+    public float chaseSpeed = 3f;
+    public float patrolDistance = 4f;
+    public int maxHealth = 3;
+    public int damageToPlayer = 1;
 
-    [Header("Detecção e Perseguição")]
-    public float detectionRange = 3f;       // Alcance para detectar o Player
-    public float yThreshold = 0.5f;         // Diferença máxima no eixo Y para perseguir (foca no eixo X)
-    public float chaseSpeed = 3f;           // Velocidade ao perseguir
-    private Transform player;               // Referência ao Player
-    private bool isChasing = false;         // Se está perseguindo
+    [Header("Detecção do Player")]
+    public float detectionRange = 6f;
+    public float attackRange = 1.5f;
+    public LayerMask playerLayer;
 
-    [Header("Ataque e Dano")]
-    public int dano = -1;                   // Dano causado ao Player (valor negativo, como no seu script)
-    public float attackAnimationDuration = 0.5f; // Duração da animação de ataque
-    private bool isAttacking = false;       // Flag para controlar se está atacando (evita conflitos)
+    [Header("Ataque")]
+    public float attackCooldown = 1.5f;
+    private float nextAttackTime = 0f;
+    public Transform attackPoint;
+    public float attackRadius = 0.8f;
 
-    [Header("Vida do Inimigo")]
-    public int maxHealth = 3;               // Vida máxima
+    [Header("Referências")]
+    private Animator anim;
+    private Rigidbody2D rig;
+    private Transform player;
+    private SpriteRenderer spriteRenderer;
+
+    private Vector3 startPos;
+    private bool movingRight = true;
     private int currentHealth;
-
-    private Rigidbody2D rb;
-    private Animator anim;                  // Opcional, para animações
+    private bool isDead = false;
+    private bool isTakingDamage = false;
+    private bool isAttacking = false;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();    // Se não tiver, pode remover
-        startPosition = transform.position;
+        startPos = transform.position;
+        rig = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
-        player = GameObject.FindGameObjectWithTag("Player")?.transform; // Encontra o Player pela tag
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
     }
 
     void Update()
     {
-        if (player == null) return; // Se não encontrou o Player, não faz nada
+        if (isDead || player == null || isTakingDamage) return;
 
-        // Verifica se o Player está no alcance de detecção e alinhado no eixo Y
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-        float yDifference = Mathf.Abs(player.position.y - transform.position.y);
-        isChasing = distanceToPlayer <= detectionRange && yDifference <= yThreshold; // Só persegue se Y estiver próximo
 
-        if (isChasing && !isAttacking) // Não persegue se estiver atacando
+        if (distanceToPlayer <= detectionRange)
         {
-            // Persegue o Player (foco no eixo X)
-            ChasePlayer();
+            ChasePlayer(distanceToPlayer);
         }
-        else if (!isAttacking) // Só patrulha se não estiver atacando
+        else
         {
-            // Patrulla
             Patrol();
         }
-
-        // Atualiza animações (sempre, para evitar travamentos)
-        UpdateAnimations();
     }
 
     void Patrol()
     {
-        // Move para a direita ou esquerda
-        if (movingRight)
-        {
-            rb.linearVelocity = new Vector2(patrolSpeed, rb.linearVelocity.y);
-            if (transform.position.x >= startPosition.x + patrolDistance)
-            {
-                movingRight = false;
-                Flip(); // Vira o sprite
-            }
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(-patrolSpeed, rb.linearVelocity.y);
-            if (transform.position.x <= startPosition.x - patrolDistance)
-            {
-                movingRight = true;
-                Flip(); // Vira o sprite
-            }
-        }
-    }
+        if (isAttacking) return;
 
-    void ChasePlayer()
-    {
-        // Move em direção ao Player (apenas no eixo X, já que Y é verificado)
-        Vector2 direction = (player.position - transform.position).normalized;
-        rb.linearVelocity = new Vector2(direction.x * chaseSpeed, rb.linearVelocity.y); // Mantém Y inalterado
-    }
+        anim.SetBool("Run", true);
+        float move = movingRight ? 1 : -1;
+        rig.linearVelocity = new Vector2(move * patrolSpeed, rig.linearVelocity.y);
 
-    // Dano via colisão (baseado no seu script)
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Player playerScript = collision.gameObject.GetComponent<Player>();
-        if (playerScript != null && !isAttacking) // Só ataca se não estiver já atacando
-        {
-            // Vira o sprite para o lado do Player durante o ataque
-            FlipTowardsPlayer();
-
-            playerScript.BarradeVida(dano); // Aplica dano no Player
-            Debug.Log("Inimigo deu dano ao Player!");
-
-            // Ativa animação de ataque (só quando detectado via colisão)
-            if (anim != null)
-            {
-                isAttacking = true; // Flag para bloquear outras ações
-                anim.SetBool("ataque", true);
-                Debug.Log("Animação 'ataque' ativada!");
-                StartCoroutine(ResetAttackAnimation());
-            }
-        }
-    }
-
-    // Coroutine para resetar a animação de ataque
-    IEnumerator ResetAttackAnimation()
-    {
-        yield return new WaitForSeconds(attackAnimationDuration);
-        if (anim != null)
-        {
-            anim.SetBool("ataque", false);
-            Debug.Log("Animação 'ataque' resetada!");
-        }
-        isAttacking = false; // Libera para outras ações
-    }
-
-    // Método para atualizar animações (centralizado para evitar conflitos)
-    void UpdateAnimations()
-    {
-        if (anim == null) return;
-
-        bool isMoving = rb.linearVelocity.magnitude > 0.1f;
-
-        // "run": Ativado sempre que estiver se movendo (patrulha OU perseguição), mas não durante ataque
-        bool runState = isMoving && !isAttacking;
-        anim.SetBool("run", runState);
-
-        // Logs para debug (remova em produção)
-        if (runState) Debug.Log("Estado: run (ativado na patrulha ou perseguição)");
-        if (isAttacking) Debug.Log("Estado: ataque");
-    }
-
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        Debug.Log("Inimigo recebeu dano! Vida restante: " + currentHealth);
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        // Aqui você pode adicionar efeitos, como animação de morte ou som
-        Destroy(gameObject);
+        if (movingRight && transform.position.x >= startPos.x + patrolDistance)
+            Flip();
+        else if (!movingRight && transform.position.x <= startPos.x - patrolDistance)
+            Flip();
     }
 
     void Flip()
     {
-        // Vira o sprite (inverte a escala X)
+        movingRight = !movingRight;
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
     }
 
-    void FlipTowardsPlayer()
+    void ChasePlayer(float distanceToPlayer)
     {
-        // Vira o sprite baseado na posição do Player
-        if (player.position.x > transform.position.x)
+        if (isAttacking) return;
+
+        if (distanceToPlayer > attackRange)
         {
-            // Player à direita: vira para a direita (escala X positiva)
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            anim.SetBool("Run", true);
+            anim.SetBool("Attack", false);
+
+            Vector2 direction = (player.position - transform.position).normalized;
+            rig.linearVelocity = new Vector2(direction.x * chaseSpeed, rig.linearVelocity.y);
+
+            // vira na direção do player
+            if ((direction.x > 0 && transform.localScale.x < 0) ||
+                (direction.x < 0 && transform.localScale.x > 0))
+                Flip();
         }
-        else if (player.position.x < transform.position.x)
+        else
         {
-            // Player à esquerda: vira para a esquerda (escala X negativa)
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            rig.linearVelocity = Vector2.zero;
+            anim.SetBool("Run", false);
+            AttackPlayer();
         }
     }
 
-    // Gizmos para visualizar áreas no Editor
+    void AttackPlayer()
+    {
+        if (Time.time < nextAttackTime || isAttacking) return;
+
+        isAttacking = true;
+        anim.SetTrigger("Attack");
+        nextAttackTime = Time.time + attackCooldown;
+
+        // Dano aplicado no meio da animação
+        StartCoroutine(AttackRoutine());
+    }
+
+    IEnumerator AttackRoutine()
+    {
+        yield return new WaitForSeconds(0.4f); // tempo do golpe
+        DealDamageToPlayer();
+        yield return new WaitForSeconds(0.5f); // espera fim da animação
+        isAttacking = false;
+    }
+
+    void DealDamageToPlayer()
+    {
+        Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, playerLayer);
+        foreach (Collider2D playerCol in hitPlayers)
+        {
+            Player playerScript = playerCol.GetComponent<Player>();
+            if (playerScript != null)
+            {
+                playerScript.BarradeVida(-damageToPlayer);
+            }
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (isDead) return;
+
+        currentHealth -= damage;
+
+        if (currentHealth > 0)
+        {
+            StartCoroutine(BlinkEffect(0.1f, 3)); // pisca ao levar dano
+        }
+        else
+        {
+            StartCoroutine(DieBlink());
+        }
+    }
+
+    IEnumerator BlinkEffect(float blinkSpeed, int times)
+    {
+        isTakingDamage = true;
+        for (int i = 0; i < times; i++)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(blinkSpeed);
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(blinkSpeed);
+        }
+        isTakingDamage = false;
+    }
+
+    IEnumerator DieBlink()
+    {
+        isDead = true;
+        rig.linearVelocity = Vector2.zero;
+        rig.bodyType = RigidbodyType2D.Kinematic; // impede queda
+        rig.gravityScale = 0f;                    // remove gravidade
+        GetComponent<Collider2D>().enabled = false;
+
+        for (int i = 0; i < 3; i++)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(0.2f);
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(0.2f);
+        }
+
+        Destroy(gameObject);
+    }
+
     void OnDrawGizmosSelected()
     {
+        if (attackPoint != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
+        }
+
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, detectionRange); // Área de detecção
+        Gizmos.DrawWireSphere(transform.position, detectionRange);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (isDead) return;
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Player playerScript = collision.gameObject.GetComponent<Player>();
+            if (playerScript != null)
+            {
+                playerScript.BarradeVida(-damageToPlayer);
+            }
+        }
     }
 }
