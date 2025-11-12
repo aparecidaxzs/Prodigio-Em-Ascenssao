@@ -14,6 +14,8 @@ public class PlayerAttack : MonoBehaviour
     public float attackRate = 2f;        // Número de ataques por segundo (ex.: 2f = 1 ataque a cada 0.5 segundos)
     private float nextAttackTime = 0f;   // Tempo até o próximo ataque permitido (calculado internamente)
 
+    private Animator anim;
+
     // Método chamado a cada frame do jogo
     void Update()
     {
@@ -42,7 +44,8 @@ public class PlayerAttack : MonoBehaviour
             return; // Sai do método sem executar o ataque
         }
 
-        // Aqui você pode chamar a animação de ataque no futuro (ex.: animator.SetTrigger("Attack");)
+        ///////////////////////////////////
+        anim.SetBool("AtaqueCorpo", true);
 
         // Detecta todos os inimigos na área circular do ataque (usando a Layer especificada)
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);

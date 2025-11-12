@@ -7,9 +7,6 @@ using System;
 using JetBrains.Annotations;
 using UnityEditor.Experimental.GraphView;
 
-
-
-
 public class Player : MonoBehaviour
 {
     [Header("Movimentação")]
@@ -17,10 +14,6 @@ public class Player : MonoBehaviour
     public float jumpForce; //força do pulo
     public bool isJump; //checa se o jogador está no ar
     public bool doubleJump; //checa se o jogador pode usar o segundo pulo
-
-    private Rigidbody2D rig; //referência ao rigidbody do jogador
-
-    private GameObject coinColetar; //referência para guardar a moeda coletada (ainda não está em uso)
 
     //public Image barrinhaFrente; //barra de vida que vai diminuir mais devagar 
     //public Image barrinhaTras; //barra de vida que diminui mais rapido
@@ -39,9 +32,10 @@ public class Player : MonoBehaviour
     public GameObject barra4;
 
     public static Player instance;
-
-
     private Animator anim;
+    private Rigidbody2D rig; //referência ao rigidbody do jogador
+
+    private GameObject coinColetar; //referência para guardar a moeda coletada (ainda não está em uso)
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -65,6 +59,7 @@ public class Player : MonoBehaviour
     
     void Move()
     {
+        
         float input = Input.GetAxisRaw("Horizontal"); //pegando input do jogador (esquerda/direita)
 
         rig.linearVelocity = new Vector2(input * velocidade, rig.linearVelocity.y); //movimentando no eixo X, mantendo Y
@@ -72,15 +67,21 @@ public class Player : MonoBehaviour
         if (input > 0f)
         {
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
+            anim.SetBool("Run", true);
 
         }
 
         else if (input < 0f)
         {
             transform.eulerAngles = new Vector3(0f, 180f, 0f); //vira para a esquerda
+            anim.SetBool("Run", true);
 
         }
-        anim.SetBool("idle", false);
+        if(input == 0f)
+        {
+            anim.SetBool("Run", false);
+        }
+
 
     }
 
@@ -88,12 +89,13 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            
             if (isJump == false) //se não está no ar
             {
                 rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //aplica força para pular
                 doubleJump = true; //habilita o segundo pulo
                 isJump = true; //marca que está no ar
-
+                anim.SetBool("Jump", true);
             }
 
             else
@@ -102,10 +104,13 @@ public class Player : MonoBehaviour
                 {
                     rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //pula de novo
                     doubleJump = false; //consome o segundo pulo
+                    anim.SetBool("Jump", true);
                 }
             }
-            anim.SetBool("idle", false);
+            //anim.SetBool("idle", false);
         }
+        
+        
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -114,6 +119,7 @@ public class Player : MonoBehaviour
         {
             isJump = false; //quando encosta no chão, pode pular de novo
             doubleJump = false; //reseta o segundo pulo
+            anim.SetBool("Jump", false);
 
         }
 
@@ -121,6 +127,7 @@ public class Player : MonoBehaviour
         {
             GameController.instance.ShowGameOver(); //chama a tela de game over
             Destroy(gameObject); //destroi o jogador
+            
         }
 
         if (collision.gameObject.tag == "Vitoria") //quando encosta no objeto de "Vitória"
