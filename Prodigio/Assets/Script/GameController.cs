@@ -12,6 +12,9 @@ public class GameController : MonoBehaviour
 
     public GameObject menu; //menu de pausa
 
+    public GameObject creditos;
+    private string jogarFase = "Lvl.Lua";
+
 
     // Start é chamado antes do primeiro frame
     void Start()
@@ -69,10 +72,22 @@ public class GameController : MonoBehaviour
         //só funciona dentro da Unity (sai do modo play)
         UnityEditor.EditorApplication.ExitPlaymode();
     }
-    
+
     public void Voltar()
     {
         menu.SetActive(false); //fecha o menu de pausa
         //Time.timeScale = 1f; //retoma o tempo do jogo
+        
+
+    }
+
+    public void Credito()
+    {
+        creditos.SetActive(true);
+    }
+
+    public void VoltarDeNovo()
+    {
+        creditos.SetActive(false);
     }
 }
