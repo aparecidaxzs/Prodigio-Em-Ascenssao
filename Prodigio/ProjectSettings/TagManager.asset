@@ -15,6 +15,7 @@ TagManager:
   - Energia
   - EnergiaRara
   - Enemy
+  - Checkpoints
   layers:
   - Default
   - TransparentFX
