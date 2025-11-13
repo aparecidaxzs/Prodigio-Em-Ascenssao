@@ -1531,12 +1531,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4556915027257366828, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
+      propertyPath: m_Size.x
+      value: 4.3086543
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556915027257366828, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_Size.y
       value: 11.829014
       objectReference: {fileID: 0}
     - target: {fileID: 4556915027257366828, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.554815
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556915027257366828, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_Offset.y
-      value: 0.032887697
+      value: 0.03288746
       objectReference: {fileID: 0}
     - target: {fileID: 4556915027257366828, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -11066,9 +11074,9 @@ MonoBehaviour:
   attackRange: 1.5
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   attackCooldown: 1.5
-  attackPoint: {fileID: 0}
+  attackPoint: {fileID: 20218498}
   attackRadius: 0.8
 --- !u!95 &1750415135
 Animator:
@@ -11126,7 +11134,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -1.2597517, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11136,7 +11144,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 12.23, y: 16.31}
+  m_Size: {x: 9.710496, y: 16.31}
   m_EdgeRadius: 0
 --- !u!50 &1750415137
 Rigidbody2D:

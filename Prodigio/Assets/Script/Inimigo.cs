@@ -2,24 +2,32 @@ using UnityEngine;
 
 public class Inimigo : MonoBehaviour
 {
+    [Header("Atributos de Vida")]
     public int maxHealth = 2;
     private int currentHealth;
 
-    public int dano = -1; // dano que o inimigo causa (valor negativo porque o SetVida do player espera isso)
-    public float velocidade = 2f; // velocidade de movimento do inimigo
-    public Transform[] pontosPatrulha; // lista de pontos que o inimigo vai patrulhar
-    private int indiceAtual = 0; // índice do ponto de patrulha atual
-
-    public float distanciaDeteccao = 5f; // distância para detectar o player
-    public float tempoEntreAtaques = 2f; // tempo entre ataques (se necessário para animações futuras)
+    [Header("Ataque")]
+    public int dano = -1; // dano que o inimigo causa
+    public float tempoEntreAtaques = 2f;
     private float ultimoAtaque = 0f;
 
-    private Transform player; // referência ao player
+    [Header("Movimentação")]
+    public float velocidade = 2f;
+    public Transform[] pontosPatrulha;
+    private int indiceAtual = 0;
+
+    [Header("Detecção do Player")]
+    public float distanciaDeteccao = 5f;
+    private Transform player;
+
+    private Animator anim;
+    private bool estaAtacando = false; // controla se a animação de ataque está ativa
 
     void Start()
     {
         currentHealth = maxHealth;
-        player = GameObject.FindGameObjectWithTag("Player").transform; // assume que o player tem a tag "Player"
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -30,13 +38,14 @@ public class Inimigo : MonoBehaviour
 
         if (distanciaParaPlayer <= distanciaDeteccao)
         {
-            // Player está perto: parar patrulha e perseguir
+            // Detectou o player → começa a perseguição e o ataque
             PerseguirPlayer();
-            // Aqui você pode adicionar lógica para animação de ataque com espada, se desejar
         }
         else
         {
-            // Player longe: voltar à patrulha
+            // Player longe → patrulha normal
+            anim.SetBool("ataque", false);
+            anim.SetBool("run", true);
             Patrulhar();
         }
     }
@@ -50,17 +59,35 @@ public class Inimigo : MonoBehaviour
 
         if (Vector2.Distance(transform.position, alvo.position) < 0.1f)
         {
-            indiceAtual++;
-            if (indiceAtual >= pontosPatrulha.Length)
-                indiceAtual = 0;
+            indiceAtual = (indiceAtual + 1) % pontosPatrulha.Length;
         }
     }
 
     void PerseguirPlayer()
     {
-        // Movimentar em direção ao player
+        anim.SetBool("run", false);
+        anim.SetBool("ataque", true);
+
+        // movimenta em direção ao player
         Vector2 direcao = (player.position - transform.position).normalized;
         transform.position = Vector2.MoveTowards(transform.position, player.position, velocidade * Time.deltaTime);
+    }
+
+    // CHAMADO PELO EVENTO DE ANIMAÇÃO
+    public void CausarDano()
+    {
+        if (player == null) return;
+
+        float distanciaParaPlayer = Vector2.Distance(transform.position, player.position);
+        if (distanciaParaPlayer < 1.5f) // só aplica dano se estiver próximo o suficiente
+        {
+            Player playerScript = player.GetComponent<Player>();
+            if (playerScript != null)
+            {
+                playerScript.BarradeVida(dano);
+                Debug.Log("Inimigo causou dano ao player!");
+            }
+        }
     }
 
     public void TakeDamage(int damage)
@@ -69,23 +96,12 @@ public class Inimigo : MonoBehaviour
         Debug.Log("Inimigo tomou dano! Vida atual: " + currentHealth);
 
         if (currentHealth <= 0)
-        {
             Die();
-        }
     }
 
     void Die()
     {
         Debug.Log("Inimigo morreu!");
         Destroy(gameObject);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Player playerScript = collision.gameObject.GetComponent<Player>();
-        if (playerScript != null)
-        {
-            playerScript.BarradeVida(dano); // aplica dano no player (ataque com espada)
-        }
     }
 }

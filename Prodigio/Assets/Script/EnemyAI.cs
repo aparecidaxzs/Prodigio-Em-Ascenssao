@@ -89,12 +89,11 @@ public class EnemyAI : MonoBehaviour
         if (distanceToPlayer > attackRange)
         {
             anim.SetBool("Run", true);
-            anim.SetBool("Attack", false);
+            anim.ResetTrigger("Attack");
 
             Vector2 direction = (player.position - transform.position).normalized;
             rig.linearVelocity = new Vector2(direction.x * chaseSpeed, rig.linearVelocity.y);
 
-            // vira na direção do player
             if ((direction.x > 0 && transform.localScale.x < 0) ||
                 (direction.x < 0 && transform.localScale.x > 0))
                 Flip();
@@ -115,20 +114,21 @@ public class EnemyAI : MonoBehaviour
         anim.SetTrigger("Attack");
         nextAttackTime = Time.time + attackCooldown;
 
-        // Dano aplicado no meio da animação
-        StartCoroutine(AttackRoutine());
+        StartCoroutine(ResetAttackState());
     }
 
-    IEnumerator AttackRoutine()
+    IEnumerator ResetAttackState()
     {
-        yield return new WaitForSeconds(0.4f); // tempo do golpe
-        DealDamageToPlayer();
-        yield return new WaitForSeconds(0.5f); // espera fim da animação
+        // espera o fim da animação antes de permitir outro ataque
+        yield return new WaitForSeconds(attackCooldown);
         isAttacking = false;
     }
 
-    void DealDamageToPlayer()
+    // ⚔️ ESTE MÉTODO SERÁ CHAMADO PELO EVENTO NA ANIMAÇÃO "ataque"
+    public void ApplyAttackDamage()
     {
+        if (isDead) return;
+
         Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, playerLayer);
         foreach (Collider2D playerCol in hitPlayers)
         {
@@ -148,7 +148,7 @@ public class EnemyAI : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            StartCoroutine(BlinkEffect(0.1f, 3)); // pisca ao levar dano
+            StartCoroutine(BlinkEffect(0.1f, 3));
         }
         else
         {
@@ -173,8 +173,8 @@ public class EnemyAI : MonoBehaviour
     {
         isDead = true;
         rig.linearVelocity = Vector2.zero;
-        rig.bodyType = RigidbodyType2D.Kinematic; // impede queda
-        rig.gravityScale = 0f;                    // remove gravidade
+        rig.bodyType = RigidbodyType2D.Kinematic;
+        rig.gravityScale = 0f;
         GetComponent<Collider2D>().enabled = false;
 
         for (int i = 0; i < 3; i++)
@@ -198,19 +198,5 @@ public class EnemyAI : MonoBehaviour
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (isDead) return;
-
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Player playerScript = collision.gameObject.GetComponent<Player>();
-            if (playerScript != null)
-            {
-                playerScript.BarradeVida(-damageToPlayer);
-            }
-        }
     }
 }
