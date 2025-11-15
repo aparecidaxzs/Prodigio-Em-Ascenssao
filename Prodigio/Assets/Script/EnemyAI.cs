@@ -64,7 +64,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (isAttacking) return;
 
-        anim.SetBool("Run", true);
+        anim.SetBool("run", true);
         float move = movingRight ? 1 : -1;
         rig.linearVelocity = new Vector2(move * patrolSpeed, rig.linearVelocity.y);
 
@@ -88,12 +88,13 @@ public class EnemyAI : MonoBehaviour
 
         if (distanceToPlayer > attackRange)
         {
-            anim.SetBool("Run", true);
-            anim.ResetTrigger("Attack");
+            anim.SetBool("run", true);
+            anim.SetBool("ataque", false);
 
             Vector2 direction = (player.position - transform.position).normalized;
             rig.linearVelocity = new Vector2(direction.x * chaseSpeed, rig.linearVelocity.y);
 
+            // vira na direção do player
             if ((direction.x > 0 && transform.localScale.x < 0) ||
                 (direction.x < 0 && transform.localScale.x > 0))
                 Flip();
@@ -101,7 +102,7 @@ public class EnemyAI : MonoBehaviour
         else
         {
             rig.linearVelocity = Vector2.zero;
-            anim.SetBool("Run", false);
+            anim.SetBool("run", false);
             AttackPlayer();
         }
     }
@@ -111,24 +112,23 @@ public class EnemyAI : MonoBehaviour
         if (Time.time < nextAttackTime || isAttacking) return;
 
         isAttacking = true;
-        anim.SetTrigger("Attack");
+        anim.SetTrigger("ataque");
         nextAttackTime = Time.time + attackCooldown;
 
-        StartCoroutine(ResetAttackState());
+        // Dano aplicado no meio da animação
+        StartCoroutine(AttackRoutine());
     }
 
-    IEnumerator ResetAttackState()
+    IEnumerator AttackRoutine()
     {
-        // espera o fim da animação antes de permitir outro ataque
-        yield return new WaitForSeconds(attackCooldown);
+        yield return new WaitForSeconds(0.4f); // tempo do golpe
+        DealDamageToPlayer();
+        yield return new WaitForSeconds(0.5f); // espera fim da animação
         isAttacking = false;
     }
 
-    // ⚔️ ESTE MÉTODO SERÁ CHAMADO PELO EVENTO NA ANIMAÇÃO "ataque"
-    public void ApplyAttackDamage()
+    void DealDamageToPlayer()
     {
-        if (isDead) return;
-
         Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, playerLayer);
         foreach (Collider2D playerCol in hitPlayers)
         {
@@ -148,7 +148,7 @@ public class EnemyAI : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            StartCoroutine(BlinkEffect(0.1f, 3));
+            StartCoroutine(BlinkEffect(0.1f, 3)); // pisca ao levar dano
         }
         else
         {
@@ -173,8 +173,8 @@ public class EnemyAI : MonoBehaviour
     {
         isDead = true;
         rig.linearVelocity = Vector2.zero;
-        rig.bodyType = RigidbodyType2D.Kinematic;
-        rig.gravityScale = 0f;
+        rig.bodyType = RigidbodyType2D.Kinematic; // impede queda
+        rig.gravityScale = 0f;                    // remove gravidade
         GetComponent<Collider2D>().enabled = false;
 
         for (int i = 0; i < 3; i++)
@@ -198,5 +198,19 @@ public class EnemyAI : MonoBehaviour
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (isDead) return;
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Player playerScript = collision.gameObject.GetComponent<Player>();
+            if (playerScript != null)
+            {
+                playerScript.BarradeVida(-damageToPlayer);
+            }
+        }
     }
 }

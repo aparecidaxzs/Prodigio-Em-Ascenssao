@@ -1,0 +1,3939 @@
+fileFormatVersion: 2
+guid: 73d7f5eae54b7204782fa41241f873b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -118525185786281607
+    second: EstrelasLua_0
+  - first:
+      213: 3960543982505500798
+    second: EstrelasLua_1
+  - first:
+      213: 2913610991022660697
+    second: EstrelasLua_2
+  - first:
+      213: -3231652276776945821
+    second: EstrelasLua_3
+  - first:
+      213: 3239258360517985068
+    second: EstrelasLua_4
+  - first:
+      213: -2102154791487969289
+    second: EstrelasLua_5
+  - first:
+      213: 2363818889093478678
+    second: EstrelasLua_6
+  - first:
+      213: 3701820261554379262
+    second: EstrelasLua_7
+  - first:
+      213: 5953552954715045184
+    second: EstrelasLua_8
+  - first:
+      213: 7925309615248926344
+    second: EstrelasLua_9
+  - first:
+      213: 6836159499929041378
+    second: EstrelasLua_10
+  - first:
+      213: 2470125744444610425
+    second: EstrelasLua_11
+  - first:
+      213: 555889739290089693
+    second: EstrelasLua_12
+  - first:
+      213: -687194666188101306
+    second: EstrelasLua_13
+  - first:
+      213: 1297167900483247372
+    second: EstrelasLua_14
+  - first:
+      213: 8720098659253408520
+    second: EstrelasLua_15
+  - first:
+      213: 6859034259445784087
+    second: EstrelasLua_16
+  - first:
+      213: -4170253161247473448
+    second: EstrelasLua_17
+  - first:
+      213: 4519512662552235048
+    second: EstrelasLua_18
+  - first:
+      213: 7907001317633150606
+    second: EstrelasLua_19
+  - first:
+      213: -2638762544864641884
+    second: EstrelasLua_20
+  - first:
+      213: -6169805419718866707
+    second: EstrelasLua_21
+  - first:
+      213: -3535921661421504438
+    second: EstrelasLua_22
+  - first:
+      213: -2952100395577040517
+    second: EstrelasLua_23
+  - first:
+      213: 6151546086757349547
+    second: EstrelasLua_24
+  - first:
+      213: -7158333267028285337
+    second: EstrelasLua_25
+  - first:
+      213: -4625430993946064832
+    second: EstrelasLua_26
+  - first:
+      213: 2203130854545619946
+    second: EstrelasLua_27
+  - first:
+      213: -4657662832250562616
+    second: EstrelasLua_28
+  - first:
+      213: -8867384895096170937
+    second: EstrelasLua_29
+  - first:
+      213: 2583499871662425434
+    second: EstrelasLua_30
+  - first:
+      213: -1919149895701341623
+    second: EstrelasLua_31
+  - first:
+      213: -7702220761218506677
+    second: EstrelasLua_32
+  - first:
+      213: 8386741085272546596
+    second: EstrelasLua_33
+  - first:
+      213: -6725601903900044872
+    second: EstrelasLua_34
+  - first:
+      213: 6913501610210607862
+    second: EstrelasLua_35
+  - first:
+      213: 5832965039279767011
+    second: EstrelasLua_36
+  - first:
+      213: 5875133562790732491
+    second: EstrelasLua_37
+  - first:
+      213: -1155241276692920840
+    second: EstrelasLua_38
+  - first:
+      213: 2433502596390242832
+    second: EstrelasLua_39
+  - first:
+      213: -8438928394428764641
+    second: EstrelasLua_40
+  - first:
+      213: 2027207220065127275
+    second: EstrelasLua_41
+  - first:
+      213: 6254977945044257944
+    second: EstrelasLua_42
+  - first:
+      213: -5538989460241453335
+    second: EstrelasLua_43
+  - first:
+      213: 6155642773017280548
+    second: EstrelasLua_44
+  - first:
+      213: 6636562947003617523
+    second: EstrelasLua_45
+  - first:
+      213: -4830856471582347228
+    second: EstrelasLua_46
+  - first:
+      213: 8463046028081705611
+    second: EstrelasLua_47
+  - first:
+      213: -46627737893725681
+    second: EstrelasLua_48
+  - first:
+      213: 7241428705580460862
+    second: EstrelasLua_49
+  - first:
+      213: 2233784083874166752
+    second: EstrelasLua_50
+  - first:
+      213: 8595512608889715926
+    second: EstrelasLua_51
+  - first:
+      213: -6405357238474487111
+    second: EstrelasLua_52
+  - first:
+      213: -505436262507054972
+    second: EstrelasLua_53
+  - first:
+      213: -7752184539659768676
+    second: EstrelasLua_54
+  - first:
+      213: 2450459707685640970
+    second: EstrelasLua_55
+  - first:
+      213: 3223271069199815076
+    second: EstrelasLua_56
+  - first:
+      213: -5803459338279421429
+    second: EstrelasLua_57
+  - first:
+      213: -6341702596160519738
+    second: EstrelasLua_58
+  - first:
+      213: 1946042856722420548
+    second: EstrelasLua_59
+  - first:
+      213: -3271673587241307082
+    second: EstrelasLua_60
+  - first:
+      213: 8496911763344250723
+    second: EstrelasLua_61
+  - first:
+      213: -4375179628949463299
+    second: EstrelasLua_62
+  - first:
+      213: 2607230715417762078
+    second: EstrelasLua_63
+  - first:
+      213: -7788008391683583896
+    second: EstrelasLua_64
+  - first:
+      213: 2891363784186626503
+    second: EstrelasLua_65
+  - first:
+      213: 4896440898596874807
+    second: EstrelasLua_66
+  - first:
+      213: -3355261292913569438
+    second: EstrelasLua_67
+  - first:
+      213: 2600961376885041685
+    second: EstrelasLua_68
+  - first:
+      213: 2865768182854542315
+    second: EstrelasLua_69
+  - first:
+      213: -5949247604824489226
+    second: EstrelasLua_70
+  - first:
+      213: -2150870650136842795
+    second: EstrelasLua_71
+  - first:
+      213: 8425798370869767608
+    second: EstrelasLua_72
+  - first:
+      213: -6455201890810604068
+    second: EstrelasLua_73
+  - first:
+      213: 948420431735071130
+    second: EstrelasLua_74
+  - first:
+      213: -4200490646987571599
+    second: EstrelasLua_75
+  - first:
+      213: -5609064204968485619
+    second: EstrelasLua_76
+  - first:
+      213: 537617029793780393
+    second: EstrelasLua_77
+  - first:
+      213: 5182796385013543768
+    second: EstrelasLua_78
+  - first:
+      213: 1020611996624252370
+    second: EstrelasLua_79
+  - first:
+      213: -1083390311095949465
+    second: EstrelasLua_80
+  - first:
+      213: -3253294363800885342
+    second: EstrelasLua_81
+  - first:
+      213: 5645523079869151807
+    second: EstrelasLua_82
+  - first:
+      213: -5451373314742002494
+    second: EstrelasLua_83
+  - first:
+      213: 2651841707645834998
+    second: EstrelasLua_84
+  - first:
+      213: 6364117373575003429
+    second: EstrelasLua_85
+  - first:
+      213: 1636130273181069024
+    second: EstrelasLua_86
+  - first:
+      213: -7565649493675979277
+    second: EstrelasLua_87
+  - first:
+      213: 3105995734520702995
+    second: EstrelasLua_88
+  - first:
+      213: 6052242066683319138
+    second: EstrelasLua_89
+  - first:
+      213: 9173810024326057509
+    second: EstrelasLua_90
+  - first:
+      213: 2405760334075421470
+    second: EstrelasLua_91
+  - first:
+      213: -3951581220196699893
+    second: EstrelasLua_92
+  - first:
+      213: -1829515918292108415
+    second: EstrelasLua_93
+  - first:
+      213: 2894993150970454938
+    second: EstrelasLua_94
+  - first:
+      213: -8022236081619397866
+    second: EstrelasLua_95
+  - first:
+      213: 6190245864746922657
+    second: EstrelasLua_96
+  - first:
+      213: -8622833104915793239
+    second: EstrelasLua_97
+  - first:
+      213: -3291418979619995
+    second: EstrelasLua_98
+  - first:
+      213: -3795090814539660277
+    second: EstrelasLua_99
+  - first:
+      213: 7817967408554743088
+    second: EstrelasLua_100
+  - first:
+      213: 2587749575342898817
+    second: EstrelasLua_101
+  - first:
+      213: -5479306990553978880
+    second: EstrelasLua_102
+  - first:
+      213: 950848410775985830
+    second: EstrelasLua_103
+  - first:
+      213: 5132971540343313792
+    second: EstrelasLua_104
+  - first:
+      213: 6654564102476677472
+    second: EstrelasLua_105
+  - first:
+      213: -1011268397896420039
+    second: EstrelasLua_106
+  - first:
+      213: -9194189650102995241
+    second: EstrelasLua_107
+  - first:
+      213: 5540854131945465580
+    second: EstrelasLua_108
+  - first:
+      213: -4874052601585504495
+    second: EstrelasLua_109
+  - first:
+      213: 7946555016513487528
+    second: EstrelasLua_110
+  - first:
+      213: 845881422639069526
+    second: EstrelasLua_111
+  - first:
+      213: -3926118317683562530
+    second: EstrelasLua_112
+  - first:
+      213: 1035786279609410272
+    second: EstrelasLua_113
+  - first:
+      213: 4274572824105930136
+    second: EstrelasLua_114
+  - first:
+      213: -8035682367326265245
+    second: EstrelasLua_115
+  - first:
+      213: 4880677655716830339
+    second: EstrelasLua_116
+  - first:
+      213: 5593675511219667629
+    second: EstrelasLua_117
+  - first:
+      213: 1315501551652298912
+    second: EstrelasLua_118
+  - first:
+      213: -4680084468950292407
+    second: EstrelasLua_119
+  - first:
+      213: -7032128956520120654
+    second: EstrelasLua_120
+  - first:
+      213: -6900093651653229682
+    second: EstrelasLua_121
+  - first:
+      213: -5360334666938863065
+    second: EstrelasLua_122
+  - first:
+      213: -1970215082007625617
+    second: EstrelasLua_123
+  - first:
+      213: 8156528424069552155
+    second: EstrelasLua_124
+  - first:
+      213: 4462368016765043032
+    second: EstrelasLua_125
+  - first:
+      213: -2661568648265509579
+    second: EstrelasLua_126
+  - first:
+      213: 3050101993241818090
+    second: EstrelasLua_127
+  - first:
+      213: 5346374509987531577
+    second: EstrelasLua_128
+  - first:
+      213: 899774709140581499
+    second: EstrelasLua_129
+  - first:
+      213: -753060486005328012
+    second: EstrelasLua_130
+  - first:
+      213: 95827396396871033
+    second: EstrelasLua_131
+  - first:
+      213: -6696265869231257744
+    second: EstrelasLua_132
+  - first:
+      213: -2368905526598530522
+    second: EstrelasLua_133
+  - first:
+      213: 2540040105475200662
+    second: EstrelasLua_134
+  - first:
+      213: -7610352851666694457
+    second: EstrelasLua_135
+  - first:
+      213: 5538893723966160887
+    second: EstrelasLua_136
+  - first:
+      213: 1473008146781476316
+    second: EstrelasLua_137
+  - first:
+      213: 4016388274090061636
+    second: EstrelasLua_138
+  - first:
+      213: -5302644820085643094
+    second: EstrelasLua_139
+  - first:
+      213: -2410854444740838636
+    second: EstrelasLua_140
+  - first:
+      213: -465247553090981914
+    second: EstrelasLua_141
+  - first:
+      213: 6993329699108248952
+    second: EstrelasLua_142
+  - first:
+      213: 8609887058923281982
+    second: EstrelasLua_143
+  - first:
+      213: 9220798090258600608
+    second: EstrelasLua_144
+  - first:
+      213: -4167143038280231374
+    second: EstrelasLua_145
+  - first:
+      213: 8370151538374769209
+    second: EstrelasLua_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EstrelasLua_0
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 4528
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9718544b8f9ea5ef0800000000000000
+      internalID: -118525185786281607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_1
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 4548
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e702d8aa4cda6f630800000000000000
+      internalID: 3960543982505500798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_2
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 4528
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c549562c93f6820800000000000000
+      internalID: 2913610991022660697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_3
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 4566
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367b025506dd623d0800000000000000
+      internalID: -3231652276776945821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_4
+      rect:
+        serializedVersion: 2
+        x: 6433
+        y: 4532
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23836a015824fc20800000000000000
+      internalID: 3239258360517985068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4462
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f76976da55a3d2e0800000000000000
+      internalID: -2102154791487969289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_6
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 4472
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61976cd61c8fdc020800000000000000
+      internalID: 2363818889093478678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_7
+      rect:
+        serializedVersion: 2
+        x: 5774
+        y: 4462
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9da403ae18f5330800000000000000
+      internalID: 3701820261554379262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_8
+      rect:
+        serializedVersion: 2
+        x: 7786
+        y: 4454
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d74497ed44f9250800000000000000
+      internalID: 5953552954715045184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_9
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 4419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88666efda1b5cfd60800000000000000
+      internalID: 7925309615248926344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_10
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 4318
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9be2d78daeede50800000000000000
+      internalID: 6836159499929041378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_11
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 4280
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9771b2cf646a74220800000000000000
+      internalID: 2470125744444610425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_12
+      rect:
+        serializedVersion: 2
+        x: 7125
+        y: 4287
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd89bacc5cae6b700800000000000000
+      internalID: 555889739290089693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_13
+      rect:
+        serializedVersion: 2
+        x: 7741
+        y: 4263
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649a05e87189676f0800000000000000
+      internalID: -687194666188101306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_14
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 4241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dd7523557700210800000000000000
+      internalID: 1297167900483247372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_15
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 4241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803d82f8783040970800000000000000
+      internalID: 8720098659253408520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_16
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 4241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e1088715f203f50800000000000000
+      internalID: 6859034259445784087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_17
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 4158
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0056448d84026c0800000000000000
+      internalID: -4170253161247473448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_18
+      rect:
+        serializedVersion: 2
+        x: 8150
+        y: 4187
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c4e4932d888be30800000000000000
+      internalID: 4519512662552235048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_19
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 4102
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ec1182ecf4bbd60800000000000000
+      internalID: 7907001317633150606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_20
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 4024
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acbcba327b316bd0800000000000000
+      internalID: -2638762544864641884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_21
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 3946
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de88068e8a2706aa0800000000000000
+      internalID: -6169805419718866707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_22
+      rect:
+        serializedVersion: 2
+        x: 5487
+        y: 4002
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48bc59abf1edeec0800000000000000
+      internalID: -3535921661421504438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_23
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 3931
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b712754c4580807d0800000000000000
+      internalID: -2952100395577040517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_24
+      rect:
+        serializedVersion: 2
+        x: 6457
+        y: 3944
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8bd98d29eae5550800000000000000
+      internalID: 6151546086757349547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_25
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3800
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768eae2f1dd78ac90800000000000000
+      internalID: -7158333267028285337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_26
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 3878
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04843c0840b2fcfb0800000000000000
+      internalID: -4625430993946064832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_27
+      rect:
+        serializedVersion: 2
+        x: 6834
+        y: 3873
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebf4eae6d7139e10800000000000000
+      internalID: 2203130854545619946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_28
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 3801
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c75a28d458ac5fb0800000000000000
+      internalID: -4657662832250562616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_29
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 3756
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746d0295b68b0f480800000000000000
+      internalID: -8867384895096170937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_30
+      rect:
+        serializedVersion: 2
+        x: 4186
+        y: 3743
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55c4bff17f6ad320800000000000000
+      internalID: 2583499871662425434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_31
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3725
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a5ef3865fcd55e0800000000000000
+      internalID: -1919149895701341623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_32
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 3693
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40aee996073c1590800000000000000
+      internalID: -7702220761218506677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_33
+      rect:
+        serializedVersion: 2
+        x: 4665
+        y: 3698
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d18da0590b36470800000000000000
+      internalID: 8386741085272546596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_34
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 3659
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1d851c3bcd9a2a0800000000000000
+      internalID: -6725601903900044872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_35
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 3590
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2c1bec511b1ff50800000000000000
+      internalID: 6913501610210607862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_36
+      rect:
+        serializedVersion: 2
+        x: 5284
+        y: 3573
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edfa818ccad2f050800000000000000
+      internalID: 5832965039279767011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_37
+      rect:
+        serializedVersion: 2
+        x: 7253
+        y: 3577
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2ed1af8daa88150800000000000000
+      internalID: 5875133562790732491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_38
+      rect:
+        serializedVersion: 2
+        x: 7522
+        y: 3598
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f589d8fd22c7ffe0800000000000000
+      internalID: -1155241276692920840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_39
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 3513
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ac4d9d7b985c120800000000000000
+      internalID: 2433502596390242832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_40
+      rect:
+        serializedVersion: 2
+        x: 6292
+        y: 3516
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ead1d2657e2ea80800000000000000
+      internalID: -8438928394428764641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_41
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 3437
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bc61ed936122c10800000000000000
+      internalID: 2027207220065127275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_42
+      rect:
+        serializedVersion: 2
+        x: 6885
+        y: 3420
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c044cfc452ec650800000000000000
+      internalID: 6254977945044257944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_43
+      rect:
+        serializedVersion: 2
+        x: 5468
+        y: 3382
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eeeca7ce6e8123b0800000000000000
+      internalID: -5538989460241453335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_44
+      rect:
+        serializedVersion: 2
+        x: 5991
+        y: 3382
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42045e1fc7c3d6550800000000000000
+      internalID: 6155642773017280548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_45
+      rect:
+        serializedVersion: 2
+        x: 8122
+        y: 3285
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f09ba996dec91c50800000000000000
+      internalID: 6636562947003617523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_46
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 3220
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420ff6252a955fcb0800000000000000
+      internalID: -4830856471582347228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_47
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 3219
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82379df587c27570800000000000000
+      internalID: 8463046028081705611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_48
+      rect:
+        serializedVersion: 2
+        x: 4324
+        y: 3183
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a1a26c1585a5ff0800000000000000
+      internalID: -46627737893725681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 3108
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ba07e7a09be7460800000000000000
+      internalID: 7241428705580460862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_50
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 3119
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7bd380acefffe10800000000000000
+      internalID: 2233784083874166752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_51
+      rect:
+        serializedVersion: 2
+        x: 5379
+        y: 3108
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc33434d25694770800000000000000
+      internalID: 8595512608889715926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_52
+      rect:
+        serializedVersion: 2
+        x: 6349
+        y: 3146
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba404557899b17a0800000000000000
+      internalID: -6405357238474487111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_53
+      rect:
+        serializedVersion: 2
+        x: 7662
+        y: 3146
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4887aaca5645cf8f0800000000000000
+      internalID: -505436262507054972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2992
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ced48eb35ba6490800000000000000
+      internalID: -7752184539659768676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_55
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 2966
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b920dfe18c10220800000000000000
+      internalID: 2450459707685640970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_56
+      rect:
+        serializedVersion: 2
+        x: 5864
+        y: 2992
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1d276b5fb5bbc20800000000000000
+      internalID: 3223271069199815076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_57
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 2878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a7e69da78f57fa0800000000000000
+      internalID: -5803459338279421429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_58
+      rect:
+        serializedVersion: 2
+        x: 7751
+        y: 2878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c10eaca61fbdf7a0800000000000000
+      internalID: -6341702596160519738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_59
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 2824
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44350a8eaabb10b10800000000000000
+      internalID: 1946042856722420548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_60
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 2715
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634347bd43ea892d0800000000000000
+      internalID: -3271673587241307082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_61
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 2761
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367d8fdea381be570800000000000000
+      internalID: 8496911763344250723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_62
+      rect:
+        serializedVersion: 2
+        x: 8043
+        y: 2762
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe11f3ee4d3843c0800000000000000
+      internalID: -4375179628949463299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_63
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2735
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1996ff958ebe2420800000000000000
+      internalID: 2607230715417762078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_64
+      rect:
+        serializedVersion: 2
+        x: 7177
+        y: 2660
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86050f161af6be390800000000000000
+      internalID: -7788008391683583896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_65
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2551
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c18fd8ea00302820800000000000000
+      internalID: 2891363784186626503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_66
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 2539
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73aaf880e07a3f340800000000000000
+      internalID: 4896440898596874807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_67
+      rect:
+        serializedVersion: 2
+        x: 5545
+        y: 2551
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261d44b81a7bf61d0800000000000000
+      internalID: -3355261292913569438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_68
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2474
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a6ebf7798781420800000000000000
+      internalID: 2600961376885041685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_69
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 2409
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be369a39af045c720800000000000000
+      internalID: 2865768182854542315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_70
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 2378
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2c799e2d6007da0800000000000000
+      internalID: -5949247604824489226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_71
+      rect:
+        serializedVersion: 2
+        x: 6667
+        y: 2343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dda7cc1a829622e0800000000000000
+      internalID: -2150870650136842795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_72
+      rect:
+        serializedVersion: 2
+        x: 7361
+        y: 2339
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bde1ccf9f27ee470800000000000000
+      internalID: 8425798370869767608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_73
+      rect:
+        serializedVersion: 2
+        x: 5307
+        y: 2296
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5ddc8d4148a66a0800000000000000
+      internalID: -6455201890810604068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_74
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 2177
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91aa439b57792d00800000000000000
+      internalID: 948420431735071130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_75
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 2177
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e74fff20cd4b5c0800000000000000
+      internalID: -4200490646987571599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_76
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 2241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d9e7cd2d99822b0800000000000000
+      internalID: -5609064204968485619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_77
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 2147
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a21f0617dff57700800000000000000
+      internalID: 537617029793780393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_78
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 1987
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85339ef3addfce740800000000000000
+      internalID: 5182796385013543768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_79
+      rect:
+        serializedVersion: 2
+        x: 6172
+        y: 2035
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd6a481431f92e00800000000000000
+      internalID: 1020611996624252370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_80
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1929
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767a60a804607f0f0800000000000000
+      internalID: -1083390311095949465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_81
+      rect:
+        serializedVersion: 2
+        x: 4345
+        y: 1873
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a72ed7430af9d2d0800000000000000
+      internalID: -3253294363800885342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_82
+      rect:
+        serializedVersion: 2
+        x: 7148
+        y: 1895
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3abed2745de85e40800000000000000
+      internalID: 5645523079869151807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_83
+      rect:
+        serializedVersion: 2
+        x: 7691
+        y: 1894
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc52c45ad4d854b0800000000000000
+      internalID: -5451373314742002494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_84
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1885
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f69bc8abfb3dc420800000000000000
+      internalID: 2651841707645834998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_85
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 1885
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d74d06803e15850800000000000000
+      internalID: 6364117373575003429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_86
+      rect:
+        serializedVersion: 2
+        x: 6758
+        y: 1856
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee683b90d3b4b610800000000000000
+      internalID: 1636130273181069024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_87
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1818
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd445abed9610790800000000000000
+      internalID: -7565649493675979277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_88
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1833
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3182cfd0aa6ba1b20800000000000000
+      internalID: 3105995734520702995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_89
+      rect:
+        serializedVersion: 2
+        x: 5788
+        y: 1818
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263d55fe712edf350800000000000000
+      internalID: 6052242066683319138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_90
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 1818
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e4fd8bc9bef4f70800000000000000
+      internalID: 9173810024326057509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_91
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1681
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e136a4f074af26120800000000000000
+      internalID: 2405760334075421470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_92
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 1681
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01321d01d92929c0800000000000000
+      internalID: -3951581220196699893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_93
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 1681
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb64b27f04c96e0800000000000000
+      internalID: -1829515918292108415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_94
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 1681
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9368c6bee41d2820800000000000000
+      internalID: 2894993150970454938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_95
+      rect:
+        serializedVersion: 2
+        x: 7484
+        y: 1635
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61311c299ca4ba090800000000000000
+      internalID: -8022236081619397866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_96
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 1527
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2329011db28e550800000000000000
+      internalID: 6190245864746922657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_97
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 1461
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaf3001afa855880800000000000000
+      internalID: -8622833104915793239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_98
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1431
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ba9ecc87e44fff0800000000000000
+      internalID: -3291418979619995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_99
+      rect:
+        serializedVersion: 2
+        x: 8195
+        y: 1352
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04040de201255bc0800000000000000
+      internalID: -3795090814539660277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_100
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 1250
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0359c7ccfeffe7c60800000000000000
+      internalID: 7817967408554743088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_101
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 1124
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e3bfd378889e320800000000000000
+      internalID: 2587749575342898817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_102
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1198
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00827bc925795f3b0800000000000000
+      internalID: -5479306990553978880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_103
+      rect:
+        serializedVersion: 2
+        x: 7722
+        y: 1141
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae1c8f7797123d00800000000000000
+      internalID: 950848410775985830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_104
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0855a589b6afb3740800000000000000
+      internalID: 5132971540343313792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_105
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1073
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06140373bc2c95c50800000000000000
+      internalID: 6654564102476677472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_106
+      rect:
+        serializedVersion: 2
+        x: 5764
+        y: 1103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9353ec200c047f1f0800000000000000
+      internalID: -1011268397896420039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_107
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 1054
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6b904e93da76080800000000000000
+      internalID: -9194189650102995241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_108
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 1073
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce66ddee97115ec40800000000000000
+      internalID: 5540854131945465580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_109
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 996
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f6de19bf2eb5cb0800000000000000
+      internalID: -4874052601585504495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_110
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 920
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a282635fa5d74e60800000000000000
+      internalID: 7946555016513487528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_111
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 900
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659f0861cac2dbb00800000000000000
+      internalID: 845881422639069526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_112
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 814
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed721580130a389c0800000000000000
+      internalID: -3926118317683562530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_113
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 823
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2a75b222adf5e00800000000000000
+      internalID: 1035786279609410272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_114
+      rect:
+        serializedVersion: 2
+        x: 6541
+        y: 726
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d4f5bf555525b30800000000000000
+      internalID: 4274572824105930136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_115
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 814
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360e5a736758b7090800000000000000
+      internalID: -8035682367326265245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_116
+      rect:
+        serializedVersion: 2
+        x: 8245
+        y: 784
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c103c0876abb340800000000000000
+      internalID: 4880677655716830339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_117
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 566
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2cc0bad3ab0ad40800000000000000
+      internalID: 5593675511219667629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_118
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 603
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0e5bff0b9914210800000000000000
+      internalID: 1315501551652298912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_119
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 592
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948256db8fffc0fb0800000000000000
+      internalID: -4680084468950292407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_120
+      rect:
+        serializedVersion: 2
+        x: 5770
+        y: 566
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be31ebc8fbd86e90800000000000000
+      internalID: -7032128956520120654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_121
+      rect:
+        serializedVersion: 2
+        x: 4310
+        y: 549
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e830840d161fd30a0800000000000000
+      internalID: -6900093651653229682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_122
+      rect:
+        serializedVersion: 2
+        x: 4794
+        y: 424
+        width: 119
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722b5eb45044c95b0800000000000000
+      internalID: -5360334666938863065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_123
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 522
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6081d152d368a4e0800000000000000
+      internalID: -1970215082007625617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_124
+      rect:
+        serializedVersion: 2
+        x: 6591
+        y: 507
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18da05f26fc13170800000000000000
+      internalID: 8156528424069552155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_125
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 478
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851485091148ded30800000000000000
+      internalID: 4462368016765043032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_126
+      rect:
+        serializedVersion: 2
+        x: 7123
+        y: 496
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53551de7a65301bd0800000000000000
+      internalID: -2661568648265509579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_127
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 313
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3b3eb4a93245a20800000000000000
+      internalID: 3050101993241818090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_128
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 408
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b82006a43223a40800000000000000
+      internalID: 5346374509987531577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_129
+      rect:
+        serializedVersion: 2
+        x: 7710
+        y: 374
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c643ca454ac7c00800000000000000
+      internalID: 899774709140581499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_130
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477f4455a779c85f0800000000000000
+      internalID: -753060486005328012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_131
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 334
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d6cf16282745100800000000000000
+      internalID: 95827396396871033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_132
+      rect:
+        serializedVersion: 2
+        x: 7275
+        y: 349
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07706e69ba51213a0800000000000000
+      internalID: -6696265869231257744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_133
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 318
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a82ac79f4ff1fd0800000000000000
+      internalID: -2368905526598530522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_134
+      rect:
+        serializedVersion: 2
+        x: 5497
+        y: 318
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696581aa409004320800000000000000
+      internalID: 2540040105475200662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_135
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce860d1768926690800000000000000
+      internalID: -7610352851666694457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_136
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 88
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffb4a1ee7a1edc40800000000000000
+      internalID: 5538893723966160887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_137
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 108
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd59a2cea1d217410800000000000000
+      internalID: 1473008146781476316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_138
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 125
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fae250bd31db730800000000000000
+      internalID: 4016388274090061636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_139
+      rect:
+        serializedVersion: 2
+        x: 6553
+        y: 130
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8eab871a83966b0800000000000000
+      internalID: -5302644820085643094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_140
+      rect:
+        serializedVersion: 2
+        x: 6861
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bfc00e7acea8ed0800000000000000
+      internalID: -2410854444740838636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_141
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 62
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef6461c0db1b89f0800000000000000
+      internalID: -465247553090981914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_142
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 29
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d59802f4c4d0160800000000000000
+      internalID: 6993329699108248952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_143
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eda57b9a67c7770800000000000000
+      internalID: 8609887058923281982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_144
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 0
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2d67b520bd6ff70800000000000000
+      internalID: 9220798090258600608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_145
+      rect:
+        serializedVersion: 2
+        x: 5631
+        y: 0
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23690133c755b26c0800000000000000
+      internalID: -4167143038280231374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasLua_146
+      rect:
+        serializedVersion: 2
+        x: 8226
+        y: 0
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a74092a70c82470800000000000000
+      internalID: 8370151538374769209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EstrelasLua_0: -118525185786281607
+      EstrelasLua_1: 3960543982505500798
+      EstrelasLua_10: 6836159499929041378
+      EstrelasLua_100: 7817967408554743088
+      EstrelasLua_101: 2587749575342898817
+      EstrelasLua_102: -5479306990553978880
+      EstrelasLua_103: 950848410775985830
+      EstrelasLua_104: 5132971540343313792
+      EstrelasLua_105: 6654564102476677472
+      EstrelasLua_106: -1011268397896420039
+      EstrelasLua_107: -9194189650102995241
+      EstrelasLua_108: 5540854131945465580
+      EstrelasLua_109: -4874052601585504495
+      EstrelasLua_11: 2470125744444610425
+      EstrelasLua_110: 7946555016513487528
+      EstrelasLua_111: 845881422639069526
+      EstrelasLua_112: -3926118317683562530
+      EstrelasLua_113: 1035786279609410272
+      EstrelasLua_114: 4274572824105930136
+      EstrelasLua_115: -8035682367326265245
+      EstrelasLua_116: 4880677655716830339
+      EstrelasLua_117: 5593675511219667629
+      EstrelasLua_118: 1315501551652298912
+      EstrelasLua_119: -4680084468950292407
+      EstrelasLua_12: 555889739290089693
+      EstrelasLua_120: -7032128956520120654
+      EstrelasLua_121: -6900093651653229682
+      EstrelasLua_122: -5360334666938863065
+      EstrelasLua_123: -1970215082007625617
+      EstrelasLua_124: 8156528424069552155
+      EstrelasLua_125: 4462368016765043032
+      EstrelasLua_126: -2661568648265509579
+      EstrelasLua_127: 3050101993241818090
+      EstrelasLua_128: 5346374509987531577
+      EstrelasLua_129: 899774709140581499
+      EstrelasLua_13: -687194666188101306
+      EstrelasLua_130: -753060486005328012
+      EstrelasLua_131: 95827396396871033
+      EstrelasLua_132: -6696265869231257744
+      EstrelasLua_133: -2368905526598530522
+      EstrelasLua_134: 2540040105475200662
+      EstrelasLua_135: -7610352851666694457
+      EstrelasLua_136: 5538893723966160887
+      EstrelasLua_137: 1473008146781476316
+      EstrelasLua_138: 4016388274090061636
+      EstrelasLua_139: -5302644820085643094
+      EstrelasLua_14: 1297167900483247372
+      EstrelasLua_140: -2410854444740838636
+      EstrelasLua_141: -465247553090981914
+      EstrelasLua_142: 6993329699108248952
+      EstrelasLua_143: 8609887058923281982
+      EstrelasLua_144: 9220798090258600608
+      EstrelasLua_145: -4167143038280231374
+      EstrelasLua_146: 8370151538374769209
+      EstrelasLua_15: 8720098659253408520
+      EstrelasLua_16: 6859034259445784087
+      EstrelasLua_17: -4170253161247473448
+      EstrelasLua_18: 4519512662552235048
+      EstrelasLua_19: 7907001317633150606
+      EstrelasLua_2: 2913610991022660697
+      EstrelasLua_20: -2638762544864641884
+      EstrelasLua_21: -6169805419718866707
+      EstrelasLua_22: -3535921661421504438
+      EstrelasLua_23: -2952100395577040517
+      EstrelasLua_24: 6151546086757349547
+      EstrelasLua_25: -7158333267028285337
+      EstrelasLua_26: -4625430993946064832
+      EstrelasLua_27: 2203130854545619946
+      EstrelasLua_28: -4657662832250562616
+      EstrelasLua_29: -8867384895096170937
+      EstrelasLua_3: -3231652276776945821
+      EstrelasLua_30: 2583499871662425434
+      EstrelasLua_31: -1919149895701341623
+      EstrelasLua_32: -7702220761218506677
+      EstrelasLua_33: 8386741085272546596
+      EstrelasLua_34: -6725601903900044872
+      EstrelasLua_35: 6913501610210607862
+      EstrelasLua_36: 5832965039279767011
+      EstrelasLua_37: 5875133562790732491
+      EstrelasLua_38: -1155241276692920840
+      EstrelasLua_39: 2433502596390242832
+      EstrelasLua_4: 3239258360517985068
+      EstrelasLua_40: -8438928394428764641
+      EstrelasLua_41: 2027207220065127275
+      EstrelasLua_42: 6254977945044257944
+      EstrelasLua_43: -5538989460241453335
+      EstrelasLua_44: 6155642773017280548
+      EstrelasLua_45: 6636562947003617523
+      EstrelasLua_46: -4830856471582347228
+      EstrelasLua_47: 8463046028081705611
+      EstrelasLua_48: -46627737893725681
+      EstrelasLua_49: 7241428705580460862
+      EstrelasLua_5: -2102154791487969289
+      EstrelasLua_50: 2233784083874166752
+      EstrelasLua_51: 8595512608889715926
+      EstrelasLua_52: -6405357238474487111
+      EstrelasLua_53: -505436262507054972
+      EstrelasLua_54: -7752184539659768676
+      EstrelasLua_55: 2450459707685640970
+      EstrelasLua_56: 3223271069199815076
+      EstrelasLua_57: -5803459338279421429
+      EstrelasLua_58: -6341702596160519738
+      EstrelasLua_59: 1946042856722420548
+      EstrelasLua_6: 2363818889093478678
+      EstrelasLua_60: -3271673587241307082
+      EstrelasLua_61: 8496911763344250723
+      EstrelasLua_62: -4375179628949463299
+      EstrelasLua_63: 2607230715417762078
+      EstrelasLua_64: -7788008391683583896
+      EstrelasLua_65: 2891363784186626503
+      EstrelasLua_66: 4896440898596874807
+      EstrelasLua_67: -3355261292913569438
+      EstrelasLua_68: 2600961376885041685
+      EstrelasLua_69: 2865768182854542315
+      EstrelasLua_7: 3701820261554379262
+      EstrelasLua_70: -5949247604824489226
+      EstrelasLua_71: -2150870650136842795
+      EstrelasLua_72: 8425798370869767608
+      EstrelasLua_73: -6455201890810604068
+      EstrelasLua_74: 948420431735071130
+      EstrelasLua_75: -4200490646987571599
+      EstrelasLua_76: -5609064204968485619
+      EstrelasLua_77: 537617029793780393
+      EstrelasLua_78: 5182796385013543768
+      EstrelasLua_79: 1020611996624252370
+      EstrelasLua_8: 5953552954715045184
+      EstrelasLua_80: -1083390311095949465
+      EstrelasLua_81: -3253294363800885342
+      EstrelasLua_82: 5645523079869151807
+      EstrelasLua_83: -5451373314742002494
+      EstrelasLua_84: 2651841707645834998
+      EstrelasLua_85: 6364117373575003429
+      EstrelasLua_86: 1636130273181069024
+      EstrelasLua_87: -7565649493675979277
+      EstrelasLua_88: 3105995734520702995
+      EstrelasLua_89: 6052242066683319138
+      EstrelasLua_9: 7925309615248926344
+      EstrelasLua_90: 9173810024326057509
+      EstrelasLua_91: 2405760334075421470
+      EstrelasLua_92: -3951581220196699893
+      EstrelasLua_93: -1829515918292108415
+      EstrelasLua_94: 2894993150970454938
+      EstrelasLua_95: -8022236081619397866
+      EstrelasLua_96: 6190245864746922657
+      EstrelasLua_97: -8622833104915793239
+      EstrelasLua_98: -3291418979619995
+      EstrelasLua_99: -3795090814539660277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

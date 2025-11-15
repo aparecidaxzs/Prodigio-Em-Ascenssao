@@ -155,21 +155,16 @@ public class Player : MonoBehaviour
             vidaAtual = maxVida;
             Atualizarbarra();
         }
-
-        if (collision.CompareTag("Checkpoint"))
-        {
-    CheckpointManage.instance.AtivarCheckpoint(transform.position);
-        }
-
     }
 
 
     void GameOver()
     {
-       if (vidaAtual == 0)
+        if (vidaAtual == 0) //se a vida chegar em zero
         {
-        Destroy(gameObject);
-        CheckpointManage.instance.RespawnPlayer();
+            GameController.instance.ShowGameOver(); //mostra a tela de game over
+            Destroy(gameObject); //destroi o jogador
+            //Destroy(barrinhaTras); //destroi a barra de vida
         }
     }
 
@@ -287,4 +282,3 @@ public class Player : MonoBehaviour
         }
 }
     }
-
