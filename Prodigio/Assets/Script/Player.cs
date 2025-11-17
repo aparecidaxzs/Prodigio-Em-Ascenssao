@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
 
     private GameObject coinColetar; //referência para guardar a moeda coletada (ainda não está em uso)
 
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -63,7 +64,8 @@ public class Player : MonoBehaviour
         float input = Input.GetAxisRaw("Horizontal"); //pegando input do jogador (esquerda/direita)
 
         rig.linearVelocity = new Vector2(input * velocidade, rig.linearVelocity.y); //movimentando no eixo X, mantendo Y
-
+        
+       
         if (input > 0f)
         {
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
@@ -80,6 +82,7 @@ public class Player : MonoBehaviour
         if(input == 0f)
         {
             anim.SetBool("Run", false);
+           
         }
 
 
@@ -89,13 +92,14 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            
+           
             if (isJump == false) //se não está no ar
             {
                 rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //aplica força para pular
                 doubleJump = true; //habilita o segundo pulo
                 isJump = true; //marca que está no ar
                 anim.SetBool("Jump", true);
+                
             }
 
             else
@@ -105,6 +109,7 @@ public class Player : MonoBehaviour
                     rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //pula de novo
                     doubleJump = false; //consome o segundo pulo
                     anim.SetBool("Jump", true);
+                    
                 }
             }
             //anim.SetBool("idle", false);

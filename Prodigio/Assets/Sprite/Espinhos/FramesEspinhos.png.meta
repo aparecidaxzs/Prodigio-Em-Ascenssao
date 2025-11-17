@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 66d12c9989a33574eb978e5d8e3e6b64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5685033180950000992
+    second: FramesEspinhos_0
+  - first:
+      213: -3372736244390907406
+    second: FramesEspinhos_1
+  - first:
+      213: -4764434820447264069
+    second: FramesEspinhos_2
+  - first:
+      213: -3761911000972038272
+    second: FramesEspinhos_3
+  - first:
+      213: 1829264576412177447
+    second: FramesEspinhos_4
+  - first:
+      213: 4506979035411558584
+    second: FramesEspinhos_5
+  - first:
+      213: 3542983515106524691
+    second: FramesEspinhos_6
+  - first:
+      213: -7551244688809674397
+    second: FramesEspinhos_7
+  - first:
+      213: -5855782990344843915
+    second: FramesEspinhos_8
+  - first:
+      213: 5823738095071157116
+    second: FramesEspinhos_9
+  - first:
+      213: 8300038296418808845
+    second: FramesEspinhos_10
+  - first:
+      213: -298269658543882815
+    second: FramesEspinhos_11
+  - first:
+      213: -4562707043446593819
+    second: FramesEspinhos_12
+  - first:
+      213: -6202528355617907050
+    second: FramesEspinhos_13
+  - first:
+      213: 3844006927503130805
+    second: FramesEspinhos_14
+  - first:
+      213: 3561213629786760774
+    second: FramesEspinhos_15
+  - first:
+      213: 7793805944810347666
+    second: FramesEspinhos_16
+  - first:
+      213: -9083993268884049056
+    second: FramesEspinhos_17
+  - first:
+      213: -5870343928280959249
+    second: FramesEspinhos_18
+  - first:
+      213: -8323770248988027784
+    second: FramesEspinhos_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FramesEspinhos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2351
+        width: 637
+        height: 798
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06575d6be8b45ee40800000000000000
+      internalID: 5685033180950000992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2351
+        width: 603
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1bef75142a131d0800000000000000
+      internalID: -3372736244390907406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_2
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 2351
+        width: 527
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb22dbb16c351edb0800000000000000
+      internalID: -4764434820447264069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_3
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 2351
+        width: 474
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f6d6640e10bcbc0800000000000000
+      internalID: -3761911000972038272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_4
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2351
+        width: 401
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724d04db07ad26910800000000000000
+      internalID: 1829264576412177447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1567
+        width: 338
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0b6dfbd810c8e30800000000000000
+      internalID: 4506979035411558584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1567
+        width: 292
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e3df64cb43b2130800000000000000
+      internalID: 3542983515106524691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_7
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1567
+        width: 252
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369b177b6f6943790800000000000000
+      internalID: -7551244688809674397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_8
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1567
+        width: 199
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d88b245641cbea0800000000000000
+      internalID: -5855782990344843915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_9
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 1567
+        width: 169
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b50a521f212d050800000000000000
+      internalID: 5823738095071157116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 783
+        width: 146
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d047e28ead8af2370800000000000000
+      internalID: 8300038296418808845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_11
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 783
+        width: 120
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdf63b63555cdbf0800000000000000
+      internalID: -298269658543882815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_12
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 783
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e661354e120ea0c0800000000000000
+      internalID: -4562707043446593819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_13
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 783
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e5b1ea2513ce9a0800000000000000
+      internalID: -6202528355617907050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_14
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 783
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b007f32fe7a85530800000000000000
+      internalID: 3844006927503130805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_15
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64628bc9de8fb6130800000000000000
+      internalID: 3561213629786760774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_16
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c9fb4a639292c60800000000000000
+      internalID: 7793805944810347666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_17
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 0
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0637022404c2fe180800000000000000
+      internalID: -9083993268884049056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_18
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 0
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe63175bc49588ea0800000000000000
+      internalID: -5870343928280959249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FramesEspinhos_19
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8749a1d4f070c7c80800000000000000
+      internalID: -8323770248988027784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8c057cef074a1e34aa82b3b79e96c61e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FramesEspinhos_0: 5685033180950000992
+      FramesEspinhos_1: -3372736244390907406
+      FramesEspinhos_10: 8300038296418808845
+      FramesEspinhos_11: -298269658543882815
+      FramesEspinhos_12: -4562707043446593819
+      FramesEspinhos_13: -6202528355617907050
+      FramesEspinhos_14: 3844006927503130805
+      FramesEspinhos_15: 3561213629786760774
+      FramesEspinhos_16: 7793805944810347666
+      FramesEspinhos_17: -9083993268884049056
+      FramesEspinhos_18: -5870343928280959249
+      FramesEspinhos_19: -8323770248988027784
+      FramesEspinhos_2: -4764434820447264069
+      FramesEspinhos_3: -3761911000972038272
+      FramesEspinhos_4: 1829264576412177447
+      FramesEspinhos_5: 4506979035411558584
+      FramesEspinhos_6: 3542983515106524691
+      FramesEspinhos_7: -7551244688809674397
+      FramesEspinhos_8: -5855782990344843915
+      FramesEspinhos_9: 5823738095071157116
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

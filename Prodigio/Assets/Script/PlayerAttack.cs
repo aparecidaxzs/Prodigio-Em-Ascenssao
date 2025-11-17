@@ -16,6 +16,7 @@ public class PlayerAttack : MonoBehaviour
     private Animator anim;
     private bool isAttacking = false; // evita repetir ataque durante a animação
 
+    public AudioSource[] audioO = new AudioSource[2];
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -36,6 +37,7 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
 
         // ativa a animação
+        //audio[].Play();
         anim.SetBool("AtaqueCorpo", true);
 
         // aplica o dano imediatamente (ou após um pequeno delay se quiser sincronizar com o golpe)
@@ -51,6 +53,7 @@ public class PlayerAttack : MonoBehaviour
         yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
 
         // desativa a animação e permite novo ataque
+        //audioO.Play();
         anim.SetBool("AtaqueCorpo", false);
         isAttacking = false;
     }
