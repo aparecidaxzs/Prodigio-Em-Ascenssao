@@ -213,4 +213,13 @@ public class EnemyAI : MonoBehaviour
             }
         }
     }
+
+    public void Die()
+{
+    if (!isDead)
+    {
+        currentHealth = 0; // Garante que está morto
+        StartCoroutine(DieBlink());
+    }
+}
 }

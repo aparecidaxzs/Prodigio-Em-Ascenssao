@@ -2,39 +2,28 @@ using UnityEngine;
 
 public class CoinBounce : MonoBehaviour
 {
-
-    //public Animator anim;
-    public float amplitude = 0.5f; // altura do movimento
-    public float speed = 2f;       // velocidade do movimento
-
+    public float amplitude = 0.5f;
+    public float speed = 2f;
     private Vector3 startPos;
 
-    public int Score;
+    public int Score = 1; // valor da moeda coletada
 
-    public GameObject coletar;
-
-
-    // Start é chamado uma vez antes do primeiro frame
     void Start()
     {
-        startPos = transform.position; // salva a posição inicial
-
+        startPos = transform.position;
     }
 
-    // Update é chamado a cada frame
     void Update()
     {
-        //anim.SetBool("girando", true);
         float newY = startPos.y + Mathf.Sin(Time.time * speed) * amplitude;
         transform.position = new Vector3(startPos.x, newY, startPos.z);
-
     }
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Player")
+        if (collider.gameObject.CompareTag("Player"))
         {
-
+            CoinManager.instance.AddCoin(Score); // adiciona moedas ao coletar
             Destroy(gameObject);
         }
     }

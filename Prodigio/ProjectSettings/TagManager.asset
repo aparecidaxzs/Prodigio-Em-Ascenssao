@@ -16,6 +16,8 @@ TagManager:
   - EnergiaRara
   - Enemy
   - Checkpoints
+  - Raio
+  - FallingPlatform
   layers:
   - Default
   - TransparentFX
@@ -27,8 +29,8 @@ TagManager:
   - Enemy
   - Player
   - Inimigo
-  - 
-  - 
+  - Projectile
+  - "Ch\xE3o"
   - 
   - 
   - 

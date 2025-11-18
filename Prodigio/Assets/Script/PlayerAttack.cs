@@ -1,61 +1,92 @@
 using UnityEngine;
-using System.Collections; // necessário para usar Coroutine
+using System.Collections;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [Header("Configuração do Ataque")]
+    [Header("Configuração do Ataque Normal (W)")]
     public float attackRange = 0.5f;
     public int attackDamage = 1;
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
-    [Header("Cooldown do Ataque")]
+    [Header("Cooldown do Ataque Normal")]
     public float attackRate = 2f;
     private float nextAttackTime = 0f;
 
-    private Animator anim;
-    private bool isAttacking = false; // evita repetir ataque durante a animação
+    [Header("Configuração do Ataque Especial (Q - Luva)")]
+    public Transform handPoint; // ponto de onde o tiro sai (mão do player)
+    public GameObject projectilePrefab; // prefab do projétil
+    public float projectileSpeed = 10f; // velocidade do projétil
+    public int projectileDamage = 1; // dano do projétil
+    public LayerMask projectileCollisionLayers; // layers para colisão (inimigos e plataformas)
+    public float specialAttackCooldown = 0.5f; // cooldown entre tiros Q
+    private float nextSpecialAttackTime = 0f;
 
-    public AudioSource[] audioO = new AudioSource[2];
+    private Animator anim;
+    private bool isAttacking = false;
+    private SpriteRenderer spriteRenderer; // para verificar direção do player
+
     void Start()
     {
         anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        // só pode atacar se não estiver atacando e o cooldown permitir
-        if (!isAttacking && Time.time >= nextAttackTime && Input.GetKeyDown(KeyCode.Q))
+        // Ataque Normal com W
+        if (!isAttacking && Time.time >= nextAttackTime && Input.GetKeyDown(KeyCode.W))
         {
             StartCoroutine(Attack());
             nextAttackTime = Time.time + 1f / attackRate;
+        }
+
+        // Ataque Especial com Q (um tiro por vez, se disponível)
+        if (Time.time >= nextSpecialAttackTime && Input.GetKeyDown(KeyCode.Q) && CoinManager.instance.UseShot())
+        {
+            ShootProjectile();
+            nextSpecialAttackTime = Time.time + specialAttackCooldown;
         }
     }
 
     IEnumerator Attack()
     {
         isAttacking = true;
-
-        // ativa a animação
-        //audio[].Play();
         anim.SetBool("AtaqueCorpo", true);
 
-        // aplica o dano imediatamente (ou após um pequeno delay se quiser sincronizar com o golpe)
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (Collider2D enemy in hitEnemies)
         {
-            EnemyAI enemyScript = enemy.GetComponent<EnemyAI>();
+            EnemyAI enemyScript = enemy.GetComponent<EnemyAI>(); // corrigido para EnemyAI
             if (enemyScript != null)
                 enemyScript.TakeDamage(attackDamage);
         }
 
-        // espera o tempo de duração da animação antes de desligar
         yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
-
-        // desativa a animação e permite novo ataque
-        //audioO.Play();
         anim.SetBool("AtaqueCorpo", false);
         isAttacking = false;
+    }
+
+    void ShootProjectile()
+    {
+        anim.SetBool("AtaqueLuva", true); // ativa animação da luva
+
+        GameObject projectile = Instantiate(projectilePrefab, handPoint.position, Quaternion.identity);
+        Projectile projScript = projectile.GetComponent<Projectile>();
+        if (projScript != null)
+        {
+            float direction = spriteRenderer.flipX ? -1f : 1f; // direção baseada no flip
+            projScript.Initialize(direction * projectileSpeed, projectileDamage, projectileCollisionLayers);
+        }
+
+        // Desativa animação após um pequeno delay (ajuste conforme a duração da animação)
+        StartCoroutine(ResetLuvaAnimation());
+    }
+
+    IEnumerator ResetLuvaAnimation()
+    {
+        yield return new WaitForSeconds(0.2f); // ajuste para duração da animação
+        anim.SetBool("AtaqueLuva", false);
     }
 
     void OnDrawGizmosSelected()
