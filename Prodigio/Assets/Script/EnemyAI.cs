@@ -34,6 +34,10 @@ public class EnemyAI : MonoBehaviour
     private bool isTakingDamage = false;
     private bool isAttacking = false;
 
+    // Nova variável para garantir patrulha inicial
+    private bool initialPatrol = true;
+    public float initialPatrolTime = 2f; // Tempo em segundos para patrulhar no início do jogo
+
     void Start()
     {
         startPos = transform.position;
@@ -42,11 +46,25 @@ public class EnemyAI : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
+        // Inicia a patrulha inicial e agenda o fim dela
+        Invoke("EndInitialPatrol", initialPatrolTime);
+    }
+
+    void EndInitialPatrol()
+    {
+        initialPatrol = false;
     }
 
     void Update()
     {
         if (isDead || player == null || isTakingDamage) return;
+
+        if (initialPatrol)
+        {
+            Patrol();
+            return; // Força patrulha no início, ignorando detecção
+        }
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
@@ -60,6 +78,7 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    // Resto do código permanece igual...
     void Patrol()
     {
         if (isAttacking) return;
@@ -215,11 +234,11 @@ public class EnemyAI : MonoBehaviour
     }
 
     public void Die()
-{
-    if (!isDead)
     {
-        currentHealth = 0; // Garante que está morto
-        StartCoroutine(DieBlink());
+        if (!isDead)
+        {
+            currentHealth = 0; // Garante que está morto
+            StartCoroutine(DieBlink());
+        }
     }
-}
 }
