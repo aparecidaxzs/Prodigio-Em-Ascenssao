@@ -44,7 +44,7 @@ public class PlayerAttack : MonoBehaviour
         // Ataque Especial com Q (um tiro por vez, se disponível)
         if (Time.time >= nextSpecialAttackTime && Input.GetKeyDown(KeyCode.Q) && CoinManager.instance.UseShot())
         {
-            ShootProjectile();
+            StartCoroutine(ShootProjectile());
             nextSpecialAttackTime = Time.time + specialAttackCooldown;
         }
     }
@@ -57,7 +57,7 @@ public class PlayerAttack : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (Collider2D enemy in hitEnemies)
         {
-            EnemyAI enemyScript = enemy.GetComponent<EnemyAI>(); // corrigido para EnemyAI
+            EnemyAI enemyScript = enemy.GetComponent<EnemyAI>();
             if (enemyScript != null)
                 enemyScript.TakeDamage(attackDamage);
         }
@@ -67,10 +67,11 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = false;
     }
 
-    void ShootProjectile()
+    IEnumerator ShootProjectile()
     {
-        anim.SetBool("AtaqueLuva", true); // ativa animação da luva
+        anim.SetBool("AtaqueCyberLuva", true); // ativa animação da luva
 
+        // Dispara o tiro imediatamente
         GameObject projectile = Instantiate(projectilePrefab, handPoint.position, Quaternion.identity);
         Projectile projScript = projectile.GetComponent<Projectile>();
         if (projScript != null)
@@ -79,14 +80,9 @@ public class PlayerAttack : MonoBehaviour
             projScript.Initialize(direction * projectileSpeed, projectileDamage, projectileCollisionLayers);
         }
 
-        // Desativa animação após um pequeno delay (ajuste conforme a duração da animação)
-        StartCoroutine(ResetLuvaAnimation());
-    }
-
-    IEnumerator ResetLuvaAnimation()
-    {
-        yield return new WaitForSeconds(0.2f); // ajuste para duração da animação
-        anim.SetBool("AtaqueLuva", false);
+        // Espera a duração completa da animação antes de desativar
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
+        anim.SetBool("AtaqueCyberLuva", false);
     }
 
     void OnDrawGizmosSelected()

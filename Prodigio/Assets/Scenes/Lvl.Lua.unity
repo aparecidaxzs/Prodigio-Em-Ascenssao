@@ -483,10 +483,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9016895573074964028, guid: c3e2b875b436bab4f91d36a694f24ff5, type: 3}
     - target: {fileID: 3995013190074411654, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
-      propertyPath: enemyLayers.m_Bits
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 3995013190074411654, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: projectileCollisionLayers.m_Bits
       value: 2560
       objectReference: {fileID: 0}
@@ -520,14 +516,8 @@ PrefabInstance:
       objectReference: {fileID: 65044975}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 2161302792302782768, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 873097451}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7417502207002275727, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1325662606}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
 --- !u!1 &217819114
 GameObject:
@@ -1258,7 +1248,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
-  field of view: 77.7
+  field of view: 78.3
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -3104,37 +3094,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 111cc15b303c6ee40aba191dafcb2d1c, type: 3}
---- !u!1 &873097450
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 873097451}
-  m_Layer: 8
-  m_Name: HandPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &873097451
+--- !u!4 &873097451 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6132721389660901417, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
+  m_PrefabInstance: {fileID: 204074909}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873097450}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.51, y: 1.08, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1251222891}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &915092980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,7 +3564,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 77.7
+    FieldOfView: 78.3
     OrthographicSize: 5
     NearClipPlane: 0.01
     FarClipPlane: 1000
@@ -4376,23 +4340,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1325662599 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7417502207002275727, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
-  m_PrefabInstance: {fileID: 204074909}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1325662606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325662599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 288ae9d73e4fbcb47b8624c260701980, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1334701315
 GameObject:
   m_ObjectHideFlags: 0
