@@ -16,8 +16,8 @@ public bool isJump; //checa se o jogador está no ar
 public bool doubleJump; //checa se o jogador pode usar o segundo pulo
 
 [Header("Vida do Player")]
-public int maxVida = 5; //maxima de vida do jogador 
-int vidaAtual; //vai atualizar a barra de vida 
+public int maxVida = 5; //maxima de vida do jogador
+int vidaAtual; //vai atualizar a barra de vida
 private int amountt;
 
 [Header("Barra de Vida")]
@@ -30,42 +30,40 @@ public GameObject barra4;
 
 public static Player instance;
 private Animator anim;
-private Rigidbody2D rig; //referência ao rigidbody do jogador
-private SpriteRenderer spriteRenderer; // Adicionado para piscar
-private bool isTakingDamage = false; // Adicionado
-private bool isDead = false; // Adicionado
+private Rigidbody2D rig; 
+private SpriteRenderer spriteRenderer; 
+private bool isTakingDamage = false;
+private bool isDead = false;
 
-private GameObject coinColetar; //referência para guardar a moeda coletada (ainda não está em uso)
+private GameObject coinColetar;
 
-
-// Start is called once before the first execution of Update after the MonoBehaviour is created
+// Start
 void Start()
 {
     rig = GetComponent<Rigidbody2D>();
-    vidaAtual = maxVida; //quando dá start, a vida atual é a quatidade do maximo de  vida que o jogador tem 
+    vidaAtual = maxVida;
     instance = this;
     BarradeVida(vidaAtual + 1);
     anim = GetComponent<Animator>();
-    spriteRenderer = GetComponent<SpriteRenderer>(); // Adicionado
+    spriteRenderer = GetComponent<SpriteRenderer>();
 }
 
-// Update is called once per frame
+// Update
 void Update()
 {
-    if (!isDead) // Adicionado: impede ações se morto
+    if (!isDead)
     {
-        Move(); //chamando a função de movimento
-        Jump(); //chamando a função de pulo
+        Move();
+        Jump();
     }
-    GameOver(); //checando se o jogador perdeu
+    GameOver();
 }
-
 
 void Move()
 {
-    float input = Input.GetAxisRaw("Horizontal"); //pegando input do jogador (esquerda/direita)
-    rig.linearVelocity = new Vector2(input * velocidade, rig.linearVelocity.y); //movimentando no eixo X, mantendo Y
-    
+    float input = Input.GetAxisRaw("Horizontal");
+    rig.linearVelocity = new Vector2(input * velocidade, rig.linearVelocity.y);
+
     if (input > 0f)
     {
         transform.eulerAngles = new Vector3(0f, 0f, 0f);
@@ -73,10 +71,10 @@ void Move()
     }
     else if (input < 0f)
     {
-        transform.eulerAngles = new Vector3(0f, 180f, 0f); //vira para a esquerda
+        transform.eulerAngles = new Vector3(0f, 180f, 0f);
         anim.SetBool("Run", true);
     }
-    if(input == 0f)
+    if (input == 0f)
     {
         anim.SetBool("Run", false);
     }
@@ -86,19 +84,19 @@ void Jump()
 {
     if (Input.GetKeyDown(KeyCode.Space))
     {
-        if (isJump == false) //se não está no ar
+        if (!isJump)
         {
-            rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //aplica força para pular
-            doubleJump = true; //habilita o segundo pulo
-            isJump = true; //marca que está no ar
+            rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
+            doubleJump = true;
+            isJump = true;
             anim.SetBool("Jump", true);
         }
         else
         {
-            if (doubleJump) //se o segundo pulo está disponível
+            if (doubleJump)
             {
-                rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse); //pula de novo
-                doubleJump = false; //consome o segundo pulo
+                rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
+                doubleJump = false;
                 anim.SetBool("Jump", true);
             }
         }
@@ -109,21 +107,21 @@ void OnCollisionEnter2D(Collision2D collision)
 {
     if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
     {
-        isJump = false; //quando encosta no chão, pode pular de novo
-        doubleJump = false; //reseta o segundo pulo
+        isJump = false;
+        doubleJump = false;
         anim.SetBool("Jump", false);
     }
 
-    if (collision.gameObject.tag == "GameOver") //quando encosta no objeto de "GameOver"
+    if (collision.gameObject.tag == "GameOver")
     {
-        GameController.instance.ShowGameOver(); //chama a tela de game over
-        Destroy(gameObject); //destroi o jogador
+        GameController.instance.ShowGameOver();
+        Destroy(gameObject);
     }
 
-    if (collision.gameObject.tag == "Vitoria") //quando encosta no objeto de "Vitória"
+    if (collision.gameObject.tag == "Vitoria")
     {
-        GameController.instance.ShowVitoria(); //chama a tela de vitória
-        Destroy(gameObject); //destroi o jogador
+        GameController.instance.ShowVitoria();
+        Destroy(gameObject);
     }
 }
 
@@ -131,7 +129,7 @@ void OnCollisionExit2D(Collision2D collision)
 {
     if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
     {
-        isJump = true; //se saiu do chão, marca que está no ar
+        isJump = true;
     }
 }
 
@@ -146,14 +144,16 @@ void OnTriggerEnter2D(Collider2D collision)
 
 void GameOver()
 {
-    if (vidaAtual == 0 && !isDead) //se a vida chegar em zero
+    if (vidaAtual == 0 && !isDead)
     {
         isDead = true;
-        rig.linearVelocity = Vector2.zero; // Para movimento
-        rig.bodyType = RigidbodyType2D.Kinematic; // Impede física
+
+        rig.linearVelocity = Vector2.zero;
+        rig.bodyType = RigidbodyType2D.Kinematic;
         rig.gravityScale = 0f;
-        GetComponent<Collider2D>().enabled = false; // Desabilita colisões
-        StartCoroutine(DieBlink()); // Pisca 3 vezes e destrói
+        GetComponent<Collider2D>().enabled = false;
+
+        StartCoroutine(DieBlink());
     }
 }
 
@@ -166,20 +166,21 @@ public void AddVidaToda()
 public void AddVida(int quantidade)
 {
     maxVida += quantidade;
-    vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida); // soma só 1
-    Debug.Log(maxVida);
+    vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida);
     Atualizarbarra();
 }
 
 public void BarradeVida(int amount)
 {
-    if (amount < 0) //se o valor recebido for negativo (dano)
+    if (amount < 0)
     {
-        vidaAtual = Mathf.Clamp(vidaAtual + amount, 0, maxVida); //diminui a vida, sem passar de 0 ou do máximo
+        vidaAtual = Mathf.Clamp(vidaAtual + amount, 0, maxVida);
+
         if (!isDead && !isTakingDamage)
         {
-            StartCoroutine(BlinkEffect(0.1f, 1)); // Pisca uma vez ao tomar dano
+            StartCoroutine(BlinkEffect(0.1f, 1));
         }
+
         if (vidaAtual == 4)
         {
             barra0.SetActive(true);
@@ -210,10 +211,8 @@ public void BarradeVida(int amount)
 
 void Atualizarbarra()
 {
-    // Aplica dano ou cura
     vidaAtual = Mathf.Clamp(vidaAtual + amountt, 0, maxVida);
 
-    // Atualiza visual conforme o valor da vida
     if (vidaAtual == 5)
     {
         barra.SetActive(true);
@@ -293,6 +292,6 @@ IEnumerator DieBlink()
         yield return new WaitForSeconds(0.2f);
     }
     GameController.instance.ShowGameOver();
-    Destroy(gameObject); // Destrói o Player
+    Destroy(gameObject);
 }
 }

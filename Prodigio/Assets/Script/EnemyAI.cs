@@ -3,96 +3,102 @@ using System.Collections;
 
 public class EnemyAI : MonoBehaviour
 {
+    // ================================
+    // CONFIGURAÇÕES GERAIS DO INIMIGO
+    // ================================
+
     [Header("Configurações Gerais")]
-    public float patrolSpeed = 2f;
-    public float chaseSpeed = 3f;
-    public float patrolDistance = 4f;
-    public int maxHealth = 3;
-    public int damageToPlayer = 1;
+    public float patrolSpeed = 2f;           // Velocidade enquanto patrulha
+    public float patrolDistance = 4f;        // Distância que ele anda para cada lado
+    public int maxHealth = 3;                // Vida máxima
+    public int damageToPlayer = 1;           // Dano ao encostar no player
+
+    // ================================
+    // DETECÇÃO E ATAQUE
+    // ================================
 
     [Header("Detecção do Player")]
-    public float detectionRange = 6f;
-    public float attackRange = 1.5f;
-    public LayerMask playerLayer;
+    public float detectionRange = 3f;        // Distância para ativar o ataque
+    public float attackRange = 1.2f;         // Distância para causar dano
+    public LayerMask playerLayer;            // Layer do player para detectar no ataque
 
     [Header("Ataque")]
-    public float attackCooldown = 1.5f;
-    private float nextAttackTime = 0f;
-    public Transform attackPoint;
-    public float attackRadius = 0.8f;
+    public float attackCooldown = 1.2f;      // Tempo entre ataques
+    private float nextAttackTime = 0f;       // Controle interno do cooldown
+    public Transform attackPoint;            // Ponto de onde o golpe sai
+    public float attackRadius = 0.7f;        // Tamanho da área de dano
 
-    [Header("Referências")]
-    private Animator anim;
-    private Rigidbody2D rig;
-    private Transform player;
-    private SpriteRenderer spriteRenderer;
+    // ================================
+    // COMPONENTES
+    // ================================
 
-    private Vector3 startPos;
-    private bool movingRight = true;
-    private int currentHealth;
-    private bool isDead = false;
-    private bool isTakingDamage = false;
-    private bool isAttacking = false;
+    private Animator anim;                   // Controla animações
+    private Rigidbody2D rig;                 // Controla movimento físico
+    private SpriteRenderer spriteRenderer;   // Para piscar ao tomar dano
+    private Transform player;                // Referência ao player
 
-    // Nova variável para garantir patrulha inicial
-    private bool initialPatrol = true;
-    public float initialPatrolTime = 2f; // Tempo em segundos para patrulhar no início do jogo
+    // ================================
+    // CONTROLE INTERNO
+    // ================================
+
+    private Vector3 startPos;                // Ponto inicial para definir patrulha
+    private bool movingRight = true;         // Direção da patrulha
+    private int currentHealth;               // Vida atual
+    private bool isDead = false;             // Controle de morte
+    private bool isTakingDamage = false;     // Impede ações durante dano
+    private bool isAttacking = false;        // Evita múltiplos ataques sobrepostos
 
     void Start()
     {
-        startPos = transform.position;
-        rig = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        currentHealth = maxHealth;
+        startPos = transform.position;                      // Salva posição inicial
+        rig = GetComponent<Rigidbody2D>();                  // Pega Rigidbody2D
+        anim = GetComponent<Animator>();                    // Pega Animator
+        spriteRenderer = GetComponent<SpriteRenderer>();    // Pega SpriteRenderer
+        currentHealth = maxHealth;                          // Define vida inicial
+
+        // Procura o player na cena (tag "Player")
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
-
-        // Inicia a patrulha inicial e agenda o fim dela
-        Invoke("EndInitialPatrol", initialPatrolTime);
-    }
-
-    void EndInitialPatrol()
-    {
-        initialPatrol = false;
     }
 
     void Update()
     {
         if (isDead || player == null || isTakingDamage) return;
 
-        if (initialPatrol)
-        {
-            Patrol();
-            return; // Força patrulha no início, ignorando detecção
-        }
-
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
+        // Se o player estiver dentro do alcance → entra no modo de ataque
         if (distanceToPlayer <= detectionRange)
         {
-            ChasePlayer(distanceToPlayer);
+            AttackBehavior(distanceToPlayer);
         }
         else
         {
+            // Caso contrário, permanece patrulhando
             Patrol();
         }
     }
 
-    // Resto do código permanece igual...
+    // ===========================================================
+    // SISTEMA DE PATRULHA (ANDANDO PARA OS DOIS LADOS SEM PARAR)
+    // ===========================================================
+
     void Patrol()
     {
         if (isAttacking) return;
 
         anim.SetBool("run", true);
-        float move = movingRight ? 1 : -1;
-        rig.linearVelocity = new Vector2(move * patrolSpeed, rig.linearVelocity.y);
 
+        float moveDirection = movingRight ? 1 : -1;
+        rig.linearVelocity = new Vector2(moveDirection * patrolSpeed, rig.linearVelocity.y);
+
+        // Verifica se atingiu limite da patrulha
         if (movingRight && transform.position.x >= startPos.x + patrolDistance)
             Flip();
         else if (!movingRight && transform.position.x <= startPos.x - patrolDistance)
             Flip();
     }
 
+    // Inverte a direção do inimigo
     void Flip()
     {
         movingRight = !movingRight;
@@ -101,32 +107,29 @@ public class EnemyAI : MonoBehaviour
         transform.localScale = scale;
     }
 
-    void ChasePlayer(float distanceToPlayer)
+    // ===========================================================
+    // ATAQUE — o inimigo NÃO persegue o player, apenas ataca se perto
+    // ===========================================================
+
+    void AttackBehavior(float distanceToPlayer)
     {
-        if (isAttacking) return;
+        // Para de correr
+        anim.SetBool("run", false);
 
-        if (distanceToPlayer > attackRange)
+        // Apenas ataca se estiver perto o suficiente
+        if (distanceToPlayer <= attackRange)
         {
-            anim.SetBool("run", true);
-            anim.SetBool("ataque", false);
-
-            Vector2 direction = (player.position - transform.position).normalized;
-            rig.linearVelocity = new Vector2(direction.x * chaseSpeed, rig.linearVelocity.y);
-
-            // vira na direção do player
-            if ((direction.x > 0 && transform.localScale.x < 0) ||
-                (direction.x < 0 && transform.localScale.x > 0))
-                Flip();
+            rig.linearVelocity = Vector2.zero;
+            TryAttack();
         }
         else
         {
+            // Se detectar o player mas estiver longe, não faz nada
             rig.linearVelocity = Vector2.zero;
-            anim.SetBool("run", false);
-            AttackPlayer();
         }
     }
 
-    void AttackPlayer()
+    void TryAttack()
     {
         if (Time.time < nextAttackTime || isAttacking) return;
 
@@ -134,68 +137,87 @@ public class EnemyAI : MonoBehaviour
         anim.SetTrigger("ataque");
         nextAttackTime = Time.time + attackCooldown;
 
-        // Dano aplicado no meio da animação
         StartCoroutine(AttackRoutine());
     }
 
     IEnumerator AttackRoutine()
     {
-        yield return new WaitForSeconds(0.4f); // tempo do golpe
+        yield return new WaitForSeconds(0.4f);  // Momento exato do golpe
         DealDamageToPlayer();
-        yield return new WaitForSeconds(0.5f); // espera fim da animação
+        yield return new WaitForSeconds(0.5f);  // Espera a animação terminar
         isAttacking = false;
     }
 
     void DealDamageToPlayer()
     {
+        // Detecta o player na área de ataque
         Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackPoint.position, attackRadius, playerLayer);
-        foreach (Collider2D playerCol in hitPlayers)
+
+        foreach (Collider2D col in hitPlayers)
         {
-            Player playerScript = playerCol.GetComponent<Player>();
-            if (playerScript != null)
+            Player p = col.GetComponent<Player>();
+            if (p != null)
             {
-                playerScript.BarradeVida(-damageToPlayer);
+                p.BarradeVida(-damageToPlayer);
             }
         }
     }
 
-    public void TakeDamage(int damage)
+    public void Die()
+{
+    if (!isDead)
+    {
+        StartCoroutine(DeathEffect());
+    }
+}
+
+
+
+    // ===========================================================
+    // SISTEMA DE DANO E MORTE
+    // ===========================================================
+
+    public void TakeDamage(int dmg)
     {
         if (isDead) return;
 
-        currentHealth -= damage;
+        currentHealth -= dmg;
 
+        // Ainda está vivo → pisca
         if (currentHealth > 0)
         {
-            StartCoroutine(BlinkEffect(0.1f, 3)); // pisca ao levar dano
+            StartCoroutine(BlinkEffect(0.1f, 3));
         }
         else
         {
-            StartCoroutine(DieBlink());
+            StartCoroutine(DeathEffect());
         }
     }
 
-    IEnumerator BlinkEffect(float blinkSpeed, int times)
+    IEnumerator BlinkEffect(float speed, int count)
     {
         isTakingDamage = true;
-        for (int i = 0; i < times; i++)
+
+        for (int i = 0; i < count; i++)
         {
             spriteRenderer.enabled = false;
-            yield return new WaitForSeconds(blinkSpeed);
+            yield return new WaitForSeconds(speed);
             spriteRenderer.enabled = true;
-            yield return new WaitForSeconds(blinkSpeed);
+            yield return new WaitForSeconds(speed);
         }
+
         isTakingDamage = false;
     }
 
-    IEnumerator DieBlink()
+    IEnumerator DeathEffect()
     {
         isDead = true;
         rig.linearVelocity = Vector2.zero;
-        rig.bodyType = RigidbodyType2D.Kinematic; // impede queda
-        rig.gravityScale = 0f;                    // remove gravidade
+        rig.bodyType = RigidbodyType2D.Kinematic;
+        rig.gravityScale = 0;
         GetComponent<Collider2D>().enabled = false;
 
+        // Piscando antes de sumir
         for (int i = 0; i < 3; i++)
         {
             spriteRenderer.enabled = false;
@@ -207,6 +229,7 @@ public class EnemyAI : MonoBehaviour
         Destroy(gameObject);
     }
 
+    // Gizmos para visualizar alcance de ataque no editor
     void OnDrawGizmosSelected()
     {
         if (attackPoint != null)
@@ -217,28 +240,5 @@ public class EnemyAI : MonoBehaviour
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (isDead) return;
-
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Player playerScript = collision.gameObject.GetComponent<Player>();
-            if (playerScript != null)
-            {
-                playerScript.BarradeVida(-damageToPlayer);
-            }
-        }
-    }
-
-    public void Die()
-    {
-        if (!isDead)
-        {
-            currentHealth = 0; // Garante que está morto
-            StartCoroutine(DieBlink());
-        }
     }
 }
