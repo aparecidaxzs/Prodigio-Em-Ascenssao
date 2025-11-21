@@ -18,6 +18,7 @@ TagManager:
   - Checkpoints
   - Raio
   - FallingPlatform
+  - Prodigios
   layers:
   - Default
   - TransparentFX

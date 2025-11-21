@@ -1,25 +1,30 @@
 using UnityEngine;
 
-public class Parallax : MonoBehaviour
-{    public float Lenght;
+public class ParallaxSimple : MonoBehaviour
+{
+    [Header("Câmera")]
+    public Transform cam;
 
-    public new Transform camera;
+    [Header("Intensidade do Parallax")]
+    [Range(0f, 1f)]
+    public float parallaxEffect = 0.5f;
 
-    public Vector3 InitPos;
+    private Vector3 startPos;
 
-
-
-    // Start is called before the first frame update
     void Start()
     {
-        InitPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-
+        startPos = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Debug.Log($"Posição inicial Parallax = {InitPos}, Posição camera = {camera.position}");
-        transform.position = new Vector3(InitPos.x - camera.position.x * Lenght, InitPos.y - camera.position.y * Lenght, transform.position.z);
+        float distX = cam.position.x * parallaxEffect;
+        float distY = cam.position.y * parallaxEffect;
+
+        transform.position = new Vector3(
+            startPos.x + distX,
+            startPos.y + distY,
+            transform.position.z
+        );
     }
 }

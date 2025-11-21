@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: 7612683c3d4624140a4d3f74cb841e54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5813352835546690854
+    second: LuvaFrames_0
+  - first:
+      213: -3982239472778974508
+    second: LuvaFrames_1
+  - first:
+      213: -4252666143325576415
+    second: LuvaFrames_2
+  - first:
+      213: -4473506208610612834
+    second: LuvaFrames_3
+  - first:
+      213: -8877086511813713269
+    second: LuvaFrames_4
+  - first:
+      213: -8997884775238964001
+    second: LuvaFrames_5
+  - first:
+      213: 8320391750382001334
+    second: LuvaFrames_6
+  - first:
+      213: 9011520299500546090
+    second: LuvaFrames_7
+  - first:
+      213: 3640294925778994381
+    second: LuvaFrames_8
+  - first:
+      213: -8427157822296077600
+    second: LuvaFrames_9
+  - first:
+      213: 229981882383611680
+    second: LuvaFrames_10
+  - first:
+      213: -7964277847530066588
+    second: LuvaFrames_11
+  - first:
+      213: 8570313487218708809
+    second: LuvaFrames_12
+  - first:
+      213: 884204199155210653
+    second: LuvaFrames_13
+  - first:
+      213: -1380838469740758523
+    second: LuvaFrames_14
+  - first:
+      213: 850713941120182840
+    second: LuvaFrames_15
+  - first:
+      213: 653636597049465582
+    second: LuvaFrames_16
+  - first:
+      213: 7750979113239566103
+    second: LuvaFrames_17
+  - first:
+      213: 6978332969461202068
+    second: LuvaFrames_18
+  - first:
+      213: 5896895490794261252
+    second: LuvaFrames_19
+  - first:
+      213: 5620280628279960127
+    second: LuvaFrames_20
+  - first:
+      213: -5019957102653811302
+    second: LuvaFrames_21
+  - first:
+      213: -6874194957468013475
+    second: LuvaFrames_22
+  - first:
+      213: 3287195979702012951
+    second: LuvaFrames_23
+  - first:
+      213: 6962151442468508380
+    second: LuvaFrames_24
+  - first:
+      213: 7280524373435786176
+    second: LuvaFrames_25
+  - first:
+      213: -106097488340844886
+    second: LuvaFrames_26
+  - first:
+      213: 5878971808134322149
+    second: LuvaFrames_27
+  - first:
+      213: -6760782768586562157
+    second: LuvaFrames_28
+  - first:
+      213: 7820076440261899430
+    second: LuvaFrames_29
+  - first:
+      213: 7872379763769387767
+    second: LuvaFrames_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LuvaFrames_0
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 11
+        width: 526
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaca338562d25fa0800000000000000
+      internalID: -5813352835546690854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_1
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 0
+        width: 493
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da687e5c4e3cb8c0800000000000000
+      internalID: -3982239472778974508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_2
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 89
+        width: 684
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123afba9cae7bf4c0800000000000000
+      internalID: -4252666143325576415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_3
+      rect:
+        serializedVersion: 2
+        x: 4182
+        y: 54
+        width: 892
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99824f0ec9eae1c0800000000000000
+      internalID: -4473506208610612834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_4
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 11
+        width: 1181
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82aeeea9d04ec480800000000000000
+      internalID: -8877086511813713269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_5
+      rect:
+        serializedVersion: 2
+        x: 6519
+        y: 0
+        width: 1554
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc6cf14877112380800000000000000
+      internalID: -8997884775238964001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_6
+      rect:
+        serializedVersion: 2
+        x: 8213
+        y: 0
+        width: 1527
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc1c91b638f77370800000000000000
+      internalID: 8320391750382001334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_11
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 83
+        width: 345
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d25758e73397190800000000000000
+      internalID: -7964277847530066588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 120
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717dd12ef62019b60800000000000000
+      internalID: 7750979113239566103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuvaFrames_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 220
+        width: 169
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cb129ecd408d060800000000000000
+      internalID: 6978332969461202068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 97ac3dd5bb9851241b28628635ddae54
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LuvaFrames_0: -5813352835546690854
+      LuvaFrames_1: -3982239472778974508
+      LuvaFrames_10: 229981882383611680
+      LuvaFrames_11: -7964277847530066588
+      LuvaFrames_12: 8570313487218708809
+      LuvaFrames_13: 884204199155210653
+      LuvaFrames_14: -1380838469740758523
+      LuvaFrames_15: 850713941120182840
+      LuvaFrames_16: 653636597049465582
+      LuvaFrames_17: 7750979113239566103
+      LuvaFrames_18: 6978332969461202068
+      LuvaFrames_19: 5896895490794261252
+      LuvaFrames_2: -4252666143325576415
+      LuvaFrames_20: 5620280628279960127
+      LuvaFrames_21: -5019957102653811302
+      LuvaFrames_22: -6874194957468013475
+      LuvaFrames_23: 3287195979702012951
+      LuvaFrames_24: 6962151442468508380
+      LuvaFrames_25: 7280524373435786176
+      LuvaFrames_26: -106097488340844886
+      LuvaFrames_27: 5878971808134322149
+      LuvaFrames_28: -6760782768586562157
+      LuvaFrames_29: 7820076440261899430
+      LuvaFrames_3: -4473506208610612834
+      LuvaFrames_30: 7872379763769387767
+      LuvaFrames_31: 1908821200
+      LuvaFrames_4: -8877086511813713269
+      LuvaFrames_5: -8997884775238964001
+      LuvaFrames_6: 8320391750382001334
+      LuvaFrames_7: 9011520299500546090
+      LuvaFrames_8: 3640294925778994381
+      LuvaFrames_9: -8427157822296077600
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
