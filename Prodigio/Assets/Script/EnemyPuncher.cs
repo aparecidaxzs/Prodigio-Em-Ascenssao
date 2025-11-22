@@ -1,177 +1,168 @@
 using UnityEngine;
 using System.Collections;
 
-public class EnemyPuncher : MonoBehaviour
+public class EnemyShooter : MonoBehaviour
 {
-    [Header("Movimentação e Patrulha")]
-    public float patrolSpeed = 2f;
-    public float patrolDistance = 4f;
+    [Header("Configurações Gerais")]
+    public float moveSpeed = 2f;           
+    public int maxHealth = 3;              
+    public int contactDamage = 1;          // dano ao encostar
+    private int currentHealth;             
 
-    [Header("Vida")]
-    public int maxHealth = 3;
-    private int currentHealth;
-
-    [Header("Detecção e Ataque")]
-    public float detectionRange = 4f;  
-    public float punchRange = 0.8f;
-    public float shootRange = 3f;      
-    public float attackCooldown = 1f;
-    private float nextAttackTime = 0f;
-
-    [Header("SOCOS")]
-    public Transform punchPoint;
-    public float punchRadius = 0.5f;
+    [Header("Detecção do Player")]
+    public float detectionRange = 6f;
+    public float meleeRange = 1.2f;      
     public LayerMask playerLayer;
 
-    [Header("TIRO")]
-    public Transform shootPoint;
+    [Header("Ataque de Tiro")]
     public GameObject bulletPrefab;
-    public float bulletSpeed = 5f;
+    public Transform firePoint;
+    public float shootCooldown = 2f;
+    private float nextShootTime = 0f;
 
+    [Header("Ataque Corpo a Corpo")]
+    public float meleeCooldown = 1f;
+    private float nextMeleeTime = 0f;
+
+    [Header("Componentes")]
     private Animator anim;
     private Rigidbody2D rig;
-    private SpriteRenderer spr;
+    private SpriteRenderer spriteRenderer;
     private Transform player;
 
-    private bool movingRight = true;
-    private Vector3 startPos;
-    private bool isAttacking = false;
     private bool isDead = false;
-    private bool isTakingDamage = false;
+    private float lastDamageTime;
+    public float contactDamageCooldown = 1f;
 
     void Start()
     {
-        startPos = transform.position;
-        anim = GetComponent<Animator>();
         rig = GetComponent<Rigidbody2D>();
-        spr = GetComponent<SpriteRenderer>();
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
-
+        anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
+
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
     }
 
     void Update()
     {
-        if (isDead || isTakingDamage) return;
-        if (player == null) { Patrol(); return; }
+        if (isDead || player == null) return;
 
-        float dist = Vector2.Distance(transform.position, player.position);
+        float distance = Vector2.Distance(transform.position, player.position);
 
-        // Decide qual ataque usar
-        if (dist <= punchRange)
-            PunchAttack();
-        else if (dist <= shootRange)
-            ShootAttack();
-        else if (dist <= detectionRange)
-            rig.linearVelocity = Vector2.zero;
-        else
-            Patrol();
-    }
+        // Seguir o player
+        FollowPlayer();
 
-    // ============================================================
-    // PATRULHA
-    // ============================================================
-    void Patrol()
-    {
-        if (isAttacking) return;
+        // Virar para a direção do player
+        FlipToPlayer();
 
-        anim.SetBool("run", true);
-
-        float dir = movingRight ? 1 : -1;
-        rig.linearVelocity = new Vector2(dir * patrolSpeed, rig.linearVelocity.y);
-
-        if (movingRight && transform.position.x >= startPos.x + patrolDistance)
-            Flip();
-        else if (!movingRight && transform.position.x <= startPos.x - patrolDistance)
-            Flip();
-    }
-
-    void Flip()
-    {
-        movingRight = !movingRight;
-        Vector3 s = transform.localScale;
-        s.x *= -1;
-        transform.localScale = s;
-    }
-
-    // ============================================================
-    // ATAQUE – SOCOS
-    // ============================================================
-    void PunchAttack()
-    {
-        if (Time.time < nextAttackTime || isAttacking) return;
-
-        isAttacking = true;
-        nextAttackTime = Time.time + attackCooldown;
-
-        anim.SetTrigger("punch");
-
-        StartCoroutine(PunchRoutine());
-    }
-
-    IEnumerator PunchRoutine()
-    {
-        rig.linearVelocity = Vector2.zero;
-
-        yield return new WaitForSeconds(0.2f);
-        PunchHit();
-
-        yield return new WaitForSeconds(0.3f);
-        isAttacking = false;
-    }
-
-    void PunchHit()
-    {
-        Collider2D hit = Physics2D.OverlapCircle(punchPoint.position, punchRadius, playerLayer);
-
-        if (hit != null)
+        if (distance <= meleeRange)
         {
-            Player p = hit.GetComponent<Player>();
-            if (p != null)
-                p.BarradeVida(-1);
+            TryMeleeAttack();
+        }
+        else if (distance <= detectionRange)
+        {
+            TryShoot();
         }
     }
 
-    // ============================================================
-    // ATAQUE – TIRO
-    // ============================================================
-    void ShootAttack()
+    // ======================
+    // PERSEGUIR O PLAYER
+    // ======================
+    void FollowPlayer()
     {
-        if (Time.time < nextAttackTime || isAttacking) return;
+        float direction = player.position.x - transform.position.x;
 
-        isAttacking = true;
-        nextAttackTime = Time.time + attackCooldown;
+        rig.linearVelocity = new Vector2(Mathf.Sign(direction) * moveSpeed, rig.linearVelocity.y);
 
-        anim.SetTrigger("shoot");
+        // animação de corrida
+        anim.SetBool("run", true);
+    }
+
+    // ======================
+    // VIRAR PARA O PLAYER
+    // ======================
+    void FlipToPlayer()
+    {
+        if (player.position.x > transform.position.x)
+            transform.localScale = new Vector3(1, 1, 1);
+        else
+            transform.localScale = new Vector3(-1, 1, 1);
+    }
+
+    // ======================
+    // ATAQUE CORPO A CORPO
+    // ======================
+    void TryMeleeAttack()
+    {
+        if (Time.time < nextMeleeTime) return;
+
+        nextMeleeTime = Time.time + meleeCooldown;
+
+        rig.linearVelocity = Vector2.zero;
+
+        anim.SetTrigger("punch");   // <-- ANIMAÇÃO DE SOCO
+
+        StartCoroutine(MeleeDamageRoutine());
+    }
+
+    IEnumerator MeleeDamageRoutine()
+    {
+        yield return new WaitForSeconds(0.25f); // momento do impacto
+
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, meleeRange, playerLayer);
+
+        if (hit != null)
+        {
+            Player.instance.BarradeVida(-contactDamage);
+        }
+    }
+
+    // ======================
+    // ATAQUE DE TIRO
+    // ======================
+    void TryShoot()
+    {
+        if (Time.time < nextShootTime) return;
+
+        nextShootTime = Time.time + shootCooldown;
+
+        anim.SetTrigger("shoot"); // <-- ANIMAÇÃO DE TIRO
 
         StartCoroutine(ShootRoutine());
     }
 
     IEnumerator ShootRoutine()
     {
-        rig.linearVelocity = Vector2.zero;
+        yield return new WaitForSeconds(0.20f); // momento do disparo
 
-        yield return new WaitForSeconds(0.25f); // momento do disparo
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
 
-        ShootProjectile();
-
-        yield return new WaitForSeconds(0.2f);
-        isAttacking = false;
+        // virar projétil para a direção do player
+        float direction = player.position.x - transform.position.x;
+        bullet.GetComponent<EnemyBullet>().SetDirection(Mathf.Sign(direction));
     }
 
-    void ShootProjectile()
+    // ======================
+    // DANO POR CONTATO
+    // ======================
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        GameObject b = Instantiate(bulletPrefab, shootPoint.position, Quaternion.identity);
+        if (collision.collider.CompareTag("Player"))
+        {
+            if (Time.time >= lastDamageTime + contactDamageCooldown)
+            {
+                Player.instance.BarradeVida(-contactDamage);
+                lastDamageTime = Time.time;
 
-        // Direção do tiro baseada na escala
-        float direction = transform.localScale.x > 0 ? 1 : -1;
-
-        b.GetComponent<Bullet>().Setup(direction, bulletSpeed);
+                anim.SetTrigger("punch");   // <-- ANIMAÇÃO OPCIONAL QUANDO ENCOSTA
+            }
+        }
     }
 
-    // ============================================================
-    // DANO E MORTE
-    // ============================================================
+    // ======================
+    // SISTEMA DE DANO
+    // ======================
     public void TakeDamage(int dmg)
     {
         if (isDead) return;
@@ -179,58 +170,38 @@ public class EnemyPuncher : MonoBehaviour
         currentHealth -= dmg;
 
         if (currentHealth > 0)
-            StartCoroutine(Blink());
-        else
-            StartCoroutine(Die());
-    }
-
-    IEnumerator Blink()
-    {
-        isTakingDamage = true;
-
-        for (int i = 0; i < 3; i++)
         {
-            spr.enabled = false;
-            yield return new WaitForSeconds(0.1f);
-            spr.enabled = true;
-            yield return new WaitForSeconds(0.1f);
+            StartCoroutine(BlinkEffect());
         }
-
-        isTakingDamage = false;
+        else
+        {
+            StartCoroutine(DeathRoutine());
+        }
     }
 
-    IEnumerator Die()
+    IEnumerator BlinkEffect()
+    {
+        spriteRenderer.enabled = false;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.enabled = true;
+    }
+
+    IEnumerator DeathRoutine()
     {
         isDead = true;
-        rig.bodyType = RigidbodyType2D.Kinematic;
-        GetComponent<Collider2D>().enabled = false;
+        rig.linearVelocity = Vector2.zero;
 
-        for (int i = 0; i < 3; i++)
-        {
-            spr.enabled = false;
-            yield return new WaitForSeconds(0.15f);
-            spr.enabled = true;
-            yield return new WaitForSeconds(0.15f);
-        }
+        anim.SetTrigger("die"); // <-- ANIMAÇÃO DE MORTE (se tiver)
+
+        yield return new WaitForSeconds(0.4f);
 
         Destroy(gameObject);
     }
 
-    void OnDrawGizmosSelected()
+    // Gizmo do ataque melee
+    private void OnDrawGizmosSelected()
     {
-        if (punchPoint != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(punchPoint.position, punchRadius);
-        }
-
-        if (shootPoint != null)
-        {
-            Gizmos.color = Color.blue;
-            Gizmos.DrawWireSphere(shootPoint.position, 0.15f);
-        }
-
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, detectionRange);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, meleeRange);
     }
 }
