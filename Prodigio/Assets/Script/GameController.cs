@@ -12,6 +12,10 @@ public class GameController : MonoBehaviour
 
     public GameObject menu; //menu de pausa
 
+    public GameObject barraVida;
+    public GameObject score;
+    public GameObject pause;
+
     
 
     // Start é chamado antes do primeiro frame
@@ -29,13 +33,18 @@ public class GameController : MonoBehaviour
     public void ShowGameOver()
     {
         gameOver.SetActive(true); //ativa a tela de Game Over
-        
+        barraVida.SetActive(false);
+        pause.SetActive(false);
+        score.SetActive(false);
 
     }
 
     public void ShowVitoria()
     {
         vitoria.SetActive(true); //ativa a tela de Vitória
+        barraVida.SetActive(false);
+        pause.SetActive(false);
+        score.SetActive(false);
     }
 
     public void RestartGame(string lvlName)
@@ -68,8 +77,7 @@ public class GameController : MonoBehaviour
 
     public void Quit()
     {
-        //só funciona dentro da Unity (sai do modo play)
-        UnityEditor.EditorApplication.ExitPlaymode();
+        Application.Quit();
     }
     
     public void Voltar()
