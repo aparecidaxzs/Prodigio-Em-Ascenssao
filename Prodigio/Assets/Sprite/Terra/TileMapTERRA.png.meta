@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: b30438f901026f14daa1c743fbc9bb81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9095541252987673912
+    second: TileMapTERRA_0
+  - first:
+      213: -2507330313228214523
+    second: TileMapTERRA_1
+  - first:
+      213: -8344887520954088027
+    second: TileMapTERRA_2
+  - first:
+      213: 1948379870338865390
+    second: TileMapTERRA_3
+  - first:
+      213: 7566986578941811755
+    second: TileMapTERRA_4
+  - first:
+      213: 7029622832485323930
+    second: TileMapTERRA_5
+  - first:
+      213: -6794974301036539103
+    second: TileMapTERRA_6
+  - first:
+      213: -8787719660346342822
+    second: TileMapTERRA_7
+  - first:
+      213: 8561398983018787771
+    second: TileMapTERRA_8
+  - first:
+      213: -7188455660106947769
+    second: TileMapTERRA_9
+  - first:
+      213: 8933315310228541627
+    second: TileMapTERRA_10
+  - first:
+      213: -7338416721403179757
+    second: TileMapTERRA_11
+  - first:
+      213: 6997390425595930570
+    second: TileMapTERRA_12
+  - first:
+      213: 8731127375502701841
+    second: TileMapTERRA_13
+  - first:
+      213: 827270629726247706
+    second: TileMapTERRA_14
+  - first:
+      213: -7225674740627338429
+    second: TileMapTERRA_15
+  - first:
+      213: -8784690321248659694
+    second: TileMapTERRA_16
+  - first:
+      213: 8693233432996953845
+    second: TileMapTERRA_17
+  - first:
+      213: 6521337682046302313
+    second: TileMapTERRA_18
+  - first:
+      213: 4446417723076860448
+    second: TileMapTERRA_19
+  - first:
+      213: 7734488024942345126
+    second: TileMapTERRA_20
+  - first:
+      213: -7559362459306127334
+    second: TileMapTERRA_21
+  - first:
+      213: -1703876459253377332
+    second: TileMapTERRA_22
+  - first:
+      213: -699947287797571008
+    second: TileMapTERRA_23
+  - first:
+      213: -5683632353160042364
+    second: TileMapTERRA_24
+  - first:
+      213: -6364025904907692967
+    second: TileMapTERRA_25
+  - first:
+      213: -8183149584202453532
+    second: TileMapTERRA_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileMapTERRA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5184
+        width: 2771
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c222cfab6526c180800000000000000
+      internalID: -9095541252987673912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_1
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 5184
+        width: 2522
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f96715d5c243dd0800000000000000
+      internalID: -2507330313228214523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_2
+      rect:
+        serializedVersion: 2
+        x: 5481
+        y: 5184
+        width: 2772
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a501f64301013c80800000000000000
+      internalID: -8344887520954088027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_3
+      rect:
+        serializedVersion: 2
+        x: 9303
+        y: 5205
+        width: 2772
+        height: 2542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8d11b4b290a0b10800000000000000
+      internalID: 1948379870338865390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_4
+      rect:
+        serializedVersion: 2
+        x: 12161
+        y: 5205
+        width: 2522
+        height: 2542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c99f1b336530960800000000000000
+      internalID: 7566986578941811755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_5
+      rect:
+        serializedVersion: 2
+        x: 14785
+        y: 5205
+        width: 2772
+        height: 2542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94534bb8bc3e8160800000000000000
+      internalID: 7029622832485323930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_6
+      rect:
+        serializedVersion: 2
+        x: 18455
+        y: 5184
+        width: 2772
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1231fc0efd663b1a0800000000000000
+      internalID: -6794974301036539103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_7
+      rect:
+        serializedVersion: 2
+        x: 21313
+        y: 5184
+        width: 2523
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52075b378fbb0680800000000000000
+      internalID: -8787719660346342822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_8
+      rect:
+        serializedVersion: 2
+        x: 23937
+        y: 5184
+        width: 2771
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3b93bc30330d670800000000000000
+      internalID: 8561398983018787771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_9
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2602
+        width: 2543
+        height: 2522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743eda7c9a97d3c90800000000000000
+      internalID: -7188455660106947769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_10
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 2602
+        width: 2522
+        height: 2522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb01bb4a1f289fb70800000000000000
+      internalID: 8933315310228541627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_11
+      rect:
+        serializedVersion: 2
+        x: 5481
+        y: 2602
+        width: 2543
+        height: 2522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d0afa5fd4b82a90800000000000000
+      internalID: -7338416721403179757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_12
+      rect:
+        serializedVersion: 2
+        x: 9532
+        y: 2622
+        width: 2543
+        height: 2523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac76d50b489bb1160800000000000000
+      internalID: 6997390425595930570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_13
+      rect:
+        serializedVersion: 2
+        x: 12161
+        y: 2622
+        width: 2522
+        height: 2523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115f689a6123b2970800000000000000
+      internalID: 8731127375502701841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_14
+      rect:
+        serializedVersion: 2
+        x: 14785
+        y: 2622
+        width: 2543
+        height: 2523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b52f1314e0b7b00800000000000000
+      internalID: 827270629726247706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_15
+      rect:
+        serializedVersion: 2
+        x: 18684
+        y: 2602
+        width: 2543
+        height: 2522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b056e4b1f39bb90800000000000000
+      internalID: -7225674740627338429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_16
+      rect:
+        serializedVersion: 2
+        x: 21313
+        y: 2602
+        width: 2523
+        height: 2522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217592432b2861680800000000000000
+      internalID: -8784690321248659694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_17
+      rect:
+        serializedVersion: 2
+        x: 23937
+        y: 2602
+        width: 2543
+        height: 2522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe3553afb194a870800000000000000
+      internalID: 8693233432996953845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_18
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 19
+        width: 2543
+        height: 2523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9683dbef112708a50800000000000000
+      internalID: 6521337682046302313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_19
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 19
+        width: 2522
+        height: 2523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a5ffa6c59d4bd30800000000000000
+      internalID: 4446417723076860448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_20
+      rect:
+        serializedVersion: 2
+        x: 5481
+        y: 19
+        width: 2543
+        height: 2523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab733e21eb665b60800000000000000
+      internalID: 7734488024942345126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_21
+      rect:
+        serializedVersion: 2
+        x: 9532
+        y: 19
+        width: 2543
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1092acf4efb71790800000000000000
+      internalID: -7559362459306127334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_22
+      rect:
+        serializedVersion: 2
+        x: 12161
+        y: 19
+        width: 2522
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc65d09436d9a58e0800000000000000
+      internalID: -1703876459253377332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_23
+      rect:
+        serializedVersion: 2
+        x: 14785
+        y: 19
+        width: 2543
+        height: 2544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042e35576a94946f0800000000000000
+      internalID: -699947287797571008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_24
+      rect:
+        serializedVersion: 2
+        x: 18684
+        y: 0
+        width: 2543
+        height: 2542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4886afbec7eaf11b0800000000000000
+      internalID: -5683632353160042364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_25
+      rect:
+        serializedVersion: 2
+        x: 21313
+        y: 0
+        width: 2523
+        height: 2542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954d79458207ea7a0800000000000000
+      internalID: -6364025904907692967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMapTERRA_26
+      rect:
+        serializedVersion: 2
+        x: 23937
+        y: 0
+        width: 2543
+        height: 2542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed2ab13fcc9f6e80800000000000000
+      internalID: -8183149584202453532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TileMapTERRA_0: -9095541252987673912
+      TileMapTERRA_1: -2507330313228214523
+      TileMapTERRA_10: 8933315310228541627
+      TileMapTERRA_11: -7338416721403179757
+      TileMapTERRA_12: 6997390425595930570
+      TileMapTERRA_13: 8731127375502701841
+      TileMapTERRA_14: 827270629726247706
+      TileMapTERRA_15: -7225674740627338429
+      TileMapTERRA_16: -8784690321248659694
+      TileMapTERRA_17: 8693233432996953845
+      TileMapTERRA_18: 6521337682046302313
+      TileMapTERRA_19: 4446417723076860448
+      TileMapTERRA_2: -8344887520954088027
+      TileMapTERRA_20: 7734488024942345126
+      TileMapTERRA_21: -7559362459306127334
+      TileMapTERRA_22: -1703876459253377332
+      TileMapTERRA_23: -699947287797571008
+      TileMapTERRA_24: -5683632353160042364
+      TileMapTERRA_25: -6364025904907692967
+      TileMapTERRA_26: -8183149584202453532
+      TileMapTERRA_3: 1948379870338865390
+      TileMapTERRA_4: 7566986578941811755
+      TileMapTERRA_5: 7029622832485323930
+      TileMapTERRA_6: -6794974301036539103
+      TileMapTERRA_7: -8787719660346342822
+      TileMapTERRA_8: 8561398983018787771
+      TileMapTERRA_9: -7188455660106947769
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

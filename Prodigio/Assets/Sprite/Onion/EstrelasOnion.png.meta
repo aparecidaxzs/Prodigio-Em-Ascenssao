@@ -1,0 +1,3792 @@
+fileFormatVersion: 2
+guid: 206a1bf56a8084f4cb8064bba70348a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7159837486683545675
+    second: EstrelasOnion_0
+  - first:
+      213: 1458836092239896459
+    second: EstrelasOnion_1
+  - first:
+      213: 7578724232306671696
+    second: EstrelasOnion_2
+  - first:
+      213: 1752258212966949601
+    second: EstrelasOnion_3
+  - first:
+      213: -9083875771814437287
+    second: EstrelasOnion_4
+  - first:
+      213: -2530061743349118594
+    second: EstrelasOnion_5
+  - first:
+      213: -7960274754583476588
+    second: EstrelasOnion_6
+  - first:
+      213: -1758888137285838894
+    second: EstrelasOnion_7
+  - first:
+      213: 8159738197704021800
+    second: EstrelasOnion_8
+  - first:
+      213: 8059746357984834252
+    second: EstrelasOnion_9
+  - first:
+      213: -4766276946315105790
+    second: EstrelasOnion_10
+  - first:
+      213: -3298518548041931768
+    second: EstrelasOnion_11
+  - first:
+      213: -5597337129218749874
+    second: EstrelasOnion_12
+  - first:
+      213: 3621891958364089817
+    second: EstrelasOnion_13
+  - first:
+      213: -5242679710081138959
+    second: EstrelasOnion_14
+  - first:
+      213: 6492528027047160312
+    second: EstrelasOnion_15
+  - first:
+      213: -7658850866594662355
+    second: EstrelasOnion_16
+  - first:
+      213: 7004950377493817154
+    second: EstrelasOnion_17
+  - first:
+      213: -2752632467895235431
+    second: EstrelasOnion_18
+  - first:
+      213: 3132173241612015601
+    second: EstrelasOnion_19
+  - first:
+      213: 410467405047116132
+    second: EstrelasOnion_20
+  - first:
+      213: -946465072154473179
+    second: EstrelasOnion_21
+  - first:
+      213: 7597589861140772435
+    second: EstrelasOnion_22
+  - first:
+      213: -1618846322357771630
+    second: EstrelasOnion_23
+  - first:
+      213: -1223799182705122912
+    second: EstrelasOnion_24
+  - first:
+      213: -8536179545749602250
+    second: EstrelasOnion_25
+  - first:
+      213: -7805992655803459638
+    second: EstrelasOnion_26
+  - first:
+      213: -1425082054695922381
+    second: EstrelasOnion_27
+  - first:
+      213: -481044591810939085
+    second: EstrelasOnion_28
+  - first:
+      213: -4944278229699070160
+    second: EstrelasOnion_29
+  - first:
+      213: 8685604986229014087
+    second: EstrelasOnion_30
+  - first:
+      213: 4847531689316439169
+    second: EstrelasOnion_31
+  - first:
+      213: -3541014225440245578
+    second: EstrelasOnion_32
+  - first:
+      213: 6588029269721307714
+    second: EstrelasOnion_33
+  - first:
+      213: 5003458679874656767
+    second: EstrelasOnion_34
+  - first:
+      213: 5170046676114406181
+    second: EstrelasOnion_35
+  - first:
+      213: 6687103420967262093
+    second: EstrelasOnion_36
+  - first:
+      213: 2811362281442415361
+    second: EstrelasOnion_37
+  - first:
+      213: -2050951679538816892
+    second: EstrelasOnion_38
+  - first:
+      213: 4584303894220229706
+    second: EstrelasOnion_39
+  - first:
+      213: 7505910758717423300
+    second: EstrelasOnion_40
+  - first:
+      213: 2094562341455040248
+    second: EstrelasOnion_41
+  - first:
+      213: 7681210703664139453
+    second: EstrelasOnion_42
+  - first:
+      213: -3422314732762147464
+    second: EstrelasOnion_43
+  - first:
+      213: -6340650269033310608
+    second: EstrelasOnion_44
+  - first:
+      213: -995399836432021335
+    second: EstrelasOnion_45
+  - first:
+      213: -7172296897808423978
+    second: EstrelasOnion_46
+  - first:
+      213: -9104295628275121938
+    second: EstrelasOnion_47
+  - first:
+      213: 967329917560051344
+    second: EstrelasOnion_48
+  - first:
+      213: -4315531452643736093
+    second: EstrelasOnion_49
+  - first:
+      213: 3804248235529204629
+    second: EstrelasOnion_50
+  - first:
+      213: 411333345035968789
+    second: EstrelasOnion_51
+  - first:
+      213: 8581947584279089959
+    second: EstrelasOnion_52
+  - first:
+      213: 5639469501286049371
+    second: EstrelasOnion_53
+  - first:
+      213: -874857472710744533
+    second: EstrelasOnion_54
+  - first:
+      213: -5411765928477729124
+    second: EstrelasOnion_55
+  - first:
+      213: -3581384855227364885
+    second: EstrelasOnion_56
+  - first:
+      213: 6947209135680582663
+    second: EstrelasOnion_57
+  - first:
+      213: -2327228771362557840
+    second: EstrelasOnion_58
+  - first:
+      213: -5388096426185504793
+    second: EstrelasOnion_59
+  - first:
+      213: -977917124187975491
+    second: EstrelasOnion_60
+  - first:
+      213: -4405807626716979011
+    second: EstrelasOnion_61
+  - first:
+      213: 3205221439070004807
+    second: EstrelasOnion_62
+  - first:
+      213: -3666940951356297074
+    second: EstrelasOnion_63
+  - first:
+      213: 7441446275188805980
+    second: EstrelasOnion_64
+  - first:
+      213: -7593235448358930018
+    second: EstrelasOnion_65
+  - first:
+      213: 9013696069890988306
+    second: EstrelasOnion_66
+  - first:
+      213: 7078382746364168424
+    second: EstrelasOnion_67
+  - first:
+      213: -5872118438899429310
+    second: EstrelasOnion_68
+  - first:
+      213: -8883239844456421186
+    second: EstrelasOnion_69
+  - first:
+      213: -517095995051625707
+    second: EstrelasOnion_70
+  - first:
+      213: 6969987385166120482
+    second: EstrelasOnion_71
+  - first:
+      213: -4130117543770185625
+    second: EstrelasOnion_72
+  - first:
+      213: 7317017152716075432
+    second: EstrelasOnion_73
+  - first:
+      213: 7288754929948953867
+    second: EstrelasOnion_74
+  - first:
+      213: 3258657451298756133
+    second: EstrelasOnion_75
+  - first:
+      213: 2546910095238756160
+    second: EstrelasOnion_76
+  - first:
+      213: 8940245277823371768
+    second: EstrelasOnion_77
+  - first:
+      213: 7653238662190587320
+    second: EstrelasOnion_78
+  - first:
+      213: 5258816716804309067
+    second: EstrelasOnion_79
+  - first:
+      213: 3331326852877954136
+    second: EstrelasOnion_80
+  - first:
+      213: 6784479096612729182
+    second: EstrelasOnion_81
+  - first:
+      213: 2865585439661177646
+    second: EstrelasOnion_82
+  - first:
+      213: 2563537230968866038
+    second: EstrelasOnion_83
+  - first:
+      213: 8139410081683137918
+    second: EstrelasOnion_84
+  - first:
+      213: 6405858903610221476
+    second: EstrelasOnion_85
+  - first:
+      213: 4162551361409944671
+    second: EstrelasOnion_86
+  - first:
+      213: -8161670670382943205
+    second: EstrelasOnion_87
+  - first:
+      213: -8875615362748845680
+    second: EstrelasOnion_88
+  - first:
+      213: -6993181988030632518
+    second: EstrelasOnion_89
+  - first:
+      213: -5854968784757217055
+    second: EstrelasOnion_90
+  - first:
+      213: 7408948417007603612
+    second: EstrelasOnion_91
+  - first:
+      213: 739980235999102283
+    second: EstrelasOnion_92
+  - first:
+      213: -2729123132577939849
+    second: EstrelasOnion_93
+  - first:
+      213: -8007254662565132502
+    second: EstrelasOnion_94
+  - first:
+      213: -6672024474131968534
+    second: EstrelasOnion_95
+  - first:
+      213: -6939758244289533671
+    second: EstrelasOnion_96
+  - first:
+      213: -3948043534203286731
+    second: EstrelasOnion_97
+  - first:
+      213: -2416923755178445036
+    second: EstrelasOnion_98
+  - first:
+      213: 8976541088521889876
+    second: EstrelasOnion_99
+  - first:
+      213: -7999208414346021417
+    second: EstrelasOnion_100
+  - first:
+      213: -5700169074355700344
+    second: EstrelasOnion_101
+  - first:
+      213: -842230075445149113
+    second: EstrelasOnion_102
+  - first:
+      213: 4888143330678239959
+    second: EstrelasOnion_103
+  - first:
+      213: -6247488850219867663
+    second: EstrelasOnion_104
+  - first:
+      213: 5354369764480345359
+    second: EstrelasOnion_105
+  - first:
+      213: 7719237074650475694
+    second: EstrelasOnion_106
+  - first:
+      213: -7189821896885474923
+    second: EstrelasOnion_107
+  - first:
+      213: 3898265107248298839
+    second: EstrelasOnion_108
+  - first:
+      213: -2000656559162543783
+    second: EstrelasOnion_109
+  - first:
+      213: -3282699786809334439
+    second: EstrelasOnion_110
+  - first:
+      213: 7256669657253059187
+    second: EstrelasOnion_111
+  - first:
+      213: 7290178365286538407
+    second: EstrelasOnion_112
+  - first:
+      213: 3137355620862666699
+    second: EstrelasOnion_113
+  - first:
+      213: 4327147048131414168
+    second: EstrelasOnion_114
+  - first:
+      213: -4043738852948221361
+    second: EstrelasOnion_115
+  - first:
+      213: 1496281504172063151
+    second: EstrelasOnion_116
+  - first:
+      213: 7150664803006819610
+    second: EstrelasOnion_117
+  - first:
+      213: 9085179421727394998
+    second: EstrelasOnion_118
+  - first:
+      213: -5516061059623471777
+    second: EstrelasOnion_119
+  - first:
+      213: -4155099953998107554
+    second: EstrelasOnion_120
+  - first:
+      213: -2701980234396745612
+    second: EstrelasOnion_121
+  - first:
+      213: 6167889957888088633
+    second: EstrelasOnion_122
+  - first:
+      213: 9142995228774751837
+    second: EstrelasOnion_123
+  - first:
+      213: -3657616278943191549
+    second: EstrelasOnion_124
+  - first:
+      213: -6140625226071516067
+    second: EstrelasOnion_125
+  - first:
+      213: 4208623756766202808
+    second: EstrelasOnion_126
+  - first:
+      213: -6994857250823635527
+    second: EstrelasOnion_127
+  - first:
+      213: 6387378322778097982
+    second: EstrelasOnion_128
+  - first:
+      213: -6445225894718523323
+    second: EstrelasOnion_129
+  - first:
+      213: -8116479703545267572
+    second: EstrelasOnion_130
+  - first:
+      213: -8539660264296915894
+    second: EstrelasOnion_131
+  - first:
+      213: -6101912006361589165
+    second: EstrelasOnion_132
+  - first:
+      213: 6891827357123367725
+    second: EstrelasOnion_133
+  - first:
+      213: 5276032003569762310
+    second: EstrelasOnion_134
+  - first:
+      213: -3513494350780124985
+    second: EstrelasOnion_135
+  - first:
+      213: -6783663651137272927
+    second: EstrelasOnion_136
+  - first:
+      213: 2000860019768050660
+    second: EstrelasOnion_137
+  - first:
+      213: -4576797895568007095
+    second: EstrelasOnion_138
+  - first:
+      213: 4887322385175219426
+    second: EstrelasOnion_139
+  - first:
+      213: -8245327295512608684
+    second: EstrelasOnion_140
+  - first:
+      213: 5400340979033017209
+    second: EstrelasOnion_141
+  - first:
+      213: -371857805387182573
+    second: EstrelasOnion_142
+  - first:
+      213: -3246875711885927258
+    second: EstrelasOnion_143
+  - first:
+      213: 1230041509490697134
+    second: EstrelasOnion_144
+  - first:
+      213: -117172032565190513
+    second: EstrelasOnion_145
+  - first:
+      213: 5292464270476444852
+    second: EstrelasOnion_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EstrelasOnion_0
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 4528
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf93b48db523ac90800000000000000
+      internalID: -7159837486683545675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_1
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 4548
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f5a7752b3de3410800000000000000
+      internalID: 1458836092239896459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_2
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 4528
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050c84519890d2960800000000000000
+      internalID: 7578724232306671696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_3
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 4566
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2e7a29f85415810800000000000000
+      internalID: 1752258212966949601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_4
+      rect:
+        serializedVersion: 2
+        x: 6433
+        y: 4532
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e193d2d179fe180800000000000000
+      internalID: -9083875771814437287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4462
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79cedfcf3a63ecd0800000000000000
+      internalID: -2530061743349118594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_6
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 4472
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496ca8a394c678190800000000000000
+      internalID: -7960274754583476588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_7
+      rect:
+        serializedVersion: 2
+        x: 5774
+        y: 4462
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7dd61ee8c2797e0800000000000000
+      internalID: -1758888137285838894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_8
+      rect:
+        serializedVersion: 2
+        x: 7786
+        y: 4454
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827955e98a63d3170800000000000000
+      internalID: 8159738197704021800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_9
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 4419
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc23f673c98f9df60800000000000000
+      internalID: 8059746357984834252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_10
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 4318
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a21c1ce58caddb0800000000000000
+      internalID: -4766276946315105790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_11
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 4280
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8046cea5bde4932d0800000000000000
+      internalID: -3298518548041931768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_12
+      rect:
+        serializedVersion: 2
+        x: 7125
+        y: 4287
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4acfc479834252b0800000000000000
+      internalID: -5597337129218749874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_13
+      rect:
+        serializedVersion: 2
+        x: 7741
+        y: 4263
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dda229eb8b834230800000000000000
+      internalID: 3621891958364089817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_14
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 4241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe3771a4924e37b0800000000000000
+      internalID: -5242679710081138959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_15
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 4241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9e96a77d71a1a50800000000000000
+      internalID: 6492528027047160312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_16
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 4241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28bee417bb46b590800000000000000
+      internalID: -7658850866594662355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_17
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 4158
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247e1c72145963160800000000000000
+      internalID: 7004950377493817154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_18
+      rect:
+        serializedVersion: 2
+        x: 8150
+        y: 4187
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cc5e1ca5facc9d0800000000000000
+      internalID: -2752632467895235431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_19
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 4102
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f79441e7f6b77b20800000000000000
+      internalID: 3132173241612015601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_20
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 4024
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461b5bd1ee542b500800000000000000
+      internalID: 410467405047116132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_21
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 3946
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d0bed080b7dd2f0800000000000000
+      internalID: -946465072154473179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_22
+      rect:
+        serializedVersion: 2
+        x: 5487
+        y: 4002
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356b76699bf007960800000000000000
+      internalID: 7597589861140772435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_23
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 3931
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292eae9c8d3b889e0800000000000000
+      internalID: -1618846322357771630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_24
+      rect:
+        serializedVersion: 2
+        x: 6457
+        y: 3944
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1a2769021340fe0800000000000000
+      internalID: -1223799182705122912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_25
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3800
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630c3a40ee5698980800000000000000
+      internalID: -8536179545749602250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_26
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 3878
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7d687990b8ba390800000000000000
+      internalID: -7805992655803459638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_27
+      rect:
+        serializedVersion: 2
+        x: 6834
+        y: 3873
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335d012fb67193ce0800000000000000
+      internalID: -1425082054695922381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_28
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 3801
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3377cff0e7cf259f0800000000000000
+      internalID: -481044591810939085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_29
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 3756
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037f6106525626bb0800000000000000
+      internalID: -4944278229699070160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_30
+      rect:
+        serializedVersion: 2
+        x: 4186
+        y: 3743
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74eba8777b7798870800000000000000
+      internalID: 8685604986229014087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_31
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3725
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184d72b5364e54340800000000000000
+      internalID: 4847531689316439169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_32
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 3693
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b87704b25acbdec0800000000000000
+      internalID: -3541014225440245578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_33
+      rect:
+        serializedVersion: 2
+        x: 4665
+        y: 3698
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a5d9747b16d6b50800000000000000
+      internalID: 6588029269721307714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_34
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 3659
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9164ee82bdf6540800000000000000
+      internalID: 5003458679874656767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_35
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 3590
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bfcf15f02bfb740800000000000000
+      internalID: 5170046676114406181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_36
+      rect:
+        serializedVersion: 2
+        x: 5284
+        y: 3573
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d879d0fa12d5dcc50800000000000000
+      internalID: 6687103420967262093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_37
+      rect:
+        serializedVersion: 2
+        x: 7253
+        y: 3577
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1039e488917f30720800000000000000
+      internalID: 2811362281442415361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_38
+      rect:
+        serializedVersion: 2
+        x: 7522
+        y: 3598
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4881999505e8983e0800000000000000
+      internalID: -2050951679538816892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_39
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 3513
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ccf656a18be9f30800000000000000
+      internalID: 4584303894220229706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_40
+      rect:
+        serializedVersion: 2
+        x: 6292
+        y: 3516
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce7229211a5a2860800000000000000
+      internalID: 7505910758717423300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_41
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 3437
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe86522a51611d10800000000000000
+      internalID: 2094562341455040248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_42
+      rect:
+        serializedVersion: 2
+        x: 6885
+        y: 3420
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc44dc2074299a60800000000000000
+      internalID: 7681210703664139453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_43
+      rect:
+        serializedVersion: 2
+        x: 5468
+        y: 3382
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875502cf1ee7180d0800000000000000
+      internalID: -3422314732762147464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_44
+      rect:
+        serializedVersion: 2
+        x: 5991
+        y: 3382
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076d84dac2c7108a0800000000000000
+      internalID: -6340650269033310608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_45
+      rect:
+        serializedVersion: 2
+        x: 8122
+        y: 3285
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8ccf36f11af22f0800000000000000
+      internalID: -995399836432021335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_46
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 3220
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d32e7ec8f1e67c90800000000000000
+      internalID: -7172296897808423978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_47
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 3219
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0058adc5b07a180800000000000000
+      internalID: -9104295628275121938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_48
+      rect:
+        serializedVersion: 2
+        x: 4324
+        y: 3183
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09656c45f65ac6d00800000000000000
+      internalID: 967329917560051344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 3108
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5052c22072c14c0800000000000000
+      internalID: -4315531452643736093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_50
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 3119
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593ff1c4d976bc430800000000000000
+      internalID: 3804248235529204629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_51
+      rect:
+        serializedVersion: 2
+        x: 5379
+        y: 3108
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511642b7f7955b500800000000000000
+      internalID: 411333345035968789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_52
+      rect:
+        serializedVersion: 2
+        x: 6349
+        y: 3146
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7231af9dbd3391770800000000000000
+      internalID: 8581947584279089959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_53
+      rect:
+        serializedVersion: 2
+        x: 7662
+        y: 3146
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56edc9d1ab634e40800000000000000
+      internalID: 5639469501286049371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2992
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26eaf583c1ebd3f0800000000000000
+      internalID: -874857472710744533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_55
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 2966
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ed5819f8b85e4b0800000000000000
+      internalID: -5411765928477729124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_56
+      rect:
+        serializedVersion: 2
+        x: 5864
+        y: 2992
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9853cf27d5c4ec0800000000000000
+      internalID: -3581384855227364885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_57
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 2878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704f698a6e1796060800000000000000
+      internalID: 6947209135680582663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_58
+      rect:
+        serializedVersion: 2
+        x: 7751
+        y: 2878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070bddb33c504bfd0800000000000000
+      internalID: -2327228771362557840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_59
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 2824
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e749a509d2a935b0800000000000000
+      internalID: -5388096426185504793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_60
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 2715
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db011098e8dbd62f0800000000000000
+      internalID: -977917124187975491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_61
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 2761
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0e3d47e4d6bd2c0800000000000000
+      internalID: -4405807626716979011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_62
+      rect:
+        serializedVersion: 2
+        x: 8043
+        y: 2762
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746eb36baeb3b7c20800000000000000
+      internalID: 3205221439070004807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_63
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2735
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80331e02a86c1dc0800000000000000
+      internalID: -3666940951356297074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_64
+      rect:
+        serializedVersion: 2
+        x: 7177
+        y: 2660
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5158c7f5f3554760800000000000000
+      internalID: 7441446275188805980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_65
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2551
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9979a427986f9690800000000000000
+      internalID: -7593235448358930018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_66
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 2539
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219df27a1d4171d70800000000000000
+      internalID: 9013696069890988306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_67
+      rect:
+        serializedVersion: 2
+        x: 5545
+        y: 2551
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e84a4dda977b3260800000000000000
+      internalID: 7078382746364168424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_68
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2474
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240d062446b028ea0800000000000000
+      internalID: -5872118438899429310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_69
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 2409
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb824984d6468b480800000000000000
+      internalID: -8883239844456421186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_70
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 2378
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513bb24aee7e2d8f0800000000000000
+      internalID: -517095995051625707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_71
+      rect:
+        serializedVersion: 2
+        x: 6667
+        y: 2343
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226c7c5299e5ab060800000000000000
+      internalID: 6969987385166120482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_72
+      rect:
+        serializedVersion: 2
+        x: 7361
+        y: 2339
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76028fae9ffdea6c0800000000000000
+      internalID: -4130117543770185625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_73
+      rect:
+        serializedVersion: 2
+        x: 5307
+        y: 2296
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1f41b45544b8560800000000000000
+      internalID: 7317017152716075432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_74
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 2177
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d0c76cdfbd62560800000000000000
+      internalID: 7288754929948953867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_75
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 2177
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5269755dfa3193d20800000000000000
+      internalID: 3258657451298756133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_76
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 2241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047ff8dcc31785320800000000000000
+      internalID: 2546910095238756160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_77
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 2147
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9868576b1221c70800000000000000
+      internalID: 8940245277823371768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_78
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 1987
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdd721c304c53a60800000000000000
+      internalID: 7653238662190587320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_79
+      rect:
+        serializedVersion: 2
+        x: 6172
+        y: 2035
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40c10801f11bf840800000000000000
+      internalID: 5258816716804309067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_80
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1929
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ca2806f104b3e20800000000000000
+      internalID: 3331326852877954136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_81
+      rect:
+        serializedVersion: 2
+        x: 4345
+        y: 1873
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e513aabeacf472e50800000000000000
+      internalID: 6784479096612729182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_82
+      rect:
+        serializedVersion: 2
+        x: 7148
+        y: 1895
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b398c56ca94c720800000000000000
+      internalID: 2865585439661177646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_83
+      rect:
+        serializedVersion: 2
+        x: 7691
+        y: 1894
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f443648783839320800000000000000
+      internalID: 2563537230968866038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_84
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1885
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75e4f7485ef4f070800000000000000
+      internalID: 8139410081683137918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_85
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 1885
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3e5feabbe26e850800000000000000
+      internalID: 6405858903610221476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_86
+      rect:
+        serializedVersion: 2
+        x: 6758
+        y: 1856
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c8828b86a54c930800000000000000
+      internalID: 4162551361409944671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_87
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1818
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14b91684cbebbe80800000000000000
+      internalID: -8161670670382943205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_88
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1833
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091fa544ada73d480800000000000000
+      internalID: -8875615362748845680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_89
+      rect:
+        serializedVersion: 2
+        x: 5788
+        y: 1818
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd26c9880a33fe90800000000000000
+      internalID: -6993181988030632518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_90
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 1818
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8ab8549e8febea0800000000000000
+      internalID: -5854968784757217055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_91
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1681
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f4eeab45fd1d660800000000000000
+      internalID: 7408948417007603612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_92
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 1681
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b454983aa10f44a00800000000000000
+      internalID: 739980235999102283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_93
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 1681
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ef36e68f4302ad0800000000000000
+      internalID: -2729123132577939849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_94
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 1681
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2707b30f4480e090800000000000000
+      internalID: -8007254662565132502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_95
+      rect:
+        serializedVersion: 2
+        x: 7484
+        y: 1635
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedc6a637153863a0800000000000000
+      internalID: -6672024474131968534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_96
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 1527
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919a80e25a601bf90800000000000000
+      internalID: -6939758244289533671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_97
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 1461
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b0902c25bb539c0800000000000000
+      internalID: -3948043534203286731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_98
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1431
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417b26b66ac557ed0800000000000000
+      internalID: -2416923755178445036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_99
+      rect:
+        serializedVersion: 2
+        x: 8195
+        y: 1352
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458ab0d6f84139c70800000000000000
+      internalID: 8976541088521889876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_100
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 1250
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5f69a245a1df090800000000000000
+      internalID: -7999208414346021417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_101
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 1124
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d7c5b7d6ee4e0b0800000000000000
+      internalID: -5700169074355700344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_102
+      rect:
+        serializedVersion: 2
+        x: 6160
+        y: 1198
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74201fd653ccf44f0800000000000000
+      internalID: -842230075445149113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_103
+      rect:
+        serializedVersion: 2
+        x: 7722
+        y: 1141
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d27544f57c26d340800000000000000
+      internalID: 4888143330678239959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_104
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f16e68cdf57c49a0800000000000000
+      internalID: -6247488850219867663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_105
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1073
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0561ff9eea8e4a40800000000000000
+      internalID: 5354369764480345359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_106
+      rect:
+        serializedVersion: 2
+        x: 5764
+        y: 1103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac219b983d302b60800000000000000
+      internalID: 7719237074650475694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_107
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 1054
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599e0ddf31f983c90800000000000000
+      internalID: -7189821896885474923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_108
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 1073
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bb5dd067b691630800000000000000
+      internalID: 3898265107248298839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_109
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 996
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951bf89957d3c34e0800000000000000
+      internalID: -2000656559162543783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_110
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 920
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955aaf6bfe18172d0800000000000000
+      internalID: -3282699786809334439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_111
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 900
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a9ce41b9ed4b460800000000000000
+      internalID: 7256669657253059187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_112
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 814
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac5424299aeb2560800000000000000
+      internalID: 7290178365286538407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_113
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 823
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7289390502a8b20800000000000000
+      internalID: 3137355620862666699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_114
+      rect:
+        serializedVersion: 2
+        x: 6541
+        y: 726
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898c0c6605d1d0c30800000000000000
+      internalID: 4327147048131414168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_115
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 814
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42639910f0c1e7c0800000000000000
+      internalID: -4043738852948221361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_116
+      rect:
+        serializedVersion: 2
+        x: 8245
+        y: 784
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9b924b91cd3c410800000000000000
+      internalID: 1496281504172063151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_117
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 566
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d2c13a0c34c3360800000000000000
+      internalID: 7150664803006819610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_118
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 603
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc00c87c8a051e70800000000000000
+      internalID: 9085179421727394998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_119
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 592
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5537cd01b30373b0800000000000000
+      internalID: -5516061059623471777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_120
+      rect:
+        serializedVersion: 2
+        x: 5770
+        y: 566
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c63b34b9e1656c0800000000000000
+      internalID: -4155099953998107554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_121
+      rect:
+        serializedVersion: 2
+        x: 4310
+        y: 549
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470c7a2ea43a08ad0800000000000000
+      internalID: -2701980234396745612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_122
+      rect:
+        serializedVersion: 2
+        x: 4794
+        y: 424
+        width: 119
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a5e91ec3fb89550800000000000000
+      internalID: 6167889957888088633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_123
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 522
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ed53a08b172ee70800000000000000
+      internalID: 9142995228774751837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_124
+      rect:
+        serializedVersion: 2
+        x: 6591
+        y: 507
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ea7e88f598d3dc0800000000000000
+      internalID: -3657616278943191549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_125
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 478
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c543d24ed18caa0800000000000000
+      internalID: -6140625226071516067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_126
+      rect:
+        serializedVersion: 2
+        x: 7123
+        y: 496
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbc15f2209086a30800000000000000
+      internalID: 4208623756766202808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_127
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 313
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd771604664dee90800000000000000
+      internalID: -6994857250823635527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_128
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 408
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3908372eb684a850800000000000000
+      internalID: 6387378322778097982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_129
+      rect:
+        serializedVersion: 2
+        x: 7710
+        y: 374
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54837207235fd86a0800000000000000
+      internalID: -6445225894718523323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_130
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a348b66b87c5f80800000000000000
+      internalID: -8116479703545267572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_131
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 334
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c50141c380d7980800000000000000
+      internalID: -8539660264296915894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_132
+      rect:
+        serializedVersion: 2
+        x: 7275
+        y: 349
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a502a0c57a15ba0800000000000000
+      internalID: -6101912006361589165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_133
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 318
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2358a28770b4af50800000000000000
+      internalID: 6891827357123367725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_134
+      rect:
+        serializedVersion: 2
+        x: 5497
+        y: 318
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6004e54572b383940800000000000000
+      internalID: 5276032003569762310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_135
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 210
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0b865d08f8d3fc0800000000000000
+      internalID: -3513494350780124985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_136
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 88
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3cb36c9d59bd1a0800000000000000
+      internalID: -6783663651137272927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_137
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 108
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e34e83469b74cb10800000000000000
+      internalID: 2000860019768050660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_138
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 125
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940e9e91092fb70c0800000000000000
+      internalID: -4576797895568007095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_139
+      rect:
+        serializedVersion: 2
+        x: 6553
+        y: 130
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec0f2fa0d143d340800000000000000
+      internalID: 4887322385175219426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_140
+      rect:
+        serializedVersion: 2
+        x: 6861
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4508326a286b29d80800000000000000
+      internalID: -8245327295512608684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_141
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 62
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b8f39128dd1fa40800000000000000
+      internalID: 5400340979033017209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_142
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 29
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ec0f2db45e6daf0800000000000000
+      internalID: -371857805387182573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_143
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac12332eb7c0f2d0800000000000000
+      internalID: -3246875711885927258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_144
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 0
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3ad206c3cf11110800000000000000
+      internalID: 1230041509490697134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_145
+      rect:
+        serializedVersion: 2
+        x: 5631
+        y: 0
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80675d38a8bf5ef0800000000000000
+      internalID: -117172032565190513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EstrelasOnion_146
+      rect:
+        serializedVersion: 2
+        x: 8226
+        y: 0
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4023c963c927940800000000000000
+      internalID: 5292464270476444852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
