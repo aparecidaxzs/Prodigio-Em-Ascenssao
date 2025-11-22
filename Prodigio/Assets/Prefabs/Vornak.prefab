@@ -90,8 +90,8 @@ GameObject:
   - component: {fileID: 8309873339272886476}
   - component: {fileID: 4317048429764827133}
   - component: {fileID: 8156423940477450665}
-  - component: {fileID: 817463177626877252}
-  - component: {fileID: 3828199712075359078}
+  - component: {fileID: 3449069198990562736}
+  - component: {fileID: 8100511010618850726}
   m_Layer: 9
   m_Name: Vornak
   m_TagString: Untagged
@@ -160,7 +160,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: 5147274338526168628, guid: a025febd47305264f83c5dc64400edfe, type: 3}
+  m_Sprite: {fileID: -8056564902511639956, guid: 48d02f54add1ff0459b2edc319d228e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -236,7 +236,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 12.23, y: 16.31}
+    oldSize: {x: 14.983396, y: 20.08}
     newSize: {x: 12.23, y: 16.31}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -244,7 +244,36 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 9.710496, y: 16.31}
   m_EdgeRadius: 0
---- !u!95 &817463177626877252
+--- !u!114 &3449069198990562736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2776216806167868468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a2369124c139149b1535ddc4ad646f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  maxHealth: 3
+  contactDamage: 1
+  detectionRange: 6
+  meleeRange: 1.2
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  bulletPrefab: {fileID: 643510950730494101, guid: fed8cdadbe004084eaa3122fe505a871, type: 3}
+  firePoint: {fileID: 5062863261696990387}
+  shootCooldown: 2
+  meleeCooldown: 1
+  jumpForce: 5
+  randomJumpInterval: 3
+  attackJumpForce: 8
+  attackJumpCooldown: 4
+  contactDamageCooldown: 1
+--- !u!95 &8100511010618850726
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -254,7 +283,7 @@ Animator:
   m_GameObject: {fileID: 2776216806167868468}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 90ae680480b31104c8421c916af5b31b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1e98bb10ce41c94469f13073d753e176, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -266,37 +295,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3828199712075359078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2776216806167868468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0613a94a4eebb16449193d8ab0d59f98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  patrolSpeed: 2
-  chaseSpeed: 3.2
-  patrolDistance: 4
-  maxHealth: 25
-  jumpForce: 6
-  randomJumpInterval: 3
-  speedMultiplier: 1.5
-  baseDamage: 1
-  detectionRange: 8
-  attackRange: 1.2
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  attackPoint: {fileID: 525569622287035221}
-  attackRadius: 0.7
-  attackCooldown: 1.2
-  projectilePrefab: {fileID: 2415720632045591277, guid: 364b1581360fd6c4694ae7f58fe5e393, type: 3}
-  projectileSpawnPoint: {fileID: 5062863261696990387}
-  projectileCooldown: 2
 --- !u!1 &3864239825027027208
 GameObject:
   m_ObjectHideFlags: 0

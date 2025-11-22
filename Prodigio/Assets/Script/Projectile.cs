@@ -29,16 +29,16 @@ public class Projectile : MonoBehaviour
             Debug.Log("Colisão válida com Layer permitida."); // Confirma se LayerMask está funcionando
 
             EnemyAI enemy = collision.GetComponent<EnemyAI>(); // corrigido para EnemyAI
-            EnemyShooter enemyPuncher = collision.GetComponent<EnemyShooter>();
+            //EnemyShooter enemyPuncher = collision.GetComponent<EnemyShooter>();
             if (enemy != null)
             {
                 enemy.TakeDamage(damage); // dá dano no inimigo
                 Debug.Log("Dano aplicado ao inimigo: " + damage); // Confirma dano
             }
-            else if (enemyPuncher != null)
+            /*else if (enemyPuncher != null)
             {
                 enemyPuncher.TakeDamage(damage);
-            }
+            }*/
             else
             {
                 Debug.Log("Objeto não tem script EnemyAI."); // Se não encontrar o script
