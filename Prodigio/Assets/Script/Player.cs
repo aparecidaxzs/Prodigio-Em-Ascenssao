@@ -151,7 +151,8 @@ public class Player : MonoBehaviour
             rig.gravityScale = 0f;
             GetComponent<Collider2D>().enabled = false;
 
-            StartCoroutine(DieBlink());
+            //StartCoroutine(DieBlink());
+            GameController.instance.ShowGameOver();
         }
     }
 
@@ -162,11 +163,11 @@ public class Player : MonoBehaviour
     }
 
     public void AddVida(int quantidade)
-    {
-        maxVida += quantidade;
-        vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida);
-        Atualizarbarra();
-    }
+{
+    vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida);
+    Atualizarbarra();
+}
+
 
     public void BarradeVida(int amount)
     {
@@ -223,36 +224,45 @@ public class Player : MonoBehaviour
     // NOVO BlinkEffect → pisca 3x e destrói
     // ==============================
     IEnumerator BlinkEffect(float blinkSpeed, int times)
+{
+    isTakingDamage = true;
+
+    for (int i = 0; i < 3; i++)
     {
-        isTakingDamage = true;
-
-        // Piscar 3 vezes
-        for (int i = 0; i < 3; i++)
-        {
-            spriteRenderer.enabled = false;
-            yield return new WaitForSeconds(blinkSpeed);
-            spriteRenderer.enabled = true;
-            yield return new WaitForSeconds(blinkSpeed);
-        }
-
-        isTakingDamage = false;
-
-        // Depois do piscar → destruir player
-        Destroy(gameObject);
+        spriteRenderer.enabled = false;
+        yield return new WaitForSeconds(blinkSpeed);
+        spriteRenderer.enabled = true;
+        yield return new WaitForSeconds(blinkSpeed);
     }
 
-    IEnumerator DieBlink()
+    isTakingDamage = false;
+}
+
+   /* IEnumerator DieBlink()
+{
+    for (int i = 0; i < 3; i++)
     {
-        for (int i = 0; i < 3; i++)
-        {
-            spriteRenderer.enabled = false;
-            yield return new WaitForSeconds(0.2f);
-            spriteRenderer.enabled = true;
-            yield return new WaitForSeconds(0.2f);
-        }
+        spriteRenderer.enabled = false;
+        yield return new WaitForSeconds(0.2f);
+        spriteRenderer.enabled = true;
+        yield return new WaitForSeconds(0.2f);
+    }
+
+    // Só morre se a vida for 0
+    if (vidaAtual <= 0)
+    {
         GameController.instance.ShowGameOver();
         Destroy(gameObject);
     }
+}*/
+
+
+    public void TomarDano(int quantidade)
+{
+    vidaAtual = Mathf.Clamp(vidaAtual - quantidade, 0, maxVida);
+    BarradeVida(-quantidade);
+    Atualizarbarra();
+}
 
     
 }

@@ -21367,6 +21367,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &309139786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7711929470839752485, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_Name
+      value: "IconeDestrui\xE7\xE3o 1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7711929470839752485, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 359.886
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.591962
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754382575191882276, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
 --- !u!1 &310137976
 GameObject:
   m_ObjectHideFlags: 0
@@ -26521,6 +26582,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &393722162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7711929470839752485, guid: 19a9117b367442f4e82bf8db646ccccb, type: 3}
+  m_PrefabInstance: {fileID: 309139786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &394268552
 GameObject:
   m_ObjectHideFlags: 0
@@ -87459,7 +87525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1984760418931366834, guid: 0c980e9b4f73a844fb4d62c684ba255c, type: 3}
       propertyPath: distance
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2709165484119305552, guid: 0c980e9b4f73a844fb4d62c684ba255c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -113392,6 +113458,113 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1965510321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1965510324}
+  - component: {fileID: 1965510323}
+  - component: {fileID: 1965510322}
+  m_Layer: 0
+  m_Name: Vitoria
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1965510322
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965510321}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.4033203, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.8066406, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1965510323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965510321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470fc7be89be8214f81190d39a8e09f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevelName: Lvl.Onion
+  menuP: Menu_Principal
+  prodigioTag: Prodigios
+  playerTag: Player
+  vitoria0: {fileID: 222276372}
+  vitoria1: {fileID: 0}
+  vitoria2: {fileID: 0}
+  vitoria3: {fileID: 0}
+  botaoCasa: {fileID: 252503581}
+  botaoRein: {fileID: 1990938317}
+  botaoSeguir: {fileID: 101434651}
+  botaoPause: {fileID: 7833086139673810195}
+  score: {fileID: 8492969363872037885}
+  panel: {fileID: 227326485}
+  objetoQueSobe: {fileID: 2015362258}
+  diamanteObj: {fileID: 393722162}
+--- !u!4 &1965510324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965510321}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 359.53, y: -10.68, z: -2.1018617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1971152668 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2523283078958674509, guid: e70a45854f3cb5f49a3d9d65cfe09377, type: 3}
@@ -116154,7 +116327,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2015362260}
   - component: {fileID: 2015362259}
-  - component: {fileID: 2015362261}
   m_Layer: 0
   m_Name: TampaCaixa
   m_TagString: Untagged
@@ -116232,34 +116404,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2015362261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015362258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 470fc7be89be8214f81190d39a8e09f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextLevelName: lvl.Onion
-  menuP: Menu_Principal
-  prodigioTag: Prodigios
-  playerTag: Player
-  vitoria0: {fileID: 222276372}
-  vitoria1: {fileID: 0}
-  vitoria2: {fileID: 0}
-  vitoria3: {fileID: 0}
-  botaoCasa: {fileID: 252503581}
-  botaoRein: {fileID: 1990938317}
-  botaoSeguir: {fileID: 101434651}
-  botaoPause: {fileID: 7833086139673810195}
-  score: {fileID: 8492969363872037885}
-  panel: {fileID: 227326485}
-  objetoQueSobe: {fileID: 2015362258}
-  diamanteObj: {fileID: 0}
 --- !u!1 &2015517095
 GameObject:
   m_ObjectHideFlags: 0
@@ -124839,3 +124983,5 @@ SceneRoots:
   - {fileID: 1241341153}
   - {fileID: 1543912547}
   - {fileID: 1746882220}
+  - {fileID: 309139786}
+  - {fileID: 1965510324}

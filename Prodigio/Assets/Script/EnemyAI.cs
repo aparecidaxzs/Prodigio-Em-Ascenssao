@@ -64,15 +64,16 @@ public class EnemyAI : MonoBehaviour
     // DANO AO PLAYER AO ENCOSTAR NO INIMIGO
     // ======================================
 
-   private void OnTriggerEnter2D(Collider2D col)
+   private void OnCollisionEnter2D(Collision2D col)
 {
-    Player p = col.GetComponent<Player>();
+    Player p = col.gameObject.GetComponent<Player>();
+
     if (p != null)
     {
-        // envia -1 ou -damageToPlayer
-        p.BarradeVida(-damageToPlayer);
+        p.BarradeVida(-damageToPlayer); // aplica dano
     }
 }
+
 
     // ======================
     // RECEBER DANO DO PLAYER
