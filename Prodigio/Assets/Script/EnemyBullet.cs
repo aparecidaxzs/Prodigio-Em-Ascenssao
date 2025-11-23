@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyBullet : MonoBehaviour
 {
     public float speed = 6f;          // velocidade do projétil
-    public float damage = 1;            // dano causado ao player
+    public int damage = 1;            // dano causado ao player
     public float lifeTime = 3f;       // tempo até desaparecer
 
     private float direction = 1f;     // direção horizontal (+1 direita, -1 esquerda)

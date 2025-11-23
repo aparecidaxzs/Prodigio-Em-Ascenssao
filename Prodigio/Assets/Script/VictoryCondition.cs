@@ -1,28 +1,20 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
-using UnityEngine.UI;
+using System.Collections;
 
 public class VictoryCondition : MonoBehaviour
 {
     [Header("Configurações")]
-    [Tooltip("Nome da próxima cena (se deixar vazio, a fase atual será apenas reiniciada caso falte pródigos).")]
     public string nextLevelName = "";
-
     public string menuP = "";
 
-    [Tooltip("Tag usada pelos pródigios (os coletáveis devem usar esta mesma tag).")]
     public string prodigioTag = "Prodigios";
-
-    [Tooltip("Tag usada para identificar o jogador.")]
     public string playerTag = "Player";
 
-    // Quantidade total de pródigios na cena
     private int totalProdigios = 0;
-
-    // Quantidade já coletada pelo jogador
     private int prodigiosColetados = 0;
 
+    [Header("Objetos de Vitória")]
     public GameObject vitoria0;
     public GameObject vitoria1;
     public GameObject vitoria2;
@@ -31,86 +23,99 @@ public class VictoryCondition : MonoBehaviour
     public GameObject botaoCasa;
     public GameObject botaoRein;
     public GameObject botaoSeguir;
-
     public GameObject botaoPause;
-
     public GameObject score;
-
     public GameObject panel;
+
+    [Header("Novos Objetos")]
+    public GameObject objetoQueSobe;  // objeto que vai subir
+    public GameObject diamanteObj;    // diamante que aparece por 3s
+
+    private bool jaAtivou = false; // evita chamar duas vezes
 
     void Awake()
     {
-        // Encontra todos os objetos na cena que têm a tag dos pródigios
-        // Isso define quantos pródigios existem para serem coletados
         totalProdigios = GameObject.FindGameObjectsWithTag(prodigioTag).Length;
-
-        // Debug opcional: mostra no console quantos pródigios foram encontrados
-        // Debug.Log($"[VictoryCondition] Total pródigios na cena: {totalProdigios}");
     }
 
     void OnEnable()
     {
-        // Inscreve a função HandleCollected no evento OnCollected do coletável
-        // Assim, sempre que um pródigo for coletado, este script será notificado
         ProdigioCollect.OnCollected += HandleCollected;
     }
 
     void OnDisable()
     {
-        // Remove a inscrição no evento quando o objeto for desativado
-        // Isso evita erros e referências perdidas
         ProdigioCollect.OnCollected -= HandleCollected;
     }
 
     private void HandleCollected()
     {
-        // Incrementa a contagem de pródigios coletados
         prodigiosColetados++;
-
-        // Debug opcional para acompanhar no console a quantidade coletada
-        // Debug.Log($"[VictoryCondition] Pródigios coletados: {prodigiosColetados}/{totalProdigios}");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Verifica se o objeto que entrou na área é o Player
         if (!collision.CompareTag(playerTag)) return;
 
-        // Debug opcional indicando que o player chegou na zona de vitória
-        // Debug.Log("[VictoryCondition] Player entrou na zona de vitória. Verificando pródigios...");
+        if (jaAtivou) return; // impede chamar 2x
+        jaAtivou = true;
 
-        // Se já coletou todos os pródigios e existe pelo menos 1 pródigo na fase...
-        if (prodigiosColetados >= totalProdigios && totalProdigios > 0)
+        if (prodigiosColetados >= 3) // verifica os 3 pródigios
         {
-            /*vitoria3.SetActive(true);
-            botaoCasa.SetActive(true);
-            botaoRein.SetActive(true);
-            botaoSeguir.SetActive(true);
-            botaoPause.SetActive(false);
-            score.SetActive(false);*/
-
-            panel.SetActive(true);
-            // Debug opcional
-            // Debug.Log("[VictoryCondition] Todos os pródigios coletados! Carregando próxima fase...");
-
-            // Carrega a próxima fase indicada
-            //if (!string.IsNullOrEmpty(nextLevelName))
-                //SceneManager.LoadScene(nextLevelName);
-            // else
-                // Se o nome estiver vazio, o código não faz nada (útil para testes)
-                // Debug.Log("[VictoryCondition] nextLevelName está vazio — configure o nome da próxima cena.");
+            StartCoroutine(SequenciaVitoria());
         }
         else
         {
-            // Se faltou algum pródigo, reinicia a fase
-            // Debug.Log("[VictoryCondition] Faltam pródigios. Reiniciando fase...");
-
+            // reinicia fase se estiver faltando
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-
     }
 
-    
+    IEnumerator SequenciaVitoria()
+    {
+        // 1) faz o objeto subir
+        yield return StartCoroutine(FazerObjetoSubir());
+
+        // 2) ativa o diamante
+        diamanteObj.SetActive(true);
+
+        // 3) espera 3 segundos
+        yield return new WaitForSeconds(3f);
+
+        // 4) desativa o diamante
+        diamanteObj.SetActive(false);
+
+        // 5) ativa o painel e tudo mais exatamente como você queria
+        panel.SetActive(true);
+        botaoPause.SetActive(false);
+        score.SetActive(false);
+
+        vitoria0.SetActive(true);
+        vitoria1.SetActive(true);
+        vitoria2.SetActive(true);
+        vitoria3.SetActive(true);
+
+        botaoCasa.SetActive(true);
+        botaoRein.SetActive(true);
+        botaoSeguir.SetActive(true);
+    }
+
+    IEnumerator FazerObjetoSubir()
+    {
+        float duracao = 1.2f;
+        float velocidade = 2f;
+
+        float tempo = 0f;
+        Vector3 posInicial = objetoQueSobe.transform.position;
+
+        while (tempo < duracao)
+        {
+            objetoQueSobe.transform.position += Vector3.up * velocidade * Time.deltaTime;
+            tempo += Time.deltaTime;
+            yield return null;
+        }
+    }
+
     public void Segrui()
     {
         SceneManager.LoadScene(nextLevelName);

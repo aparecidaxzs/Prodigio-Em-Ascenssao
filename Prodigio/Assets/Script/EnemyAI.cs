@@ -4,48 +4,47 @@ using System.Collections;
 public class EnemyAI : MonoBehaviour
 {
     [Header("Configurações Gerais")]
-    public float patrolSpeed = 2f;
-    public float patrolDistance = 4f;
-    public int maxHealth = 3;
-    public int damageToPlayer = 1;
+    public float patrolSpeed = 2f;       // velocidade andando
+    public float patrolDistance = 3f;    // distância da patrulha
+    public int maxHealth = 3;            // vida total
+    public int damageToPlayer = 1;       // dano causado ao player
 
-    private Animator anim;
-    private Rigidbody2D rig;
-    private SpriteRenderer spriteRenderer;
-
+    private int currentHealth;
     private Vector3 startPos;
     private bool movingRight = true;
-    private int currentHealth;
     private bool isDead = false;
     private bool isTakingDamage = false;
+
+    private Rigidbody2D rig;
+    private SpriteRenderer sr;
+    private Animator anim;
 
     void Start()
     {
         startPos = transform.position;
-        rig = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
         currentHealth = maxHealth;
+
+        rig = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        if (isDead || isTakingDamage) return;
-
-        Patrol();
+        if (!isDead && !isTakingDamage)
+            Patrol();
     }
 
-    // ===========================================================
+    // ======================
     // SISTEMA DE PATRULHA
-    // ===========================================================
+    // ======================
 
     void Patrol()
     {
         anim.SetBool("run", true);
 
-        float moveDir = movingRight ? 1 : -1;
-        rig.linearVelocity = new Vector2(moveDir * patrolSpeed, rig.linearVelocity.y);
+        float dir = movingRight ? 1 : -1;
+        rig.linearVelocity = new Vector2(dir * patrolSpeed, rig.linearVelocity.y);
 
         if (movingRight && transform.position.x >= startPos.x + patrolDistance)
             Flip();
@@ -56,27 +55,28 @@ public class EnemyAI : MonoBehaviour
     void Flip()
     {
         movingRight = !movingRight;
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        Vector3 s = transform.localScale;
+        s.x *= -1;
+        transform.localScale = s;
     }
 
-    // ===========================================================
-    // PLAYER TOMA DANO AO TOCAR NO INIMIGO
-    // ===========================================================
+    // ======================================
+    // DANO AO PLAYER AO ENCOSTAR NO INIMIGO
+    // ======================================
 
-    private void OnTriggerEnter2D(Collider2D col)
+   private void OnTriggerEnter2D(Collider2D col)
+{
+    Player p = col.GetComponent<Player>();
+    if (p != null)
     {
-        Player p = col.GetComponent<Player>();
-        if (p != null)
-        {
-            p.BarradeVida(-damageToPlayer);
-        }
+        // envia -1 ou -damageToPlayer
+        p.BarradeVida(-damageToPlayer);
     }
+}
 
-    // ===========================================================
-    // SISTEMA DE DANO E MORTE DO INIMIGO
-    // ===========================================================
+    // ======================
+    // RECEBER DANO DO PLAYER
+    // ======================
 
     public void TakeDamage(int dmg)
     {
@@ -90,44 +90,61 @@ public class EnemyAI : MonoBehaviour
         }
         else
         {
-            StartCoroutine(DeathEffect());
+            Die();
         }
     }
+
+    // ============================
+    // ANIMAÇÃO DE PISCAR NO DANO
+    // ============================
 
     IEnumerator BlinkEffect(float speed, int count)
     {
         isTakingDamage = true;
+        anim.SetBool("run", false);
+        rig.linearVelocity = Vector2.zero;
 
         for (int i = 0; i < count; i++)
         {
-            spriteRenderer.enabled = false;
+            sr.enabled = false;
             yield return new WaitForSeconds(speed);
-            spriteRenderer.enabled = true;
+            sr.enabled = true;
             yield return new WaitForSeconds(speed);
         }
 
         isTakingDamage = false;
     }
 
-    IEnumerator DeathEffect()
+    // ======================
+    // MORTE DO INIMIGO
+    // ======================
+
+    public void Die()
+    {
+        if (!isDead)
+            StartCoroutine(DeathRoutine());
+    }
+
+    IEnumerator DeathRoutine()
     {
         isDead = true;
         anim.SetBool("run", false);
-
         rig.linearVelocity = Vector2.zero;
-        rig.bodyType = RigidbodyType2D.Kinematic;
-        rig.gravityScale = 0;
 
         GetComponent<Collider2D>().enabled = false;
+        rig.bodyType = RigidbodyType2D.Kinematic;
 
+        // piscando antes de sumir
         for (int i = 0; i < 3; i++)
         {
-            spriteRenderer.enabled = false;
+            sr.enabled = false;
             yield return new WaitForSeconds(0.2f);
-            spriteRenderer.enabled = true;
+            sr.enabled = true;
             yield return new WaitForSeconds(0.2f);
         }
 
         Destroy(gameObject);
     }
+
+    
 }

@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4825952252756148059}
   m_Layer: 9
   m_Name: Lacaios_ 1
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,11 +281,3 @@ MonoBehaviour:
   patrolDistance: 2
   maxHealth: 3
   damageToPlayer: 1
-  detectionRange: 2.9
-  attackRange: 1.5
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  attackCooldown: 1.5
-  attackPoint: {fileID: 1251145844981624723}
-  attackRadius: 0.8

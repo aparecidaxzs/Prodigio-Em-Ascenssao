@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlayerRayInteraction : MonoBehaviour
 {
-    // Função chamada quando o Player entra no trigger do Raio
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Raio"))
@@ -15,36 +14,31 @@ public class PlayerRayInteraction : MonoBehaviour
 
     private void KillEnemies()
     {
-        // Encontra todos os inimigos na layer "Inimigo"
         GameObject[] enemies = FindEnemiesInLayer("Inimigo");
 
         Debug.Log($"Encontrados {enemies.Length} objetos na layer Inimigo");
 
-        // Mata os primeiros 3 (ou menos se houver menos), mas ignora o Player
         int killed = 0;
         for (int i = 0; i < enemies.Length && killed < 3; i++)
         {
-            // Verifica se NÃO é o Player (por tag, componente ou nome)
             if (enemies[i].CompareTag("Player") || 
                 enemies[i].GetComponent<Player>() != null || 
-                enemies[i].name.Contains("Player")) // Extra: verifica nome
+                enemies[i].name.Contains("Player"))
             {
                 Debug.Log($"Pulando {enemies[i].name} - é o Player");
-                continue; // Pula o Player
+                continue;
             }
 
-            Debug.Log($"Matando inimigo: {enemies[i].name}");
-            EnemyAI enemyScript = enemies[i].GetComponent<EnemyAI>();
-            if (enemyScript != null)
-            {
-                enemyScript.Die();
-                killed++;
-            }
-            else
-            {
-                Destroy(enemies[i]);
-                killed++;
-            }
+            Debug.Log($"Tentando matar: {enemies[i].name}");
+
+            // ---- AQUI: usa SendMessage para chamar Die() se existir (sem erro se não existir)
+            enemies[i].SendMessage("Die", SendMessageOptions.DontRequireReceiver);
+
+            // Se quiser garantir (caso EnemyAI só tenha TakeDamage), pode descomentar isto:
+            // EnemyAI ea = enemies[i].GetComponent<EnemyAI>();
+            // if (ea != null) { ea.TakeDamage(999); }
+
+            killed++;
         }
         Debug.Log($"Total inimigos mortos: {killed}");
     }

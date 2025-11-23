@@ -254,8 +254,5 @@ public class Player : MonoBehaviour
         Destroy(gameObject);
     }
 
-    internal void BarradeVida(float v)
-    {
-        throw new NotImplementedException();
-    }
+    
 }
