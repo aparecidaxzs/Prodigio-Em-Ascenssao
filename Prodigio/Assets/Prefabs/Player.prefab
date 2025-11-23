@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 7
-  jumpForce: 12
+  jumpForce: 17
   isJump: 0
   doubleJump: 0
   maxVida: 5

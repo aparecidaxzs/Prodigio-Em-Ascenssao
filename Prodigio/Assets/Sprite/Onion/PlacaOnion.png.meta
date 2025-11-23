@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlacaOnion_0: 581179992389080567
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

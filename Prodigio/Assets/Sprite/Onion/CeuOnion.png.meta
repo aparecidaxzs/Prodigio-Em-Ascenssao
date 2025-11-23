@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CeuOnion_0: -8401750699731231131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

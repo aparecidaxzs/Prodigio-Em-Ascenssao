@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GosmaOniana_0: -6560793761090193556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

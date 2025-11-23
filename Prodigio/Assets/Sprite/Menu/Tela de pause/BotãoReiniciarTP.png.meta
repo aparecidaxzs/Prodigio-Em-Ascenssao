@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Bot\xE3oReiniciarTP_0": -5808677707889749909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

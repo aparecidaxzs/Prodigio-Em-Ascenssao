@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Colis\xE3oFrames_0": 7394710001121556959
+      "Colis\xE3oFrames_1": -5944909070895765468
+      "Colis\xE3oFrames_10": 6899497935619802131
+      "Colis\xE3oFrames_11": -2544600767333643221
+      "Colis\xE3oFrames_12": -3455079416711235899
+      "Colis\xE3oFrames_13": 5466268517870245473
+      "Colis\xE3oFrames_14": -520210631520306327
+      "Colis\xE3oFrames_15": 8787964091570816274
+      "Colis\xE3oFrames_16": 1604143127779871859
+      "Colis\xE3oFrames_2": 897727920070078182
+      "Colis\xE3oFrames_3": -1976609299808041845
+      "Colis\xE3oFrames_4": 4014763582756712674
+      "Colis\xE3oFrames_5": -2939949662946265317
+      "Colis\xE3oFrames_6": -1459184951404489335
+      "Colis\xE3oFrames_7": 7964533727008151792
+      "Colis\xE3oFrames_8": -8307675809318301022
+      "Colis\xE3oFrames_9": -2420722541777621761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

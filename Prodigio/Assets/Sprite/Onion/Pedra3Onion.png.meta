@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pedra3Onion_0: 5067112881441299419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

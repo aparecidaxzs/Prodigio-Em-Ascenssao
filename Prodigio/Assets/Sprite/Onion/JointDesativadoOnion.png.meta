@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JointDesativadoOnion_0: 2191465437259438684
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

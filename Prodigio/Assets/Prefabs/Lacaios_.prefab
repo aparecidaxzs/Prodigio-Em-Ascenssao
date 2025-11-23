@@ -108,8 +108,8 @@ Transform:
   m_GameObject: {fileID: 2019884357284491717}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.5, y: -2.42, z: 0}
-  m_LocalScale: {x: 0.17841983, y: 0.17841983, z: 0.17841983}
+  m_LocalPosition: {x: 11.438, y: -2.42, z: 0}
+  m_LocalScale: {x: 0.27945495, y: 0.27945495, z: 0.27945495}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8531204608095887582}
@@ -278,7 +278,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolSpeed: 2
-  chaseSpeed: 3
   patrolDistance: 2
   maxHealth: 3
   damageToPlayer: 1

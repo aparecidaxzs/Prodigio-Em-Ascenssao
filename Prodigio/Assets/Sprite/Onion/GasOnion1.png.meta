@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GasOnion1_0: -552617893950626979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
