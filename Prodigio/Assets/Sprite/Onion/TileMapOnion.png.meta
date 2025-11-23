@@ -73,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -141,7 +141,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 8923
-        width: 2661
+        width: 2667
         height: 1165
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -161,10 +161,10 @@ TextureImporter:
       name: TileMapOnion_1
       rect:
         serializedVersion: 2
-        x: 3637
-        y: 8956
-        width: 2662
-        height: 1132
+        x: 3635
+        y: 8952
+        width: 2667
+        height: 1136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: TileMapOnion_2
       rect:
         serializedVersion: 2
-        x: 6376
-        y: 8869
-        width: 2523
-        height: 1219
+        x: 6371
+        y: 8870
+        width: 2534
+        height: 1218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +205,10 @@ TextureImporter:
       name: TileMapOnion_3
       rect:
         serializedVersion: 2
-        x: 8977
-        y: 8956
-        width: 2662
-        height: 1132
+        x: 8974
+        y: 8952
+        width: 2667
+        height: 1136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: TileMapOnion_4
       rect:
         serializedVersion: 2
-        x: 3841
-        y: 5163
-        width: 2662
-        height: 2523
+        x: 3838
+        y: 5160
+        width: 2667
+        height: 2528
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: TileMapOnion_5
       rect:
         serializedVersion: 2
-        x: 6588
-        y: 5163
-        width: 2523
-        height: 2512
+        x: 6586
+        y: 5160
+        width: 2527
+        height: 2516
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: TileMapOnion_6
       rect:
         serializedVersion: 2
-        x: 9212
-        y: 5163
-        width: 2661
-        height: 2523
+        x: 9206
+        y: 5160
+        width: 2667
+        height: 2528
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,10 +293,10 @@ TextureImporter:
       name: TileMapOnion_7
       rect:
         serializedVersion: 2
-        x: 3959
-        y: 2581
-        width: 2544
-        height: 2522
+        x: 3960
+        y: 2580
+        width: 2545
+        height: 2528
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +315,10 @@ TextureImporter:
       name: TileMapOnion_8
       rect:
         serializedVersion: 2
-        x: 6588
-        y: 2581
-        width: 2523
-        height: 2522
+        x: 6586
+        y: 2580
+        width: 2527
+        height: 2528
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,10 +337,10 @@ TextureImporter:
       name: TileMapOnion_9
       rect:
         serializedVersion: 2
-        x: 9212
-        y: 2581
-        width: 2544
-        height: 2522
+        x: 9206
+        y: 2580
+        width: 2551
+        height: 2528
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,10 +359,10 @@ TextureImporter:
       name: TileMapOnion_10
       rect:
         serializedVersion: 2
-        x: 3959
+        x: 3960
         y: 0
-        width: 2544
-        height: 2521
+        width: 2545
+        height: 2522
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: TileMapOnion_11
       rect:
         serializedVersion: 2
-        x: 6588
+        x: 6586
         y: 0
-        width: 2523
-        height: 2521
+        width: 2527
+        height: 2522
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +403,10 @@ TextureImporter:
       name: TileMapOnion_12
       rect:
         serializedVersion: 2
-        x: 9212
+        x: 9206
         y: 0
-        width: 2544
-        height: 2521
+        width: 2551
+        height: 2522
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,7 +425,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4dda191180f6787438f99810a29eee22
     internalID: 0
     vertices: []
     indices: 
