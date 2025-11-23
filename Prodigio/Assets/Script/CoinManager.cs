@@ -7,7 +7,7 @@ public class CoinManager : MonoBehaviour
 
     [Header("Estado")]
     public int coinCount = 0;
-    public int shotsAvailable = 0; // tiros disponíveis, incrementados a cada 2 moedas
+    public int shotsAvailable = 0; // agora 1 moeda = 1 tiro
 
     [Header("UI")]
     public TextMeshProUGUI coinText;
@@ -24,18 +24,8 @@ public class CoinManager : MonoBehaviour
 
     public void AddCoin(int amount = 1)
     {
-        int oldCoinCount = coinCount;
         coinCount += amount;
-
-        // A cada 2 moedas coletadas, ganha 1 tiro
-        int newCoins = coinCount - oldCoinCount;
-        for (int i = 0; i < newCoins; i++)
-        {
-            if ((oldCoinCount + i + 1) % 2 == 0) // verifica se atingiu múltiplo de 2
-            {
-                shotsAvailable++;
-            }
-        }
+        shotsAvailable += amount; // <<< cada moeda dá 1 tiro
 
         UpdateUI();
     }
@@ -44,7 +34,7 @@ public class CoinManager : MonoBehaviour
     {
         if (shotsAvailable > 0)
         {
-            shotsAvailable--;
+            shotsAvailable--;  // gasta 1 tiro
             return true;
         }
         return false;
@@ -53,7 +43,7 @@ public class CoinManager : MonoBehaviour
     private void UpdateUI()
     {
         if (coinText != null)
-            coinText.text = coinCount.ToString(); // volta a mostrar apenas as moedas
+            coinText.text = coinCount.ToString(); // segue mostrando apenas moedas
     }
 
     public void ResetCoins()
