@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: ef318007097390443a5b545730ad0b02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6865245433870652577
+    second: "Destrui\xE7\xE3oFrames_0"
+  - first:
+      213: 4462357325872701322
+    second: "Destrui\xE7\xE3oFrames_1"
+  - first:
+      213: -1107724354769665490
+    second: "Destrui\xE7\xE3oFrames_2"
+  - first:
+      213: -458771050401944519
+    second: "Destrui\xE7\xE3oFrames_3"
+  - first:
+      213: 601568096757677657
+    second: "Destrui\xE7\xE3oFrames_4"
+  - first:
+      213: -2110105581502143394
+    second: "Destrui\xE7\xE3oFrames_5"
+  - first:
+      213: -1680779458200728303
+    second: "Destrui\xE7\xE3oFrames_6"
+  - first:
+      213: -3177892629214942726
+    second: "Destrui\xE7\xE3oFrames_7"
+  - first:
+      213: 6011201204550118765
+    second: "Destrui\xE7\xE3oFrames_8"
+  - first:
+      213: 8625209890556357128
+    second: "Destrui\xE7\xE3oFrames_9"
+  - first:
+      213: -6976588428733395041
+    second: "Destrui\xE7\xE3oFrames_10"
+  - first:
+      213: -4775266237604697856
+    second: "Destrui\xE7\xE3oFrames_11"
+  - first:
+      213: -2850332693056816178
+    second: "Destrui\xE7\xE3oFrames_12"
+  - first:
+      213: -35426852587442551
+    second: "Destrui\xE7\xE3oFrames_13"
+  - first:
+      213: -2288016481422517376
+    second: "Destrui\xE7\xE3oFrames_14"
+  - first:
+      213: 149086546941358439
+    second: "Destrui\xE7\xE3oFrames_15"
+  - first:
+      213: -6661241668385704349
+    second: "Destrui\xE7\xE3oFrames_16"
+  - first:
+      213: 8904145873590299550
+    second: "Destrui\xE7\xE3oFrames_17"
+  - first:
+      213: -3145578030119508385
+    second: "Destrui\xE7\xE3oFrames_18"
+  - first:
+      213: 686791644170488898
+    second: "Destrui\xE7\xE3oFrames_19"
+  - first:
+      213: 6146143182807924469
+    second: "Destrui\xE7\xE3oFrames_20"
+  - first:
+      213: 1590113315705449012
+    second: "Destrui\xE7\xE3oFrames_21"
+  - first:
+      213: -7238213737980511401
+    second: "Destrui\xE7\xE3oFrames_22"
+  - first:
+      213: -1910482685824781876
+    second: "Destrui\xE7\xE3oFrames_23"
+  - first:
+      213: -1931576361698120461
+    second: "Destrui\xE7\xE3oFrames_24"
+  - first:
+      213: 8286485091495777334
+    second: "Destrui\xE7\xE3oFrames_25"
+  - first:
+      213: -7049105913491399285
+    second: "Destrui\xE7\xE3oFrames_26"
+  - first:
+      213: -2825148710672082585
+    second: "Destrui\xE7\xE3oFrames_27"
+  - first:
+      213: -905245334676086781
+    second: "Destrui\xE7\xE3oFrames_28"
+  - first:
+      213: -7641404476795142000
+    second: "Destrui\xE7\xE3oFrames_29"
+  - first:
+      213: 3297687913980291596
+    second: "Destrui\xE7\xE3oFrames_30"
+  - first:
+      213: 3935943170218684021
+    second: "Destrui\xE7\xE3oFrames_31"
+  - first:
+      213: 42580247864653708
+    second: "Destrui\xE7\xE3oFrames_32"
+  - first:
+      213: -2437280700255472348
+    second: "Destrui\xE7\xE3oFrames_33"
+  - first:
+      213: 8715190404562114661
+    second: "Destrui\xE7\xE3oFrames_34"
+  - first:
+      213: -321962282859336545
+    second: "Destrui\xE7\xE3oFrames_35"
+  - first:
+      213: 629038348890909806
+    second: "Destrui\xE7\xE3oFrames_36"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Destrui\xE7\xE3oFrames_0"
+      rect:
+        serializedVersion: 2
+        x: 7398
+        y: 0
+        width: 1781
+        height: 1424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a49bb53950464f50800000000000000
+      internalID: 6865245433870652577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Destrui\xE7\xE3oFrames_1"
+      rect:
+        serializedVersion: 2
+        x: 5599
+        y: 0
+        width: 1544
+        height: 1471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f1185685a7ded30800000000000000
+      internalID: 4462357325872701322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Destrui\xE7\xE3oFrames_2"
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 0
+        width: 1212
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22c7ec719290a0f0800000000000000
+      internalID: -1107724354769665490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Destrui\xE7\xE3oFrames_3"
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 0
+        width: 900
+        height: 1273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c2f8b092e12a9f0800000000000000
+      internalID: -458771050401944519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Destrui\xE7\xE3oFrames_4"
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 184
+        width: 710
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ef27b2ff2395800800000000000000
+      internalID: 601568096757677657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Destrui\xE7\xE3oFrames_5"
+      rect:
+        serializedVersion: 2
+        x: 9198
+        y: 23
+        width: 2171
+        height: 1613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54eef7472667b2e0800000000000000
+      internalID: -2110105581502143394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce936ba722296c34d9f626777bac7368
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Destrui\xE7\xE3oFrames_0": 6865245433870652577
+      "Destrui\xE7\xE3oFrames_1": 4462357325872701322
+      "Destrui\xE7\xE3oFrames_10": -6976588428733395041
+      "Destrui\xE7\xE3oFrames_11": -4775266237604697856
+      "Destrui\xE7\xE3oFrames_12": -2850332693056816178
+      "Destrui\xE7\xE3oFrames_13": -35426852587442551
+      "Destrui\xE7\xE3oFrames_14": -2288016481422517376
+      "Destrui\xE7\xE3oFrames_15": 149086546941358439
+      "Destrui\xE7\xE3oFrames_16": -6661241668385704349
+      "Destrui\xE7\xE3oFrames_17": 8904145873590299550
+      "Destrui\xE7\xE3oFrames_18": -3145578030119508385
+      "Destrui\xE7\xE3oFrames_19": 686791644170488898
+      "Destrui\xE7\xE3oFrames_2": -1107724354769665490
+      "Destrui\xE7\xE3oFrames_20": 6146143182807924469
+      "Destrui\xE7\xE3oFrames_21": 1590113315705449012
+      "Destrui\xE7\xE3oFrames_22": -7238213737980511401
+      "Destrui\xE7\xE3oFrames_23": -1910482685824781876
+      "Destrui\xE7\xE3oFrames_24": -1931576361698120461
+      "Destrui\xE7\xE3oFrames_25": 8286485091495777334
+      "Destrui\xE7\xE3oFrames_26": -7049105913491399285
+      "Destrui\xE7\xE3oFrames_27": -2825148710672082585
+      "Destrui\xE7\xE3oFrames_28": -905245334676086781
+      "Destrui\xE7\xE3oFrames_29": -7641404476795142000
+      "Destrui\xE7\xE3oFrames_3": -458771050401944519
+      "Destrui\xE7\xE3oFrames_30": 3297687913980291596
+      "Destrui\xE7\xE3oFrames_31": 3935943170218684021
+      "Destrui\xE7\xE3oFrames_32": 42580247864653708
+      "Destrui\xE7\xE3oFrames_33": -2437280700255472348
+      "Destrui\xE7\xE3oFrames_34": 8715190404562114661
+      "Destrui\xE7\xE3oFrames_35": -321962282859336545
+      "Destrui\xE7\xE3oFrames_36": 629038348890909806
+      "Destrui\xE7\xE3oFrames_4": 601568096757677657
+      "Destrui\xE7\xE3oFrames_5": -2110105581502143394
+      "Destrui\xE7\xE3oFrames_6": -1680779458200728303
+      "Destrui\xE7\xE3oFrames_7": -3177892629214942726
+      "Destrui\xE7\xE3oFrames_8": 6011201204550118765
+      "Destrui\xE7\xE3oFrames_9": 8625209890556357128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
