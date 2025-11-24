@@ -11,6 +11,8 @@ public class CoinManager : MonoBehaviour
 
     [Header("UI")]
     public TextMeshProUGUI coinText;
+    //public TextMeshProUGUI coinTexxt;
+    
 
     private void Awake()
     {
@@ -44,6 +46,7 @@ public class CoinManager : MonoBehaviour
     {
         if (coinText != null)
             coinText.text = coinCount.ToString(); // segue mostrando apenas moedas
+            //coinTexxt.text = coinCount.ToString();
     }
 
     public void ResetCoins()

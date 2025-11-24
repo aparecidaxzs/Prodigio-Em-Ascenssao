@@ -1,23 +1,18 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.Scripting.APIUpdating;
-using System.Collections.ObjectModel;
 using UnityEngine.UI;
-using System;
-using JetBrains.Annotations;
-using UnityEditor.Experimental.GraphView;
 
 public class Player : MonoBehaviour
 {
     [Header("Movimentação")]
-    public float velocidade; 
-    public float jumpForce; 
-    public bool isJump; 
+    public float velocidade;
+    public float jumpForce;
+    public bool isJump;
     public bool doubleJump;
 
     [Header("Vida do Player")]
     public int maxVida = 5;
-    int vidaAtual; 
+    int vidaAtual;
     private int amountt;
 
     [Header("Barra de Vida")]
@@ -28,21 +23,32 @@ public class Player : MonoBehaviour
     public GameObject barra3;
     public GameObject barra4;
 
+    [Header("Áudios do Player")]
+    public AudioClip somPulo;
+    public AudioClip somCaminhada;
+    public AudioClip somDano;
+
+    private AudioSource audioPlayer; // AudioSource do player
+
+    private float passoCooldown = 0.3f;
+    private float proximoPasso = 0f;
+
     public static Player instance;
     private Animator anim;
     private Rigidbody2D rig;
     private SpriteRenderer spriteRenderer;
-    private bool isTakingDamage = false;
     private bool isDead = false;
-
-    private GameObject coinColetar;
+    private bool isTakingDamage = false;
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        audioPlayer = GetComponent<AudioSource>(); // referência do áudio
         vidaAtual = maxVida;
         instance = this;
+
         BarradeVida(vidaAtual + 1);
+
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -54,33 +60,38 @@ public class Player : MonoBehaviour
             Move();
             Jump();
         }
+
         GameOver();
     }
 
+    // ===================== MOVIMENTO =====================
     void Move()
     {
         float input = Input.GetAxisRaw("Horizontal");
         rig.linearVelocity = new Vector2(input * velocidade, rig.linearVelocity.y);
 
-        if (input > 0f)
+        if (input != 0f)
         {
-            transform.eulerAngles = new Vector3(0f, 0f, 0f);
+            transform.eulerAngles = new Vector3(0f, input > 0 ? 0f : 180f, 0f);
             anim.SetBool("Run", true);
+
+            // Som de caminhada (só no chão)
+            if (Time.time >= proximoPasso && !isJump)
+            {
+                audioPlayer.PlayOneShot(somCaminhada);
+                proximoPasso = Time.time + passoCooldown;
+            }
         }
-        else if (input < 0f)
-        {
-            transform.eulerAngles = new Vector3(0f, 180f, 0f);
-            anim.SetBool("Run", true);
-        }
-        if (input == 0f)
+        else
         {
             anim.SetBool("Run", false);
         }
     }
 
+    // ===================== PULO E DUPLO PULO =====================
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (!isJump)
             {
@@ -88,19 +99,21 @@ public class Player : MonoBehaviour
                 doubleJump = true;
                 isJump = true;
                 anim.SetBool("Jump", true);
+
+                audioPlayer.PlayOneShot(somPulo);
             }
-            else
+            else if (doubleJump)
             {
-                if (doubleJump)
-                {
-                    rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
-                    doubleJump = false;
-                    anim.SetBool("Jump", true);
-                }
+                rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
+                doubleJump = false;
+                anim.SetBool("Jump", true);
+
+                audioPlayer.PlayOneShot(somPulo);
             }
         }
     }
 
+    // ===================== COLISÕES =====================
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
@@ -140,6 +153,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    // ===================== VIDA / DANO =====================
     void GameOver()
     {
         if (vidaAtual == 0 && !isDead)
@@ -151,7 +165,6 @@ public class Player : MonoBehaviour
             rig.gravityScale = 0f;
             GetComponent<Collider2D>().enabled = false;
 
-            //StartCoroutine(DieBlink());
             GameController.instance.ShowGameOver();
         }
     }
@@ -163,11 +176,10 @@ public class Player : MonoBehaviour
     }
 
     public void AddVida(int quantidade)
-{
-    vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida);
-    Atualizarbarra();
-}
-
+    {
+        vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida);
+        Atualizarbarra();
+    }
 
     public void BarradeVida(int amount)
     {
@@ -180,31 +192,11 @@ public class Player : MonoBehaviour
                 StartCoroutine(BlinkEffect(0.1f, 1));
             }
 
-            if (vidaAtual == 4)
-            {
-                barra0.SetActive(true);
-                barra.SetActive(false);
-            }
-            if (vidaAtual == 3)
-            {
-                barra1.SetActive(true);
-                barra0.SetActive(false);
-            }
-            if (vidaAtual == 2)
-            {
-                barra2.SetActive(true);
-                barra1.SetActive(false);
-            }
-            if (vidaAtual == 1)
-            {
-                barra3.SetActive(true);
-                barra2.SetActive(false);
-            }
-            if (vidaAtual == 0)
-            {
-                barra4.SetActive(true);
-                barra3.SetActive(false);
-            }
+            if (vidaAtual == 4) { barra0.SetActive(true); barra.SetActive(false); }
+            if (vidaAtual == 3) { barra1.SetActive(true); barra0.SetActive(false); }
+            if (vidaAtual == 2) { barra2.SetActive(true); barra1.SetActive(false); }
+            if (vidaAtual == 1) { barra3.SetActive(true); barra2.SetActive(false); }
+            if (vidaAtual == 0) { barra4.SetActive(true); barra3.SetActive(false); }
         }
     }
 
@@ -220,49 +212,27 @@ public class Player : MonoBehaviour
         barra4.SetActive(vidaAtual == 0);
     }
 
-    // ==============================
-    // NOVO BlinkEffect → pisca 3x e destrói
-    // ==============================
     IEnumerator BlinkEffect(float blinkSpeed, int times)
-{
-    isTakingDamage = true;
-
-    for (int i = 0; i < 3; i++)
     {
-        spriteRenderer.enabled = false;
-        yield return new WaitForSeconds(blinkSpeed);
-        spriteRenderer.enabled = true;
-        yield return new WaitForSeconds(blinkSpeed);
+        isTakingDamage = true;
+
+        for (int i = 0; i < 3; i++)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(blinkSpeed);
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(blinkSpeed);
+        }
+
+        isTakingDamage = false;
     }
-
-    isTakingDamage = false;
-}
-
-   /* IEnumerator DieBlink()
-{
-    for (int i = 0; i < 3; i++)
-    {
-        spriteRenderer.enabled = false;
-        yield return new WaitForSeconds(0.2f);
-        spriteRenderer.enabled = true;
-        yield return new WaitForSeconds(0.2f);
-    }
-
-    // Só morre se a vida for 0
-    if (vidaAtual <= 0)
-    {
-        GameController.instance.ShowGameOver();
-        Destroy(gameObject);
-    }
-}*/
-
 
     public void TomarDano(int quantidade)
-{
-    vidaAtual = Mathf.Clamp(vidaAtual - quantidade, 0, maxVida);
-    BarradeVida(-quantidade);
-    Atualizarbarra();
-}
+    {
+        vidaAtual = Mathf.Clamp(vidaAtual - quantidade, 0, maxVida);
+        BarradeVida(-quantidade);
+        Atualizarbarra();
 
-    
+        audioPlayer.PlayOneShot(somDano); // dano aqui
+    }
 }

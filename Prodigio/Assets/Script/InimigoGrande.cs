@@ -40,9 +40,20 @@ public class InimigoGrande : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Transform player;
 
+    [Header("Sons do Inimigo")]
+    public AudioClip somTiroInimigo;
+
     private bool isDead = false;
     private float lastDamageTime;
     public float contactDamageCooldown = 1f;
+
+    // =============================
+    // TELAS APÓS A MORTE
+    // =============================
+    [Header("TELAS APÓS MORRER")]
+    public GameObject telaInicial;   // aparece ao morrer
+    public GameObject telaDepois;    // aparece após 30s
+    public float tempoDeEspera = 30f;
 
     void Start()
     {
@@ -66,10 +77,7 @@ public class InimigoGrande : MonoBehaviour
         FollowPlayer();
         FlipToPlayer();
 
-        // Pulo aleatório
         TryRandomJump();
-
-        // Pulo agressivo de ataque
         TryAttackJump(distance);
 
         if (distance <= meleeRange)
@@ -143,6 +151,7 @@ public class InimigoGrande : MonoBehaviour
 
         float direction = player.position.x - transform.position.x;
         bullet.GetComponent<EnemyBullet>().SetDirection(Mathf.Sign(direction));
+        AudioManager.instance.PlaySFX(somTiroInimigo);
     }
 
     // ======================================================
@@ -178,7 +187,6 @@ public class InimigoGrande : MonoBehaviour
         yield return new WaitForSeconds(0.15f);
 
         float direction = Mathf.Sign(player.position.x - transform.position.x);
-
         rig.linearVelocity = new Vector2(direction * moveSpeed * 2f, attackJumpForce);
     }
 
@@ -206,7 +214,7 @@ public class InimigoGrande : MonoBehaviour
 
         currentHealth -= dmg;
 
-        StartCoroutine(BlinkEffect()); // <<< PISCAR AO TOMAR DANO
+        StartCoroutine(BlinkEffect());
 
         if (currentHealth <= 0)
             StartCoroutine(DeathRoutine());
@@ -223,6 +231,9 @@ public class InimigoGrande : MonoBehaviour
         }
     }
 
+    // ======================================================
+    // MORTE + TELAS
+    // ======================================================
     IEnumerator DeathRoutine()
     {
         isDead = true;
@@ -230,8 +241,29 @@ public class InimigoGrande : MonoBehaviour
 
         anim.SetTrigger("die");
 
+        // Espera animação da morte
         yield return new WaitForSeconds(0.4f);
 
+        // Desativa o inimigo visualmente
+        spriteRenderer.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+
+        // Mostra a primeira tela
+        if (telaInicial != null)
+            telaInicial.SetActive(true);
+
+        // Espera 30s ou tempo configurado
+        yield return new WaitForSeconds(tempoDeEspera);
+
+        // Some a primeira
+        if (telaInicial != null)
+            telaInicial.SetActive(false);
+
+        // Mostra a segunda
+        if (telaDepois != null)
+            telaDepois.SetActive(true);
+
+        // Finalmente destrói o inimigo
         Destroy(gameObject);
     }
 

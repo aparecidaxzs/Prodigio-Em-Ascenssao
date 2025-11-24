@@ -70,11 +70,19 @@ public class EnemyAI : MonoBehaviour
 
     if (p != null)
     {
+        // ============================
+        //  BLOQUEAR DANO SE ESCUDO ATIVO
+        // ============================
+        ShieldAbility shield = col.gameObject.GetComponent<ShieldAbility>();
+        if (shield != null && shield.GetShieldState())
+            return; // Player protegido → inimigo não dá dano
+        // ============================
+
         p.BarradeVida(-damageToPlayer); // aplica dano
     }
 }
 
-
+    
     // ======================
     // RECEBER DANO DO PLAYER
     // ======================

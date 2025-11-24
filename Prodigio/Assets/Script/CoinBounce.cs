@@ -8,6 +8,9 @@ public class CoinBounce : MonoBehaviour
 
     public int Score = 1; // valor da moeda coletada
 
+    [Header("Som")]
+    public AudioClip somColetavel; // som da moeda/coletável
+
     void Start()
     {
         startPos = transform.position;
@@ -23,8 +26,15 @@ public class CoinBounce : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player"))
         {
-            CoinManager.instance.AddCoin(Score); // adiciona moedas ao coletar
+            // Toca o som antes de destruir
+
+            // Adiciona moedas ao CoinManager
+            CoinManager.instance.AddCoin(Score);
+
+            // Destrói a moeda
             Destroy(gameObject);
+            AudioManager.instance.PlaySFX(somColetavel);
+
         }
     }
 }

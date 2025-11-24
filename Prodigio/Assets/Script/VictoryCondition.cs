@@ -73,6 +73,7 @@ public class VictoryCondition : MonoBehaviour
 
     IEnumerator SequenciaVitoria()
     {
+        //AudioManager.instance.PlayVictory();
         // 1) faz o objeto subir
         yield return StartCoroutine(FazerObjetoSubir());
 

@@ -22,6 +22,10 @@ public class PlayerAttack : MonoBehaviour
     public float specialAttackCooldown = 0.5f; // cooldown entre tiros Q
     private float nextSpecialAttackTime = 0f;
 
+    [Header("Sons")]
+    public AudioClip somSocos;   // Som do ataque corpo a corpo
+    public AudioClip somTiro;    // Som do ataque especial (luva)
+
     private Animator anim;
     private bool isAttacking = false;
     private SpriteRenderer spriteRenderer; // para verificar direção do player
@@ -54,6 +58,10 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         anim.SetBool("AtaqueCorpo", true);
 
+        // Toca som do soco
+        AudioManager.instance.PlaySFX(somSocos);
+
+        // Detecta inimigos
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (Collider2D enemy in hitEnemies)
         {
@@ -61,7 +69,6 @@ public class PlayerAttack : MonoBehaviour
             if (enemyScript != null)
                 enemyScript.TakeDamage(attackDamage);
         }
-
         yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
         anim.SetBool("AtaqueCorpo", false);
         isAttacking = false;
@@ -71,7 +78,10 @@ public class PlayerAttack : MonoBehaviour
     {
         anim.SetBool("AtaqueCyberLuva", true); // ativa animação da luva
 
-        // Dispara o tiro imediatamente
+        // Toca som do tiro
+        AudioManager.instance.PlaySFX(somTiro);
+
+        // Dispara o projétil
         GameObject projectile = Instantiate(projectilePrefab, handPoint.position, Quaternion.identity);
         Projectile projScript = projectile.GetComponent<Projectile>();
         if (projScript != null)

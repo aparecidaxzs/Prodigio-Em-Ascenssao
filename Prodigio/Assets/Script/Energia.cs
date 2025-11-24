@@ -5,6 +5,9 @@ public class Energia : MonoBehaviour
 
     public float amplitude = 0.5f; // altura do movimento
     public float speed = 2f;       // velocidade do movimento
+    [Header("Som")]
+    public AudioClip somColetavel; // som da moeda/coletável
+
 
     private Vector3 startPos;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -25,6 +28,8 @@ public class Energia : MonoBehaviour
          Player player = collider.GetComponent<Player>();
         if (player != null)
         {
+                        AudioManager.instance.PlaySFX(somColetavel);
+
             player.AddVida(1); // Dá +1 de vida máxima
             Destroy(gameObject); // Destroi o coração
         }

@@ -20,6 +20,8 @@ public class SoundBackground : MonoBehaviour
     {
         // Aplica o volume apenas ao AudioSource do background
         mscFundo.volume = volumeSlider.value;
+
+        // Salva o valor
         Save();
 
         // Lógica para ícones on/off
