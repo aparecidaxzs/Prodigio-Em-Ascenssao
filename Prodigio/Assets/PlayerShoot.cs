@@ -15,7 +15,7 @@ public class PlayerShoot : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     [Header("Sons")]
-    public AudioClip somTiro;                    // Som do tiro do player
+    public AudioClip somTiro;
 
     void Start()
     {
@@ -25,7 +25,6 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
-        // Aperta R e dispara
         if (Time.time >= nextShotTime && Input.GetKeyDown(KeyCode.R))
         {
             Shoot();
@@ -35,22 +34,30 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot()
     {
-        // Dispara animação (opcional)
+        // Ativa animação (se existir)
         if (anim != null)
             anim.SetTrigger("Shoot");
 
-        // Toca som do tiro
-        AudioManager.instance.PlaySFX(somTiro);
+        // Toca o som do tiro
+        if (somTiro != null)
+            AudioManager.instance.PlaySFX(somTiro);
 
-        // Cria a bala
+        // Instancia a bala
         GameObject bullet = Instantiate(bulletPrefab, handPoint.position, Quaternion.identity);
 
-        // Envia configuração para o script da bala
         BulletDamage bd = bullet.GetComponent<BulletDamage>();
+
         if (bd != null)
         {
+            // Direção baseada no flip do sprite
             float direction = spriteRenderer.flipX ? -1f : 1f;
+
+            // Envia configuração da bala
             bd.Init(direction * bulletSpeed, bulletDamage, bulletCollisionLayers);
+        }
+        else
+        {
+            Debug.LogWarning("O prefab da bala NÃO tem o script BulletDamage!");
         }
     }
 }

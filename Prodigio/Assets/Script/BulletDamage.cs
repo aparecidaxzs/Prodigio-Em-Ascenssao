@@ -11,37 +11,37 @@ public class BulletDamage : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, lifeTime); // evita acumular balas infinitas
+        Destroy(gameObject, lifeTime);
     }
 
-    // Inicializa os valores da bala (chamado pelo PlayerShoot)
     public void Init(float bulletSpeed, int bulletDamage, LayerMask layers)
     {
         speed = bulletSpeed;
         damage = bulletDamage;
         collisionLayers = layers;
+
+        // Ajusta orientação automática da bala
+        if (speed < 0)
+            transform.localScale = new Vector3(-1, 1, 1);
     }
 
     void Update()
     {
-        // Move a bala continuamente
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        // Move para frente REAL
+        transform.Translate(Vector2.right * speed * Time.deltaTime, Space.Self);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Verifica se colidiu com uma layer válida
-        if (((1 << collision.gameObject.layer) & collisionLayers) != 0)
-        {
-            // Se for inimigo, aplicar dano
-            EnemyAI enemy = collision.GetComponent<EnemyAI>();
-            if (enemy != null)
-            {
-                enemy.TakeDamage(damage);
-            }
+        // Layer válida?
+        if (((1 << collision.gameObject.layer) & collisionLayers) == 0)
+            return;
 
-            // destrói a bala após atingir algo
-            Destroy(gameObject);
-        }
+        // Caso seja inimigo
+        EnemyAI enemy = collision.GetComponent<EnemyAI>();
+        if (enemy != null)
+            enemy.TakeDamage(damage);
+
+        Destroy(gameObject);
     }
 }
