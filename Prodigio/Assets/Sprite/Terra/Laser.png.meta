@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 46a9becc4c2fa0e438fdb16b3c3ef489
+guid: cc9941e657ed77346878a178f5d13f58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7158911062561546494
-    second: "Prod\xEDgioProte\xE7\xE3o_0"
+      213: 9082429109045791810
+    second: Laser_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Prod\xEDgioProte\xE7\xE3o_0"
+      name: Laser_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 178
-        height: 311
+        y: 13
+        width: 424
+        height: 2577
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20f9761715076ac90800000000000000
-      internalID: -7158911062561546494
+      spriteID: 24c875667254b0e70800000000000000
+      internalID: 9082429109045791810
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "Prod\xEDgioProte\xE7\xE3o_0": -7158911062561546494
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
