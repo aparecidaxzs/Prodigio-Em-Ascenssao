@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "BaseEspinhoGirat\xF3rio_0": 8658386005101292478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
