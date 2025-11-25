@@ -1793,6 +1793,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Name
       value: Lacaios_ (9)
@@ -9899,63 +9915,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &188752841
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_Name
-      value: Lacaios_ (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 78.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -17.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
 --- !u!1 &189546260
 GameObject:
   m_ObjectHideFlags: 0
@@ -19103,63 +19062,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &274995921
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_Name
-      value: Lacaios_ (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 96.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -17.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625364603055637006, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
 --- !u!1 &275660436
 GameObject:
   m_ObjectHideFlags: 0
@@ -22612,6 +22514,10 @@ PrefabInstance:
     - target: {fileID: 5243195965686345463, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
       propertyPath: m_Name
       value: Plataforma (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243195965686345463, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
+      propertyPath: m_TagString
+      value: Flutuante
       objectReference: {fileID: 0}
     - target: {fileID: 6652412183069703939, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32659,6 +32565,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.663
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.2
+      objectReference: {fileID: 0}
     - target: {fileID: 1872210706256534854, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -43779,6 +43705,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 84.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.99
+      objectReference: {fileID: 0}
     - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Name
       value: Lacaios_ (4)
@@ -58866,6 +58808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma (sobe e desce) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1902394854679099391, guid: a98bf39804d5f5749986f303812a37e5, type: 3}
+      propertyPath: m_TagString
+      value: Flutuante
+      objectReference: {fileID: 0}
     - target: {fileID: 5382164268031796300, guid: a98bf39804d5f5749986f303812a37e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 244.54181
@@ -58919,6 +58865,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 305.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.4
+      objectReference: {fileID: 0}
     - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Name
       value: Lacaios_ (7)
@@ -66124,6 +66086,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 278.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.9
+      objectReference: {fileID: 0}
     - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Name
       value: Lacaios_ (1)
@@ -68278,6 +68256,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 336.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12
+      objectReference: {fileID: 0}
     - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Name
       value: Lacaios_ (10)
@@ -72332,6 +72326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma (sobe e desce) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1902394854679099391, guid: a98bf39804d5f5749986f303812a37e5, type: 3}
+      propertyPath: m_TagString
+      value: Flutuante
+      objectReference: {fileID: 0}
     - target: {fileID: 5382164268031796300, guid: a98bf39804d5f5749986f303812a37e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 238.5618
@@ -74357,6 +74355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma
       objectReference: {fileID: 0}
+    - target: {fileID: 5243195965686345463, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
+      propertyPath: m_TagString
+      value: Flutuante
+      objectReference: {fileID: 0}
     - target: {fileID: 6652412183069703939, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 105.3718
@@ -75060,6 +75062,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 200.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.6
+      objectReference: {fileID: 0}
     - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Name
       value: Lacaios_ (5)
@@ -83723,6 +83741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5243195965686345463, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
+      propertyPath: m_TagString
+      value: Flutuante
+      objectReference: {fileID: 0}
     - target: {fileID: 6652412183069703939, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 172.95181
@@ -85630,6 +85652,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 63.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -18.1
+      objectReference: {fileID: 0}
     - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Name
       value: Lacaios_ (11)
@@ -89824,6 +89862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5243195965686345463, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
+      propertyPath: m_TagString
+      value: Flutuante
+      objectReference: {fileID: 0}
     - target: {fileID: 6652412183069703939, guid: 08a688e3fac4af14ab04de2fe1d64ce8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 167.21188
@@ -91926,6 +91968,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.253434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 42.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748600239837753, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.9
+      objectReference: {fileID: 0}
     - target: {fileID: 2019884357284491717, guid: cc065aff42a2a214bb2272ab39bfdbf9, type: 3}
       propertyPath: m_Name
       value: Lacaios_ (6)
@@ -100074,8 +100136,8 @@ Transform:
   m_GameObject: {fileID: 1714002424}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -47.3, y: -8.8, z: 0}
-  m_LocalScale: {x: 0.32825, y: 0.32825, z: 0.32825}
+  m_LocalPosition: {x: -47.3, y: -14.5, z: 0}
+  m_LocalScale: {x: 0.26152006, y: 0.26152006, z: 0.26152006}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -121017,6 +121079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma (sobe e desce) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1902394854679099391, guid: a98bf39804d5f5749986f303812a37e5, type: 3}
+      propertyPath: m_TagString
+      value: Flutuante
+      objectReference: {fileID: 0}
     - target: {fileID: 5382164268031796300, guid: a98bf39804d5f5749986f303812a37e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 232.2418
@@ -124527,8 +124593,6 @@ SceneRoots:
   - {fileID: 1621620559}
   - {fileID: 423791448}
   - {fileID: 1068358098}
-  - {fileID: 188752841}
-  - {fileID: 274995921}
   - {fileID: 1671667828}
   - {fileID: 641625339}
   - {fileID: 668969467}

@@ -35517,9 +35517,9 @@ GameObject:
   - component: {fileID: 949479184}
   - component: {fileID: 949479187}
   - component: {fileID: 949479186}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "GarraEspinhoGirat\xF3rio_0 (2)"
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68094,9 +68094,9 @@ GameObject:
   - component: {fileID: 1730219138}
   - component: {fileID: 1730219141}
   - component: {fileID: 1730219140}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "GarraEspinhoGirat\xF3rio_0 (4)"
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71759,9 +71759,9 @@ GameObject:
   - component: {fileID: 1809681106}
   - component: {fileID: 1809681109}
   - component: {fileID: 1809681108}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "GarraEspinhoGirat\xF3rio_0 (1)"
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72470,9 +72470,9 @@ GameObject:
   - component: {fileID: 1831733934}
   - component: {fileID: 1831733937}
   - component: {fileID: 1831733936}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "GarraEspinhoGirat\xF3rio_0"
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83759,7 +83759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2786276776687305931, guid: bb410351234711144aef899295d7a183, type: 3}
       propertyPath: m_TagString
-      value: "Ch\xE3o"
+      value: Flutuante
       objectReference: {fileID: 0}
     - target: {fileID: 5701025777374758955, guid: bb410351234711144aef899295d7a183, type: 3}
       propertyPath: m_LocalScale.x
@@ -84756,7 +84756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2786276776687305931, guid: bb410351234711144aef899295d7a183, type: 3}
       propertyPath: m_TagString
-      value: "Ch\xE3o"
+      value: Flutuante
       objectReference: {fileID: 0}
     - target: {fileID: 5701025777374758955, guid: bb410351234711144aef899295d7a183, type: 3}
       propertyPath: m_LocalScale.x

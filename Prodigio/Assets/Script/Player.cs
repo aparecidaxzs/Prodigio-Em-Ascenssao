@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     public AudioClip somCaminhada;
     public AudioClip somDano;
 
-    private AudioSource audioPlayer; // AudioSource do player
+    private AudioSource audioPlayer;
 
     private float passoCooldown = 0.3f;
     private float proximoPasso = 0f;
@@ -43,11 +43,11 @@ public class Player : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        audioPlayer = GetComponent<AudioSource>(); // referência do áudio
+        audioPlayer = GetComponent<AudioSource>();
         vidaAtual = maxVida;
         instance = this;
 
-        BarradeVida(vidaAtual + 1);
+        Atualizarbarra();
 
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -75,7 +75,6 @@ public class Player : MonoBehaviour
             transform.eulerAngles = new Vector3(0f, input > 0 ? 0f : 180f, 0f);
             anim.SetBool("Run", true);
 
-            // Som de caminhada (só no chão)
             if (Time.time >= proximoPasso && !isJump)
             {
                 audioPlayer.PlayOneShot(somCaminhada);
@@ -99,7 +98,6 @@ public class Player : MonoBehaviour
                 doubleJump = true;
                 isJump = true;
                 anim.SetBool("Jump", true);
-
                 audioPlayer.PlayOneShot(somPulo);
             }
             else if (doubleJump)
@@ -107,7 +105,6 @@ public class Player : MonoBehaviour
                 rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
                 doubleJump = false;
                 anim.SetBool("Jump", true);
-
                 audioPlayer.PlayOneShot(somPulo);
             }
         }
@@ -134,6 +131,11 @@ public class Player : MonoBehaviour
             GameController.instance.ShowVitoria();
             Destroy(gameObject);
         }
+
+        if (collision.transform.CompareTag("Flutuante"))
+    {
+        transform.SetParent(collision.transform);
+    }
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -142,6 +144,11 @@ public class Player : MonoBehaviour
         {
             isJump = true;
         }
+
+         if (collision.transform.CompareTag("Flutuante"))
+    {
+        transform.SetParent(null);
+    }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -181,12 +188,12 @@ public class Player : MonoBehaviour
         Atualizarbarra();
     }
 
+    // ===================== CORRIGIDO =====================
     public void BarradeVida(int amount)
     {
         if (amount < 0)
         {
-            vidaAtual = Mathf.Clamp(vidaAtual + amount, 0, maxVida);
-
+            // não altera a vida aqui, isso causava bug
             if (!isDead && !isTakingDamage)
             {
                 StartCoroutine(BlinkEffect(0.1f, 1));
@@ -200,10 +207,10 @@ public class Player : MonoBehaviour
         }
     }
 
+    // ===================== CORRIGIDO =====================
     void Atualizarbarra()
     {
-        vidaAtual = Mathf.Clamp(vidaAtual + amountt, 0, maxVida);
-
+        // não altera vida aqui (before: vidaAtual += amountt; amountt=0)
         barra.SetActive(vidaAtual == 5);
         barra0.SetActive(vidaAtual == 4);
         barra1.SetActive(vidaAtual == 3);
@@ -230,9 +237,10 @@ public class Player : MonoBehaviour
     public void TomarDano(int quantidade)
     {
         vidaAtual = Mathf.Clamp(vidaAtual - quantidade, 0, maxVida);
+
         BarradeVida(-quantidade);
         Atualizarbarra();
 
-        audioPlayer.PlayOneShot(somDano); // dano aqui
+        audioPlayer.PlayOneShot(somDano);
     }
 }
