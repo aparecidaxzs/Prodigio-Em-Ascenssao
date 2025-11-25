@@ -124511,6 +124511,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Lvl.Lua
       objectReference: {fileID: 0}
+    - target: {fileID: 7081781958439541880, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7200489562129265359, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5

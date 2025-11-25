@@ -49114,6 +49114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barra de Vida
       objectReference: {fileID: 0}
+    - target: {fileID: 676381135911332751, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3131652500601125871, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
