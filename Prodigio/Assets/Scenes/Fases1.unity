@@ -445,7 +445,7 @@ PrefabInstance:
       objectReference: {fileID: 854696221}
     - target: {fileID: 1361490605239977756, guid: a3d4625ef3c8f8f4299e599b4e5a7aab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MenuPrincipal
+      value: RestartGame
       objectReference: {fileID: 0}
     - target: {fileID: 1361490605239977756, guid: a3d4625ef3c8f8f4299e599b4e5a7aab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -495,6 +495,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 196720509704156250, guid: 7f01709a423a596479724dec5838856e, type: 3}
+    - target: {fileID: 6889751093307509636, guid: a3d4625ef3c8f8f4299e599b4e5a7aab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889751093307509636, guid: a3d4625ef3c8f8f4299e599b4e5a7aab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 854696221}
+    - target: {fileID: 6889751093307509636, guid: a3d4625ef3c8f8f4299e599b4e5a7aab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
     - target: {fileID: 7480915813158446182, guid: a3d4625ef3c8f8f4299e599b4e5a7aab, type: 3}
       propertyPath: m_Pivot.x
       value: 0

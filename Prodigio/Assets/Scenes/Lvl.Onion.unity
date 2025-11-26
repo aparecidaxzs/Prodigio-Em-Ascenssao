@@ -5027,7 +5027,7 @@ PrefabInstance:
       objectReference: {fileID: 5836635851453956345, guid: dc91eae2567da9543a83547d101100f3, type: 3}
     - target: {fileID: 2492067522097235137, guid: d18f5c687dc29234695d79415d2cb47c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MenuPrincipal
+      value: RestartGame
       objectReference: {fileID: 0}
     - target: {fileID: 2492067522097235137, guid: d18f5c687dc29234695d79415d2cb47c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -6538,7 +6538,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 8
-  m_Sprite: {fileID: 1739927778750313333, guid: 868b4e488ea6dac44991b1b5a7a14e43, type: 3}
+  m_Sprite: {fileID: -2615512608767083089, guid: d428ff360369e4d408a8054ea9e8ceae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20866,7 +20866,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -20882,8 +20882,9 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 78.0054, y: 16.34}
   m_EdgeRadius: 0
---- !u!252 &415645168
-SurfaceEffector2D:
+--- !u!249 &415645171
+AreaEffector2D:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -20894,12 +20895,13 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: -5
-  m_SpeedVariation: 0
-  m_ForceScale: 1
-  m_UseContactForce: 0
-  m_UseFriction: 1
-  m_UseBounce: 1
+  m_UseGlobalAngle: 0
+  m_ForceAngle: 180
+  m_ForceMagnitude: 50
+  m_ForceVariation: 0
+  m_ForceTarget: 0
+  m_Drag: 0
+  m_AngularDrag: 0
 --- !u!1 &418214850
 GameObject:
   m_ObjectHideFlags: 0
@@ -24407,7 +24409,7 @@ PrefabInstance:
       addedObject: {fileID: 2029444473}
     - targetCorrespondingSourceObject: {fileID: 9078251878680830781, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2029444472}
+      addedObject: {fileID: 2029444476}
   m_SourcePrefab: {fileID: 100100000, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
 --- !u!1 &497620399
 GameObject:
@@ -27801,7 +27803,7 @@ PrefabInstance:
       objectReference: {fileID: 5836635851453956345, guid: dc91eae2567da9543a83547d101100f3, type: 3}
     - target: {fileID: 7200489562129265359, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Resetar
+      value: RestartGame
       objectReference: {fileID: 0}
     - target: {fileID: 7200489562129265359, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -27821,7 +27823,7 @@ PrefabInstance:
       objectReference: {fileID: 5836635851453956345, guid: dc91eae2567da9543a83547d101100f3, type: 3}
     - target: {fileID: 8034973536594085588, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Resetar
+      value: RestartGame
       objectReference: {fileID: 0}
     - target: {fileID: 8034973536594085588, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -30599,7 +30601,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1051207408}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: Resetar
+        m_MethodName: RestartGame
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -49110,6 +49112,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 201708620870507208, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -282.99994
+      objectReference: {fileID: 0}
+    - target: {fileID: 201708620870507208, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 181.91994
+      objectReference: {fileID: 0}
     - target: {fileID: 281079506222022175, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
       propertyPath: m_Name
       value: Barra de Vida
@@ -49117,6 +49127,14 @@ PrefabInstance:
     - target: {fileID: 676381135911332751, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896805943129310753, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -282.99994
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896805943129310753, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 181.92137
       objectReference: {fileID: 0}
     - target: {fileID: 3131652500601125871, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
       propertyPath: m_Pivot.x
@@ -49197,6 +49215,38 @@ PrefabInstance:
     - target: {fileID: 3131652500601125871, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3771231316306984678, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -282.99994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3771231316306984678, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 181.91997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806163187056113927, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -282.99994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806163187056113927, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 181.91994
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164850992671973851, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -282.99994
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164850992671973851, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 181.91994
+      objectReference: {fileID: 0}
+    - target: {fileID: 8991462898847578169, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8991462898847578169, guid: 7bab6f518f1b3de418b247af5a401d4f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 182
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -50627,11 +50677,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2161302792302782768, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.4
+      value: -10.1
       objectReference: {fileID: 0}
     - target: {fileID: 2161302792302782768, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.15
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 2161302792302782768, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -50713,6 +50763,10 @@ PrefabInstance:
       propertyPath: somPulo
       value: 
       objectReference: {fileID: 8300000, guid: dea24b1f6651b3a4290fc29e96615df0, type: 3}
+    - target: {fileID: 8230006809209120005, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
+      propertyPath: jumpForce
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8230006809209120005, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: somCaminhada
       value: 
@@ -73795,10 +73849,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9078251878680830781, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 415645168}
+      addedObject: {fileID: 415645167}
     - targetCorrespondingSourceObject: {fileID: 9078251878680830781, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 415645167}
+      addedObject: {fileID: 415645171}
   m_SourcePrefab: {fileID: 100100000, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
 --- !u!1 &1488533935
 GameObject:
@@ -92348,24 +92402,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9078251878680830781, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
   m_PrefabInstance: {fileID: 1975961891}
   m_PrefabAsset: {fileID: 0}
---- !u!252 &1830759725
-SurfaceEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830759722}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Speed: -5
-  m_SpeedVariation: 0
-  m_ForceScale: 1
-  m_UseContactForce: 0
-  m_UseFriction: 1
-  m_UseBounce: 1
 --- !u!61 &1830759726
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -92400,7 +92436,7 @@ BoxCollider2D:
   m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -2.2256114}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -92410,8 +92446,28 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 78.0054, y: 16.34}
+  m_Size: {x: 78.0054, y: 11.888777}
   m_EdgeRadius: 0
+--- !u!249 &1830759729
+AreaEffector2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830759722}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGlobalAngle: 0
+  m_ForceAngle: 180
+  m_ForceMagnitude: 50
+  m_ForceVariation: 0
+  m_ForceTarget: 0
+  m_Drag: 0
+  m_AngularDrag: 0
 --- !u!1 &1831700220
 GameObject:
   m_ObjectHideFlags: 0
@@ -100386,7 +100442,7 @@ PrefabInstance:
       addedObject: {fileID: 1830759726}
     - targetCorrespondingSourceObject: {fileID: 9078251878680830781, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1830759725}
+      addedObject: {fileID: 1830759729}
   m_SourcePrefab: {fileID: 100100000, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
 --- !u!1 &1980525489
 GameObject:
@@ -101883,24 +101939,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9078251878680830781, guid: 75c29245c73ed1a4f8ba6d3c567dc44a, type: 3}
   m_PrefabInstance: {fileID: 495415326}
   m_PrefabAsset: {fileID: 0}
---- !u!252 &2029444472
-SurfaceEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029444469}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Speed: -5
-  m_SpeedVariation: 0
-  m_ForceScale: 1
-  m_UseContactForce: 0
-  m_UseFriction: 1
-  m_UseBounce: 1
 --- !u!61 &2029444473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -101931,11 +101969,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -2.2256114}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -101945,8 +101983,28 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 78.0054, y: 16.34}
+  m_Size: {x: 78.0054, y: 11.888777}
   m_EdgeRadius: 0
+--- !u!249 &2029444476
+AreaEffector2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029444469}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGlobalAngle: 0
+  m_ForceAngle: 180
+  m_ForceMagnitude: 50
+  m_ForceVariation: 0
+  m_ForceTarget: 0
+  m_Drag: 0
+  m_AngularDrag: 0
 --- !u!1 &2033351085
 GameObject:
   m_ObjectHideFlags: 0

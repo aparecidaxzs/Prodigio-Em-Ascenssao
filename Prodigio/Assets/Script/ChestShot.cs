@@ -3,12 +3,12 @@ using UnityEngine;
 public class ChestShot : MonoBehaviour
 {
     [Header("Configurações do Projétil")]
-    public float speed = 6f;         // Velocidade inicial
-    public float lifetime = 3f;      // Tempo até sumir sozinho
-    public int damage = 1;           // Dano causado ao player
+    public float speed = 6f;
+    public float lifetime = 3f;
+    public int damage = 1;
 
     private Rigidbody2D rig;
-    private float direction = 1f;    // Direção do tiro
+    private float direction = 1f;
 
     void Start()
     {
@@ -21,12 +21,10 @@ public class ChestShot : MonoBehaviour
         rig.linearVelocity = new Vector2(direction * speed, rig.linearVelocity.y);
     }
 
-    // Chamado pelo inimigo para definir direção do projétil
     public void SetDirection(float dir)
     {
         direction = Mathf.Sign(dir);
 
-        // Ajusta visualmente o sprite
         Vector3 scale = transform.localScale;
         scale.x = Mathf.Abs(scale.x) * Mathf.Sign(dir);
         transform.localScale = scale;
@@ -38,12 +36,13 @@ public class ChestShot : MonoBehaviour
         Player p = collision.GetComponent<Player>();
         if (p != null)
         {
-            p.BarradeVida(-damage);
+            p.TomarDano(damage); // <-- AGORA CORRETO
             Destroy(gameObject);
+            return;
         }
 
-        // Pegou no chão (ou qualquer outra layer que você escolher)
-        if (collision.CompareTag("Ground"))
+        // Se bater no chão
+        if (collision.CompareTag("Ground") || collision.CompareTag("Chão"))
         {
             Destroy(gameObject);
         }

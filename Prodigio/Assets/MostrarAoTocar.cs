@@ -7,7 +7,7 @@ public class MostrarAoTocar : MonoBehaviour
     public GameObject objetoParaMostrar;
 
     [Header("Tempo que ficará visível")]
-    public float tempoVisivel = 3f;
+    public float tempoVisivel = 0.7f;
 
     private bool jáAtivou = false;
 

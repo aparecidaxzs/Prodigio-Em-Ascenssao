@@ -4,10 +4,10 @@ using System.Collections;
 public class EnemyAI : MonoBehaviour
 {
     [Header("Configurações Gerais")]
-    public float patrolSpeed = 2f;       // velocidade andando
-    public float patrolDistance = 3f;    // distância da patrulha
-    public int maxHealth = 3;            // vida total
-    public int damageToPlayer = 1;       // dano causado ao player
+    public float patrolSpeed = 2f;
+    public float patrolDistance = 3f;
+    public int maxHealth = 3;
+    public int damageToPlayer = 1;
 
     private int currentHealth;
     private Vector3 startPos;
@@ -64,25 +64,22 @@ public class EnemyAI : MonoBehaviour
     // DANO AO PLAYER AO ENCOSTAR NO INIMIGO
     // ======================================
 
-   private void OnCollisionEnter2D(Collision2D col)
-{
-    Player p = col.gameObject.GetComponent<Player>();
-
-    if (p != null)
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        // ============================
-        //  BLOQUEAR DANO SE ESCUDO ATIVO
-        // ============================
-        ShieldAbility shield = col.gameObject.GetComponent<ShieldAbility>();
-        if (shield != null && shield.GetShieldState())
-            return; // Player protegido → inimigo não dá dano
-        // ============================
+        Player p = col.gameObject.GetComponent<Player>();
 
-        p.BarradeVida(-damageToPlayer); // aplica dano
+        if (p != null)
+        {
+            // Verifica escudo
+            ShieldAbility shield = col.gameObject.GetComponent<ShieldAbility>();
+            if (shield != null && shield.GetShieldState())
+                return; // Player protegido
+
+            // Aplica dano corretamente
+            p.TomarDano(damageToPlayer);
+        }
     }
-}
 
-    
     // ======================
     // RECEBER DANO DO PLAYER
     // ======================
@@ -103,10 +100,7 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    // ============================
-    // ANIMAÇÃO DE PISCAR NO DANO
-    // ============================
-
+    // Piscando ao tomar dano
     IEnumerator BlinkEffect(float speed, int count)
     {
         isTakingDamage = true;
@@ -154,6 +148,4 @@ public class EnemyAI : MonoBehaviour
 
         Destroy(gameObject);
     }
-
-    
 }

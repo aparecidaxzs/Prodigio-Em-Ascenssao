@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
-    public float speed = 6f;          // velocidade do projétil
-    public int damage = 1;            // dano causado ao player
-    public float lifeTime = 3f;       // tempo até desaparecer
+    public float speed = 6f;
+    public int damage = 1;
+    public float lifeTime = 3f;
 
-    private float direction = 1f;     // direção horizontal (+1 direita, -1 esquerda)
+    private float direction = 1f;
     private Rigidbody2D rig;
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        Destroy(gameObject, lifeTime); // destrói depois de alguns segundos
+        Destroy(gameObject, lifeTime);
     }
 
     void Update()
@@ -20,29 +20,31 @@ public class EnemyBullet : MonoBehaviour
         rig.linearVelocity = new Vector2(direction * speed, rig.linearVelocity.y);
     }
 
-    // Função chamada pelo inimigo
+    // Chamado pelo inimigo
     public void SetDirection(float dir)
     {
-        direction = dir;
+        direction = Mathf.Sign(dir);
 
-        // vira sprite de acordo com a direção
-        if (dir < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
-        else
-            transform.localScale = new Vector3(1, 1, 1);
+        // vira o sprite corretamente
+        Vector3 scale = transform.localScale;
+        scale.x = Mathf.Abs(scale.x) * Mathf.Sign(dir);
+        transform.localScale = scale;
     }
 
-    // Quando encosta em algo
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        // DANO NO PLAYER
+        Player p = collision.GetComponent<Player>();
+        if (p != null)
         {
-            Player.instance.BarradeVida(-damage);
+            p.TomarDano(damage);   // <-- CORREÇÃO AQUI
             Destroy(gameObject);
+            return;
         }
 
-        // evita atravessar paredes
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        // PAREDES / CHÃO
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground") ||
+            collision.CompareTag("Chão"))
         {
             Destroy(gameObject);
         }

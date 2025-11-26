@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     [Header("Áudios do Player")]
     public AudioClip somPulo;
-    public AudioClip somCaminhada;
+    
     public AudioClip somDano;
 
     private AudioSource audioPlayer;
@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
             Jump();
         }
 
-        GameOver();
+        //GameOver();
     }
 
     // ===================== MOVIMENTO =====================
@@ -77,7 +77,7 @@ public class Player : MonoBehaviour
 
             if (Time.time >= proximoPasso && !isJump)
             {
-                audioPlayer.PlayOneShot(somCaminhada);
+                
                 proximoPasso = Time.time + passoCooldown;
             }
         }
@@ -162,19 +162,21 @@ public class Player : MonoBehaviour
 
     // ===================== VIDA / DANO =====================
     void GameOver()
-    {
-        if (vidaAtual == 0 && !isDead)
-        {
-            isDead = true;
+{
+    if (isDead) return;
 
-            rig.linearVelocity = Vector2.zero;
-            rig.bodyType = RigidbodyType2D.Kinematic;
-            rig.gravityScale = 0f;
-            GetComponent<Collider2D>().enabled = false;
+    isDead = true;
 
-            GameController.instance.ShowGameOver();
-        }
-    }
+    rig.linearVelocity = Vector2.zero;
+    rig.bodyType = RigidbodyType2D.Kinematic;
+    rig.gravityScale = 0f;
+    GetComponent<Collider2D>().enabled = false;
+
+    GameController.instance.ShowGameOver();
+
+    Destroy(gameObject, 0.2f);
+}
+
 
     public void AddVidaToda()
     {
@@ -188,36 +190,12 @@ public class Player : MonoBehaviour
         Atualizarbarra();
     }
 
-    // ===================== CORRIGIDO =====================
-    public void BarradeVida(int amount)
-    {
-        if (amount < 0)
-        {
-            // não altera a vida aqui, isso causava bug
-            if (!isDead && !isTakingDamage)
-            {
-                StartCoroutine(BlinkEffect(0.1f, 1));
-            }
 
-            if (vidaAtual == 4) { barra0.SetActive(true); barra.SetActive(false); }
-            if (vidaAtual == 3) { barra1.SetActive(true); barra0.SetActive(false); }
-            if (vidaAtual == 2) { barra2.SetActive(true); barra1.SetActive(false); }
-            if (vidaAtual == 1) { barra3.SetActive(true); barra2.SetActive(false); }
-            if (vidaAtual == 0) { barra4.SetActive(true); barra3.SetActive(false); }
-        }
-    }
 
     // ===================== CORRIGIDO =====================
     void Atualizarbarra()
-    {
-        // não altera vida aqui (before: vidaAtual += amountt; amountt=0)
-        barra.SetActive(vidaAtual == 5);
-        barra0.SetActive(vidaAtual == 4);
-        barra1.SetActive(vidaAtual == 3);
-        barra2.SetActive(vidaAtual == 2);
-        barra3.SetActive(vidaAtual == 1);
-        barra4.SetActive(vidaAtual == 0);
-    }
+{
+}
 
     IEnumerator BlinkEffect(float blinkSpeed, int times)
     {
@@ -234,13 +212,22 @@ public class Player : MonoBehaviour
         isTakingDamage = false;
     }
 
-    public void TomarDano(int quantidade)
+public void TomarDano(int quantidade)
+{
+    if (isDead) return;
+
+    vidaAtual = Mathf.Clamp(vidaAtual - quantidade, 0, maxVida);
+
+    Atualizarbarra();
+
+    audioPlayer.PlayOneShot(somDano);
+
+    StartCoroutine(BlinkEffect(0.1f, 1));
+
+    if (vidaAtual <= 0)
     {
-        vidaAtual = Mathf.Clamp(vidaAtual - quantidade, 0, maxVida);
-
-        BarradeVida(-quantidade);
-        Atualizarbarra();
-
-        audioPlayer.PlayOneShot(somDano);
+        GameOver();
     }
+}
+
 }

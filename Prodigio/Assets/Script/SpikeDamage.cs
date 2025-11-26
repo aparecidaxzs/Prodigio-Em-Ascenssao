@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpikeDamage : MonoBehaviour
 {
     [Header("Dano causado ao tocar")]
-    public int damage = -1;
+    public int damage = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -11,7 +11,7 @@ public class SpikeDamage : MonoBehaviour
         {
             if (Player.instance != null)
             {
-                Player.instance.BarradeVida(-damage);
+                Player.instance.TomarDano(damage);
             }
         }
     }

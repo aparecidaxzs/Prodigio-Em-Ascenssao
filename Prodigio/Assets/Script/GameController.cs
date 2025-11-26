@@ -52,6 +52,11 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene(lvlName); //reinicia a cena recebida pelo nome
     }
 
+    public void PassarGame(string lvlName)
+    {
+        SceneManager.LoadScene(lvlName); //reinicia a cena recebida pelo nome
+    }
+
     public void MenuPrincipal(string menuP)
     {
         SceneManager.LoadScene(menuP); //carrega a cena do menu principal

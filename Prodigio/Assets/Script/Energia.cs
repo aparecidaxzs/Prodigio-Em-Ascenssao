@@ -2,36 +2,35 @@ using UnityEngine;
 
 public class Energia : MonoBehaviour
 {
-
-    public float amplitude = 0.5f; // altura do movimento
-    public float speed = 2f;       // velocidade do movimento
-    [Header("Som")]
-    public AudioClip somColetavel; // som da moeda/coletável
+    public float amplitude = 0.5f;
+    public float speed = 2f;
 
 
     private Vector3 startPos;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         startPos = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         float newY = startPos.y + Mathf.Sin(Time.time * speed) * amplitude;
         transform.position = new Vector3(startPos.x, newY, startPos.z);
     }
-    
+
     void OnTriggerEnter2D(Collider2D collider)
     {
-         Player player = collider.GetComponent<Player>();
+        Player player = collider.GetComponent<Player>();
+
         if (player != null)
         {
-                        AudioManager.instance.PlaySFX(somColetavel);
+        
+            // adiciona 1 de vida
+            player.AddVida(1);
 
-            player.AddVida(1); // Dá +1 de vida máxima
-            Destroy(gameObject); // Destroi o coração
+            // destrói o item
+            Destroy(gameObject);
         }
     }
 }
