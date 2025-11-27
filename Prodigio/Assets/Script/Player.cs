@@ -40,6 +40,9 @@ public class Player : MonoBehaviour
     private bool isDead = false;
     private bool isTakingDamage = false;
 
+    private ShieldAbility shield;
+
+
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -51,6 +54,9 @@ public class Player : MonoBehaviour
 
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        shield = GetComponent<ShieldAbility>();
+
     }
 
     void Update()
@@ -228,6 +234,10 @@ public void TomarDano(int quantidade)
     {
         GameOver();
     }
+
+    if (shield != null && shield.GetShieldState())
+    return;
+
 }
 
 }

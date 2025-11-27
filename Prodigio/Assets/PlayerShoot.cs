@@ -14,8 +14,6 @@ public class PlayerShoot : MonoBehaviour
     private Animator anim;
     private SpriteRenderer spriteRenderer;
 
-    [Header("Sons")]
-    public AudioClip somTiro;
 
     void Start()
     {
@@ -36,12 +34,7 @@ public class PlayerShoot : MonoBehaviour
     {
         // Ativa animação (se existir)
         if (anim != null)
-            anim.SetTrigger("Shoot");
-
-        // Toca o som do tiro
-        if (somTiro != null)
-            AudioManager.instance.PlaySFX(somTiro);
-
+            anim.SetTrigger("AtaqueCyberLuva");
         // Instancia a bala
         GameObject bullet = Instantiate(bulletPrefab, handPoint.position, Quaternion.identity);
 
