@@ -66,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 3395491153647451880, guid: 7260f3a0089f8a7498e8e23f48da94c0, type: 3}
     - target: {fileID: 7417502207002275727, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: m_Name
-      value: Player Variant
+      value: Player Terra
       objectReference: {fileID: 0}
     - target: {fileID: 8230006809209120005, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       propertyPath: somDano
@@ -104,6 +104,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7417502207002275727, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5875383945204791998}
+    - targetCorrespondingSourceObject: {fileID: 7417502207002275727, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1381927033386059313}
   m_SourcePrefab: {fileID: 100100000, guid: 0fa738a6ada07634784243ef079cebf3, type: 3}
 --- !u!1 &1514298987044769548 stripped
 GameObject:
@@ -207,3 +210,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-1381927033386059313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514298987044769548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a2243733168d84aa4602336110b6d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldObject: {fileID: 0}
+  shieldDuration: 10
+  shieldCooldown: 30

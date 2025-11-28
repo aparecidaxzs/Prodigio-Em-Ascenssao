@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class CoinManager : MonoBehaviour
 {
@@ -14,16 +16,25 @@ public class CoinManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject); // mantém entre cenas
-        }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
+     if (instance == null)
+    {
+        instance = this;
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    else
+    {
+        Destroy(gameObject);
+        return;
+    }
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+ // Procura o texto da UI sempre que a cena abrir
+    if (coinText == null)
+        coinText = GameObject.FindWithTag("CoinText")?.GetComponent<TextMeshProUGUI>();
+
+    UpdateUI();
     }
 
     private void Start()

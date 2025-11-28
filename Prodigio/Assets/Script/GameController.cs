@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour
         gameOver.SetActive(true); //ativa a tela de Game Over
         barraVida.SetActive(false);
         pause.SetActive(false);
-        score.SetActive(false);
+        //score.SetActive(false);
 
     }
 
@@ -44,7 +44,7 @@ public class GameController : MonoBehaviour
         vitoria.SetActive(true); //ativa a tela de Vitória
         barraVida.SetActive(false);
         pause.SetActive(false);
-        score.SetActive(false);
+        //score.SetActive(false);
     }
 
     public void RestartGame(string lvlName)

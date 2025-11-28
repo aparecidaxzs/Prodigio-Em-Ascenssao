@@ -184,10 +184,10 @@ public class Player : MonoBehaviour
 }
 
 
-    public void AddVidaToda()
+    public void AddVidaToda(int quantidade)
     {
-        vidaAtual = 5;
-        Atualizarbarra();
+        maxVida += quantidade;     // aumenta a vida máxima
+        vidaAtual = maxVida;       // enche a vida do jogador
     }
 
    public void AddVida(int quantidade)
@@ -207,28 +207,48 @@ public class Player : MonoBehaviour
         {
             barra.SetActive(false);
             barra0.SetActive(true);
+            barra1.SetActive(false);
+            barra2.SetActive(false);
+            barra3.SetActive(false);
+            barra4.SetActive(false);
         }
 
         if(vidaAtual == 3)
         {
+            barra.SetActive(false);
             barra0.SetActive(false);
             barra1.SetActive(true);
+            barra2.SetActive(false);
+            barra3.SetActive(false);
+            barra4.SetActive(false);
         }
 
         if(vidaAtual == 2)
         {
+            barra.SetActive(false);
+            barra0.SetActive(false);
             barra1.SetActive(false);
             barra2.SetActive(true);
+            barra3.SetActive(false);
+            barra4.SetActive(false);
         }
 
         if(vidaAtual == 1)
         {
+            barra.SetActive(false);
+            barra0.SetActive(false);
+            barra1.SetActive(false);
             barra2.SetActive(false);
             barra3.SetActive(true);
+            barra4.SetActive(false);
         }
 
         if(vidaAtual == 0)
         {
+            barra.SetActive(false);
+            barra0.SetActive(false);
+            barra1.SetActive(false);
+            barra2.SetActive(false);
             barra3.SetActive(false);
             barra4.SetActive(true);
             GameOver();
@@ -236,6 +256,10 @@ public class Player : MonoBehaviour
 
         if(vidaAtual == 5)
         {
+            barra0.SetActive(false);
+            barra1.SetActive(false);
+            barra2.SetActive(false);
+            barra3.SetActive(false);
             barra4.SetActive(false);
             barra.SetActive(true);
         }
@@ -260,6 +284,11 @@ public void TomarDano(int quantidade)
 {
     if (isDead) return;
 
+    // Primeiro verifica o escudo — se estiver ativo, não toma dano
+    if (shield != null && shield.GetShieldState())
+        return;
+
+    // Agora aplica o dano
     vidaAtual = Mathf.Clamp(vidaAtual - quantidade, 0, maxVida);
 
     Atualizarbarra();
@@ -272,10 +301,7 @@ public void TomarDano(int quantidade)
     {
         GameOver();
     }
-
-    if (shield != null && shield.GetShieldState())
-    return;
-
 }
+
 
 }

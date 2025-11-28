@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -7590683950237630927}
   m_Layer: 0
   m_Name: Moeda
-  m_TagString: Coin
+  m_TagString: CoinText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,7 +174,6 @@ MonoBehaviour:
   amplitude: 0.1
   speed: 2
   Score: 0
-  coletar: {fileID: 0}
 --- !u!114 &-7590683950237630927
 MonoBehaviour:
   m_ObjectHideFlags: 0

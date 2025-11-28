@@ -4,7 +4,7 @@ using System.Collections;
 public class LaserAtivavel : MonoBehaviour
 {
     [Header("Configurações do Laser")]
-    public int dano = 1;              
+    //public int dano = 1;              
     public float tempoLigado = 2f;    
     public float tempoDesligado = 2f; 
     public bool comecaLigado = true;  
@@ -42,15 +42,5 @@ public class LaserAtivavel : MonoBehaviour
     {
         if (col != null) col.enabled = ligado;
         if (sr != null) sr.enabled = ligado;
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (!ligado) return;
-
-        if (collision.CompareTag("Player"))
-        {
-            Player.instance.TomarDano(dano);
-        }
     }
 }
