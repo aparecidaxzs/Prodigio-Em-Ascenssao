@@ -16,9 +16,6 @@ public class VictoryCondition : MonoBehaviour
 
     [Header("Objetos de Vitória")]
     public GameObject vitoria0;
-    public GameObject vitoria1;
-    public GameObject vitoria2;
-    public GameObject vitoria3;
 
     public GameObject botaoCasa;
     public GameObject botaoRein;
@@ -30,6 +27,8 @@ public class VictoryCondition : MonoBehaviour
     [Header("Novos Objetos")]
     public GameObject objetoQueSobe;  // objeto que vai subir
     public GameObject diamanteObj;    // diamante que aparece por 3s
+
+    public GameObject voltarProd;
 
     private bool jaAtivou = false; // evita chamar duas vezes
 
@@ -66,8 +65,8 @@ public class VictoryCondition : MonoBehaviour
         }
         else
         {
-            // reinicia fase se estiver faltando
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            voltarProd.SetActive(true);
+            
         }
     }
 
@@ -92,9 +91,6 @@ public class VictoryCondition : MonoBehaviour
         score.SetActive(false);
 
         vitoria0.SetActive(true);
-        vitoria1.SetActive(true);
-        vitoria2.SetActive(true);
-        vitoria3.SetActive(true);
 
         botaoCasa.SetActive(true);
         botaoRein.SetActive(true);

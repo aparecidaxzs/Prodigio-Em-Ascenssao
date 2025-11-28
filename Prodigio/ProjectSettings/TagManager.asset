@@ -19,6 +19,7 @@ TagManager:
   - Raio
   - FallingPlatform
   - Prodigios
+  - Dano
   layers:
   - Default
   - TransparentFX

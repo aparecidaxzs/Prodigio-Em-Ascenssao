@@ -124169,6 +124169,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7833086139673810195}
     - target: {fileID: 6468877740045826630, guid: 3fcb0c3a5c8627047a6095c33bf178ad, type: 3}
+      propertyPath: voltarProd
+      value: 
+      objectReference: {fileID: 9023345986781940879}
+    - target: {fileID: 6468877740045826630, guid: 3fcb0c3a5c8627047a6095c33bf178ad, type: 3}
       propertyPath: botaoSeguir
       value: 
       objectReference: {fileID: 0}
@@ -124290,10 +124294,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1491564057536720064, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_text
-      value: 12
-      objectReference: {fileID: 0}
     - target: {fileID: 2882400449463459875, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -124378,69 +124378,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tela Final
       objectReference: {fileID: 0}
-    - target: {fileID: 6809521457324803284, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6809521457324803284, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 5836635851453956345, guid: dc91eae2567da9543a83547d101100f3, type: 3}
-    - target: {fileID: 6809521457324803284, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestartGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 6809521457324803284, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6809521457324803284, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Lvl.Lua
-      objectReference: {fileID: 0}
     - target: {fileID: 7081781958439541880, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7200489562129265359, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7200489562129265359, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 5836635851453956345, guid: dc91eae2567da9543a83547d101100f3, type: 3}
-    - target: {fileID: 7200489562129265359, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RestartGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 7200489562129265359, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7200489562129265359, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Fases2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034973536594085588, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034973536594085588, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 5836635851453956345, guid: dc91eae2567da9543a83547d101100f3, type: 3}
-    - target: {fileID: 8034973536594085588, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Resetar
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034973536594085588, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034973536594085588, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Fases1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -124458,6 +124402,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &9023345986781940879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8147108008004996824, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
+  m_PrefabInstance: {fileID: 9023345986781940877}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

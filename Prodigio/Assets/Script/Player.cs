@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
 
     [Header("Vida do Player")]
     public int maxVida = 5;
-    int vidaAtual;
+    public int vidaAtual;
     private int amountt;
 
     [Header("Barra de Vida")]
@@ -151,10 +151,10 @@ public class Player : MonoBehaviour
             isJump = true;
         }
 
-         if (collision.transform.CompareTag("Flutuante"))
-    {
+        if (collision.transform.CompareTag("Flutuante"))
+        {
         transform.SetParent(null);
-    }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -190,18 +190,56 @@ public class Player : MonoBehaviour
         Atualizarbarra();
     }
 
-    public void AddVida(int quantidade)
+   public void AddVida(int quantidade)
     {
-        vidaAtual = Mathf.Clamp(vidaAtual + quantidade, 0, maxVida);
+    vidaAtual += quantidade;
+
+    if (vidaAtual > maxVida)
+        vidaAtual = maxVida;
         Atualizarbarra();
     }
 
 
-
     // ===================== CORRIGIDO =====================
     void Atualizarbarra()
-{
-}
+    {
+        if(vidaAtual == 4)
+        {
+            barra.SetActive(false);
+            barra0.SetActive(true);
+        }
+
+        if(vidaAtual == 3)
+        {
+            barra0.SetActive(false);
+            barra1.SetActive(true);
+        }
+
+        if(vidaAtual == 2)
+        {
+            barra1.SetActive(false);
+            barra2.SetActive(true);
+        }
+
+        if(vidaAtual == 1)
+        {
+            barra2.SetActive(false);
+            barra3.SetActive(true);
+        }
+
+        if(vidaAtual == 0)
+        {
+            barra3.SetActive(false);
+            barra4.SetActive(true);
+            GameOver();
+        }
+
+        if(vidaAtual == 5)
+        {
+            barra4.SetActive(false);
+            barra.SetActive(true);
+        }
+    }
 
     IEnumerator BlinkEffect(float blinkSpeed, int times)
     {

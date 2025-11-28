@@ -16143,6 +16143,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 100481941}
     - target: {fileID: 6468877740045826630, guid: 3fcb0c3a5c8627047a6095c33bf178ad, type: 3}
+      propertyPath: voltarProd
+      value: 
+      objectReference: {fileID: 1460925021}
+    - target: {fileID: 6468877740045826630, guid: 3fcb0c3a5c8627047a6095c33bf178ad, type: 3}
       propertyPath: botaoSeguir
       value: 
       objectReference: {fileID: 554470807}
@@ -27919,6 +27923,10 @@ PrefabInstance:
     - target: {fileID: 8034973536594085588, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Fases2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8147108008004996824, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -73363,6 +73371,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1460925021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8147108008004996824, guid: 8db102e256085cc488ca04fb8571200b, type: 3}
+  m_PrefabInstance: {fileID: 554470806}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1471259084
 GameObject:
   m_ObjectHideFlags: 0
