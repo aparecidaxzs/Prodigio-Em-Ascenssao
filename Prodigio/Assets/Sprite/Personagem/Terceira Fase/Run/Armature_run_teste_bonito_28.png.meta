@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Armature_run_teste_bonito_28_0: -9004838206269534514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

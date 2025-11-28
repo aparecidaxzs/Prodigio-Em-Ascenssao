@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Armature_pulo_teste_atual_duplication1_10_0: -798573273787782055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

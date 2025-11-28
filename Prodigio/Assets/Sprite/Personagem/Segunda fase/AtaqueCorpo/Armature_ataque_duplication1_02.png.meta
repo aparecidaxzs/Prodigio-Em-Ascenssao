@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Armature_ataque_duplication1_02_0: -7332415884195298931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

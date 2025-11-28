@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "bot\xE3oOnion_0": -2128616351315264126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

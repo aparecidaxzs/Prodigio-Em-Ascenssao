@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Prod\xEDgiosFlutuantes_0": -4349846002634260262
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

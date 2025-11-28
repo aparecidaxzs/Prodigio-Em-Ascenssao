@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Armature_Idle_duplication1_08_0: -1336373828422843880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
