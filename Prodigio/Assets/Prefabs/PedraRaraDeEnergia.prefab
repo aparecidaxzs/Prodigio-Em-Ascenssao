@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6320409225656328918}
   - component: {fileID: 6902401211865999285}
   - component: {fileID: 720544556589579983}
+  - component: {fileID: 862255711907429109}
   m_Layer: 0
   m_Name: PedraRaraDeEnergia
   m_TagString: EnergiaRara
@@ -149,3 +150,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: 0.1
   speed: 2
+--- !u!114 &862255711907429109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5143110034646387061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836db0624aa642947a522bf00b136b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aumentoMaxVida: 1
