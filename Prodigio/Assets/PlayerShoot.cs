@@ -34,7 +34,7 @@ public class PlayerShoot : MonoBehaviour
     {
         // Ativa animação (se existir)
         if (anim != null)
-            anim.SetTrigger("AtaqueCyberLuva");
+            anim.SetBool("AtaqueCyberLuva", true);
         // Instancia a bala
         GameObject bullet = Instantiate(bulletPrefab, handPoint.position, Quaternion.identity);
 
@@ -42,6 +42,7 @@ public class PlayerShoot : MonoBehaviour
 
         if (bd != null)
         {
+            
             // Direção baseada no flip do sprite
             float direction = spriteRenderer.flipX ? -1f : 1f;
 
@@ -52,5 +53,6 @@ public class PlayerShoot : MonoBehaviour
         {
             Debug.LogWarning("O prefab da bala NÃO tem o script BulletDamage!");
         }
+        anim.SetBool("AtaqueCyberLuva", false);
     }
 }

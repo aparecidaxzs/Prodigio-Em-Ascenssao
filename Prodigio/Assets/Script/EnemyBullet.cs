@@ -37,7 +37,7 @@ public class EnemyBullet : MonoBehaviour
         Player p = collision.GetComponent<Player>();
         if (p != null)
         {
-            p.TomarDano(damage);   // <-- CORREÇÃO AQUI
+            p.TomarDano(damage);   
             Destroy(gameObject);
             return;
         }

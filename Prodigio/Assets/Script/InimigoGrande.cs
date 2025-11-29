@@ -33,7 +33,6 @@ public class InimigoGrande : MonoBehaviour
     public GameObject telaDepois;
     public float tempoDeEspera = 30f;
 
-
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -54,9 +53,6 @@ public class InimigoGrande : MonoBehaviour
             TryShoot();
     }
 
-    // ======================================================
-    // ATAQUE DE TIRO
-    // ======================================================
     void TryShoot()
     {
         if (Time.time < nextShootTime) return;
@@ -79,35 +75,29 @@ public class InimigoGrande : MonoBehaviour
             enemyBullet.SetDirection(Mathf.Sign(direction));
     }
 
-    // ======================================================
-    // DANO POR CONTATO
-    // ======================================================
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (isDead) return;
 
         if (collision.collider.CompareTag("Player"))
         {
-            // checa se existe instância do Player e se o cooldown já passou
-            if (Player.instance != null && Time.time >= lastDamageTime + contactDamageCooldown)
+            if (Player.instance != null &&
+                Time.time >= lastDamageTime + contactDamageCooldown)
             {
-                // chama o método público que aplica dano no Player
                 Player.instance.TomarDano(contactDamage);
-
                 lastDamageTime = Time.time;
             }
         }
     }
 
     // ======================================================
-    // TOMAR DANO
+    // TOMAR DANO — AGORA FUNCIONANDO
     // ======================================================
     public void TakeDamage(int dmg)
     {
         if (isDead) return;
 
         currentHealth -= dmg;
-
         StartCoroutine(BlinkEffect());
 
         if (currentHealth <= 0)
@@ -125,9 +115,6 @@ public class InimigoGrande : MonoBehaviour
         }
     }
 
-    // ======================================================
-    // MORTE
-    // ======================================================
     IEnumerator DeathRoutine()
     {
         isDead = true;

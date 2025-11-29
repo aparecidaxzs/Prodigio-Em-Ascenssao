@@ -17,37 +17,49 @@ public class Projectile : MonoBehaviour
         this.speed = speed;
         this.damage = damage;
         this.collisionLayers = collisionLayers;
-        rb.linearVelocity = new Vector2(speed, 0); // move na direção horizontal
+        rb.linearVelocity = new Vector2(speed, 0);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Projétil colidiu com: " + collision.gameObject.name + " na Layer: " + LayerMask.LayerToName(collision.gameObject.layer)); // Debug para ver colisões
+        // Debug das colisões
+        Debug.Log("Projétil colidiu com: " + collision.gameObject.name);
 
-        if (((1 << collision.gameObject.layer) & collisionLayers) != 0) // verifica se é inimigo ou plataforma
+        // Verifica layer válida
+        if (((1 << collision.gameObject.layer) & collisionLayers) == 0)
         {
-            Debug.Log("Colisão válida com Layer permitida."); // Confirma se LayerMask está funcionando
+            Debug.Log("Layer não permitida — ignorando");
+            return;
+        }
 
-            EnemyAI enemy = collision.GetComponent<EnemyAI>(); // corrigido para EnemyAI
-            //EnemyShooter enemyPuncher = collision.GetComponent<EnemyShooter>();
-            if (enemy != null)
-            {
-                enemy.TakeDamage(damage); // dá dano no inimigo
-                Debug.Log("Dano aplicado ao inimigo: " + damage); // Confirma dano
-            }
-            /*else if (enemyPuncher != null)
-            {
-                enemyPuncher.TakeDamage(damage);
-            }*/
-            else
-            {
-                Debug.Log("Objeto não tem script EnemyAI."); // Se não encontrar o script
-            }
-            Destroy(gameObject); // destrói o projétil
-        }
-        else
+        // ===============================
+        // 1️⃣ Tenta achar EnemyAI
+        // ===============================
+        EnemyAI ai = collision.GetComponent<EnemyAI>();
+        if (ai != null)
         {
-            Debug.Log("Colisão ignorada (Layer não permitida)."); // Se LayerMask falhar
+            ai.TakeDamage(damage);
+            Debug.Log("Dano aplicado ao EnemyAI: " + damage);
+            Destroy(gameObject);
+            return;
         }
+
+        // ===============================
+        // 2️⃣ Tenta achar InimigoGrande
+        // ===============================
+        InimigoGrande grande = collision.GetComponent<InimigoGrande>();
+        if (grande != null)
+        {
+            grande.TakeDamage(damage);
+            Debug.Log("Dano aplicado ao InimigoGrande: " + damage);
+            Destroy(gameObject);
+            return;
+        }
+
+        // ===============================
+        // 3️⃣ Se não for nenhum dos dois
+        // ===============================
+        Debug.Log("Colidiu com algo sem script de inimigo");
+        Destroy(gameObject);
     }
 }

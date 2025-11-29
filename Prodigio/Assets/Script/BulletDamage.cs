@@ -43,5 +43,12 @@ public class BulletDamage : MonoBehaviour
             enemy.TakeDamage(damage);
 
         Destroy(gameObject);
+
+        // Inimigo grande
+        InimigoGrande grande = collision.GetComponent<InimigoGrande>();
+        if (grande != null)
+        grande.TakeDamage(damage);
+
+        Destroy(gameObject);
     }
 }

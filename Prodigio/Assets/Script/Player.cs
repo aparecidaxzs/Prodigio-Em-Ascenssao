@@ -123,7 +123,7 @@ public class Player : MonoBehaviour
         {
             isJump = false;
             doubleJump = false;
-            anim.SetBool("Jump", false);
+            anim.SetBool("Jump", true);
         }
 
         if (collision.gameObject.tag == "GameOver")
@@ -149,7 +149,10 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
         {
             isJump = true;
+            
         }
+
+        anim.SetBool("Jump", false);
 
         if (collision.transform.CompareTag("Flutuante"))
         {

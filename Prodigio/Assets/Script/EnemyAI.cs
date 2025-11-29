@@ -35,10 +35,6 @@ public class EnemyAI : MonoBehaviour
             Patrol();
     }
 
-    // ======================
-    // SISTEMA DE PATRULHA
-    // ======================
-
     void Patrol()
     {
         anim.SetBool("run", true);
@@ -60,30 +56,23 @@ public class EnemyAI : MonoBehaviour
         transform.localScale = s;
     }
 
-    // ======================================
-    // DANO AO PLAYER AO ENCOSTAR NO INIMIGO
-    // ======================================
-
     private void OnCollisionEnter2D(Collision2D col)
     {
         Player p = col.gameObject.GetComponent<Player>();
 
         if (p != null)
         {
-            // Verifica escudo
             ShieldAbility shield = col.gameObject.GetComponent<ShieldAbility>();
             if (shield != null && shield.GetShieldState())
-                return; // Player protegido
+                return;
 
-            // Aplica dano corretamente
             p.TomarDano(damageToPlayer);
         }
     }
 
-    // ======================
-    // RECEBER DANO DO PLAYER
-    // ======================
-
+    // ======================================================
+    // TOMAR DANO — FUNCIONA COM QUALQUER PROJÉTIL
+    // ======================================================
     public void TakeDamage(int dmg)
     {
         if (isDead) return;
@@ -100,7 +89,6 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    // Piscando ao tomar dano
     IEnumerator BlinkEffect(float speed, int count)
     {
         isTakingDamage = true;
@@ -118,10 +106,6 @@ public class EnemyAI : MonoBehaviour
         isTakingDamage = false;
     }
 
-    // ======================
-    // MORTE DO INIMIGO
-    // ======================
-
     public void Die()
     {
         if (!isDead)
@@ -137,7 +121,6 @@ public class EnemyAI : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         rig.bodyType = RigidbodyType2D.Kinematic;
 
-        // piscando antes de sumir
         for (int i = 0; i < 3; i++)
         {
             sr.enabled = false;

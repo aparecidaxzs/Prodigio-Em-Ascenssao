@@ -33,14 +33,14 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        // --- ATAQUE NORMAL (W) ---
+        //ataque corpo a corpo
         if (Input.GetKeyDown(KeyCode.W) && Time.time >= nextMeleeTime && !isMeleeing)
         {
             StartCoroutine(DoMeleeAttack());
             nextMeleeTime = Time.time + meleeCooldown;
         }
 
-        // --- ATAQUE ESPECIAL (Q) ---
+        
         if (Input.GetKeyDown(KeyCode.Q) && Time.time >= nextSpecialAttackTime)
         {
             bool canShoot = true;
@@ -55,9 +55,7 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    // ----------------------------------------
-    // ATAQUE NORMAL (SOCAR)
-    // ----------------------------------------
+    
     IEnumerator DoMeleeAttack()
     {
         isMeleeing = true;
@@ -72,10 +70,15 @@ public class PlayerAttack : MonoBehaviour
             EnemyAI e = enemy.GetComponent<EnemyAI>();
             if (e != null)
                 e.TakeDamage(attackDamage);
+            
+            // Inimigo grande
+        InimigoGrande grande = enemy.GetComponent<InimigoGrande>();
+        if (grande != null)
+        grande.TakeDamage(attackDamage);
         }
 
         // Espera 1 frame para pegar a animação certa
-        yield return null;
+        //yield return null;
 
         // PEGA DURAÇÃO DO CLIP
         float animDuration = anim.GetCurrentAnimatorClipInfo(0)[0].clip.length;
@@ -88,9 +91,7 @@ public class PlayerAttack : MonoBehaviour
         isMeleeing = false;
     }
 
-    // ----------------------------------------
-    // ATAQUE ESPECIAL (PROJÉTIL)
-    // ----------------------------------------
+    
     IEnumerator DoSpecialAttack()
     {
         // LIGA ANIMAÇÃO
