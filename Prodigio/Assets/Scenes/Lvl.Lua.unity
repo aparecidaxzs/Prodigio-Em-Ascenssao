@@ -125708,7 +125708,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1681426028973385984, guid: 05b831ae026f4a94ab501906135dccc0, type: 3}
       propertyPath: tempoVisivel
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1681426028973385984, guid: 05b831ae026f4a94ab501906135dccc0, type: 3}
       propertyPath: objetoParaMostrar
