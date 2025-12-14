@@ -95,37 +95,41 @@ public class Player : MonoBehaviour
 
     // ===================== PULO E DUPLO PULO =====================
     void Jump()
+{
+    if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow))
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow))
+        if (!isJump)
         {
-            if (!isJump)
-            {
-                rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
-                doubleJump = true;
-                isJump = true;
-                anim.SetBool("Jump", true);
-                audioPlayer.PlayOneShot(somPulo);
-            }
-            else if (doubleJump)
-            {
-                rig.AddForce(new Vector3(0f, jumpForce), ForceMode2D.Impulse);
-                doubleJump = false;
-                anim.SetBool("Jump", true);
-                audioPlayer.PlayOneShot(somPulo);
-            }
+            rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            doubleJump = true;
+            isJump = true;
+            audioPlayer.PlayOneShot(somPulo);
+        }
+        else if (doubleJump)
+        {
+            rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            doubleJump = false;
+            audioPlayer.PlayOneShot(somPulo);
         }
     }
+}
+
+
 
     // ===================== COLISÕES =====================
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
+          if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
         {
-            isJump = false;
-            doubleJump = false;
-            anim.SetBool("Jump", true);
+        isJump = false;
+        doubleJump = false;
+        anim.SetBool("Jump", false); 
         }
 
+        if (collision.transform.CompareTag("Flutuante"))
+        {
+        transform.SetParent(collision.transform);
+        }
         if (collision.gameObject.tag == "GameOver")
         {
             GameController.instance.ShowGameOver();
@@ -138,27 +142,22 @@ public class Player : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (collision.transform.CompareTag("Flutuante"))
-    {
-        transform.SetParent(collision.transform);
-    }
     }
 
     void OnCollisionExit2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
     {
-        if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
-        {
-            isJump = true;
-            
-        }
-
-        anim.SetBool("Jump", false);
-
-        if (collision.transform.CompareTag("Flutuante"))
-        {
-        transform.SetParent(null);
-        }
+        isJump = true;
+        anim.SetBool("Jump", true);
     }
+
+    if (collision.transform.CompareTag("Flutuante"))
+    {
+        transform.SetParent(null);
+    }
+}
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {

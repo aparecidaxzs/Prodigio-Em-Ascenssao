@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6502930395084855767, guid: 7a4cdf7c3b9d2334f96f23a1abb19b36, type: 3}
+      propertyPath: patrolDistance
+      value: 1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

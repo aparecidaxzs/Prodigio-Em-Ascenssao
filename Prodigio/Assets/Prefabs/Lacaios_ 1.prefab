@@ -278,6 +278,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolSpeed: 2
-  patrolDistance: 2
+  patrolDistance: 1.2
   maxHealth: 3
   damageToPlayer: 1

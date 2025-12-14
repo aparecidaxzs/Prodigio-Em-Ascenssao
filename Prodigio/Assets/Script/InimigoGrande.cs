@@ -8,6 +8,12 @@ public class InimigoGrande : MonoBehaviour
     public int contactDamage = 1;
     private int currentHealth;
 
+    [Header("Movimento Inicial")]
+    public float walkDistance = 1.2f;
+    public float walkSpeed = 1.5f;
+    private Vector3 startPosition;
+    private bool terminouMovimentoInicial = false;
+
     [Header("Detecção do Player")]
     public float detectionRange = 6f;
     public LayerMask playerLayer;
@@ -41,16 +47,55 @@ public class InimigoGrande : MonoBehaviour
 
         currentHealth = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
+        startPosition = transform.position;
+
+        // Começa andando
+        anim.SetBool("Andando", true);
     }
 
     void Update()
     {
-        if (isDead || player == null) return;
+        if (isDead) return;
+
+        // Movimento inicial
+        if (!terminouMovimentoInicial)
+        {
+            AndarInicial();
+            return;
+        }
+
+        if (player == null) return;
 
         float distance = Vector2.Distance(transform.position, player.position);
 
         if (distance <= detectionRange)
+        {
+            VirarParaPlayer();
             TryShoot();
+        }
+    }
+
+    void AndarInicial()
+    {
+        transform.Translate(Vector2.right * walkSpeed * Time.deltaTime);
+
+        float distanceWalked = Vector2.Distance(startPosition, transform.position);
+
+        if (distanceWalked >= walkDistance)
+        {
+            terminouMovimentoInicial = true;
+            anim.SetBool("Andando", false);
+            rig.linearVelocity = Vector2.zero;
+        }
+    }
+
+    void VirarParaPlayer()
+    {
+        if (player.position.x > transform.position.x)
+            spriteRenderer.flipX = false;
+        else
+            spriteRenderer.flipX = true;
     }
 
     void TryShoot()
@@ -90,9 +135,6 @@ public class InimigoGrande : MonoBehaviour
         }
     }
 
-    // ======================================================
-    // TOMAR DANO — AGORA FUNCIONANDO
-    // ======================================================
     public void TakeDamage(int dmg)
     {
         if (isDead) return;
