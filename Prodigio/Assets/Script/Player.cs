@@ -103,12 +103,16 @@ public class Player : MonoBehaviour
             rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             doubleJump = true;
             isJump = true;
+
+            anim.SetBool("Jump", true); // ATIVA A ANIMAÇÃO AQUI
             audioPlayer.PlayOneShot(somPulo);
         }
         else if (doubleJump)
         {
             rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             doubleJump = false;
+
+            anim.SetBool("Jump", true); // continua no jump
             audioPlayer.PlayOneShot(somPulo);
         }
     }
@@ -116,42 +120,39 @@ public class Player : MonoBehaviour
 
 
 
+
     // ===================== COLISÕES =====================
     void OnCollisionEnter2D(Collision2D collision)
-    {
-          if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
-        {
-        isJump = false;
-        doubleJump = false;
-        anim.SetBool("Jump", false); 
-        }
-
-        if (collision.transform.CompareTag("Flutuante"))
-        {
-        transform.SetParent(collision.transform);
-        }
-        if (collision.gameObject.tag == "GameOver")
-        {
-            GameController.instance.ShowGameOver();
-            Destroy(gameObject);
-        }
-
-        if (collision.gameObject.tag == "Vitoria")
-        {
-            GameController.instance.ShowVitoria();
-            Destroy(gameObject);
-        }
-
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
 {
     if (collision.gameObject.CompareTag("Chão") || collision.gameObject.CompareTag("Flutuante"))
     {
-        isJump = true;
-        anim.SetBool("Jump", true);
+        isJump = false;
+        doubleJump = false;
+
+        anim.SetBool("Jump", false); // DESATIVA A ANIMAÇÃO
     }
 
+    if (collision.transform.CompareTag("Flutuante"))
+    {
+        transform.SetParent(collision.transform);
+    }
+
+    if (collision.gameObject.CompareTag("GameOver"))
+    {
+        GameController.instance.ShowGameOver();
+        Destroy(gameObject);
+    }
+
+    if (collision.gameObject.CompareTag("Vitoria"))
+    {
+        GameController.instance.ShowVitoria();
+        Destroy(gameObject);
+    }
+}
+
+
+    void OnCollisionExit2D(Collision2D collision)
+{
     if (collision.transform.CompareTag("Flutuante"))
     {
         transform.SetParent(null);
